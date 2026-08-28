@@ -1,0 +1,57 @@
+dataset_id,variant_id,step_order,step_category,operation,parameters,source,confidence
+replogle2022,replogle_k562_gwps_author,1,author processing,retain expressed-gene count matrix,genes expressed above 0.01 UMI per cell,Figshare 20029387 description,high
+replogle2022,replogle_k562_gwps_author,2,expression representation,store raw dense float32 counts in X,contiguous and uncompressed HDF5 dataset; 1989578 x 8248,remote H5AD metadata inspection,high
+replogle2022,replogle_k562_gwps_scperturb,1,source acquisition,read author raw single-cell H5AD,K562_gwps_raw_singlecell_01.h5ad,scPerturb dataset script,high
+replogle2022,replogle_k562_gwps_scperturb,2,metadata harmonization,rename and add standardized fields,gene/guide/batch/context/QC fields,scPerturb dataset script,high
+replogle2022,replogle_k562_gwps_scperturb,3,gene metadata,map Ensembl-indexed var to symbols and repair duplicates,TBCE and HSPA14 duplicate fixes,scPerturb dataset script,high
+replogle2022,replogle_k562_gwps_scperturb,4,expression representation,retain raw dense float32 counts in X,gzip-compressed chunks; no normalization or log1p,remote H5AD structure and script,high
+replogle2022,replogle_k562_essential_scperturb,1,source acquisition,read author raw single-cell H5AD,K562_essential_raw_singlecell_01.h5ad,scPerturb dataset script,high
+replogle2022,replogle_rpe1_scperturb,1,source acquisition,read author raw single-cell H5AD,rpe1_raw_singlecell_01.h5ad,scPerturb dataset script,high
+replogle2022,replogle_k562_pertpy,1,source acquisition,download prepared H5AD from exampledata.scverse,docstring says obtained from scperturb,PertPy 1.2.0 source,high
+replogle2022,replogle_k562_pertpy,2,loader,read H5AD,no transformation,PertPy 1.2.0 source,high
+replogle2022,replogle_k562_scperteval,1,source acquisition,load prepared public H5AD,Replogle K562 essential,scPertEval preparation notebook,high
+replogle2022,replogle_k562_scperteval,2,cell QC,filter cells,min_genes=200,scPertEval source,high
+replogle2022,replogle_k562_scperteval,3,gene QC,filter genes,min_cells=3,scPertEval source,high
+replogle2022,replogle_k562_scperteval,4,normalization,total normalize,target_sum=10000,scPertEval source,high
+replogle2022,replogle_k562_scperteval,5,transformation,log1p,,scPertEval source,high
+replogle2022,replogle_k562_scperteval,6,trimming,retain perturbation obs and var index only; sparse float32,remove raw/layers/obsm/graphs/uns/other metadata,scPertEval source,high
+nadig2025,nadig_hepg2_scperturb,1,source acquisition,load Nadig author/GEO representation,exact author preprocessing details unresolved,scPerturb record and remote structure,medium
+nadig2025,nadig_hepg2_scperturb,2,expression representation,store raw sparse counts in X,no layers inspected,remote H5AD metadata,high
+nadig2025,nadig_hepg2_scperteval,1,source acquisition,load prepared Nadig H5AD,HepG2,scPertEval source,high
+nadig2025,nadig_hepg2_scperteval,2,cell QC,filter cells,min_genes=200,scPertEval source,high
+nadig2025,nadig_hepg2_scperteval,3,gene QC,filter genes,min_cells=3,scPertEval source,high
+nadig2025,nadig_hepg2_scperteval,4,normalization,total normalize,target_sum=10000,scPertEval source,high
+nadig2025,nadig_hepg2_scperteval,5,transformation,log1p,,scPertEval source,high
+nadig2025,nadig_hepg2_scperteval,6,control relabeling,collapse controls,control,scPertEval source,high
+nadig2025,nadig_hepg2_scperteval,7,trimming,retain perturbation obs and var index only,sparse float32; remove raw/layers/other metadata,scPertEval source,high
+jiang2025,jiang_perturbench,1,source acquisition,convert author Seurat objects to H5AD,restore adata.raw.X to X then clear raw,PerturBench curation notebook,high
+jiang2025,jiang_perturbench,2,perturbation relabeling,standardize target labels,NT to control; condition=gene,PerturBench curation notebook,high
+jiang2025,jiang_perturbench,3,metadata harmonization,lowercase cell types and merge context covariates,cell_type and treatment,PerturBench curation notebook,high
+jiang2025,jiang_perturbench,4,gene QC,filter genes,min_cells=10,PerturBench common pipeline,high
+jiang2025,jiang_perturbench,5,normalization,save selected counts then normalize/log,total normalization default 10000; log1p,PerturBench common pipeline,high
+jiang2025,jiang_perturbench,6,HVG selection,select union of HVGs DE genes and perturbation targets,4000 Seurat-v3 HVGs plus 25 top DE per perturbation/context,PerturBench common pipeline,high
+jiang2025,jiang_perturbench,7,trimming,subset expression and counts layer to selected gene union,not whole transcriptome,PerturBench common pipeline,high
+srivatsan2020,srivatsan_sciplex3_scperturb,1,source acquisition,reconstruct sparse UMI counts from GEO,author matrices and annotations,scPerturb dataset script,high
+srivatsan2020,srivatsan_sciplex3_scperturb,2,metadata harmonization,harmonize cell line drug dose and controls,dataset-specific label assumptions documented,scPerturb dataset script,high
+srivatsan2020,srivatsan_sciplex3_pertpy,1,source acquisition,download prepared scPerturb H5AD,exampledata.scverse,PertPy 1.2.0 source,high
+srivatsan2020,srivatsan_sciplex3_pertpy,2,loader,read H5AD,no transformation,PertPy 1.2.0 source,high
+srivatsan2020,srivatsan_perturbench,1,source acquisition,load scPerturb H5AD,Zenodo 7041849/scPerturb lineage,PerturBench accessor,high
+srivatsan2020,srivatsan_perturbench,2,gene metadata,map Ensembl to human symbols,restrict mapped human genes and drop duplicates,PerturBench curation notebook,high
+srivatsan2020,srivatsan_perturbench,3,cell filtering,retain main human lines and highest dose,A549/K562/MCF7; 10uM or controls,PerturBench curation notebook,high
+srivatsan2020,srivatsan_perturbench,4,HVG selection,run common selected-gene pipeline,4000 HVG plus DE and perturbed genes,PerturBench common pipeline,high
+mcfaline2024,mcfaline_author,1,source acquisition,read GEO UMI matrices and annotations,GSE225775,author GEO metadata,high
+mcfaline2024,mcfaline_author,2,guide assignment,match guide reads to whitelist,Hamming distance <=2; guide UMI counts,author GEO metadata,high
+mcfaline2024,mcfaline_author,3,context assignment,decode nuclear hashes and RT barcodes,drug/dose/line/replicate,author GEO metadata,high
+mcfaline2024,mcfaline_perturbench,1,source acquisition,concatenate GEO-derived files,,PerturBench curation notebook,high
+mcfaline2024,mcfaline_perturbench,2,control relabeling,collapse NA NTC and random controls,control,PerturBench curation notebook,high
+mcfaline2024,mcfaline_perturbench,3,perturbation filtering,retain single-gene perturbations only,drop combinations,PerturBench curation notebook,high
+mcfaline2024,mcfaline_perturbench,4,condition filtering,remove temozolomide and thioguanine; minimum group size,min_cells_per_perturbation_context=20,PerturBench curation notebook,high
+mcfaline2024,mcfaline_perturbench,5,HVG selection,run common selected-gene pipeline,4000 HVG plus DE and perturbed genes,PerturBench common pipeline,high
+perturbase,perturbase_general,1,cell QC,filter cells,min_genes=200,PerturBase preData source,high
+perturbase,perturbase_general,2,gene QC,filter genes,min_cells=3,PerturBase preData source,high
+perturbase,perturbase_general,3,mitochondrial filtering,filter cells,percent_mito<10%; relax to 15% if more than half fail,PerturBase preData source,high
+perturbase,perturbase_general,4,perturbation filtering,filter small perturbation groups,min_cells=30 except CTRL,PerturBase preData source,high
+perturbase,perturbase_general,5,normalization,total normalize then log1p,target_sum=10000,PerturBase preData source,high
+perturbase,perturbase_denoised,6,HVG selection,select HVGs,up to 4000,PerturBase denoising source,high
+perturbase,perturbase_denoised,7,dimensional reduction,PCA neighbors UMAP Leiden,,PerturBase denoising source,high
+perturbase,perturbase_denoised,8,responder analysis,PertPy Mixscape and NP-cell filtering,strong perturbation if KO fraction>=0.2,PerturBase denoising source,high

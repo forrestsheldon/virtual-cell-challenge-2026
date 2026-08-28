@@ -1,0 +1,29 @@
+benchmark_id: E5
+name: Multi-source canonical-context holdout
+scientific_question: Can a general rule of context-dependent perturbation response transfer from all allowed sources to a held-out target context?
+train_information: Eligible perturbation observations from dataset-contexts outside the target canonical context.
+target_information_available: Controls from the held-out target context.
+held_out_information: Target dataset-context perturbation responses.
+eligibility_rules:
+  - Main E5 hides every dataset-context with the target canonical_context_id.
+  - Experimental-context-only holdout is retained only as an E5 ablation; it hides the target dataset_context_id while allowing another study of the same canonical context.
+  - For each target perturbation g, k_g is the number of permitted source contexts in which g has been observed.
+  - Exposure labels are Seen-1 for k_g == 1, Seen-multi for k_g >= 2, and Unseen for k_g == 0.
+  - No perturbation-quality or minimum-cell rule is applied.
+primary_unit_of_evaluation: target perturbation gene × held-out canonical context
+possible_dataset_contexts:
+  - vcc2025_h1::H1
+  - replogle2022::K562
+  - replogle2022::RPE1
+  - nadig2025::HepG2
+  - nadig2025::Jurkat
+  - jiang2025::A549
+  - jiang2025::MCF7
+  - jiang2025::HT29
+  - jiang2025::HAP1
+  - jiang2025::BxPC3
+  - jiang2025::K562
+  - mcfaline2024::A172
+  - mcfaline2024::T98G
+  - mcfaline2024::U87MG
+notes: The experimental-context-only result is an E5 ablation, not a separate ladder rung.

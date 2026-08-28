@@ -1,0 +1,16 @@
+benchmark_id: E2
+name: Cross-study K562 calibration
+scientific_question: How much prediction error arises when K562 is nominally fixed but study, protocol, and preprocessing change?
+train_information: Perturbation responses from one dataset-context.
+target_information_available: Controls from a different study with the same canonical_context_id.
+held_out_information: Perturbation responses in the target dataset-context.
+eligibility_rules:
+  - Source and target have different study_id values.
+  - Source and target share canonical_context_id.
+  - At least one perturbation gene is shared.
+  - Primary capacity uses CRISPRi observations; modality compatibility remains annotated.
+primary_unit_of_evaluation: shared perturbation gene × same-context cross-study pair
+possible_dataset_contexts:
+  - replogle2022::K562
+  - jiang2025::K562
+notes: A matching cell-line name does not establish matched biological state. The current pair also changes 10x versus Parse assay family.

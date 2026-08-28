@@ -1,0 +1,101 @@
+last_verified: 2026-08-21
+matching: case-normalized exact HGNC-style symbol; no inferred aliases
+sources:
+  - coverage_id: vcc2025_h1
+    dataset_id: vcc2025_h1
+    cell_context: H1 hESC
+    variant_id: vcc2025_h1_scperteval
+    perturbation_modality: CRISPRi
+    target_file: source_targets/vcc2025_h1.txt
+    source_url: https://storage.googleapis.com/scperteval/processed/arch1_processed_complete.h5ad
+  - coverage_id: replogle2022__K562
+    dataset_id: replogle2022
+    cell_context: K562
+    variant_id: replogle_k562_gwps_scperturb
+    perturbation_modality: CRISPRi
+    target_file: source_targets/replogle_k562_gwps.txt
+    source_url: https://zenodo.org/records/13350497
+  - coverage_id: replogle2022__RPE1
+    dataset_id: replogle2022
+    cell_context: RPE1
+    variant_id: replogle_rpe1_scperturb
+    perturbation_modality: CRISPRi
+    target_file: source_targets/replogle_rpe1.txt
+    source_url: https://zenodo.org/records/13350497
+  - coverage_id: nadig2025__HepG2
+    dataset_id: nadig2025
+    cell_context: HepG2
+    variant_id: nadig_hepg2_scperturb
+    perturbation_modality: CRISPRi
+    target_file: source_targets/nadig_hepg2.txt
+    source_url: https://zenodo.org/records/13350497
+  - coverage_id: nadig2025__Jurkat
+    dataset_id: nadig2025
+    cell_context: Jurkat
+    variant_id: nadig_jurkat_scperturb
+    perturbation_modality: CRISPRi
+    target_file: source_targets/nadig_jurkat.txt
+    source_url: https://zenodo.org/records/13350497
+  - coverage_id: jiang2025__A549
+    dataset_id: jiang2025
+    cell_context: A549
+    variant_id: jiang_author
+    perturbation_modality: CRISPRi
+    target_file: source_targets/jiang_all.txt
+    source_url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-025-01622-z/MediaObjects/41556_2025_1622_MOESM3_ESM.xlsx
+  - coverage_id: jiang2025__MCF7
+    dataset_id: jiang2025
+    cell_context: MCF7
+    variant_id: jiang_author
+    perturbation_modality: CRISPRi
+    target_file: source_targets/jiang_all.txt
+    source_url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-025-01622-z/MediaObjects/41556_2025_1622_MOESM3_ESM.xlsx
+  - coverage_id: jiang2025__HT29
+    dataset_id: jiang2025
+    cell_context: HT29
+    variant_id: jiang_author
+    perturbation_modality: CRISPRi
+    target_file: source_targets/jiang_all.txt
+    source_url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-025-01622-z/MediaObjects/41556_2025_1622_MOESM3_ESM.xlsx
+  - coverage_id: jiang2025__HAP1
+    dataset_id: jiang2025
+    cell_context: HAP1
+    variant_id: jiang_author
+    perturbation_modality: CRISPRi
+    target_file: source_targets/jiang_all.txt
+    source_url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-025-01622-z/MediaObjects/41556_2025_1622_MOESM3_ESM.xlsx
+  - coverage_id: jiang2025__BxPC3
+    dataset_id: jiang2025
+    cell_context: BxPC3
+    variant_id: jiang_author
+    perturbation_modality: CRISPRi
+    target_file: source_targets/jiang_all.txt
+    source_url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-025-01622-z/MediaObjects/41556_2025_1622_MOESM3_ESM.xlsx
+  - coverage_id: jiang2025__K562
+    dataset_id: jiang2025
+    cell_context: K562
+    variant_id: jiang_author
+    perturbation_modality: CRISPRi
+    target_file: source_targets/jiang_all.txt
+    source_url: https://static-content.springer.com/esm/art%3A10.1038%2Fs41556-025-01622-z/MediaObjects/41556_2025_1622_MOESM3_ESM.xlsx
+  - coverage_id: mcfaline2024__A172
+    dataset_id: mcfaline2024
+    cell_context: A172
+    variant_id: mcfaline_author
+    perturbation_modality: CRISPRi
+    target_file: source_targets/mcfaline_kinome.txt
+    source_url: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7056nnn/GSM7056149/suppl/GSM7056149_sciPlexGxE_2_gRNA_sequences.txt.gz
+  - coverage_id: mcfaline2024__T98G
+    dataset_id: mcfaline2024
+    cell_context: T98G
+    variant_id: mcfaline_author
+    perturbation_modality: CRISPRi
+    target_file: source_targets/mcfaline_kinome.txt
+    source_url: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7056nnn/GSM7056149/suppl/GSM7056149_sciPlexGxE_2_gRNA_sequences.txt.gz
+  - coverage_id: mcfaline2024__U87MG
+    dataset_id: mcfaline2024
+    cell_context: U87MG
+    variant_id: mcfaline_author
+    perturbation_modality: CRISPRi
+    target_file: source_targets/mcfaline_kinome.txt
+    source_url: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7056nnn/GSM7056149/suppl/GSM7056149_sciPlexGxE_2_gRNA_sequences.txt.gz

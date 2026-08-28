@@ -1,0 +1,17 @@
+benchmark_id: E3a
+name: Pairwise within-study context transfer
+scientific_question: Can a perturbation response measured in one biological context transfer to one other context while study and protocol remain approximately fixed?
+train_information: Perturbation responses from one source context in the target study.
+target_information_available: Controls from one target context in the same study.
+held_out_information: Target-context perturbation responses.
+eligibility_rules:
+  - Source and target are distinct dataset-contexts from the same study.
+  - Eligible genes are target ∩ source.
+  - Each ordered source-target pair is reported separately.
+primary_unit_of_evaluation: shared perturbation gene × ordered within-study source-target pair
+possible_dataset_contexts:
+  replogle2022: [replogle2022::K562, replogle2022::RPE1]
+  nadig2025: [nadig2025::HepG2, nadig2025::Jurkat]
+  jiang2025: [jiang2025::A549, jiang2025::MCF7, jiang2025::HT29, jiang2025::HAP1, jiang2025::BxPC3, jiang2025::K562]
+  mcfaline2024: [mcfaline2024::A172, mcfaline2024::T98G, mcfaline2024::U87MG]
+notes: Jiang pathway stimulation and McFaline-Figueroa drug conditions are collapsed at the cell-line context level in this first atlas and need refinement before benchmark execution.

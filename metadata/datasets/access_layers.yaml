@@ -1,0 +1,70 @@
+original_deposits:
+  name: Original paper and author deposit layer
+  url: null
+  resource_type: original_data_source
+  maintainer: study authors and repositories
+  datasets_relevant_to_vcc: [vcc2025_h1, replogle2022, nadig2025, jiang2025, srivatsan2020, mcfaline2024]
+  downloads_original_or_derivative: original_or_author_processed
+  upstream_source: null
+  notes: Preferred provenance anchor; author-processed does not necessarily mean raw FASTQ.
+  last_verified: 2026-08-21
+arc_virtual_cell_atlas:
+  name: Arc Virtual Cell Atlas
+  url: https://github.com/ArcInstitute/arc-virtual-cell-atlas
+  resource_type: atlas_host_and_harmonization_layer
+  maintainer: Arc Institute
+  datasets_relevant_to_vcc: [scbasecount, tahoe100m, observational_context_data]
+  downloads_original_or_derivative: derivative_with_source_provenance
+  upstream_source: many public studies
+  notes: STARsolo Unique counts in X and UniqueAndMult layer are documented for scBaseCount; requester-pays Google Marketplace access.
+  last_verified: 2026-08-21
+scperturb:
+  name: scPerturb
+  url: https://github.com/altoslabs/scPerturb
+  resource_type: harmonization_layer
+  maintainer: scPerturb/Altos Labs contributors
+  datasets_relevant_to_vcc: [replogle2022, nadig2025, srivatsan2020, mcfaline2024]
+  downloads_original_or_derivative: derivative
+  upstream_source: author deposits
+  notes: Public harmonized H5ADs retain count-level X and rich metadata; paper-benchmark normalization is a separate downstream workflow.
+  last_verified: 2026-08-21
+pertpy:
+  name: PertPy
+  url: https://github.com/scverse/pertpy
+  resource_type: convenience_loader_and_mirror
+  maintainer: scverse
+  datasets_relevant_to_vcc: [replogle2022, srivatsan2020]
+  downloads_original_or_derivative: derivative_mirror
+  upstream_source: scPerturb prepared H5ADs
+  notes: Relevant loaders download and read prepared files; they do not run independent preprocessing.
+  last_verified: 2026-08-21
+scperteval:
+  name: scPertEval
+  url: https://github.com/Virtual-Cell-Research-Community/scPertEval
+  resource_type: evaluation_specific_representation
+  maintainer: Virtual Cell Research Community
+  datasets_relevant_to_vcc: [vcc2025_h1, replogle2022, nadig2025]
+  downloads_original_or_derivative: derivative
+  upstream_source: prepared public H5ADs
+  notes: Normalizes/log1p and trims to perturbation labels plus gene index; excellent for fast protocol work, lossy for biological reprocessing.
+  last_verified: 2026-08-21
+perturbase:
+  name: PerturBase
+  url: https://github.com/hanjunwei-lab/PerturBase
+  resource_type: independent_reprocessing_and_database
+  maintainer: PerturBase authors
+  datasets_relevant_to_vcc: [replogle2022, srivatsan2020, mcfaline2024]
+  downloads_original_or_derivative: derivative
+  upstream_source: author data
+  notes: Collection cutoff makes Nadig/Jiang inclusion unlikely but not asserted; exact record mapping still needs website/API verification.
+  last_verified: 2026-08-21
+perturbench:
+  name: PerturBench
+  url: https://github.com/altoslabs/perturbench
+  resource_type: independent_benchmark_reprocessing
+  maintainer: Altos Labs contributors
+  datasets_relevant_to_vcc: [jiang2025, srivatsan2020, mcfaline2024]
+  downloads_original_or_derivative: derivative
+  upstream_source: author Seurat/GEO or scPerturb
+  notes: Reproducible benchmark curation; gene-universe restriction and dataset-specific exclusions are material.
+  last_verified: 2026-08-21

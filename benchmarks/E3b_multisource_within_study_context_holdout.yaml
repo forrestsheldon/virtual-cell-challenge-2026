@@ -1,0 +1,17 @@
+benchmark_id: E3b
+name: Multi-source within-study context holdout
+scientific_question: Can perturbation response generalize to a held-out biological context using all permitted non-target contexts from the same study?
+train_information: All permitted perturbation responses from the study's non-target contexts.
+target_information_available: Controls from the held-out target context.
+held_out_information: All target-context perturbation responses.
+eligibility_rules:
+  - A study has at least two canonical biological contexts with overlapping genes.
+  - Main eligibility is target ∩ union(source contexts).
+  - A stricter reported subset is target ∩ intersection(all source contexts).
+primary_unit_of_evaluation: eligible perturbation gene × held-out dataset-context
+possible_dataset_contexts:
+  replogle2022: [replogle2022::K562, replogle2022::RPE1]
+  nadig2025: [nadig2025::HepG2, nadig2025::Jurkat]
+  jiang2025: [jiang2025::A549, jiang2025::MCF7, jiang2025::HT29, jiang2025::HAP1, jiang2025::BxPC3, jiang2025::K562]
+  mcfaline2024: [mcfaline2024::A172, mcfaline2024::T98G, mcfaline2024::U87MG]
+notes: Jiang pathway stimulation and McFaline-Figueroa drug conditions are collapsed at the cell-line context level in this first atlas and need refinement before benchmark execution.

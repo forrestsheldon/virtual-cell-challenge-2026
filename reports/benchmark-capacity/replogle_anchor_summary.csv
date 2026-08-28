@@ -1,0 +1,10 @@
+metric,value,notes
+total_replogle_k562_perturbations,9870,Union of genome-wide and essential panels; duplicate genes counted once.
+shared_with_at_least_one_other_dataset_context,2828,Includes Replogle RPE1.
+shared_with_at_least_two_other_dataset_contexts,2762,Nominal target-list overlap.
+shared_with_at_least_three_other_dataset_contexts,2759,Nominal target-list overlap.
+shared_with_at_least_one_independent_study,2828,Excludes same-study-only RPE1 evidence.
+shared_with_multiple_independent_studies,177,Observed outside Replogle in at least two study IDs.
+shared_with_vcc2025_h1,136,Direct perturbation-gene overlap.
+in_vcc2026_300_panel,272,Annotation only; atlas is not restricted to the VCC panel.
+outside_vcc2026_300_panel,9598,Full public perturbation universe.

@@ -1,0 +1,4 @@
+dataset,context,n_cells_in_representation,assignment_column,control_labels,n_control_or_missing,n_multiple_assignment_labels,n_single_target_cells
+mcfaline2024,A172,335088,gene_id,NA;NTC;random,69836,34774,230478
+mcfaline2024,T98G,325455,gene_id,NA;NTC;random,77040,40991,207424
+mcfaline2024,U87MG,328756,gene_id,NA;NTC;random,59616,36814,232326

@@ -1,0 +1,25 @@
+benchmark_id: E4
+name: Replogle-anchored cross-study context transfer
+scientific_question: Given a response measured in Replogle K562 and controls from another context, can the target-context response be predicted?
+train_information: Replogle K562 response for the same perturbation gene.
+target_information_available: Unperturbed controls from the target dataset-context.
+held_out_information: Target dataset-context perturbation cells.
+eligibility_rules:
+  - Gene is observed in replogle2022::K562.
+  - Gene is observed in the target dataset-context.
+  - Target study is not replogle2022.
+primary_unit_of_evaluation: shared Replogle perturbation gene × target dataset-context
+possible_dataset_contexts:
+  - vcc2025_h1::H1
+  - nadig2025::HepG2
+  - nadig2025::Jurkat
+  - jiang2025::A549
+  - jiang2025::MCF7
+  - jiang2025::HT29
+  - jiang2025::HAP1
+  - jiang2025::BxPC3
+  - jiang2025::K562
+  - mcfaline2024::A172
+  - mcfaline2024::T98G
+  - mcfaline2024::U87MG
+notes: Uses the full public target universe. VCC-300 membership is an annotation only; the same-study RPE1 bridge belongs in E3a/E3b, not E4.

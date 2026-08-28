@@ -1,0 +1,201 @@
+last_verified: 2026-08-21
+normalization: uppercase exact source symbol; controls excluded; no alias inference
+excluded_control_labels: [control, non-targeting, nontargeting, ntc, random, unperturbed]
+contexts:
+  - dataset_context_id: vcc2025_h1::H1
+    dataset_id: vcc2025_h1
+    study_id: vcc2025
+    canonical_context_id: H1
+    perturbation_modality: CRISPRi
+    crispri: true
+    target_file: source_targets/vcc2025_h1_counts.csv
+    target_file_format: counts_csv
+    source_variant_id: vcc2025_h1_scperteval
+    source_url: https://storage.googleapis.com/scperteval/processed/arch1_processed_complete.h5ad
+    target_list_source: remote H5AD obs/perturbation categorical metadata
+    cell_count_status: exact
+    cell_count_source: source_targets/vcc2025_h1_counts.csv
+    cell_count_scope: All cells retained in the scPertEval hosted representation after its documented cell QC and assigned to the perturbation label.
+    n_control_cells: 38176
+    guide_level_metadata_available: false
+    raw_counts_available: false
+    knockdown_efficiency_available: false
+    assay_family: unknown
+    confidence: high
+    notes: Cell counts are after scPertEval QC; original count-level representation is not verified here.
+  - dataset_context_id: replogle2022::K562
+    dataset_id: replogle2022
+    study_id: replogle2022
+    canonical_context_id: K562
+    perturbation_modality: CRISPRi
+    crispri: true
+    target_sources:
+      - target_file: source_targets/replogle_k562_gwps_counts.csv
+        source_variant_id: replogle_k562_gwps_scperturb
+        n_control_cells: 75328
+        panel: genome-wide
+      - target_file: source_targets/replogle_k562_essential_counts.csv
+        source_variant_id: replogle_k562_essential_scperturb
+        n_control_cells: 10691
+        panel: essential
+    target_file_format: counts_csv
+    source_url: https://zenodo.org/records/13350497
+    target_list_source: remote scPerturb H5AD obs/perturbation categorical metadata
+    cell_count_status: exact
+    cell_count_source: source_targets/replogle_k562_gwps_counts.csv;source_targets/replogle_k562_essential_counts.csv
+    cell_count_scope: All cells in the selected scPerturb panel assigned to the perturbation label; duplicate genes retain the panel with the larger count and are not summed.
+    guide_level_metadata_available: true
+    raw_counts_available: true
+    knockdown_efficiency_available: false
+    assay_family: 10x_Perturb-seq
+    confidence: high
+    notes: Union of K562 panels; for duplicate genes the source panel with more cells is retained rather than double-counting.
+  - dataset_context_id: replogle2022::RPE1
+    dataset_id: replogle2022
+    study_id: replogle2022
+    canonical_context_id: RPE1
+    perturbation_modality: CRISPRi
+    crispri: true
+    target_file: source_targets/replogle_rpe1_counts.csv
+    target_file_format: counts_csv
+    source_variant_id: replogle_rpe1_scperturb
+    source_url: https://zenodo.org/records/13350497
+    target_list_source: remote scPerturb H5AD obs/perturbation categorical metadata
+    cell_count_status: exact
+    cell_count_source: source_targets/replogle_rpe1_counts.csv
+    cell_count_scope: All cells in the scPerturb representation assigned to the perturbation label.
+    n_control_cells: 11485
+    guide_level_metadata_available: true
+    raw_counts_available: true
+    knockdown_efficiency_available: false
+    assay_family: 10x_Perturb-seq
+    confidence: high
+    notes: null
+  - dataset_context_id: nadig2025::HepG2
+    dataset_id: nadig2025
+    study_id: nadig2025
+    canonical_context_id: HepG2
+    perturbation_modality: CRISPRi
+    crispri: true
+    target_file: source_targets/nadig_hepg2_counts.csv
+    target_file_format: counts_csv
+    source_variant_id: nadig_hepg2_scperturb
+    source_url: https://zenodo.org/records/13350497
+    target_list_source: remote scPerturb H5AD obs/perturbation categorical metadata
+    cell_count_status: exact
+    cell_count_source: source_targets/nadig_hepg2_counts.csv
+    cell_count_scope: All cells in the scPerturb harmonized representation assigned to the perturbation label; no additional atlas filter is applied.
+    n_control_cells: 4976
+    guide_level_metadata_available: true
+    raw_counts_available: true
+    knockdown_efficiency_available: false
+    assay_family: 10x_Perturb-seq
+    confidence: high
+    notes: Cell counts precede scPertEval trimming and are nominal observations without quality filtering.
+  - dataset_context_id: nadig2025::Jurkat
+    dataset_id: nadig2025
+    study_id: nadig2025
+    canonical_context_id: Jurkat
+    perturbation_modality: CRISPRi
+    crispri: true
+    target_file: source_targets/nadig_jurkat_counts.csv
+    target_file_format: counts_csv
+    source_variant_id: nadig_jurkat_scperturb
+    source_url: https://zenodo.org/records/13350497
+    target_list_source: remote scPerturb H5AD obs/perturbation categorical metadata
+    cell_count_status: exact
+    cell_count_source: source_targets/nadig_jurkat_counts.csv
+    cell_count_scope: All cells in the scPerturb harmonized representation assigned to the perturbation label; no additional atlas filter is applied.
+    n_control_cells: 12013
+    guide_level_metadata_available: true
+    raw_counts_available: true
+    knockdown_efficiency_available: false
+    assay_family: 10x_Perturb-seq
+    confidence: high
+    notes: Cell counts precede scPertEval trimming and are nominal observations without quality filtering.
+  - dataset_context_id: jiang2025::A549
+    dataset_id: jiang2025
+    study_id: jiang2025
+    canonical_context_id: A549
+    perturbation_modality: CRISPRi
+    crispri: true
+    target_file: source_targets/jiang_a549_counts.csv
+    target_file_format: counts_csv
+    constant_n_guides: 3
+    source_variant_id: jiang_author
+    source_url: https://doi.org/10.1038/s41556-025-01622-z
+    target_list_source: author Supplementary Table 1f plus author Seurat meta.data gene assignments
+    cell_count_status: exact
+    cell_count_source: source_targets/jiang_a549_counts.csv
+    cell_count_scope: All cells in the five author Seurat pathway objects assigned to the gene label within the cell_type; counts are summed across pathway pools.
+    n_control_cells: 9634
+    guide_level_metadata_available: true
+    raw_counts_available: true
+    knockdown_efficiency_available: false
+    assay_family: Parse_Perturb-seq
+    confidence: high
+    notes: Same pathway pools were applied to each of six lines; no multiple-gene assignment labels occur in author meta.data$gene.
+  - dataset_context_id: jiang2025::MCF7
+    inherit: jiang2025::A549
+    canonical_context_id: MCF7
+    target_file: source_targets/jiang_mcf7_counts.csv
+    cell_count_source: source_targets/jiang_mcf7_counts.csv
+    n_control_cells: 10819
+  - dataset_context_id: jiang2025::HT29
+    inherit: jiang2025::A549
+    canonical_context_id: HT29
+    target_file: source_targets/jiang_ht29_counts.csv
+    cell_count_source: source_targets/jiang_ht29_counts.csv
+    n_control_cells: 20023
+  - dataset_context_id: jiang2025::HAP1
+    inherit: jiang2025::A549
+    canonical_context_id: HAP1
+    target_file: source_targets/jiang_hap1_counts.csv
+    cell_count_source: source_targets/jiang_hap1_counts.csv
+    n_control_cells: 15784
+  - dataset_context_id: jiang2025::BxPC3
+    inherit: jiang2025::A549
+    canonical_context_id: BxPC3
+    target_file: source_targets/jiang_bxpc3_counts.csv
+    cell_count_source: source_targets/jiang_bxpc3_counts.csv
+    n_control_cells: 18092
+  - dataset_context_id: jiang2025::K562
+    inherit: jiang2025::A549
+    canonical_context_id: K562
+    target_file: source_targets/jiang_k562_counts.csv
+    cell_count_source: source_targets/jiang_k562_counts.csv
+    n_control_cells: 9917
+  - dataset_context_id: mcfaline2024::A172
+    dataset_id: mcfaline2024
+    study_id: mcfaline2024
+    canonical_context_id: A172
+    perturbation_modality: CRISPRi
+    crispri: true
+    target_file: source_targets/mcfaline_a172_counts.csv
+    target_file_format: counts_csv
+    guide_counts_file: source_targets/mcfaline_kinome_guides.csv
+    source_variant_id: mcfaline_author
+    source_url: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225775
+    target_list_source: author GEO guide list plus preprocessed CDS colData gene_id assignments
+    cell_count_status: exact
+    cell_count_source: source_targets/mcfaline_a172_counts.csv
+    cell_count_scope: All author colData rows whose gene_id exactly equals the single target gene within the cell line, across the currently collapsed treatment conditions; multiple-gene labels are excluded from single-gene observations.
+    n_control_cells: 69836
+    guide_level_metadata_available: true
+    raw_counts_available: true
+    knockdown_efficiency_available: false
+    assay_family: sci-Plex-GxE
+    confidence: high
+    notes: Same 522-kinase guide pool is assigned to three lines; comma-separated multiple-gene assignments are retained in the audit but excluded from single-gene counts.
+  - dataset_context_id: mcfaline2024::T98G
+    inherit: mcfaline2024::A172
+    canonical_context_id: T98G
+    target_file: source_targets/mcfaline_t98g_counts.csv
+    cell_count_source: source_targets/mcfaline_t98g_counts.csv
+    n_control_cells: 77040
+  - dataset_context_id: mcfaline2024::U87MG
+    inherit: mcfaline2024::A172
+    canonical_context_id: U87MG
+    target_file: source_targets/mcfaline_u87mg_counts.csv
+    cell_count_source: source_targets/mcfaline_u87mg_counts.csv
+    n_control_cells: 59616

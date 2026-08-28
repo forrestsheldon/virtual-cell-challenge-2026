@@ -1,0 +1,58 @@
+last_verified: 2026-08-21
+datasets:
+  vcc2025_h1:
+    citation: Roohani et al.; Virtual Cell Challenge 2025 H1
+    doi: unknown
+    accessions: []
+    original_source: prior challenge release
+    variants: [vcc2025_h1_scperteval]
+    vcc_recommended: true
+  replogle2022:
+    citation: Replogle et al. Cell 2022
+    doi: 10.1016/j.cell.2022.05.013
+    accessions: [Figshare 20029387, Figshare 20127869]
+    original_source: https://plus.figshare.com/articles/dataset/20029387
+    variants: [replogle_k562_gwps_author, replogle_k562_gwps_scperturb, replogle_k562_essential_scperturb, replogle_rpe1_scperturb, replogle_k562_pertpy, replogle_rpe1_pertpy, replogle_k562_scperteval, replogle_rpe1_scperteval]
+    vcc_recommended: true
+  nadig2025:
+    citation: Nadig et al. Nature Genetics 2025
+    doi: 10.1038/s41588-025-02169-3
+    accessions: [GSE264667]
+    original_source: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE264667
+    variants: [nadig_hepg2_scperturb, nadig_jurkat_scperturb, nadig_hepg2_scperteval, nadig_jurkat_scperteval]
+    vcc_recommended: true
+  jiang2025:
+    citation: Jiang et al. Nature Cell Biology 2025
+    doi: 10.1038/s41556-025-01622-z
+    accessions: [GSE281048, Zenodo 14518762]
+    original_source: https://zenodo.org/records/14518762
+    variants: [jiang_author, jiang_perturbench]
+    vcc_recommended: true
+  srivatsan2020:
+    citation: Srivatsan et al. Science 2020
+    doi: 10.1126/science.aax6234
+    accessions: [GSE139944]
+    original_source: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE139944
+    variants: [srivatsan_sciplex3_scperturb, srivatsan_sciplex3_pertpy, srivatsan_perturbench]
+    vcc_recommended: true
+  mcfaline2024:
+    citation: McFaline-Figueroa et al. Cell Genomics 2024
+    doi: 10.1016/j.xgen.2023.100487
+    accessions: [GSE225775]
+    original_source: https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE225775
+    variants: [mcfaline_author, mcfaline_perturbench]
+    vcc_recommended: true
+  tahoe100m:
+    citation: Tahoe-100M
+    doi: unknown
+    accessions: []
+    original_source: unknown
+    variants: [tahoe100m_author]
+    vcc_recommended: true
+  scbasecount:
+    citation: scBaseCount / Arc Virtual Cell Atlas
+    doi: unknown
+    accessions: []
+    original_source: https://github.com/ArcInstitute/arc-virtual-cell-atlas
+    variants: [scbasecount_arc_atlas]
+    vcc_recommended: true

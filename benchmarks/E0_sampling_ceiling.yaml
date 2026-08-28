@@ -1,0 +1,27 @@
+benchmark_id: E0
+name: Sampling / metric ceiling
+scientific_question: How much score variation arises from two finite independent samples from the same perturbation distribution?
+train_information: None; resampling operates within one measured perturbation and context.
+target_information_available: Cell-level observations from one perturbation distribution.
+held_out_information: One independent cell split is treated as prediction and the other as truth.
+eligibility_rules:
+  - Perturbation and control cells exist in the dataset-context.
+  - Cell counts must support the chosen split size; no single split size is canonical yet.
+  - Current cell-eval2-compatible runs will require a suitable count-level representation.
+primary_unit_of_evaluation: perturbation gene × dataset_context_id × split
+possible_dataset_contexts:
+  - vcc2025_h1::H1
+  - replogle2022::K562
+  - replogle2022::RPE1
+  - nadig2025::HepG2
+  - nadig2025::Jurkat
+  - jiang2025::A549
+  - jiang2025::MCF7
+  - jiang2025::HT29
+  - jiang2025::HAP1
+  - jiang2025::BxPC3
+  - jiang2025::K562
+  - mcfaline2024::A172
+  - mcfaline2024::T98G
+  - mcfaline2024::U87MG
+notes: Per-target cell counts are currently known for H1, Replogle, and Nadig. H1's verified accessible representation is log-normalized rather than raw counts. Larger objects are needed to quantify Jiang and McFaline-Figueroa split capacities.

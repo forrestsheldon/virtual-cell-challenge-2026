@@ -1,0 +1,25 @@
+benchmark_id: E1
+name: Oracle-response distribution generation
+scientific_question: If the true target-context perturbation response is known, can a generator produce a cell population that scores like the true distribution?
+train_information: True perturbation-level target-context response may be used.
+target_information_available: Target controls plus known target-context response summary.
+held_out_information: Individual held-out perturbation cells.
+eligibility_rules:
+  - Matched control and perturbation cells are available.
+  - A count-level representation is preferred for current cell-eval2 and count generators.
+primary_unit_of_evaluation: perturbation gene × dataset_context_id
+possible_dataset_contexts:
+  - replogle2022::K562
+  - replogle2022::RPE1
+  - nadig2025::HepG2
+  - nadig2025::Jurkat
+  - jiang2025::A549
+  - jiang2025::MCF7
+  - jiang2025::HT29
+  - jiang2025::HAP1
+  - jiang2025::BxPC3
+  - jiang2025::K562
+  - mcfaline2024::A172
+  - mcfaline2024::T98G
+  - mcfaline2024::U87MG
+notes: H1 remains a conceptual distribution benchmark but is excluded from nominal count-level capacity until an original count representation is verified.

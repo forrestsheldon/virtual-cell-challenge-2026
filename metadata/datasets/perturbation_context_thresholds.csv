@@ -1,0 +1,10 @@
+measure,threshold,n_genes,notes
+canonical_contexts,1,10136,Nominal exact-symbol coverage; no perturbation-quality filters.
+canonical_contexts,2,3083,Nominal exact-symbol coverage; no perturbation-quality filters.
+canonical_contexts,3,3017,Nominal exact-symbol coverage; no perturbation-quality filters.
+canonical_contexts,4,2791,Nominal exact-symbol coverage; no perturbation-quality filters.
+dataset_contexts,2,3083,Nominal exact-symbol coverage; no perturbation-quality filters.
+dataset_contexts,3,3017,Nominal exact-symbol coverage; no perturbation-quality filters.
+dataset_contexts,4,2791,Nominal exact-symbol coverage; no perturbation-quality filters.
+independent_studies,2,2833,Nominal exact-symbol coverage; no perturbation-quality filters.
+independent_studies,3,179,Nominal exact-symbol coverage; no perturbation-quality filters.

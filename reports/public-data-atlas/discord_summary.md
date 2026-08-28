@@ -1,0 +1,5 @@
+# Draft factual Discord summary (not posted)
+
+I audited current VCC-recommended public data at the biological-experiment level. Exact-symbol matching to the validation 300 finds external single-cell CRISPRi measurements for 278 targets, 41 in at least two audited contexts, and 22 with none identified. Replogle K562 GWPS contributes the broadest direct coverage (272); Jiang adds six stimulated cancer-line contexts for 9 targets; McFaline-Figueroa adds three glioblastoma/kinase-inhibitor contexts for 23 targets; VCC 2025 H1 overlaps 13.
+
+Access caveat: PertPy's relevant Replogle/Srivatsan loaders mirror scPerturb-prepared files, so they are not independent data. scPerturb's inspected public files preserve raw-count `X` and useful guide/context metadata. scPertEval independently creates total-10k `log1p`, perturbation-only H5ADs—excellent for quick metric benchmarking, but it removes raw counts, guides, batch/depth metadata, layers, embeddings, and `uns`. PerturBench is reproducible but restricts the gene universe and makes dataset-specific exclusions. Representation choice should therefore follow the analysis, not download convenience.

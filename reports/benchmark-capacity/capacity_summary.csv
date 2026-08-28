@@ -1,0 +1,9 @@
+benchmark_id,n_studies,n_target_dataset_contexts,n_target_canonical_contexts,n_unique_genes,n_gene_evaluation_units,median_genes_per_evaluation_target,min_genes_per_evaluation_target,max_genes_per_evaluation_target,notes
+E0,5,14,13,10136,20072,370.0,150,9870,"Quantified only where per-target cell counts are available; >=2 cells is the minimal split, not a quality threshold."
+E1,4,13,12,10125,19923,522,218,9870,Nominal raw-count + controls capacity; no minimum-cell or response-quality rule.
+E2,2,1,1,187,187,187,187,187,1 same-canonical cross-study pair(s); each pair counted once.
+E3a,4,13,12,3017,19242,218.0,218,2393,Each ordered within-study source-target pair is a distinct evaluation unit; eligibility is target ∩ source.
+E3b,4,13,12,3017,12444,522,218,2393,Main target ∩ union(source contexts) eligibility; all-source intersection retained as a stricter subset.
+E4,5,12,12,2828,6926,187.0,136,2393,Replogle K562 anchor; cross-study targets only.
+E5,5,14,13,3083,13020,370.0,139,2828,Hold out every dataset-context sharing the target canonical context.
+E5_ablation,5,14,13,3083,13020,370.0,139,2828,Experimental-context-only holdout; not a separate main ladder rung.

@@ -1,0 +1,2 @@
+source_dataset_context,target_dataset_context,canonical_context_id,source_study,target_study,source_dataset,target_dataset,n_shared_perturbations,shared_fraction_source,shared_fraction_target,same_modality,source_assay_family,target_assay_family,same_or_similar_assay,notes
+replogle2022::K562,jiang2025::K562,K562,replogle2022,jiang2025,replogle2022,jiang2025,187,0.01894630192502533,0.8577981651376146,True,10x_Perturb-seq,Parse_Perturb-seq,False,"Named cell line matches; study, state, and protocol remain distinct."

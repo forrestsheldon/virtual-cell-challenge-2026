@@ -1,0 +1,171 @@
+vcc_home:
+  title: Virtual Cell Challenge 2026
+  url: https://virtualcellchallenge.org/
+  source_type: official_live_page
+  official: true
+  last_verified: 2026-08-21
+  version_or_commit: live
+  used_for: challenge definition, prizes, release state
+  notes: Client-rendered; inspected in a browser.
+vcc_datasets:
+  title: VCC 2026 Datasets
+  url: https://virtualcellchallenge.org/datasets
+  source_type: official_live_page
+  official: true
+  last_verified: 2026-08-21
+  version_or_commit: live
+  used_for: controls, dimensions, target criteria, recommended data
+  notes: Client-rendered; live page overrides cached notes.
+vcc_evaluation:
+  title: VCC 2026 Evaluation
+  url: https://virtualcellchallenge.org/evaluation
+  source_type: official_live_page
+  official: true
+  last_verified: 2026-08-21
+  version_or_commit: live
+  used_for: metrics, reference scaling, aggregation, submission quota
+  notes: Names cell-eval2 as the scorer.
+vcc_rules:
+  title: VCC 2026 Rules
+  url: https://virtualcellchallenge.org/rules
+  source_type: official_live_page
+  official: true
+  last_verified: 2026-08-21
+  version_or_commit: effective 2026-08-04
+  used_for: participation and data-use constraints
+  notes: Recorded without legal interpretation.
+vcc_cli:
+  title: VCC CLI guide
+  url: https://virtualcellchallenge.org/cli-guide
+  source_type: official_documentation
+  official: true
+  last_verified: 2026-08-21
+  version_or_commit: vcc-cli 0.1.0
+  used_for: install, auth, download, prep, submit
+  notes: CLI wheel includes the official agent skill.
+cell_eval2:
+  title: ArcInstitute/cell-eval2
+  url: https://github.com/ArcInstitute/cell-eval2
+  source_type: official_source_code
+  official: true
+  last_verified: 2026-08-21
+  version_or_commit: 0.16.0; 5e64833518a6603a0301cbe28185d49c30f4a986
+  used_for: current evaluator implementation and VCC preset
+  notes: Commit dated 2026-08-20.
+vcc_metric_pdf:
+  title: VCC 2026 metric specification
+  url: https://github.com/ArcInstitute/cell-eval2/blob/main/docs/vcc2026_metrics/vcc2026-metrics.pdf
+  source_type: official_specification
+  official: true
+  last_verified: 2026-08-21
+  version_or_commit: 2026-08-19; rule_version 3; anchors built with 0.15.0
+  used_for: formulas, thresholds, anchor construction
+  notes: Released reference anchors are the numeric authority.
+legacy_cell_eval:
+  title: ArcInstitute/cell-eval
+  url: https://github.com/ArcInstitute/cell-eval
+  source_type: official_source_code
+  official: true
+  last_verified: 2026-08-21
+  version_or_commit: v0.8.2; 6928cf8bd7a706040ccfd13119e4085726dee64a
+  used_for: discrepancy check and generic ceiling functionality
+  notes: Not the active VCC 2026 scorer.
+arc_atlas:
+  title: Arc Virtual Cell Atlas
+  url: https://github.com/ArcInstitute/arc-virtual-cell-atlas
+  source_type: official_source_code_and_docs
+  official: true
+  last_verified: 2026-08-21
+  version_or_commit: 76cb053d59be08a7d0c4dc68c265622f6e0ab52e; storage migration noted 2026-03-31
+  used_for: observational atlas access and count-layer semantics
+  notes: Marketplace bucket gs://arc-institute-virtual-cell-atlas is requester-pays; free tier stated as 2 TB/month.
+replogle2022:
+  title: Mapping information-rich genotype-phenotype landscapes with genome-scale Perturb-seq
+  url: https://doi.org/10.1016/j.cell.2022.05.013
+  source_type: original_paper
+  official: false
+  last_verified: 2026-08-21
+  version_or_commit: Cell 2022
+  used_for: Replogle experiment
+  notes: Original deposits include Figshare records 20029387 and 20127869.
+nadig2025:
+  title: A genome-scale Perturb-seq screen in HepG2 and Jurkat
+  url: https://doi.org/10.1038/s41588-025-02169-3
+  source_type: original_paper
+  official: false
+  last_verified: 2026-08-21
+  version_or_commit: Nature Genetics 2025; GSE264667
+  used_for: Nadig experiment
+  notes: Companion CRISPRi screens.
+jiang2025:
+  title: Systematic reconstruction of molecular pathway signatures using scalable single-cell perturbation screens
+  url: https://doi.org/10.1038/s41556-025-01622-z
+  source_type: original_paper
+  official: false
+  last_verified: 2026-08-21
+  version_or_commit: Nature Cell Biology 2025; GSE281048; Zenodo 14518762
+  used_for: Jiang experiment and supplementary guide list
+  notes: Six lines by five stimulated pathway contexts; 218 unique target genes.
+srivatsan2020:
+  title: Massively multiplex chemical transcriptomics at single-cell resolution
+  url: https://doi.org/10.1126/science.aax6234
+  source_type: original_paper
+  official: false
+  last_verified: 2026-08-21
+  version_or_commit: Science 2020; GSE139944
+  used_for: sci-Plex chemical experiment
+  notes: A549, K562, MCF7; 188 compounds in the main screen.
+mcfaline2024:
+  title: Multiplex single-cell chemical genomics reveals the kinase dependence of targeted therapy response
+  url: https://doi.org/10.1016/j.xgen.2023.100487
+  source_type: original_paper
+  official: false
+  last_verified: 2026-08-21
+  version_or_commit: Cell Genomics 2024; GSE225775
+  used_for: sci-Plex-GxE genetic and chemical experiment
+  notes: Includes 522-kinase CRISPRi screens in A172, T98G, and U87MG.
+scperturb:
+  title: scPerturb
+  url: https://github.com/sanderlab/scPerturb
+  source_type: harmonization_source_code
+  official: false
+  last_verified: 2026-08-21
+  version_or_commit: b69f72a070a92bcbaf41e7f9897b11598109ab48; RNA record 13350497
+  used_for: harmonized raw-count variants and dataset scripts
+  notes: PertPy mirrors several of these files.
+pertpy:
+  title: PertPy dataset loaders
+  url: https://github.com/scverse/pertpy
+  source_type: convenience_loader
+  official: false
+  last_verified: 2026-08-21
+  version_or_commit: locally installed 1.2.0; main c2831c5b2a4a629aff87f6685397dfef08059c4e
+  used_for: loader provenance
+  notes: Relevant Replogle and Srivatsan loaders explicitly cite scPerturb upstream.
+scperteval:
+  title: scPertEval
+  url: https://github.com/Virtual-Cell-Research-Community/scPertEval
+  source_type: evaluation_specific_reprocessing
+  official: false
+  last_verified: 2026-08-21
+  version_or_commit: v0.1.0; 8709eb
+  used_for: evaluation-oriented normalized variants
+  notes: Hosted files intentionally remove raw counts and most metadata.
+perturbase:
+  title: PerturBase
+  url: https://github.com/hanjunwei-lab/PerturBase
+  source_type: independent_reprocessing
+  official: false
+  last_verified: 2026-08-21
+  version_or_commit: bd88b0
+  used_for: QC, Mixscape, and normalized variant audit
+  notes: Exact inclusion of all named VCC experiments remains unverified.
+perturbench:
+  title: PerturBench
+  url: https://github.com/altoslabs/perturbench
+  source_type: independent_benchmark_reprocessing
+  official: false
+  last_verified: 2026-08-21
+  version_or_commit: c84038
+  used_for: Jiang, McFaline-Figueroa, and Srivatsan benchmark variants
+  notes: Common pipeline subsets to HVG/DE/perturbed-gene union.
