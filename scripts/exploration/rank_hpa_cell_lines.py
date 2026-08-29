@@ -4,6 +4,7 @@ import argparse
 from pathlib import Path
 
 import anndata as ad
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from scipy.stats import rankdata
@@ -18,6 +19,39 @@ def arguments() -> argparse.Namespace:
     parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--variable-genes", type=int, default=3_000)
     return parser.parse_args()
+
+
+def plot_top_three(scores: pd.DataFrame, path: Path) -> None:
+    top = scores.query("rank <= 3")
+    xmin, xmax = top["spearman_rho"].min() - 0.03, top["spearman_rho"].max() + 0.04
+    fig, axes = plt.subplots(3, 1, figsize=(7, 5.5), sharex=True, layout="constrained")
+    for ax, (context, group) in zip(axes, top.groupby("context"), strict=True):
+        group = group.sort_values("rank").copy()
+        group["cell_line"] = group["cell_line"].str.replace(
+            r" \(clone.*\)$", "", regex=True
+        )
+        y = np.arange(len(group))
+        ax.hlines(y, xmin, group["spearman_rho"], color="#d9dee3", linewidth=2)
+        colors = np.where(group["rank"] == 1, "#2780e3", "#d17a2b")
+        ax.scatter(group["spearman_rho"], y, c=colors, s=[55, 35, 35], zorder=3)
+        for yi, row in enumerate(group.itertuples()):
+            ax.text(
+                row.spearman_rho + 0.008, yi, f"{row.spearman_rho:.3f}", va="center"
+            )
+        gap = group.iloc[0]["spearman_rho"] - group.iloc[1]["spearman_rho"]
+        ax.set(
+            title=f"Context {context}  ·  top-to-second gap Δρ = {gap:.3f}",
+            yticks=y,
+            yticklabels=group["cell_line"],
+            xlim=(xmin, xmax),
+        )
+        ax.invert_yaxis()
+        ax.grid(axis="x", alpha=0.15)
+        ax.spines[["top", "right", "left"]].set_visible(False)
+    axes[-1].set_xlabel("Spearman rank correlation, ρ")
+    fig.supylabel("HPA candidate")
+    fig.savefig(path, dpi=180, bbox_inches="tight")
+    plt.close(fig)
 
 
 def main() -> None:
@@ -85,6 +119,7 @@ def main() -> None:
         else "_all_genes"
     )
     scores.to_csv(args.output_dir / f"hpa_rank_correlations{suffix}.csv", index=False)
+    plot_top_three(scores, args.output_dir / f"hpa_rank_correlations{suffix}_top3.png")
     print(scores.query("rank <= 5").to_string(index=False))
 
 

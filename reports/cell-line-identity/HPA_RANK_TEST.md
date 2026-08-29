@@ -58,6 +58,10 @@ match and made the background substantially more discriminating:
 | B | HeLa | 0.792 | 0.361 | 0.220 | 0.248 |
 | C | CAL-33 | 0.784 | 0.333 | 0.056 | 0.111 |
 
+![The three highest HPA correlations for each VCC context. All panels share the
+same correlation scale; blue marks the leading nomination, and each title gives
+the first-to-second gap.](hpa-rank/generated/hpa_rank_correlations_3000_variable_genes_top3.png)
+
 For comparison, the all-gene median correlations were 0.727, 0.772, and 0.772,
 and the first-to-second gaps were 0.008, 0.048, and 0.011. The refinement
 therefore addresses the shared-expression background without changing the

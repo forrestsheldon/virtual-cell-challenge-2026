@@ -171,3 +171,7 @@ cython_debug/
 
 # macOS metadata
 .DS_Store
+
+# Large local submission artifacts
+/submissions/**
+!/submissions/README.md

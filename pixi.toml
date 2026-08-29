@@ -19,3 +19,6 @@ test = { cmd = "pytest", description = "Run the test suite" }
 lint = { cmd = "ruff check .", description = "Check Python code" }
 format = { cmd = "ruff format .", description = "Format Python code" }
 check = { depends-on = ["lint", "test"], description = "Run lint and tests" }
+
+[pypi-dependencies]
+vcc-cli = "==0.1.0"

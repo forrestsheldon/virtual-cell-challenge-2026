@@ -36,13 +36,13 @@ vcc_rules:
   notes: Recorded without legal interpretation.
 vcc_cli:
   title: VCC CLI guide
-  url: https://virtualcellchallenge.org/cli-guide
+  url: https://vcc-cli-wiki.virtualcellchallenge.org/
   source_type: official_documentation
   official: true
-  last_verified: 2026-08-21
+  last_verified: 2026-08-29
   version_or_commit: vcc-cli 0.1.0
   used_for: install, auth, download, prep, submit
-  notes: CLI wheel includes the official agent skill.
+  notes: Documentation moved from the former portal /cli-guide route; CLI wheel includes the official agent skill.
 cell_eval2:
   title: ArcInstitute/cell-eval2
   url: https://github.com/ArcInstitute/cell-eval2
