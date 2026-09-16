@@ -99,3 +99,31 @@ sources:
     perturbation_modality: CRISPRi
     target_file: source_targets/mcfaline_kinome.txt
     source_url: https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM7056nnn/GSM7056149/suppl/GSM7056149_sciPlexGxE_2_gRNA_sequences.txt.gz
+  - coverage_id: xatlas_orion__HCT116
+    dataset_id: xatlas_orion
+    cell_context: HCT116
+    variant_id: xatlas_orion_hf
+    perturbation_modality: CRISPRi
+    target_file: source_targets/xatlas_orion_hct116.txt
+    source_url: https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion
+  - coverage_id: xatlas_orion__HEK293T
+    dataset_id: xatlas_orion
+    cell_context: HEK293T
+    variant_id: xatlas_orion_hf
+    perturbation_modality: CRISPRi
+    target_file: source_targets/xatlas_orion_hek293t.txt
+    source_url: https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion
+  - coverage_id: nourreddine2024__KOLF2.1J
+    dataset_id: nourreddine2024
+    cell_context: KOLF2.1J
+    variant_id: nourreddine2024_kolf_figshare
+    perturbation_modality: CRISPRi
+    target_file: source_targets/nourreddine2024_kolf.txt
+    source_url: https://doi.org/10.25452/figshare.plus.27261219
+  - coverage_id: zhu2026__CD4T
+    dataset_id: zhu2026
+    cell_context: primary CD4+ T cell
+    variant_id: zhu2026_cd4t_s3
+    perturbation_modality: CRISPRi
+    target_file: source_targets/zhu2026_cd4t.txt
+    source_url: https://virtualcellmodels.cziscience.com/dataset/genome-scale-tcell-perturb-seq

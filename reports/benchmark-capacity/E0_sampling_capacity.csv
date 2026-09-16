@@ -13,3 +13,7 @@ jiang2025::K562,K562,jiang2025,218,218,23,581.0,4188,76,149,190,212,0.3486238532
 mcfaline2024::A172,A172,mcfaline2024,522,522,35,422.5,1061,20,305,511,516,0.038314176245210725,True,True,"Split sizes are descriptive capacity counts, not quality filters."
 mcfaline2024::T98G,T98G,mcfaline2024,522,522,34,379.0,925,10,213,501,516,0.019157088122605363,True,True,"Split sizes are descriptive capacity counts, not quality filters."
 mcfaline2024::U87MG,U87MG,mcfaline2024,522,522,15,428.0,978,18,305,504,516,0.034482758620689655,True,True,"Split sizes are descriptive capacity counts, not quality filters."
+xatlas_orion::HCT116,HCT116,xatlas_orion,18293,18293,1,150,1129,26,1062,6328,12712,0.0014213086973159132,True,True,"Split sizes are descriptive capacity counts, not quality filters."
+xatlas_orion::HEK293T,HEK293T,xatlas_orion,18311,18311,1,200,1364,123,2670,9176,14720,0.0067172737698651085,True,True,"Split sizes are descriptive capacity counts, not quality filters."
+nourreddine2024::KOLF2.1J,KOLF2.1J,nourreddine2024,11687,11687,1,218,1025,1,294,6822,10296,8.556515786771627e-05,False,True,"Split sizes are descriptive capacity counts, not quality filters."
+zhu2026::CD4T,CD4T,zhu2026,12730,12730,1,1508.5,29339,9751,11046,11520,11846,0.7659858601728201,True,True,"Split sizes are descriptive capacity counts, not quality filters."

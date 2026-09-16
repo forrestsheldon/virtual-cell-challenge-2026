@@ -1,301 +1,301 @@
 target_gene,n_biological_datasets,n_crispri_datasets,n_cell_contexts,n_crispri_cell_contexts,contexts,datasets
-ABCD1,0,0,0,0,,
-ACLY,1,1,1,1,K562,replogle2022
-ADNP,1,1,1,1,K562,replogle2022
-AGO1,1,1,1,1,K562,replogle2022
-AKAP1,1,1,1,1,K562,replogle2022
-AKIRIN1,1,1,1,1,K562,replogle2022
-AKT2,3,3,5,5,A172;H1 hESC;K562;T98G;U87MG,mcfaline2024;replogle2022;vcc2025_h1
-ALG12,1,1,1,1,K562,replogle2022
-ANKRD52,1,1,1,1,K562,replogle2022
-ANKZF1,1,1,1,1,K562,replogle2022
-ANP32B,1,1,1,1,K562,replogle2022
-AP2A2,1,1,1,1,K562,replogle2022
-API5,1,1,1,1,K562,replogle2022
-ARL14EP,1,1,1,1,K562,replogle2022
-ASCC2,1,1,1,1,K562,replogle2022
-BCKDK,2,2,4,4,A172;K562;T98G;U87MG,mcfaline2024;replogle2022
-BCL6,1,1,1,1,K562,replogle2022
-BCL7C,1,1,1,1,K562,replogle2022
-BRD1,1,1,1,1,K562,replogle2022
-BRPF1,1,1,1,1,K562,replogle2022
-C5orf22,1,1,1,1,K562,replogle2022
-CAND1,1,1,1,1,K562,replogle2022
-CAPRIN2,0,0,0,0,,
-CARM1,1,1,1,1,K562,replogle2022
-CAT,1,1,1,1,K562,replogle2022
-CCDC112,1,1,1,1,K562,replogle2022
-CDK8,2,2,4,4,A172;K562;T98G;U87MG,mcfaline2024;replogle2022
-CHD3,1,1,1,1,K562,replogle2022
-CHD6,1,1,1,1,K562,replogle2022
-CHKB,1,1,1,1,K562,replogle2022
-CLCN6,1,1,1,1,K562,replogle2022
-COIL,1,1,1,1,K562,replogle2022
-COMMD8,1,1,1,1,K562,replogle2022
-COQ10B,1,1,1,1,K562,replogle2022
-CSNK2A1,2,2,4,4,A172;K562;T98G;U87MG,mcfaline2024;replogle2022
-CYTH2,1,1,1,1,K562,replogle2022
-DBF4B,1,1,1,1,K562,replogle2022
-DBN1,1,1,1,1,K562,replogle2022
-DCAF16,1,1,1,1,K562,replogle2022
-DCP2,1,1,1,1,K562,replogle2022
-DDHD1,1,1,1,1,K562,replogle2022
-DEAF1,1,1,1,1,K562,replogle2022
-DEK,1,1,1,1,K562,replogle2022
-DHRS1,1,1,1,1,K562,replogle2022
-DHX35,1,1,1,1,K562,replogle2022
-DLAT,1,1,1,1,K562,replogle2022
-DMTF1,1,1,1,1,K562,replogle2022
-DNTTIP1,1,1,1,1,K562,replogle2022
-DRG2,1,1,1,1,K562,replogle2022
-DTNBP1,1,1,1,1,K562,replogle2022
-DVL3,1,1,1,1,K562,replogle2022
-E2F1,1,1,1,1,K562,replogle2022
-E2F4,1,1,1,1,K562,replogle2022
-EAPP,1,1,1,1,K562,replogle2022
-EEF1A2,1,1,1,1,K562,replogle2022
-ELK1,2,2,7,7,A549;BxPC3;HAP1;HT29;K562;MCF7,jiang2025;replogle2022
-EPC2,1,1,1,1,K562,replogle2022
-EPHB2,1,1,3,3,A172;T98G;U87MG,mcfaline2024
-EPM2AIP1,1,1,1,1,K562,replogle2022
-EZH2,1,1,1,1,K562,replogle2022
-FAM120A,1,1,1,1,K562,replogle2022
-FCGRT,1,1,1,1,K562,replogle2022
-FHL3,1,1,1,1,K562,replogle2022
-FOXN2,1,1,1,1,K562,replogle2022
-FOXO4,2,2,7,7,A549;BxPC3;HAP1;HT29;K562;MCF7,jiang2025;replogle2022
-FUBP3,1,1,1,1,K562,replogle2022
-FXYD5,1,1,1,1,K562,replogle2022
-FZD2,1,1,1,1,K562,replogle2022
-GIGYF2,1,1,1,1,K562,replogle2022
-GLI3,1,1,1,1,K562,replogle2022
-GLYR1,1,1,1,1,K562,replogle2022
-GMEB2,1,1,1,1,K562,replogle2022
-GPATCH8,1,1,1,1,K562,replogle2022
-GRAMD1A,1,1,1,1,K562,replogle2022
-GTF2IRD1,1,1,1,1,K562,replogle2022
-HDAC1,1,1,1,1,K562,replogle2022
-HDAC8,1,1,1,1,K562,replogle2022
-HEATR6,0,0,0,0,,
-HMGN3,1,1,1,1,K562,replogle2022
-HMGN4,1,1,1,1,K562,replogle2022
-HMGXB3,1,1,1,1,K562,replogle2022
-HOMEZ,1,1,1,1,K562,replogle2022
-HSBP1,2,2,2,2,H1 hESC;K562,replogle2022;vcc2025_h1
-HSP90AB1,1,1,1,1,K562,replogle2022
-IFI27L2,1,1,1,1,K562,replogle2022
-IFNAR2,2,2,7,7,A549;BxPC3;HAP1;HT29;K562;MCF7,jiang2025;replogle2022
-IFNGR2,2,2,7,7,A549;BxPC3;HAP1;HT29;K562;MCF7,jiang2025;replogle2022
-IL10RB,1,1,1,1,K562,replogle2022
-IREB2,1,1,1,1,K562,replogle2022
-KDM5A,1,1,1,1,K562,replogle2022
-KHDRBS1,1,1,1,1,K562,replogle2022
-KHSRP,1,1,1,1,K562,replogle2022
-KIF21B,0,0,0,0,,
-KIF2A,1,1,1,1,K562,replogle2022
-KMT2A,1,1,1,1,K562,replogle2022
-LDLR,1,1,1,1,K562,replogle2022
-LENG1,1,1,1,1,K562,replogle2022
-LMAN1,1,1,1,1,K562,replogle2022
-LMBRD2,1,1,1,1,K562,replogle2022
-LPCAT3,1,1,1,1,K562,replogle2022
-MAN2A1,1,1,1,1,K562,replogle2022
-MAP2K2,2,2,4,4,A172;K562;T98G;U87MG,mcfaline2024;replogle2022
-MAPK12,2,2,4,4,A172;K562;T98G;U87MG,mcfaline2024;replogle2022
-MAPK7,1,1,3,3,A172;T98G;U87MG,mcfaline2024
-MARCKSL1,1,1,1,1,K562,replogle2022
-MBD4,1,1,1,1,K562,replogle2022
-MED13,2,2,2,2,H1 hESC;K562,replogle2022;vcc2025_h1
-MED15,2,2,7,7,A549;BxPC3;HAP1;HT29;K562;MCF7,jiang2025;replogle2022
-MED25,1,1,1,1,K562,replogle2022
-MLKL,1,1,3,3,A172;T98G;U87MG,mcfaline2024
-MLLT10,1,1,1,1,K562,replogle2022
-MSANTD4,1,1,1,1,K562,replogle2022
-MSI2,1,1,1,1,K562,replogle2022
-MTA1,2,2,2,2,H1 hESC;K562,replogle2022;vcc2025_h1
-MTF1,2,2,7,7,A549;BxPC3;HAP1;HT29;K562;MCF7,jiang2025;replogle2022
-MTHFSD,1,1,1,1,K562,replogle2022
-MTM1,1,1,1,1,K562,replogle2022
-MYD88,1,1,1,1,K562,replogle2022
-MYPOP,1,1,1,1,K562,replogle2022
-MYRF,1,1,1,1,K562,replogle2022
-NABP2,1,1,1,1,K562,replogle2022
-NAIF1,1,1,1,1,K562,replogle2022
-NCLN,1,1,1,1,K562,replogle2022
-NFE2L1,1,1,1,1,K562,replogle2022
-NGLY1,1,1,1,1,K562,replogle2022
-NICN1,0,0,0,0,,
-NIPAL3,1,1,1,1,K562,replogle2022
-NIPSNAP3A,1,1,1,1,K562,replogle2022
-NT5DC1,1,1,1,1,K562,replogle2022
-NUP37,1,1,1,1,K562,replogle2022
-PAN2,1,1,1,1,K562,replogle2022
-PAPOLA,1,1,1,1,K562,replogle2022
-PARP3,0,0,0,0,,
-PATL1,1,1,1,1,K562,replogle2022
-PBLD,0,0,0,0,,
-PCGF1,1,1,1,1,K562,replogle2022
-PCGF6,1,1,1,1,K562,replogle2022
-PDCD4,1,1,1,1,K562,replogle2022
-PDE6D,1,1,1,1,K562,replogle2022
-PDK1,2,2,4,4,A172;K562;T98G;U87MG,mcfaline2024;replogle2022
-PDK3,1,1,3,3,A172;T98G;U87MG,mcfaline2024
-PGLS,1,1,1,1,K562,replogle2022
-PHF11,0,0,0,0,,
-PHF19,1,1,1,1,K562,replogle2022
-PHF23,1,1,1,1,K562,replogle2022
-PHF8,1,1,1,1,K562,replogle2022
-PI4KB,1,1,1,1,K562,replogle2022
-PIM2,2,2,4,4,A172;K562;T98G;U87MG,mcfaline2024;replogle2022
-PIN1,1,1,1,1,K562,replogle2022
-PINK1,2,2,4,4,A172;K562;T98G;U87MG,mcfaline2024;replogle2022
-PKN3,2,2,4,4,A172;K562;T98G;U87MG,mcfaline2024;replogle2022
-PLAGL2,1,1,1,1,K562,replogle2022
-PLCG1,1,1,1,1,K562,replogle2022
-PNP,1,1,1,1,K562,replogle2022
-POLD4,1,1,1,1,K562,replogle2022
-POR,1,1,1,1,K562,replogle2022
-PPIF,1,1,1,1,K562,replogle2022
-PPIP5K2,1,1,1,1,K562,replogle2022
-PQBP1,1,1,1,1,K562,replogle2022
-PRDX3,1,1,1,1,K562,replogle2022
-PRKAB2,1,1,1,1,K562,replogle2022
-PRKACA,2,2,4,4,A172;K562;T98G;U87MG,mcfaline2024;replogle2022
-PRMT2,1,1,1,1,K562,replogle2022
-PRMT6,1,1,1,1,K562,replogle2022
-PRMT7,1,1,1,1,K562,replogle2022
-PRNP,1,1,1,1,K562,replogle2022
-PSKH1,2,2,4,4,A172;K562;T98G;U87MG,mcfaline2024;replogle2022
-PSMB9,0,0,0,0,,
-PTMS,1,1,1,1,K562,replogle2022
-PTOV1,1,1,1,1,K562,replogle2022
-PYCR1,1,1,1,1,K562,replogle2022
-R3HCC1L,1,1,1,1,K562,replogle2022
-RAB11FIP5,0,0,0,0,,
-RAB5A,1,1,1,1,K562,replogle2022
-RABEP2,1,1,1,1,K562,replogle2022
-RBM18,1,1,1,1,K562,replogle2022
-RBM26,1,1,1,1,K562,replogle2022
-RBM4B,1,1,1,1,K562,replogle2022
-RBM5,1,1,1,1,K562,replogle2022
-RC3H2,1,1,1,1,K562,replogle2022
-REV1,1,1,1,1,K562,replogle2022
-RFK,1,1,1,1,K562,replogle2022
-RNF10,1,1,1,1,K562,replogle2022
-RNF141,1,1,1,1,K562,replogle2022
-RNF2,2,2,2,2,H1 hESC;K562,replogle2022;vcc2025_h1
-RSRC1,1,1,1,1,K562,replogle2022
-S100A11,1,1,1,1,K562,replogle2022
-SAP30L,1,1,1,1,K562,replogle2022
-SCAF8,1,1,1,1,K562,replogle2022
-SEMA4F,0,0,0,0,,
-SFXN4,1,1,1,1,K562,replogle2022
-SH2D3A,1,1,1,1,K562,replogle2022
-SHPRH,2,2,2,2,H1 hESC;K562,replogle2022;vcc2025_h1
-SIN3B,2,2,2,2,H1 hESC;K562,replogle2022;vcc2025_h1
-SLC25A13,1,1,1,1,K562,replogle2022
-SLC39A1,1,1,1,1,K562,replogle2022
-SLC44A1,0,0,0,0,,
-SLIRP,1,1,1,1,K562,replogle2022
-SMARCA5,3,3,8,8,A549;BxPC3;H1 hESC;HAP1;HT29;K562;MCF7,jiang2025;replogle2022;vcc2025_h1
-SMARCC2,1,1,1,1,K562,replogle2022
-SMYD2,1,1,1,1,K562,replogle2022
-SND1,1,1,1,1,K562,replogle2022
-SNN,0,0,0,0,,
-SNRK,2,2,4,4,A172;K562;T98G;U87MG,mcfaline2024;replogle2022
-SNX4,1,1,1,1,K562,replogle2022
-SOCS5,0,0,0,0,,
-SPATA20,0,0,0,0,,
-SRSF5,1,1,1,1,K562,replogle2022
-SSR4,1,1,1,1,K562,replogle2022
-STAT6,3,3,8,8,A549;BxPC3;H1 hESC;HAP1;HT29;K562;MCF7,jiang2025;replogle2022;vcc2025_h1
-STK3,2,2,4,4,A172;K562;T98G;U87MG,mcfaline2024;replogle2022
-STT3A,1,1,1,1,K562,replogle2022
-SUPT7L,1,1,1,1,K562,replogle2022
-SYVN1,1,1,1,1,K562,replogle2022
-TAF15,1,1,1,1,K562,replogle2022
-TAF4,0,0,0,0,,
-TARBP2,2,2,2,2,H1 hESC;K562,replogle2022;vcc2025_h1
-TBC1D13,1,1,1,1,K562,replogle2022
-TBC1D19,0,0,0,0,,
-TBCK,2,2,4,4,A172;K562;T98G;U87MG,mcfaline2024;replogle2022
-TDRD7,0,0,0,0,,
-TEAD4,1,1,1,1,K562,replogle2022
-TESK2,1,1,3,3,A172;T98G;U87MG,mcfaline2024
-TEX2,1,1,1,1,K562,replogle2022
-TFCP2,1,1,1,1,K562,replogle2022
-THAP3,1,1,1,1,K562,replogle2022
-THAP7,1,1,1,1,K562,replogle2022
-TIMM17B,1,1,1,1,K562,replogle2022
-TIMM50,1,1,1,1,K562,replogle2022
-TMCO6,1,1,1,1,K562,replogle2022
-TMED3,1,1,1,1,K562,replogle2022
-TMEM104,0,0,0,0,,
-TMEM147,1,1,1,1,K562,replogle2022
-TMEM186,1,1,1,1,K562,replogle2022
-TMEM209,1,1,1,1,K562,replogle2022
-TMEM41B,1,1,1,1,K562,replogle2022
-TMEM79,0,0,0,0,,
-TMF1,1,1,1,1,K562,replogle2022
-TRAPPC6A,2,2,2,2,H1 hESC;K562,replogle2022;vcc2025_h1
-TRIB3,2,2,4,4,A172;K562;T98G;U87MG,mcfaline2024;replogle2022
-TRIM35,1,1,1,1,K562,replogle2022
-TRIP4,1,1,1,1,K562,replogle2022
-TRMT1,1,1,1,1,K562,replogle2022
-TRPC4AP,1,1,1,1,K562,replogle2022
-TTBK2,1,1,3,3,A172;T98G;U87MG,mcfaline2024
-TWF2,3,3,5,5,A172;H1 hESC;K562;T98G;U87MG,mcfaline2024;replogle2022;vcc2025_h1
-TXNDC16,0,0,0,0,,
-UNK,1,1,1,1,K562,replogle2022
-UPF3B,1,1,1,1,K562,replogle2022
-UROS,1,1,1,1,K562,replogle2022
-USP28,1,1,1,1,K562,replogle2022
-VAPB,1,1,1,1,K562,replogle2022
-VIM,1,1,1,1,K562,replogle2022
-WBP4,1,1,1,1,K562,replogle2022
-YIPF6,1,1,1,1,K562,replogle2022
-ZBTB34,1,1,1,1,K562,replogle2022
-ZBTB41,1,1,1,1,K562,replogle2022
-ZBTB48,1,1,1,1,K562,replogle2022
-ZC2HC1A,0,0,0,0,,
-ZC3HAV1,1,1,1,1,K562,replogle2022
-ZDHHC12,1,1,1,1,K562,replogle2022
-ZDHHC4,1,1,1,1,K562,replogle2022
-ZFP62,1,1,1,1,K562,replogle2022
-ZHX3,1,1,1,1,K562,replogle2022
-ZKSCAN1,1,1,1,1,K562,replogle2022
-ZKSCAN2,1,1,1,1,K562,replogle2022
-ZKSCAN3,1,1,1,1,K562,replogle2022
-ZNF16,1,1,1,1,K562,replogle2022
-ZNF174,1,1,1,1,K562,replogle2022
-ZNF219,1,1,1,1,K562,replogle2022
-ZNF22,2,2,7,7,A549;BxPC3;HAP1;HT29;K562;MCF7,jiang2025;replogle2022
-ZNF25,1,1,1,1,K562,replogle2022
-ZNF251,1,1,1,1,K562,replogle2022
-ZNF280C,1,1,1,1,K562,replogle2022
-ZNF282,1,1,1,1,K562,replogle2022
-ZNF32,1,1,1,1,K562,replogle2022
-ZNF324,1,1,1,1,K562,replogle2022
-ZNF397,1,1,1,1,K562,replogle2022
-ZNF410,1,1,1,1,K562,replogle2022
-ZNF444,1,1,1,1,K562,replogle2022
-ZNF462,1,1,1,1,K562,replogle2022
-ZNF496,1,1,1,1,K562,replogle2022
-ZNF507,1,1,1,1,K562,replogle2022
-ZNF514,1,1,1,1,K562,replogle2022
-ZNF526,1,1,1,1,K562,replogle2022
-ZNF530,1,1,1,1,K562,replogle2022
-ZNF543,1,1,1,1,K562,replogle2022
-ZNF627,1,1,1,1,K562,replogle2022
-ZNF628,1,1,1,1,K562,replogle2022
-ZNF641,1,1,1,1,K562,replogle2022
-ZNF670,1,1,1,1,K562,replogle2022
-ZNF714,2,2,2,2,H1 hESC;K562,replogle2022;vcc2025_h1
-ZNF740,1,1,1,1,K562,replogle2022
-ZNF768,1,1,1,1,K562,replogle2022
-ZNF777,1,1,1,1,K562,replogle2022
-ZNF783,1,1,1,1,K562,replogle2022
-ZNF784,1,1,1,1,K562,replogle2022
-ZNF786,1,1,1,1,K562,replogle2022
-ZNF821,1,1,1,1,K562,replogle2022
-ZRANB3,1,1,1,1,K562,replogle2022
+ABCD1,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+ACLY,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ADNP,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+AGO1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+AKAP1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+AKIRIN1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+AKT2,6,6,9,9,A172;H1 hESC;HCT116;HEK293T;K562;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;replogle2022;vcc2025_h1;xatlas_orion;zhu2026
+ALG12,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ANKRD52,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ANKZF1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ANP32B,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+AP2A2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+API5,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ARL14EP,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ASCC2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+BCKDK,5,5,8,8,A172;HCT116;HEK293T;K562;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+BCL6,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+BCL7C,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+BRD1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+BRPF1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+C5orf22,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+CAND1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+CAPRIN2,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+CARM1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+CAT,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+CCDC112,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+CDK8,5,5,8,8,A172;HCT116;HEK293T;K562;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+CHD3,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+CHD6,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+CHKB,3,3,4,4,HCT116;HEK293T;K562;primary CD4+ T cell,replogle2022;xatlas_orion;zhu2026
+CLCN6,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+COIL,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+COMMD8,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+COQ10B,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+CSNK2A1,5,5,8,8,A172;HCT116;HEK293T;K562;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+CYTH2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+DBF4B,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+DBN1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+DCAF16,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+DCP2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+DDHD1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+DEAF1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+DEK,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+DHRS1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+DHX35,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+DLAT,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+DMTF1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+DNTTIP1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+DRG2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+DTNBP1,3,3,4,4,HCT116;HEK293T;K562;primary CD4+ T cell,replogle2022;xatlas_orion;zhu2026
+DVL3,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+E2F1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+E2F4,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+EAPP,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+EEF1A2,3,3,4,4,HCT116;HEK293T;K562;KOLF2.1J,nourreddine2024;replogle2022;xatlas_orion
+ELK1,5,5,11,11,A549;BxPC3;HAP1;HCT116;HEK293T;HT29;K562;KOLF2.1J;MCF7;primary CD4+ T cell,jiang2025;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+EPC2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+EPHB2,2,2,5,5,A172;HCT116;HEK293T;T98G;U87MG,mcfaline2024;xatlas_orion
+EPM2AIP1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+EZH2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+FAM120A,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+FCGRT,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+FHL3,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+FOXN2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+FOXO4,5,5,11,11,A549;BxPC3;HAP1;HCT116;HEK293T;HT29;K562;KOLF2.1J;MCF7;primary CD4+ T cell,jiang2025;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+FUBP3,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+FXYD5,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+FZD2,3,3,4,4,HCT116;HEK293T;K562;KOLF2.1J,nourreddine2024;replogle2022;xatlas_orion
+GIGYF2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+GLI3,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+GLYR1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+GMEB2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+GPATCH8,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+GRAMD1A,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+GTF2IRD1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+HDAC1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+HDAC8,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+HEATR6,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+HMGN3,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+HMGN4,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+HMGXB3,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+HOMEZ,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+HSBP1,5,5,6,6,H1 hESC;HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;vcc2025_h1;xatlas_orion;zhu2026
+HSP90AB1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+IFI27L2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+IFNAR2,5,5,11,11,A549;BxPC3;HAP1;HCT116;HEK293T;HT29;K562;KOLF2.1J;MCF7;primary CD4+ T cell,jiang2025;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+IFNGR2,4,4,10,10,A549;BxPC3;HAP1;HCT116;HEK293T;HT29;K562;MCF7;primary CD4+ T cell,jiang2025;replogle2022;xatlas_orion;zhu2026
+IL10RB,3,3,4,4,HCT116;HEK293T;K562;primary CD4+ T cell,replogle2022;xatlas_orion;zhu2026
+IREB2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+KDM5A,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+KHDRBS1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+KHSRP,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+KIF21B,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+KIF2A,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+KMT2A,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+LDLR,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+LENG1,3,3,4,4,HCT116;HEK293T;K562;primary CD4+ T cell,replogle2022;xatlas_orion;zhu2026
+LMAN1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+LMBRD2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+LPCAT3,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+MAN2A1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+MAP2K2,5,5,8,8,A172;HCT116;HEK293T;K562;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+MAPK12,5,5,8,8,A172;HCT116;HEK293T;K562;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+MAPK7,4,4,7,7,A172;HCT116;HEK293T;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;xatlas_orion;zhu2026
+MARCKSL1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+MBD4,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+MED13,5,5,6,6,H1 hESC;HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;vcc2025_h1;xatlas_orion;zhu2026
+MED15,5,5,11,11,A549;BxPC3;HAP1;HCT116;HEK293T;HT29;K562;KOLF2.1J;MCF7;primary CD4+ T cell,jiang2025;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+MED25,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+MLKL,4,4,7,7,A172;HCT116;HEK293T;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;xatlas_orion;zhu2026
+MLLT10,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+MSANTD4,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+MSI2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+MTA1,5,5,6,6,H1 hESC;HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;vcc2025_h1;xatlas_orion;zhu2026
+MTF1,5,5,11,11,A549;BxPC3;HAP1;HCT116;HEK293T;HT29;K562;KOLF2.1J;MCF7;primary CD4+ T cell,jiang2025;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+MTHFSD,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+MTM1,3,3,4,4,HCT116;HEK293T;K562;primary CD4+ T cell,replogle2022;xatlas_orion;zhu2026
+MYD88,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+MYPOP,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+MYRF,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+NABP2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+NAIF1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+NCLN,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+NFE2L1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+NGLY1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+NICN1,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+NIPAL3,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+NIPSNAP3A,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+NT5DC1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+NUP37,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PAN2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PAPOLA,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PARP3,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+PATL1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PBLD,2,2,3,3,HCT116;HEK293T;primary CD4+ T cell,xatlas_orion;zhu2026
+PCGF1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PCGF6,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PDCD4,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PDE6D,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PDK1,5,5,8,8,A172;HCT116;HEK293T;K562;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PDK3,4,4,7,7,A172;HCT116;HEK293T;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;xatlas_orion;zhu2026
+PGLS,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PHF11,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+PHF19,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PHF23,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PHF8,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PI4KB,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PIM2,5,5,8,8,A172;HCT116;HEK293T;K562;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PIN1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PINK1,5,5,8,8,A172;HCT116;HEK293T;K562;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PKN3,5,5,8,8,A172;HCT116;HEK293T;K562;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PLAGL2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PLCG1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PNP,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+POLD4,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+POR,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PPIF,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PPIP5K2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PQBP1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PRDX3,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PRKAB2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PRKACA,5,5,8,8,A172;HCT116;HEK293T;K562;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PRMT2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PRMT6,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PRMT7,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PRNP,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PSKH1,5,5,8,8,A172;HCT116;HEK293T;K562;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PSMB9,2,2,3,3,HCT116;HEK293T;primary CD4+ T cell,xatlas_orion;zhu2026
+PTMS,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PTOV1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+PYCR1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+R3HCC1L,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+RAB11FIP5,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+RAB5A,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+RABEP2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+RBM18,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+RBM26,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+RBM4B,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+RBM5,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+RC3H2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+REV1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+RFK,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+RNF10,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+RNF141,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+RNF2,5,5,6,6,H1 hESC;HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;vcc2025_h1;xatlas_orion;zhu2026
+RSRC1,3,3,4,4,HCT116;HEK293T;K562;primary CD4+ T cell,replogle2022;xatlas_orion;zhu2026
+S100A11,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+SAP30L,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+SCAF8,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+SEMA4F,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+SFXN4,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+SH2D3A,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+SHPRH,5,5,6,6,H1 hESC;HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;vcc2025_h1;xatlas_orion;zhu2026
+SIN3B,5,5,6,6,H1 hESC;HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;vcc2025_h1;xatlas_orion;zhu2026
+SLC25A13,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+SLC39A1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+SLC44A1,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+SLIRP,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+SMARCA5,6,6,12,12,A549;BxPC3;H1 hESC;HAP1;HCT116;HEK293T;HT29;K562;KOLF2.1J;MCF7;primary CD4+ T cell,jiang2025;nourreddine2024;replogle2022;vcc2025_h1;xatlas_orion;zhu2026
+SMARCC2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+SMYD2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+SND1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+SNN,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+SNRK,4,4,7,7,A172;HCT116;HEK293T;K562;T98G;U87MG;primary CD4+ T cell,mcfaline2024;replogle2022;xatlas_orion;zhu2026
+SNX4,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+SOCS5,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+SPATA20,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+SRSF5,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+SSR4,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+STAT6,6,6,12,12,A549;BxPC3;H1 hESC;HAP1;HCT116;HEK293T;HT29;K562;KOLF2.1J;MCF7;primary CD4+ T cell,jiang2025;nourreddine2024;replogle2022;vcc2025_h1;xatlas_orion;zhu2026
+STK3,4,4,7,7,A172;HCT116;HEK293T;K562;T98G;U87MG;primary CD4+ T cell,mcfaline2024;replogle2022;xatlas_orion;zhu2026
+STT3A,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+SUPT7L,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+SYVN1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TAF15,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TAF4,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+TARBP2,5,5,6,6,H1 hESC;HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;vcc2025_h1;xatlas_orion;zhu2026
+TBC1D13,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TBC1D19,2,2,3,3,HCT116;HEK293T;primary CD4+ T cell,xatlas_orion;zhu2026
+TBCK,4,4,7,7,A172;HCT116;HEK293T;K562;T98G;U87MG;primary CD4+ T cell,mcfaline2024;replogle2022;xatlas_orion;zhu2026
+TDRD7,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+TEAD4,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TESK2,3,3,6,6,A172;HCT116;HEK293T;T98G;U87MG;primary CD4+ T cell,mcfaline2024;xatlas_orion;zhu2026
+TEX2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TFCP2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+THAP3,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+THAP7,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TIMM17B,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TIMM50,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TMCO6,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TMED3,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TMEM104,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+TMEM147,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TMEM186,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TMEM209,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TMEM41B,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TMEM79,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+TMF1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TRAPPC6A,5,5,6,6,H1 hESC;HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;vcc2025_h1;xatlas_orion;zhu2026
+TRIB3,5,5,8,8,A172;HCT116;HEK293T;K562;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TRIM35,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TRIP4,3,3,4,4,HCT116;HEK293T;K562;primary CD4+ T cell,replogle2022;xatlas_orion;zhu2026
+TRMT1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TRPC4AP,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+TTBK2,3,3,6,6,A172;HCT116;HEK293T;T98G;U87MG;primary CD4+ T cell,mcfaline2024;xatlas_orion;zhu2026
+TWF2,6,6,9,9,A172;H1 hESC;HCT116;HEK293T;K562;KOLF2.1J;T98G;U87MG;primary CD4+ T cell,mcfaline2024;nourreddine2024;replogle2022;vcc2025_h1;xatlas_orion;zhu2026
+TXNDC16,3,3,4,4,HCT116;HEK293T;KOLF2.1J;primary CD4+ T cell,nourreddine2024;xatlas_orion;zhu2026
+UNK,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+UPF3B,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+UROS,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+USP28,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+VAPB,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+VIM,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+WBP4,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+YIPF6,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZBTB34,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZBTB41,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZBTB48,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZC2HC1A,2,2,3,3,HCT116;HEK293T;primary CD4+ T cell,xatlas_orion;zhu2026
+ZC3HAV1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZDHHC12,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZDHHC4,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZFP62,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZHX3,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZKSCAN1,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZKSCAN2,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZKSCAN3,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF16,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF174,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF219,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF22,5,5,11,11,A549;BxPC3;HAP1;HCT116;HEK293T;HT29;K562;KOLF2.1J;MCF7;primary CD4+ T cell,jiang2025;nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF25,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF251,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF280C,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF282,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF32,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF324,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF397,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF410,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF444,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF462,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF496,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF507,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF514,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF526,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF530,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF543,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF627,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF628,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF641,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF670,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF714,5,5,6,6,H1 hESC;HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;vcc2025_h1;xatlas_orion;zhu2026
+ZNF740,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF768,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF777,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF783,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF784,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF786,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZNF821,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026
+ZRANB3,4,4,5,5,HCT116;HEK293T;K562;KOLF2.1J;primary CD4+ T cell,nourreddine2024;replogle2022;xatlas_orion;zhu2026

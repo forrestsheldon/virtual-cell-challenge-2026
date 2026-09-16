@@ -13,3 +13,7 @@ jiang2025::K562,K562,jiang2025,218,True,True,True,True,True,"No cell-count, resp
 mcfaline2024::A172,A172,mcfaline2024,522,True,True,True,True,True,"No cell-count, response-strength, or knockdown-quality filter applied."
 mcfaline2024::T98G,T98G,mcfaline2024,522,True,True,True,True,True,"No cell-count, response-strength, or knockdown-quality filter applied."
 mcfaline2024::U87MG,U87MG,mcfaline2024,522,True,True,True,True,True,"No cell-count, response-strength, or knockdown-quality filter applied."
+xatlas_orion::HCT116,HCT116,xatlas_orion,18293,True,True,True,True,True,"No cell-count, response-strength, or knockdown-quality filter applied."
+xatlas_orion::HEK293T,HEK293T,xatlas_orion,18311,True,True,True,True,True,"No cell-count, response-strength, or knockdown-quality filter applied."
+nourreddine2024::KOLF2.1J,KOLF2.1J,nourreddine2024,11687,True,True,False,True,False,"No cell-count, response-strength, or knockdown-quality filter applied."
+zhu2026::CD4T,CD4T,zhu2026,12730,True,True,True,True,True,"No cell-count, response-strength, or knockdown-quality filter applied."

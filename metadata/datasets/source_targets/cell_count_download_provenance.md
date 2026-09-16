@@ -45,3 +45,66 @@ SHA-256
 `7fffab7b4c323bdda5c21d6a71d499d9fde2748fc98e6150ba2342f3ab660156`.
 It contains only cell barcode and experiment label, so it cannot establish
 `gene_id` or cell-line-specific counts and was not used for the retained values.
+
+## X-Atlas/Orion 2025 (Huang et al.)
+
+Accessed 2026-09-15. Source: Hugging Face dataset
+`Xaira-Therapeutics/X-Atlas-Orion` (bioRxiv <https://doi.org/10.1101/2025.06.11.659105>;
+CC-BY-NC-SA-4.0), files `data/HCT116_Batch*.parquet` (109) and
+`data/HEK293T_Batch*.parquet` (223).
+
+No full parquet was downloaded. Using pyarrow over an HTTP-range file object, only
+the `gene_target` and `pass_guide_filter` columns were read from each batch; the
+`gene_token_id`/`gene_expression` arrays were never fetched. Total transfer was
+about 58 MB across all 332 batches (roughly 0.16 MB per 300-500 MB file). The
+882 KB `metadata/gene_metadata.parquet` was downloaded once to confirm every
+target label is a valid gene symbol.
+
+Counts are cells per `gene_target` with `pass_guide_filter` true (all released rows
+passed). The source control label `Non-Targeting` is stored as `control`. Per line:
+
+| line | targets | perturbed cells | control cells | median cells/target | VCC-300 present |
+|---|---:|---:|---:|---:|---:|
+| HCT116 | 18,293 | 3,243,392 | 165,777 | 150 | 300 / 300 |
+| HEK293T | 18,311 | 4,315,461 | 218,838 | 200 | 300 / 300 |
+
+The combined perturbed + control total (7,943,468) matches the paper's "eight
+million cells." The library design targets 18,903 genes (41,780 sgRNAs plus 1,026
+non-targeting pairs); the smaller per-line target counts are genes with at least
+one passing single-sgRNA cell in the released data.
+
+## Nourreddine et al. 2024/2026 (KOLF2.1J iPSC atlas)
+
+Accessed 2026-09-15. Source: Figshare+ article 27261219
+(DOI 10.25452/figshare.plus.27261219; Nourreddine et al., *Nature Biotechnology*,
+10.1038/s41587-026-03199-w). File `KOLF_Pan_Genome_QC_Filtered.h5ad`
+(189,393,177,972 bytes; download `https://ndownloader.figshare.com/files/64650261`).
+
+No full file was downloaded. Using `scripts/metadata/inspect_remote_h5ad.py`
+(h5py over a budget-guarded HTTP-range reader), only the `obs/gene_target`
+categorical `categories` and `codes` were read — about 12 MB of the 189 GB file.
+Counts are cells per `gene_target`; the single control label `NTC` (146,747 cells)
+is stored as `control`, and `KNTC1` is a gene.
+
+Result: 11,687 targets, 2,512,462 perturbed cells, median 218 cells/target, and
+282 of 300 VCC targets present. Total (2,659,209) matches the h5ad `n_obs`. The
+h5ad X representation (raw vs normalized) was not verified.
+
+## Zhu et al. 2026 (primary CD4+ T cell genome-scale Perturb-seq)
+
+Accessed 2026-09-15. Source: Biohub Virtual Cells Platform public S3 bucket
+`s3://genome-scale-tcell-perturb-seq/marson2025_data/` (Zhu, Dann, … Marson;
+*Cell* 2026; bioRxiv 10.64898/2025.12.23.696273; GEO GSE314342 / SRA SRP643211).
+File `GWCD4i.pseudobulk_merged.h5ad` (~44.6 GB).
+
+No full file was downloaded. Using a budget-guarded HTTP-range reader with h5py,
+only `obs/perturbed_gene_name` (categories + codes), `obs/guide_type`, and the
+per-pseudobulk `obs/n_cells` were read (~12 MB). Per-gene cell counts are the sum
+of `n_cells` over all targeting-guide pseudobulks for that gene, collapsed across
+4 donors and 3 culture conditions (Rest, Stim8hr, Stim48hr). Non-targeting guides
+(939,535 cells) are stored as `control`.
+
+Result: 12,730 targets, 21,056,730 perturbed cells, median 1,508 cells/target, and
+297 of 300 VCC targets present. Perturbed + control (21,996,265) matches the
+reported ~22 million cells. The cell-level matrices (`D*_*.assigned_guide.h5ad`,
+118–173 GB each) were not used; the pseudobulk `n_cells` give exact per-gene totals.

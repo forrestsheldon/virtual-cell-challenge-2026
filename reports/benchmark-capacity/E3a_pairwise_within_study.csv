@@ -39,3 +39,5 @@ mcfaline2024,mcfaline2024::T98G,T98G,mcfaline2024::A172,A172,522,522,522,Eligibi
 mcfaline2024,mcfaline2024::T98G,T98G,mcfaline2024::U87MG,U87MG,522,522,522,Eligibility is target ∩ source; ordered source-target pairs are distinct evaluation units.
 mcfaline2024,mcfaline2024::U87MG,U87MG,mcfaline2024::A172,A172,522,522,522,Eligibility is target ∩ source; ordered source-target pairs are distinct evaluation units.
 mcfaline2024,mcfaline2024::U87MG,U87MG,mcfaline2024::T98G,T98G,522,522,522,Eligibility is target ∩ source; ordered source-target pairs are distinct evaluation units.
+xatlas_orion,xatlas_orion::HCT116,HCT116,xatlas_orion::HEK293T,HEK293T,18293,18311,18285,Eligibility is target ∩ source; ordered source-target pairs are distinct evaluation units.
+xatlas_orion,xatlas_orion::HEK293T,HEK293T,xatlas_orion::HCT116,HCT116,18311,18293,18285,Eligibility is target ∩ source; ordered source-target pairs are distinct evaluation units.

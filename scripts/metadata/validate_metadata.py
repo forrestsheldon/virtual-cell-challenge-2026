@@ -67,7 +67,7 @@ def validate_atlas() -> tuple[int, int, int, int]:
     observation_keys = [
         (row["target_gene"], row["dataset_context_id"]) for row in observations
     ]
-    assert len(observations) == 20073
+    assert len(observations) == 81094
     assert len(observation_keys) == len(set(observation_keys))
     assert {row["dataset_context_id"] for row in observations} == set(context_ids)
     assert {row["n_cells_status"] for row in observations} == {"exact"}
@@ -213,8 +213,8 @@ def validate_atlas() -> tuple[int, int, int, int]:
     ]
     assert len(rows(report_dir / "E0_sampling_capacity.csv")) == len(context_ids)
     assert len(rows(report_dir / "E1_distribution_capacity.csv")) == len(context_ids)
-    assert len(rows(report_dir / "E3a_pairwise_within_study.csv")) == 40
-    assert len(rows(report_dir / "E3b_multisource_within_study_holdouts.csv")) == 13
+    assert len(rows(report_dir / "E3a_pairwise_within_study.csv")) == 42
+    assert len(rows(report_dir / "E3b_multisource_within_study_holdouts.csv")) == 15
     assert len(rows(report_dir / "E5_multisource_holdouts.csv")) == 2 * len(context_ids)
 
     cell_summary = rows(report_dir / "cell_count_attrition_summary.csv")

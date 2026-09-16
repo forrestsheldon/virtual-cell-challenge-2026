@@ -199,3 +199,87 @@ contexts:
     target_file: source_targets/mcfaline_u87mg_counts.csv
     cell_count_source: source_targets/mcfaline_u87mg_counts.csv
     n_control_cells: 59616
+  - dataset_context_id: xatlas_orion::HCT116
+    dataset_id: xatlas_orion
+    study_id: xatlas_orion
+    canonical_context_id: HCT116
+    perturbation_modality: CRISPRi
+    crispri: true
+    target_file: source_targets/xatlas_orion_hct116_counts.csv
+    target_file_format: counts_csv
+    source_variant_id: xatlas_orion_hf
+    source_url: https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion
+    target_list_source: HF parquet gene_target column (pass_guide_filter cells) read by column-projected HTTP range
+    cell_count_status: exact
+    cell_count_source: source_targets/xatlas_orion_hct116_counts.csv
+    cell_count_scope: All released single-sgRNA cells (pass_guide_filter true) assigned to a gene_target; Non-Targeting stored as control.
+    n_control_cells: 165777
+    guide_level_metadata_available: true
+    raw_counts_available: true
+    knockdown_efficiency_available: true
+    assay_family: 10x_Perturb-seq
+    confidence: high
+    notes: Genome-wide CRISPRi dCas9-KRAB-Zim3 via FiCS; 10x GEM-X 5' on NovaSeq X Plus; covers all 300 VCC targets; median 150 cells/target; median on-target KD 75.4%.
+  - dataset_context_id: xatlas_orion::HEK293T
+    dataset_id: xatlas_orion
+    study_id: xatlas_orion
+    canonical_context_id: HEK293T
+    perturbation_modality: CRISPRi
+    crispri: true
+    target_file: source_targets/xatlas_orion_hek293t_counts.csv
+    target_file_format: counts_csv
+    source_variant_id: xatlas_orion_hf
+    source_url: https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion
+    target_list_source: HF parquet gene_target column (pass_guide_filter cells) read by column-projected HTTP range
+    cell_count_status: exact
+    cell_count_source: source_targets/xatlas_orion_hek293t_counts.csv
+    cell_count_scope: All released single-sgRNA cells (pass_guide_filter true) assigned to a gene_target; Non-Targeting stored as control.
+    n_control_cells: 218838
+    guide_level_metadata_available: true
+    raw_counts_available: true
+    knockdown_efficiency_available: true
+    assay_family: 10x_Perturb-seq
+    confidence: high
+    notes: Genome-wide CRISPRi dCas9-KRAB-Zim3 via FiCS; 10x GEM-X 5' on NovaSeq X Plus; covers all 300 VCC targets; median 200 cells/target; median on-target KD 51.5%.
+  - dataset_context_id: nourreddine2024::KOLF2.1J
+    dataset_id: nourreddine2024
+    study_id: nourreddine2024
+    canonical_context_id: KOLF2.1J
+    perturbation_modality: CRISPRi
+    crispri: true
+    target_file: source_targets/nourreddine2024_kolf_counts.csv
+    target_file_format: counts_csv
+    source_variant_id: nourreddine2024_kolf_figshare
+    source_url: https://doi.org/10.25452/figshare.plus.27261219
+    target_list_source: figshare h5ad obs/gene_target categorical read by budgeted HTTP range
+    cell_count_status: exact
+    cell_count_source: source_targets/nourreddine2024_kolf_counts.csv
+    cell_count_scope: All QC-filtered cells assigned to a gene_target in the pan-genome KOLF2.1J screen; NTC stored as control.
+    n_control_cells: 146747
+    guide_level_metadata_available: true
+    raw_counts_available: false
+    knockdown_efficiency_available: false
+    assay_family: 10x_Perturb-seq
+    confidence: high
+    notes: Genome-scale CRISPRi in KOLF2.1J iPSC (Nourreddine et al. Nat Biotech); covers 282 of 300 VCC targets; median 218 cells/target; pluripotent context relevant to VCC H1; h5ad X representation unverified.
+  - dataset_context_id: zhu2026::CD4T
+    dataset_id: zhu2026
+    study_id: zhu2026
+    canonical_context_id: CD4T
+    perturbation_modality: CRISPRi
+    crispri: true
+    target_file: source_targets/zhu2026_cd4t_counts.csv
+    target_file_format: counts_csv
+    source_variant_id: zhu2026_cd4t_s3
+    source_url: https://virtualcellmodels.cziscience.com/dataset/genome-scale-tcell-perturb-seq
+    target_list_source: Biohub VCP pseudobulk h5ad obs/perturbed_gene_name with obs/n_cells summed per gene by budgeted HTTP range
+    cell_count_status: exact
+    cell_count_source: source_targets/zhu2026_cd4t_counts.csv
+    cell_count_scope: Sum of obs/n_cells over all targeting pseudobulks per perturbed_gene_name across 4 donors and 3 culture conditions; non-targeting guides stored as control.
+    n_control_cells: 939535
+    guide_level_metadata_available: true
+    raw_counts_available: true
+    knockdown_efficiency_available: true
+    assay_family: 10x_Perturb-seq
+    confidence: high
+    notes: Genome-scale CRISPRi Perturb-seq in primary human CD4+ T cells (Zhu et al. Cell 2026); 4 donors x 3 conditions collapsed to one context; covers 297 of 300 VCC targets; median 1508 cells/target.

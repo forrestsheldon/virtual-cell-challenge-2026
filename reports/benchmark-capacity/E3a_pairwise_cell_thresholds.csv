@@ -39,6 +39,8 @@ n_min,study,source_dataset_context,target_dataset_context,n_usable_genes
 50,mcfaline2024,mcfaline2024::T98G,mcfaline2024::U87MG,518
 50,mcfaline2024,mcfaline2024::U87MG,mcfaline2024::A172,520
 50,mcfaline2024,mcfaline2024::U87MG,mcfaline2024::T98G,518
+50,xatlas_orion,xatlas_orion::HCT116,xatlas_orion::HEK293T,16176
+50,xatlas_orion,xatlas_orion::HEK293T,xatlas_orion::HCT116,16176
 100,replogle2022,replogle2022::K562,replogle2022::RPE1,716
 100,replogle2022,replogle2022::RPE1,replogle2022::K562,716
 100,nadig2025,nadig2025::HepG2,nadig2025::Jurkat,198
@@ -79,6 +81,8 @@ n_min,study,source_dataset_context,target_dataset_context,n_usable_genes
 100,mcfaline2024,mcfaline2024::T98G,mcfaline2024::U87MG,516
 100,mcfaline2024,mcfaline2024::U87MG,mcfaline2024::A172,514
 100,mcfaline2024,mcfaline2024::U87MG,mcfaline2024::T98G,516
+100,xatlas_orion,xatlas_orion::HCT116,xatlas_orion::HEK293T,12579
+100,xatlas_orion,xatlas_orion::HEK293T,xatlas_orion::HCT116,12579
 200,replogle2022,replogle2022::K562,replogle2022::RPE1,136
 200,replogle2022,replogle2022::RPE1,replogle2022::K562,136
 200,nadig2025,nadig2025::HepG2,nadig2025::Jurkat,45
@@ -119,6 +123,8 @@ n_min,study,source_dataset_context,target_dataset_context,n_usable_genes
 200,mcfaline2024,mcfaline2024::T98G,mcfaline2024::U87MG,496
 200,mcfaline2024,mcfaline2024::U87MG,mcfaline2024::A172,502
 200,mcfaline2024,mcfaline2024::U87MG,mcfaline2024::T98G,496
+200,xatlas_orion,xatlas_orion::HCT116,xatlas_orion::HEK293T,6271
+200,xatlas_orion,xatlas_orion::HEK293T,xatlas_orion::HCT116,6271
 400,replogle2022,replogle2022::K562,replogle2022::RPE1,6
 400,replogle2022,replogle2022::RPE1,replogle2022::K562,6
 400,nadig2025,nadig2025::HepG2,nadig2025::Jurkat,11
@@ -159,6 +165,8 @@ n_min,study,source_dataset_context,target_dataset_context,n_usable_genes
 400,mcfaline2024,mcfaline2024::T98G,mcfaline2024::U87MG,196
 400,mcfaline2024,mcfaline2024::U87MG,mcfaline2024::A172,262
 400,mcfaline2024,mcfaline2024::U87MG,mcfaline2024::T98G,196
+400,xatlas_orion,xatlas_orion::HCT116,xatlas_orion::HEK293T,1052
+400,xatlas_orion,xatlas_orion::HEK293T,xatlas_orion::HCT116,1052
 800,replogle2022,replogle2022::K562,replogle2022::RPE1,1
 800,replogle2022,replogle2022::RPE1,replogle2022::K562,1
 800,nadig2025,nadig2025::HepG2,nadig2025::Jurkat,1
@@ -199,3 +207,5 @@ n_min,study,source_dataset_context,target_dataset_context,n_usable_genes
 800,mcfaline2024,mcfaline2024::T98G,mcfaline2024::U87MG,8
 800,mcfaline2024,mcfaline2024::U87MG,mcfaline2024::A172,16
 800,mcfaline2024,mcfaline2024::U87MG,mcfaline2024::T98G,8
+800,xatlas_orion,xatlas_orion::HCT116,xatlas_orion::HEK293T,25
+800,xatlas_orion,xatlas_orion::HEK293T,xatlas_orion::HCT116,25
