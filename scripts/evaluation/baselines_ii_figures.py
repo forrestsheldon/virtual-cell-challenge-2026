@@ -98,25 +98,29 @@ def sweep_figure():
     donor = pd.concat([pairs[["destination", "pseudocount", "cosine"]],
                        c20[(c20.panel == "donor_to_donor") & (c20.pseudocount == 20)][["destination", "pseudocount", "cosine"]]])
 
-    fig, (a, b) = plt.subplots(1, 2, figsize=(10.5, 4.2))
+    figs = {}
+    fig, a = plt.subplots(figsize=(6.2, 4.2))
     for m in ORDER:
-        draw_curve(a, h1[h1.model == m].set_index("pseudocount").cosine, COLORS[m], 1.6, LABEL[m], 3)
-    draw_curve(a, h1[h1.model == "avg"].set_index("pseudocount").cosine, INK, 2.6, "Average", 4)
-    a.set_title("Into H1: each screen and their average", fontsize=10, color=INK, loc="left")
-    a.set_ylabel("Mean cosine with the true response", fontsize=9, color=INK)
-    for m in ORDER:
-        draw_curve(b, donor[donor.destination == m].set_index("pseudocount").cosine, COLORS[m], 1.6, LABEL[m], 3)
+        draw_curve(a, donor[donor.destination == m].set_index("pseudocount").cosine, COLORS[m], 1.6, LABEL[m], 3)
     mean = donor[donor.pseudocount > 0].groupby("pseudocount").cosine.mean()
-    draw_curve(b, mean, INK, 2.6, "Mean", 4)
-    b.set_title("Donor to donor, no H1: each screen predicted from the other four", fontsize=10, color=INK, loc="left")
+    draw_curve(a, mean, INK, 2.6, "Mean", 4)
+    a.set_title("Each screen predicted from the other four (no H1)", fontsize=10, color=INK, loc="left")
+    figs["donor_pseudocount_sweep"] = fig
+    fig, b = plt.subplots(figsize=(6.2, 4.2))
+    for m in ORDER:
+        draw_curve(b, h1[h1.model == m].set_index("pseudocount").cosine, COLORS[m], 1.6, LABEL[m], 3)
+    draw_curve(b, h1[h1.model == "avg"].set_index("pseudocount").cosine, INK, 2.6, "Average", 4)
+    b.set_title("Into H1: each screen and their average", fontsize=10, color=INK, loc="left")
+    figs["h1_pseudocount_sweep"] = fig
     for ax in (a, b):
+        ax.set_ylabel("Mean cosine with the true response", fontsize=9, color=INK)
         style(ax)
         sweep_axis(ax)
         ax.set_ylim(bottom=0, top=ax.get_ylim()[1] * 1.08)
         ax.text(np.log10(20) + 0.04, ax.get_ylim()[1], "c = 20", fontsize=7.5, color=MUTED, va="top", ha="left")
         place_end_labels(ax)
-    fig.tight_layout()
-    return fig
+        ax.figure.tight_layout()
+    return figs
 
 
 def per_screen_figure():
@@ -153,7 +157,7 @@ def per_screen_figure():
 
 def main():
     POST.mkdir(parents=True, exist_ok=True)
-    for name, fig in (("pseudocount_sweep", sweep_figure()), ("per_screen_c20", per_screen_figure())):
+    for name, fig in {**sweep_figure(), "per_screen_c20": per_screen_figure()}.items():
         for ext in ("png", "svg"):
             path = REPORT / f"{name}.{ext}"
             fig.savefig(path, dpi=200 if ext == "png" else None)
