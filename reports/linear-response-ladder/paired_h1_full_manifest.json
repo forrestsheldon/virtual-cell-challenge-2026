@@ -1,0 +1,30 @@
+{
+  "kind": "clean paired H1 global-axis and linear-response comparison",
+  "arms": [
+    "Generator null",
+    "Global axis",
+    "Vanilla LR",
+    "LR + global axis"
+  ],
+  "null": "existing canonical all-control identity baseline",
+  "differences": "additive differences of reference-scaled scores",
+  "inputs": {
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-three-models/cell_eval/standalone_control_baseline/scores.csv": "bf20744395b99324315abdf70310301b4af8e816794b601d35e53a2d032edbaf",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-three-models/cell_eval/standalone_control_baseline/aggregates.csv": "dd3c9155a3eef5a4a6f758aaa29bff8da00c68266c6e0d19ade1696b15eaff20",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-three-models/cell_eval/standalone_control_baseline/manifest.json": "7146f6bbe43d9fd393f6a52df59a8f7c3e87103764dbb951fb2df2e3e50c7507",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-ladder/cell_eval/paired_global/scores.csv": "a35e55b2ca83dde0aa2d8a93fec45928ae606b3e29098d528ce831ba10de64b5",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-ladder/cell_eval/paired_global/aggregates.csv": "f2ad54bf5960b26209d9fa287046f633349836e6b934d482ecd3673e8613fb8f",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-ladder/cell_eval/paired_global/manifest.json": "e37c5ca6e4c5f3fcf97fa2698df02c6ba055009d5f2f014fd88f5ee231827784",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-ladder/cell_eval/paired_lr/scores.csv": "96a09fc35431c275cca32a1c1383b5232e0551a1385e99853507e533717aa237",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-ladder/cell_eval/paired_lr/aggregates.csv": "0358b4e934b4355baa5fc4c5d5118fa9462c6a7a3392b4872782238fa9ad253b",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-ladder/cell_eval/paired_lr/manifest.json": "7711437a26ec95e4af5d8e0b2dd72a05a1ef73cf71741e93ac17042191dd145e",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-ladder/cell_eval/paired_lr_global/scores.csv": "7048ab33ac969c80a2fe1b1d1eba35c2d5ae1ae02ec18897b065590dcd0eb3a8",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-ladder/cell_eval/paired_lr_global/aggregates.csv": "95ccffed1e6e6f559c4c6fa25317f00475724c86637c66abc04a381bc8b010e7",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-ladder/cell_eval/paired_lr_global/manifest.json": "2a064d0f2cf743ff83b0d4514c4a7d4e7c233967a3638147cea3af11016c8275"
+  },
+  "outputs": {
+    "reports/linear-response-ladder/paired_h1_full_scores.csv": "e6d95649a6075c8e84df7817194a4fe5be365e11ebd0fa0b0e0050d67accdeb3",
+    "reports/linear-response-ladder/paired_h1_full_aggregates.csv": "9e72667c74cfbe52527f140e03dcb9be0099d9707c4d33be18bc429417672f6a",
+    "reports/linear-response-ladder/figures/paired_h1_full_scores.png": "9c21c12ffc893f2247d1b1cc6ed363982a718b813b6d71051f8a8632052d3221"
+  }
+}

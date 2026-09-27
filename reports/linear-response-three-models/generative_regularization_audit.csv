@@ -1,0 +1,4 @@
+model,structural_constraint,penalty,sparsity_prior,exact_zero_fraction
+cipher_empirical_covariance,150 selected empirical covariance columns,none,False,0.031084070796460177
+rank50_latent_projection,rank 50,none,False,0.016537610619469026
+poisson_lognormal,rank 50,L2 loadings coefficient 0.0001,False,0.0

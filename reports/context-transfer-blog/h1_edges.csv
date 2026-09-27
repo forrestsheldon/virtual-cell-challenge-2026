@@ -1,0 +1,6 @@
+edge,source,source_study,source_assay,available_targets,all_source_common_targets,shared_genes,role,prediction_artifact
+K562_GWPS->H1,K562_GWPS,Replogle 2022 cross-study anchor,10x Perturb-seq CRISPRi,115,110,7583,descriptive cross-study anchor,data/derived/context_transfer_blog/K562_GWPS_to_H1/heldout_predictions.npz
+CD4T->H1,CD4T,Norman/Nadig cross-study anchor,10x Perturb-seq CRISPRi,119,110,17678,descriptive cross-study anchor,data/derived/context_transfer_blog/CD4T_to_H1/heldout_predictions.npz
+HCT116->H1,HCT116,X-Atlas/Orion cross-study anchor,FiCS 10x GEM-X 5-prime CRISPRi,125,110,17701,descriptive cross-study anchor,data/derived/context_transfer_blog/HCT116_to_H1/heldout_predictions.npz
+HEK293T->H1,HEK293T,X-Atlas/Orion cross-study anchor,FiCS 10x GEM-X 5-prime CRISPRi,125,110,17701,descriptive cross-study anchor,data/derived/context_transfer_blog/HEK293T_to_H1/heldout_predictions.npz
+KOLF2.1J->H1,KOLF2.1J,OpenProblems single-cell perturbations cross-study anchor,10x Perturb-seq CRISPRi,123,110,17603,descriptive cross-study anchor,data/derived/context_transfer_blog/KOLF2.1J_to_H1/heldout_predictions.npz

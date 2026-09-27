@@ -1,0 +1,12 @@
+{
+  "kind": "factorial PLN regularization figure",
+  "inputs": {
+    "reports/linear-response-sequencing-model/regularization_summary.csv": "c1a244f378aad20d8154c5985d8f72c0f780434346baa0bd0b49a96c138740d5",
+    "reports/linear-response-sequencing-model/regularization_by_cpm.csv": "0a2623d38661fdf71b94075616d8f8f9b42569a9c7bb54e2585beffee03241fb",
+    "reports/linear-response-sequencing-model/expected_profile_summary.csv": "e1e532f502525af02e3d4cba0da4e32ea71dc207acd779bf4000c2a7d4f4e711"
+  },
+  "outputs": {
+    "reports/linear-response-sequencing-model/pln_regularization.png": "7fbc4bbab268c60d73485c5f5eb30b66f982d91f48ea120f09b36bbc08934abf",
+    "reports/linear-response-sequencing-model/regularization_h1_summary.csv": "496a8eb1dea815a8b429b9314f22dc5bdaae50dd232733358114042955b9b2b2"
+  }
+}

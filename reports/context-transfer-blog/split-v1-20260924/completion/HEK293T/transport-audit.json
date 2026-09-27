@@ -1,0 +1,1165 @@
+{
+  "status": "passed",
+  "context": "HEK293T",
+  "files": [
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/acceptance.json",
+      "sha256": "f6c5245182d5a0f417e188202814d9acc7008828ca2a3b7f191dd7cf8523aad3",
+      "bytes": 455
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/batch_role_split_controls.h5ad",
+      "sha256": "60dd5394c47066fd8fefde19bdb5ef9a90e6eef13930f3831106e62f5d98aab2",
+      "bytes": 161977465
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/batch_split_exposures.parquet",
+      "sha256": "b29572059a4b48ffc1b11c4b277484055b3960166e423ed644b8425654777cca",
+      "bytes": 2375627
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/cell_assignments.parquet",
+      "sha256": "393aef91747a6069ee7186bbdae5da37672210ef38eee8c74e80def47ff0f95d",
+      "bytes": 15374218
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/construct_split_pseudobulk.h5ad",
+      "sha256": "2016a82f7bd8462e8e26f0d1d0a541d2c30d41f84515fa104dad28289fdf1b1f",
+      "bytes": 413377212
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/manifest.json",
+      "sha256": "1d348b9e5cfad17d485710e4b6d44cc50ab1eb6695d8fb25b6c8b5c332f16b58",
+      "bytes": 167188
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/matched_control_support.parquet",
+      "sha256": "77f2ed2e45e87357556dd1bb8b2e452447b26dcfa99c951312ec9f1cf4bb3656",
+      "bytes": 3795610
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch1.h5ad",
+      "sha256": "0355795be95147588221b062da6627bb2146849667c6d4aaf5f4400a63d2dd5c",
+      "bytes": 18682264
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch10.h5ad",
+      "sha256": "1e856cabd13e7645418a89235dfd85ab2de45cff7b043859bf662c31b6816a01",
+      "bytes": 25630822
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch100.h5ad",
+      "sha256": "cb4a3d0284104ead0dd425262f730e856962f226fd6980c691f01682c0c896d9",
+      "bytes": 14090979
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch101.h5ad",
+      "sha256": "ff6e4111f07991f7bd5e1f238996800bf7693b1408bcf39465301cffa62a2025",
+      "bytes": 18806501
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch102.h5ad",
+      "sha256": "7e854999bcdbcb7fb242da5d678b2242e69c7b2c7aab2e6d62fdb54b8217ffd6",
+      "bytes": 18491853
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch103.h5ad",
+      "sha256": "12ccc9c7b5a673bb82f54c13ccda82375015dde1e8b65408d5395c10fb78dbdd",
+      "bytes": 20536824
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch104.h5ad",
+      "sha256": "e8432b9dd0d68d3807e9bbc0dacc7b2ff2c43efdfe7c5bec4b443808680dfa3a",
+      "bytes": 19454861
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch105.h5ad",
+      "sha256": "e0c55568ca55bde01da4b5832b34eba4aa8ddf97ea547c15ab66f3285e8a8267",
+      "bytes": 18660613
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch106.h5ad",
+      "sha256": "fea09ecc0587efcd880512886a2592bc77294e46837e66f516dacbb68962c883",
+      "bytes": 18949462
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch107.h5ad",
+      "sha256": "5768540b971e6a400a952aaaa73c25bdb06f66f6fd5be26044bb60261b5d2240",
+      "bytes": 16771616
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch108.h5ad",
+      "sha256": "384542f27bf359343fb18168bcdb464bcad06d33121c3c32b53f2ebeab336bb5",
+      "bytes": 14204669
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch109.h5ad",
+      "sha256": "f3408f0797fdd1233147aca036acfb169fe3d2cc2ae775ddfab59fb9ebf363e4",
+      "bytes": 18188387
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch11.h5ad",
+      "sha256": "e1a5c4aef925ea11852011474b06f9477d7d050204c9fe3a6b16bb6e5ac4edaa",
+      "bytes": 28436475
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch110.h5ad",
+      "sha256": "f3062ccaa960ccf0bc3e4a6a19c1f70acd5f3fe6cbd4b762bce8a3382b560ead",
+      "bytes": 15033672
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch111.h5ad",
+      "sha256": "fc6c722ef52f198e212e3a29757cbd37bc16a4356484519b5d651e180f122956",
+      "bytes": 20749318
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch112.h5ad",
+      "sha256": "19ce786f3af01dceefc4704cd396914c33122561e95c4a0c98cb2235a29ba282",
+      "bytes": 22011885
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch113.h5ad",
+      "sha256": "9a3e081ec093977144bebe146a37cd26db38a6a74ffd8bc2e800abb7df15ac91",
+      "bytes": 17111190
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch114.h5ad",
+      "sha256": "bafeb97a595bb98c47612f0a72b30af63291d8e9e1a84ae52f0badc35cb49864",
+      "bytes": 16583156
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch115.h5ad",
+      "sha256": "11ff0964aefae1620ffc815828128143ff4a206401ebec7c888a988ec2e2116d",
+      "bytes": 19190879
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch116.h5ad",
+      "sha256": "9c7d06981db4a0d214321d879a2f58cc1a9281fe5bb30bb990b555fb98c3986c",
+      "bytes": 20164912
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch117.h5ad",
+      "sha256": "4830716dbfaa066baeef5ee958dd15d679139fc66efea23d4d10bdfce8569e86",
+      "bytes": 20284088
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch118.h5ad",
+      "sha256": "e8aa7ac8b31bade8baad3cd79f01948eda8f03c8c13fc6534b07f6cc884db9f9",
+      "bytes": 19341412
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch119.h5ad",
+      "sha256": "d84f4bd41236f41971f9808ef251579acc13474fcbf9604f05990deeb293b68c",
+      "bytes": 19625178
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch12.h5ad",
+      "sha256": "d3394997ad3d18fef7f9f4d9e14cb89b36233af001a1f311316947845e5f4bd5",
+      "bytes": 26310993
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch120.h5ad",
+      "sha256": "daddd55915c1c28ca4687289144b407c67cded0b5d0b1d5990aea443d2d6b71c",
+      "bytes": 18789253
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch121.h5ad",
+      "sha256": "cd8c2c7ef40e7d27d60cc06d8bd61030cb7b8bdce22d0b5822345a3e279fa147",
+      "bytes": 23419720
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch122.h5ad",
+      "sha256": "207d5d922f83ab63d156f3e926d831f493bf06bddaa43581cb0dde2cfe7c31f1",
+      "bytes": 21874348
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch123.h5ad",
+      "sha256": "87a9cb663135c2174567cefdf6c400eaaf80444ce88fd1db4d26e951af42b020",
+      "bytes": 22053746
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch124.h5ad",
+      "sha256": "746532bea5d654af001c9c3388cb5803b626970efa1fbc3f496745135fd6acd0",
+      "bytes": 20572245
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch125.h5ad",
+      "sha256": "7a110dbc7804a10611b990534d5bb1d03e9782a168109ace8491fbc6275dd535",
+      "bytes": 16962091
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch126.h5ad",
+      "sha256": "db454c1ba926c244cb5f1bba52eef6480000f35a5f72d452ac7809d36ba140e5",
+      "bytes": 19917847
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch127.h5ad",
+      "sha256": "7036cf078803c903bdaa87988b3c91bc4dd9206e30cc384d8e9e535ca83cd1f9",
+      "bytes": 19331553
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch128.h5ad",
+      "sha256": "bab679484cef7d00078cf827e0915783d15203828c9114012395e6949df3c172",
+      "bytes": 19318977
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch129.h5ad",
+      "sha256": "62396cf45bf310368b5acd6bd28ba06274377b884062a8ff61a0d62b0e66fa0e",
+      "bytes": 19081799
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch13.h5ad",
+      "sha256": "a11978338044f202c33383e7fc39ef86b3d385cbd52c71144e17ae2e54318e2d",
+      "bytes": 26580726
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch130.h5ad",
+      "sha256": "91d14beeaa5e24877692ae7ccfc7b9680d21aa3daa5f1efbf63d7203b888c03e",
+      "bytes": 19833747
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch131.h5ad",
+      "sha256": "b8d5e26f470ac997f576df93d22c82b141b11a68b6e07a4d8cea3d823eb8693f",
+      "bytes": 20611068
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch132.h5ad",
+      "sha256": "604a12db9bc3f7c850b7598182307879916d9bff802353da729d00d30d6034ca",
+      "bytes": 22797271
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch133.h5ad",
+      "sha256": "1498799d6541f9e9cbc796d1f3dc2f513835a64f53a630dce4744bc978e4f2bb",
+      "bytes": 15932175
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch134.h5ad",
+      "sha256": "e96610447bb6e82e47a788d8e297864f85cb51e45a4942dc18e0c190f0733d5f",
+      "bytes": 11668478
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch135.h5ad",
+      "sha256": "0b0c315a93026ec251b8ff7df85ee9f1e0f7a6995600b75b536611c2e0aa0873",
+      "bytes": 21870956
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch136.h5ad",
+      "sha256": "bd14bb175fbffc9bb78d5a623372e32f8878f6da52259b34cf122906a2be4fc9",
+      "bytes": 10859524
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch137.h5ad",
+      "sha256": "ee5bfd311c24338a2e94ebec44da128d930c18ac7b71c9fb1c219bb11f6aa768",
+      "bytes": 14745284
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch138.h5ad",
+      "sha256": "0ae0eeb2b92fed3dbea51f7abed21a52cbb2d9f8205e89d64ae446dfa7788c49",
+      "bytes": 14693633
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch139.h5ad",
+      "sha256": "13c1160f601c68e3590ce21f39ead42bb78cbae3bc750f3938dbf6c1b309208a",
+      "bytes": 14612988
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch14.h5ad",
+      "sha256": "ce0397de8cc95c4a932b2eb42b1c162f50e29b927324d31f13df8d40a25c8c47",
+      "bytes": 32410118
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch140.h5ad",
+      "sha256": "77871a5fcadb118ff5e7dfd8d64d005644a93c38cc157a953b37ac7f2e5547eb",
+      "bytes": 14621600
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch141.h5ad",
+      "sha256": "423c4a4a2c2f1dc723b056af69cdd2b236e96dd7649fcc548f03de54b0f91e23",
+      "bytes": 13340964
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch142.h5ad",
+      "sha256": "4e5c5fad6e2e53455a289e3df8caf23a7cba3c886f97b975d120628c21bb03f8",
+      "bytes": 14564120
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch143.h5ad",
+      "sha256": "66d25b454948bfbc84bf92a19921e687dc8888715d36ff84d923932d6bb7c774",
+      "bytes": 14391166
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch144.h5ad",
+      "sha256": "911f63c47b6695424d5d4fe064ce8aad2df6d2589f47e2acdb36f75c2e301825",
+      "bytes": 14106681
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch145.h5ad",
+      "sha256": "a018845b19c57c4d97764fe3e9e06e6978b47e3abae398100c1c9b8b2023e38f",
+      "bytes": 15886402
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch146.h5ad",
+      "sha256": "d0fc612ee6ae60816b349b9669edc9abadd1561b57df2574ba4a8d78cc16e98a",
+      "bytes": 15392643
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch147.h5ad",
+      "sha256": "ea5d273ca4dec9a6946c277592809fd96dd0c1b0994343e9006416c6589ae1fc",
+      "bytes": 15914810
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch148.h5ad",
+      "sha256": "27847b025a7d313bb0eb77c2bc83798fcae6afd7ae96f3ab93a726e9e1f18186",
+      "bytes": 18415058
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch149.h5ad",
+      "sha256": "14d14173030505da38523d8cda3d74f12bc4e785709d19db6bd496f5445bc651",
+      "bytes": 14263196
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch15.h5ad",
+      "sha256": "033cf4a5e3d533355bf130dfd7793f42201e0fa78b6ae94816edce19a45b5b64",
+      "bytes": 19681879
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch150.h5ad",
+      "sha256": "9858da59ae4732e4735fccd6091b4b00c3e88d2786d4f0856402e5a09c00d162",
+      "bytes": 13447732
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch151.h5ad",
+      "sha256": "94cc09da689a93cdc98fd9fdb240c71f1403ebf18eb0266b43252ed11c70f8f5",
+      "bytes": 16475947
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch152.h5ad",
+      "sha256": "91df034d83f5cb40abdfe850e52081dfd643c7d612b0819af60de938bbb3e8eb",
+      "bytes": 13453951
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch153.h5ad",
+      "sha256": "38e910b751702974f94a591c5652a98e50a792f29ab2da53f29e1f45d00c8509",
+      "bytes": 16678617
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch154.h5ad",
+      "sha256": "e945498ffad86b2137ca8c95f2e30257978aa38d9eaa32e9b1fc58cfdd826cbc",
+      "bytes": 16209712
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch155.h5ad",
+      "sha256": "296c6d71cbf88c3789da62345c1a9b4a459782bd95096b261a2f964698a3f745",
+      "bytes": 16436556
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch156.h5ad",
+      "sha256": "73bc8acbfd565e2a81697017d4294f2c59e62e184b6078a01d901efb46e6c508",
+      "bytes": 16417269
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch157.h5ad",
+      "sha256": "d086b6cd82efa1fe5710ce02581ae81c34a296800cac2e4007b445e95b2b7a1c",
+      "bytes": 18832386
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch158.h5ad",
+      "sha256": "cc3eead33d062dd70560d4a4f38e57cead880347aa651af9febea09e05d51ef3",
+      "bytes": 17297307
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch159.h5ad",
+      "sha256": "700ed3ae3877a3e64c8ccec7807b648a0c7423184bd31b4061662af1dc75d6ef",
+      "bytes": 15110778
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch16.h5ad",
+      "sha256": "dd30fe043f448eae60622129e84be7c45f409ab033141c237fbe7b2acc649c42",
+      "bytes": 20440358
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch160.h5ad",
+      "sha256": "4a0e51bb8542489e033990194b47ee435bebae9574f61d4920a5fec3060556a3",
+      "bytes": 14037043
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch161.h5ad",
+      "sha256": "c4fd79511e6e16d38b420988d1c9b868a7c3e15c19c302c89f1ed383c0c0cec3",
+      "bytes": 15947362
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch162.h5ad",
+      "sha256": "d3cacbf6c496ee56641b399347f6797afbf64737ccf5124d4f5bb3325f913584",
+      "bytes": 18124770
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch163.h5ad",
+      "sha256": "e7240b8c34cd2e0bc6c0b7a5b8d443035c77cc09c19299a2784ae130fc2083be",
+      "bytes": 19053321
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch164.h5ad",
+      "sha256": "e981b92c78dc0b2b09b042bd622d6cb0a680f865a34b6e1e8bbab362fd3eb6b8",
+      "bytes": 18582735
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch165.h5ad",
+      "sha256": "6f0e58ea55743769ebadc6388b5780881c066f54e7d9b264043f101e59151c8d",
+      "bytes": 17667661
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch166.h5ad",
+      "sha256": "f5b79e4fcc0da3cf7f281aaa9c96b9ce4b8b8d78c1b2789eaaed3d1f4e06fc77",
+      "bytes": 17488032
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch167.h5ad",
+      "sha256": "c179d4a6657828eaee7e34898bf665a9d5d70a04f0e7bcf279ad06001e44430b",
+      "bytes": 19030937
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch168.h5ad",
+      "sha256": "0079fd604724a4a86fa54b09d05ef8b583fdf489860c4f187c6d328f0a7cf5b2",
+      "bytes": 17870208
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch169.h5ad",
+      "sha256": "881067e512676e1acba1cd9eddf6438425790669e314d29b715d9cf10949abaa",
+      "bytes": 18727172
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch17.h5ad",
+      "sha256": "26d4a6fda5e5d770797278dd4c7e3bb89f49c63c0f2aef689f41a603ba6821bf",
+      "bytes": 19182832
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch170.h5ad",
+      "sha256": "ead6fb28322f631ad2aab9f84197df8a335d421c35ffe1177173a8e3b53f6ac5",
+      "bytes": 20064352
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch171.h5ad",
+      "sha256": "db63def7ac7caef1c4a8d3df1528b09f9e38e419228b4c2d64482b3d1d6ea5b1",
+      "bytes": 20286058
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch172.h5ad",
+      "sha256": "fa051ff511cdd1ce566dbfd3d8acbcc3979b4f0523d30fb536bb3607a6e8ebc1",
+      "bytes": 20436747
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch173.h5ad",
+      "sha256": "988a49b7f4e2c5facdf6b30ece8d19ff58c1a7181dc2fd819237e6d66623e0df",
+      "bytes": 18767320
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch174.h5ad",
+      "sha256": "3e5e8daef992a304eec4fa1716dc1398a67b55fa0e22b26d4ea32748d7ecda06",
+      "bytes": 18892339
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch175.h5ad",
+      "sha256": "d00fd77d706e916c23eff01f7362ef7d9f43264d582fa52659d1c7c401c01bdf",
+      "bytes": 21303448
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch176.h5ad",
+      "sha256": "595f6160c0b58e9e4b6cde9a5399240c87ff27cee369a5ecbd66dbf2e2bab7d0",
+      "bytes": 21241309
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch177.h5ad",
+      "sha256": "f2fefbc2f5ed89e47174045105c9d1debd7e1f6388741275cc960ec6eeae25ad",
+      "bytes": 19875995
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch178.h5ad",
+      "sha256": "10091bfe46ac07bc3a778df83a82877fa4f27dade529537e4db94e0e84407090",
+      "bytes": 19903349
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch179.h5ad",
+      "sha256": "653b4381af8363dfaf8ca997f7bf092a5c7ee1754d66187335e8090c515992dc",
+      "bytes": 20341911
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch18.h5ad",
+      "sha256": "2ce80a47146f3a581c2334f74cc5eda2f2d54381884e3f6072de69adbdc87e31",
+      "bytes": 19442603
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch180.h5ad",
+      "sha256": "d9ae008e6f6e6c0057443abdc54111eb14a8ff068a8f2bdc5da843d9c5cff7c3",
+      "bytes": 19793258
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch181.h5ad",
+      "sha256": "2801fbea745afe31a7d5b55a6b2d784cbe7df08d7a2dcd61af3ef53d9ad5c8eb",
+      "bytes": 19918395
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch182.h5ad",
+      "sha256": "2cbea535bbc0fef7ed7eab3852963c7ac782ba12de081b7a68d706bb1c65ac25",
+      "bytes": 20792102
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch183.h5ad",
+      "sha256": "a7c6fe08baea39532f312200c6a4d075c5d436c1b448b7cc4ffbd9e4364399be",
+      "bytes": 18306772
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch184.h5ad",
+      "sha256": "b3f10d951c527fc45538a959f452f0e4dc7c9c1db6edaf6df7084ec4b909b2d8",
+      "bytes": 20934698
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch185.h5ad",
+      "sha256": "136c443957d4f8c10d6d6a518e75fdfdd59d3f98dcc6f6ae4fe2c6a347f0e0d7",
+      "bytes": 18287483
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch186.h5ad",
+      "sha256": "0ce5dd8022abea37935341bd544d34a460c7a61943e41547d185145c761b8e12",
+      "bytes": 22019100
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch187.h5ad",
+      "sha256": "3f4ff5a04bd36825871c2f68802c95ed25b7f189c7530c463e21c943e2fdd311",
+      "bytes": 18564316
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch188.h5ad",
+      "sha256": "cf6dce9dfdf700b82e2a3e6423de8719636e7df5fa8e23f497a1123f7c00b6a5",
+      "bytes": 17988560
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch189.h5ad",
+      "sha256": "e7f976b1995ad65548853e51bba668a2b35826344b8f8d7ebd7dca6e5fb87b59",
+      "bytes": 18085855
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch19.h5ad",
+      "sha256": "89f3e22b8e7417e358cec2ecd6799557681531a65125198894bbdd50dce532d9",
+      "bytes": 20676949
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch190.h5ad",
+      "sha256": "144314919ff2dcc1ce49f2b94f35126ac72904b770715eb408bcd8b81e76a42a",
+      "bytes": 17488897
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch191.h5ad",
+      "sha256": "8202af4e5bfbdbc16bda4e29c42a714631942274cdc91e5dedfe03c59d546d8b",
+      "bytes": 18193274
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch192.h5ad",
+      "sha256": "b0bb3e851d020b565bc4b8bd26711b4abcd2e4a32b9dfff22dbbbc58ca66c927",
+      "bytes": 18579792
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch193.h5ad",
+      "sha256": "4d63e3318654b9a9413789c05f023e6066d689746a2e51354e462f2a78f21921",
+      "bytes": 17862367
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch194.h5ad",
+      "sha256": "d4239066058a2af9207e235af2139b8e2cf2f755b6166f1d7c779b60e3c1cf37",
+      "bytes": 18329103
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch195.h5ad",
+      "sha256": "197289fc2c217981e95eb2dad66dd4a7e726f956d7ccaaf56c308f7b64a9aaee",
+      "bytes": 17706645
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch196.h5ad",
+      "sha256": "b8553d285278e06ac0d5d9268a1db62e48bbd6e2fd5cb5d839826ff94d5eeaef",
+      "bytes": 18584381
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch197.h5ad",
+      "sha256": "ee53cc7574e9df50eb59be71d7ee6d0434d65716cd57c47b9d5535b7cfa2e0e5",
+      "bytes": 18749753
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch198.h5ad",
+      "sha256": "f5b7eee2fee67481a30dbb0eb87905c32f08ca31d2fa7d19ac67c0a0a8d1fb27",
+      "bytes": 19284245
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch199.h5ad",
+      "sha256": "9bf4efbf154e919aacb8617605952257c17f0a2bbaddb3a1a1334659dc5b8546",
+      "bytes": 21720249
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch2.h5ad",
+      "sha256": "881f1dacdcf36cdaa573dcde6ec3f2aa6338aebdb2435a98dbc0ece8aaaf427e",
+      "bytes": 25751316
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch20.h5ad",
+      "sha256": "acd7aff091836e260da6851f323a2f31b3e0ae33a9b2ec03c3fec2045c954c21",
+      "bytes": 20389303
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch200.h5ad",
+      "sha256": "af9e9173968038fcef412a3cc8098e68ed2f31750d1be10c747232ed6b328431",
+      "bytes": 18849606
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch201.h5ad",
+      "sha256": "fe22106bb8a030ae257396b5bb9ccb89f0253da31d0f642801bd25806fe3b537",
+      "bytes": 15202157
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch202.h5ad",
+      "sha256": "15d3c75d8d52a6d8be443e7debc08a25e09fbdb11ed88cf593d1fa4db502b08c",
+      "bytes": 17369382
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch203.h5ad",
+      "sha256": "8e650f63b9ada41179ce45a29b9e9130d6e3d29ecbe8f7328e78ced52dc5e63a",
+      "bytes": 17473395
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch204.h5ad",
+      "sha256": "e549935c9e99e308d4fe95756e56cb5dded648dec74dced5da980f12935553db",
+      "bytes": 17110407
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch205.h5ad",
+      "sha256": "968cc852ee1070cb01ac4d5bc61aada23c6a586b86f55ee2d0b2ecf548095219",
+      "bytes": 14945800
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch206.h5ad",
+      "sha256": "19e93023d3ee97810d72390c0cdcf74bf1b5e3bcc0392d5772e76587f7476add",
+      "bytes": 14392573
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch207.h5ad",
+      "sha256": "9ed219e7391e2f82cbe5d92e182bad077aa8bbaf4dcfb5afc5e65dfa7a4ac627",
+      "bytes": 14194956
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch208.h5ad",
+      "sha256": "b31d91e7b8e328e135d5c37b603436217f0da16f4b9a47721cfd860aff3f4662",
+      "bytes": 12710085
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch209.h5ad",
+      "sha256": "95e9d5f7dbae2495325eb3a7a1e0abac6e89286089af8b309c872bbb4605b970",
+      "bytes": 19515582
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch21.h5ad",
+      "sha256": "d54cde127d9de496599796fe1612ba9c5e51a98cd1ebef71263b6044ee2c0f2e",
+      "bytes": 20900148
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch210.h5ad",
+      "sha256": "354a2325e54009bfc53c40942042172fe566fd9378b71a278a20fb8b54f0d61b",
+      "bytes": 18701637
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch211.h5ad",
+      "sha256": "d3eab5e84c4715af8cd42ace713369d13d2b8410821ee6a53a6ec6f51fd25940",
+      "bytes": 18146322
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch212.h5ad",
+      "sha256": "23f8e2a1c224d514fc3d028c29b86ac3e2488ef2290a5fc536bd238b1ad26edd",
+      "bytes": 18089216
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch213.h5ad",
+      "sha256": "f4aa1c9e48123e01ed2d8e12441f4452b80228147c1c76ae78ac0e41e5d063a0",
+      "bytes": 17699085
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch214.h5ad",
+      "sha256": "bcb145647d3a1b86f1deecefac462b190dac85650f736a8e50c8c03048bd54eb",
+      "bytes": 18856752
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch215.h5ad",
+      "sha256": "b2e0f4c32e8532b64872d6fdf6dd46db841ef8b2aa4ba936af2a0ff7c5505223",
+      "bytes": 19077163
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch216.h5ad",
+      "sha256": "15ef3889476f409a8340dd27e7decf77dbf7a31740538c2513a3d70a20546157",
+      "bytes": 19214135
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch217.h5ad",
+      "sha256": "c88c8c45d369508710328c8df8a04d70d2a922e0a72bb9e1c2ad74acb9f4b3e5",
+      "bytes": 9747767
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch218.h5ad",
+      "sha256": "744b9395230964d2c2646069b866879a9123d9a0bba2f7da637a9f9b7f73d024",
+      "bytes": 8940627
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch219.h5ad",
+      "sha256": "b9d12d3a38267112873d5c8a3747091baa37d777650ce4e26c5de1b240ffb134",
+      "bytes": 7413213
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch22.h5ad",
+      "sha256": "3f736649ecdee55d57e6a324ad36c1f64cdca3442f7e83d19b506e5339b99143",
+      "bytes": 21032926
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch220.h5ad",
+      "sha256": "32c4dcf16408e7343f4ad860cd39f3e6c818e5eece8d753c5aad89bbd6de17ba",
+      "bytes": 14185072
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch221.h5ad",
+      "sha256": "918b754f2f16288c5ca8f00530133b22308edf6c4cce8583ddd7fcb27c92f0cd",
+      "bytes": 12197273
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch222.h5ad",
+      "sha256": "d9e1b9c117753cffb06a6c6331bd753ffde185c28bdaa8471a8c080207a32952",
+      "bytes": 8550259
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch223.h5ad",
+      "sha256": "3efb70f52ec753d9934d6533974c8c471aaa46b146b402ba2debdf2dd6b36906",
+      "bytes": 13380843
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch23.h5ad",
+      "sha256": "63395ad50d3daed653f79022824a982c907d5fbb4fdff21fb538e5a9dc724545",
+      "bytes": 20550546
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch24.h5ad",
+      "sha256": "d7a95a411ebd838aaf86b0f1925127665c021e27aab4ef256ed2572ce97b227b",
+      "bytes": 21621227
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch25.h5ad",
+      "sha256": "a344800630f0a45cf36b28c88de2f56d3f7dc19ac9ad65533c78cc78639eada8",
+      "bytes": 20193233
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch26.h5ad",
+      "sha256": "7cd39cd302d998178c4a2cab78273a2aedac14d2ff6526a548f535e539c23943",
+      "bytes": 19243407
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch27.h5ad",
+      "sha256": "1afb811a2c136898a03812328b07b5d569c8dc6b757059178b199291305c0e3b",
+      "bytes": 22184232
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch28.h5ad",
+      "sha256": "47a390db4b4707c12ec6eb09e48ea5df1e938c45815322ac31b153ab8529c178",
+      "bytes": 21536694
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch29.h5ad",
+      "sha256": "a54425dad24b548703285b522581c954f779719a6a7e3158e50606c23428737d",
+      "bytes": 20265135
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch3.h5ad",
+      "sha256": "abb62520afd8600195c1a37c7892ab63fc35a094b3422b3c8bdc8315f6fd4438",
+      "bytes": 28868790
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch30.h5ad",
+      "sha256": "64ccbdfd4345673f475b45a0449032e50c29b8627f34251b81108aab574e0d0f",
+      "bytes": 10114054
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch31.h5ad",
+      "sha256": "976fb5a1c37a2f0630c10a45aa3a18397c256c0529cd5674b3fa62554073e91d",
+      "bytes": 19492140
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch32.h5ad",
+      "sha256": "4d60ea9d5b171b5322096869d6741711429fe7a58699d3610c67332e0095114e",
+      "bytes": 19827886
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch33.h5ad",
+      "sha256": "7703ab367a23072459f01dd35240a533d56c0f34e3f4119572b0fbdf44dde262",
+      "bytes": 18216248
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch34.h5ad",
+      "sha256": "a2b96668073aa0f2f1806a50805a6e7176972162ffd17530d00b936ca8d2f2a0",
+      "bytes": 21121006
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch35.h5ad",
+      "sha256": "58658dc2a23df079babb62c812d2af111ac55fece62d6f05f70151fbebb5c39c",
+      "bytes": 21137601
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch36.h5ad",
+      "sha256": "1707d4ed7efa0ffe41ffc1a4c5a12254fb1f8a5b699c9c425a422fe647f7d565",
+      "bytes": 19641254
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch37.h5ad",
+      "sha256": "3edce13b1bae6ec19b25dd1a42afa47890475a14c3e7fd62a6d62caf8eeb592a",
+      "bytes": 18939609
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch38.h5ad",
+      "sha256": "46ff5d5f8b0a78494e92d9b8eed144e2068175ac3ce0d7f99a783fb1bb7ba9c1",
+      "bytes": 20417315
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch39.h5ad",
+      "sha256": "42d55c1cc276aa8f7c6c73a0c18f668b75bacae354414074cea520b303974165",
+      "bytes": 20600733
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch4.h5ad",
+      "sha256": "07e29b6a89be4c088e694402b58873374ba58c11041e702224c091294004de6b",
+      "bytes": 26386073
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch40.h5ad",
+      "sha256": "11edbfbce72f5224eb6e6fb785cc5e46b126ed6a5165bbf49993edda3aa36ec6",
+      "bytes": 20618520
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch41.h5ad",
+      "sha256": "06228929619c606055918b7742b4b2020452432adedf55486a50b7650d1a06ea",
+      "bytes": 20279270
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch42.h5ad",
+      "sha256": "ef6f62305c69aaf1d1ed5a7930c59c3a39233c9280fa75070f9b3d6037833dcd",
+      "bytes": 18736763
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch43.h5ad",
+      "sha256": "21cdba7a43e9faf230ba4be37f9ad944af17539cca5fb25d02f1719820bc10de",
+      "bytes": 19560246
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch44.h5ad",
+      "sha256": "0a75f2e853ee2780e3ee869e8a9681a286ed2eda806acc318e35af353be31910",
+      "bytes": 18868250
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch45.h5ad",
+      "sha256": "56d5cde10a03ccd5b21361e2e16fd1b8d767317284885e7c1c33fa14efcecf73",
+      "bytes": 19562659
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch46.h5ad",
+      "sha256": "7bb6b700c3c24e65cc6fa2c796a422e23c9a99e612e782441dd6fef0b801fbd9",
+      "bytes": 20689657
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch47.h5ad",
+      "sha256": "a5616b102e70447d7a7895c88c9e674682527c051dcb4762d114f747f6955b71",
+      "bytes": 19453305
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch48.h5ad",
+      "sha256": "53b23dd08fc50ef7fca10c5a8cb8e46b944181b14a14beb09955e8db9bf23e08",
+      "bytes": 18436233
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch49.h5ad",
+      "sha256": "a13c01475e5b75640e6e46e6ff40b9425422c927bb46b1dbc83a77e86f5bad06",
+      "bytes": 18376544
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch5.h5ad",
+      "sha256": "80ed306c3a8fbc7441b4860e6e310682541782dd57d588bb05ba7db8015e9885",
+      "bytes": 24899432
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch50.h5ad",
+      "sha256": "bb7513f6b9e229993c403acc9bdc93bd5ae3c595a317e1221191557be97a702a",
+      "bytes": 19417960
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch51.h5ad",
+      "sha256": "9e601723bfb15de397576a877bbd16e37959e31e66bfe551eefb6747c58385de",
+      "bytes": 18511136
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch52.h5ad",
+      "sha256": "b89a9c99194f89c73f4398c570150a72d9b5f8ce4f29caa327a7495d24153afd",
+      "bytes": 19498504
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch53.h5ad",
+      "sha256": "831663b6104c079c387e2ca628e27aadf93fef39317b9218bfe9d7932b668895",
+      "bytes": 20716775
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch54.h5ad",
+      "sha256": "d3d06eff7e263efad66f37da137f05f74c3bf29136afe17a518b5b4051e577a6",
+      "bytes": 20032465
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch55.h5ad",
+      "sha256": "72ce88f11dd1571aa1a630dd02a01e476f5fafea917a56e8ccbaad40ccfa416f",
+      "bytes": 20783138
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch56.h5ad",
+      "sha256": "23b1e8dc5dfbb7773e0687b5475ba113763443690cf8866ad7f71a114c195fec",
+      "bytes": 9890202
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch57.h5ad",
+      "sha256": "c3b3de65792521251ab6777ceb90ec871af35b9eb81827c9bd745287ecb62988",
+      "bytes": 17400636
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch58.h5ad",
+      "sha256": "51d413c57d83f59e56696909042b2e1fed263402e103722d85db42aef2840672",
+      "bytes": 15972712
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch59.h5ad",
+      "sha256": "a17f7cf47c444cb77186197b8d3bb29e6e49fd07f53f88c078b16506cdeb5e43",
+      "bytes": 18161984
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch6.h5ad",
+      "sha256": "0c813c7851a0d1dc74ae555d291cf518a4f158e77cebefa6d4a58ac457751d2c",
+      "bytes": 27382287
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch60.h5ad",
+      "sha256": "0c2a47a21342825b0a4b5fcaef2a376ae1ef72666250a0a08552e8ca72fb2693",
+      "bytes": 16243089
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch61.h5ad",
+      "sha256": "f37c9f627a630826b68ebdf922417e8984f9b5eb08cc6c6c2c595eded2bdddf3",
+      "bytes": 15265834
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch62.h5ad",
+      "sha256": "fabf35d711a3980390fbc088b3c95fb0669f8bed238645f8e2cef85a0fb3b2fc",
+      "bytes": 16293260
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch63.h5ad",
+      "sha256": "9a9047493d546406c77b77e38f51a6056a58de8b9175cc151223708f8b9b33ae",
+      "bytes": 16870333
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch64.h5ad",
+      "sha256": "84b3e3ca7ef71177d72f7ff6aec1bd67773cf1cbcf6ead49cbb348ee55cf5b02",
+      "bytes": 17804617
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch65.h5ad",
+      "sha256": "f8e17aad333317aca093dc3296a1a6c79642a9d077e88dc6f378242642999a45",
+      "bytes": 15177125
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch66.h5ad",
+      "sha256": "6918fa50ce836d7f2afae12583b9fc5297e19b6e83c38a4c72cb747413b87633",
+      "bytes": 15286864
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch67.h5ad",
+      "sha256": "81ed9f57cdcce1ff2b87d2989d389252b5217b20e232c08f01239f441f6d521e",
+      "bytes": 16277552
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch68.h5ad",
+      "sha256": "52bee6ebbcd84add4f7038870d2605d9c108908420c45565adbbfe0da7ab38f4",
+      "bytes": 18726037
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch69.h5ad",
+      "sha256": "81fb2a2ff6edbc081cac0724e384cdf9348e71864a7a77753c2945b476033629",
+      "bytes": 12557353
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch7.h5ad",
+      "sha256": "c28be39a56731c6cfa80e7dc51a26903650383839ab5c6f6b642d3643fab4b53",
+      "bytes": 28092292
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch70.h5ad",
+      "sha256": "11e285474908b17b69d21acaaeb3e0fdef254c0d2af1b3976eebcde8866dd9e3",
+      "bytes": 10936355
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch71.h5ad",
+      "sha256": "a0e72899e4e22af34c0c870fb3c6ea91e26e8457808cff89ede4d1b397fa1a29",
+      "bytes": 13552346
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch73.h5ad",
+      "sha256": "0c2b8493f568401ffc10bb17be8e56c64700abd21e362caa6fb3e15a37412325",
+      "bytes": 11939707
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch74.h5ad",
+      "sha256": "8e57c8cf5d0cd2b0e63cabad7b725282d43312c243d7d8a808aec15320cf547b",
+      "bytes": 5613359
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch75.h5ad",
+      "sha256": "1093bc19621d87c517f1904e11c7774683ad8c03144834685bd55c13776b016a",
+      "bytes": 10992789
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch76.h5ad",
+      "sha256": "5ab892640318ecf5e176548903ccda858dc50a4fef4192cbfa29ccfe72a23006",
+      "bytes": 12431931
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch77.h5ad",
+      "sha256": "4f4245e8e94c025abcd01a00030a725f9241b59c7a5f1ae5440f66f695eb25c4",
+      "bytes": 12926362
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch78.h5ad",
+      "sha256": "f205259e84461c78666a9b1ee4a702ad82cdd72f69c6d3c730e0cc9ed5b40208",
+      "bytes": 11897010
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch79.h5ad",
+      "sha256": "2c43e04288e61156db9910b17598c1ae4e848ef36784d084d2fbd16047fa916f",
+      "bytes": 12244556
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch8.h5ad",
+      "sha256": "af8651902448645d2daa8a3bacb0e6c8257de4e830442696f1e8944cd1e4267d",
+      "bytes": 20506769
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch80.h5ad",
+      "sha256": "8a1f47e809b01fd060c163e98a78ebf42a3e3c8887ef924df9f4e53dd421f145",
+      "bytes": 23102810
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch81.h5ad",
+      "sha256": "e883ee4a0f35c1bde6e043e79971fcc8b7ca8e2ece8216a2a82f34c6d0374062",
+      "bytes": 22023543
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch82.h5ad",
+      "sha256": "bf9913e3ff5b2e079c6da237dc02da73e09f54174463438070db33cd29e7b43a",
+      "bytes": 22697822
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch83.h5ad",
+      "sha256": "cc82bfacaa084d77d3fac95e71df8b5cef1382478a1e00d63bb9699637cfa676",
+      "bytes": 22762181
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch84.h5ad",
+      "sha256": "a37337e683786cb5eb749458c1c19d15585b3ee624513ccbd10ba801ade2f369",
+      "bytes": 22219271
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch85.h5ad",
+      "sha256": "8d0abf3759fe5779e68058b0d55a7a8a1692217ca863d368688e13a5ba278baa",
+      "bytes": 21077193
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch86.h5ad",
+      "sha256": "4b2ba9b82b2f583045b41cf033a1e930fd857abbf5256f34f7e6369fe819c0a9",
+      "bytes": 22774347
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch87.h5ad",
+      "sha256": "704d7d270eb933973af7430bf692966f8fed2e12f47060dcb67f873b9c63ca0c",
+      "bytes": 24186932
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch88.h5ad",
+      "sha256": "c69046ea9b88dd1e3b0ba91f3deb7055a55ff64053e84344e3849626d45cf01d",
+      "bytes": 22581360
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch89.h5ad",
+      "sha256": "17c2251a5f14b2fd1d66e30893940198188abfa4db074cb5055108405245c7aa",
+      "bytes": 23419956
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch9.h5ad",
+      "sha256": "45b4a4c0a64717d935653696e0d3b7b8221a9724b9806086b93b5ca88216be61",
+      "bytes": 27640240
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch90.h5ad",
+      "sha256": "793a8fa47dd18c097f8ca5bf9b1c774acbbdab17c431acf5840391b3a487fc29",
+      "bytes": 23710021
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch91.h5ad",
+      "sha256": "0fca11421c99ceaf64db852d32bb653b27cb8497ff16d28898d7ac0399c578b1",
+      "bytes": 21627772
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch92.h5ad",
+      "sha256": "64426f3a9fd3bc3207446ce47fd8c58ffb3ca1cc71021eb627199d891a23e399",
+      "bytes": 23638993
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch93.h5ad",
+      "sha256": "873ff8601cee054f747ede52ac22e8e98ca5f139cae5cc27b3860ac4a4b0d957",
+      "bytes": 23392988
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch94.h5ad",
+      "sha256": "8fcd1301f84b7f542348d5d73f252ddc8ce56317557be542e0d4a412a6e17c15",
+      "bytes": 24695709
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch95.h5ad",
+      "sha256": "55c04ce1569dc249f61f49c100d07ce5e36b6361e6015f4cbf74f6abb33ec6ad",
+      "bytes": 22799604
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch96.h5ad",
+      "sha256": "5fa38f9237bc3e7841cc8c1f479f3ab74759770575192d080b27649220669272",
+      "bytes": 22633943
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch97.h5ad",
+      "sha256": "fbea49c6a98ca47568c767084ca977394380b2d31bc98d3811d9901cb61df1ea",
+      "bytes": 21306664
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch98.h5ad",
+      "sha256": "b94b3debf4c60a11f6049f1ae3897da20b8afea485a4e46e47812814148d9a61",
+      "bytes": 20832335
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/responder_cells/HEK293T_Batch99.h5ad",
+      "sha256": "9a77320e6df6ff9e78a64e7721e08c1a9d8e0c9ee89444935438f59df64cebdc",
+      "bytes": 17291121
+    }
+  ],
+  "independent_acceptance": {
+    "status": "passed",
+    "context": "HEK293T",
+    "manifest_sha256": "1d348b9e5cfad17d485710e4b6d44cc50ab1eb6695d8fb25b6c8b5c332f16b58",
+    "selected_cells": 455287,
+    "retained_cells": 225815,
+    "reference_constructs_exact": 1456,
+    "independent_full_source_reaggregation": true,
+    "responder_source_rows_exact": true,
+    "file_sha256s_verified": true,
+    "control_role_margins_exact": true,
+    "missing_baseline_strata": 0,
+    "promotion": "not performed"
+  }
+}

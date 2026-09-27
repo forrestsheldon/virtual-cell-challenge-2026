@@ -1,0 +1,34 @@
+{
+  "status": "failed_predeclared_numerical_gate",
+  "model": "document-matched rank-50 Poisson-lognormal joint-Laplace LL^T + D EM",
+  "run_date": "2026-09-06",
+  "batch_size": 16,
+  "training_batches_per_e_step": 1516,
+  "completed_outer_iterations": [
+    {
+      "outer_iteration": 1,
+      "e_step_mean_laplace_nll": 555668.693,
+      "m_step_objective_before": -21631.351,
+      "m_step_objective_after": -21632.801
+    },
+    {
+      "outer_iteration": 2,
+      "e_step_mean_laplace_nll": 555666.667,
+      "m_step_objective_before": -21632.211,
+      "m_step_objective_after": -21633.766
+    }
+  ],
+  "failed_outer_iteration": 3,
+  "failed_e_step_batch_zero_based": 1426,
+  "exception": "RuntimeError: joint mode line search failed in batch 1426",
+  "checkpoint_available_for_completed_outer_iterations": false,
+  "saved_lower_rungs": [
+    "data/derived/linear_response/model3_independent_d_fit.npz",
+    "data/derived/linear_response/model3_pure_factor_start_0.npz",
+    "data/derived/linear_response/model3_pure_factor_start_1.npz",
+    "data/derived/linear_response/model3_pure_factor_start_2.npz",
+    "data/derived/linear_response/model3_pure_factor_fit.npz"
+  ],
+  "interpretation": "The full model is numerically unresolved at scale. No full fit, validation result, or perturbation prediction is claimed.",
+  "action": "Stopped without relaxing the line search, adding penalties, changing inference, or restarting."
+}

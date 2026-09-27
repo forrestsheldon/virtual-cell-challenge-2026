@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-09-10T10:45:03.205342+00:00",
+  "arm": "null",
+  "model": "CPM>5 empirical covariance, on-target coefficient -1",
+  "amplitude": 0.0,
+  "truth_cells_read": false,
+  "targets": 126,
+  "cells_per_target": 400,
+  "genes": 18080,
+  "source_rows": "identical saved balanced controls in both arms",
+  "decode_stream": "SeedSequence([0,91,0,target_index,1])",
+  "inputs": {
+    "data/external/vcc2025_h1/adata_Training.h5ad": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+    "data/derived/linear_response/ladder/empirical.npz": "bb036ed981482918478584ab30fec7b79e2b8bfc0f0d850bf6b9ae003c73b631",
+    "reports/linear-response-ladder/downstream_amplitude_distribution.csv": "a3013dc2a4bcaefdaa1ccee7e3eeb0cc374962502d5dcb1f87ac04fa8594162c"
+  },
+  "prediction": {
+    "path": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/data/derived/linear_response/ladder/full_cell_tmp.h5ad",
+    "sha256": "51029cb7bcf35261f1ba4877cf517c295208d44350a55e1a53085ed68f215cec",
+    "bytes": 3120691968
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0"
+  }
+}

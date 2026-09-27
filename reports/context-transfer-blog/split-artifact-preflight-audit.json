@@ -1,0 +1,67 @@
+{
+  "date": "2026-09-24",
+  "revision": "v4 responder-ready raw cells retained; responder analysis deferred",
+  "status": "scope/document consistency checked; prior numeric checks retained; build not approved",
+  "project": "bold-bastion-509200-f9",
+  "resources_created": [],
+  "cloud_writes": [],
+  "source_downloads_this_revision": [],
+  "prior_source_checks": "archive/split-artifact-preflight-v1/split-artifact-preflight-audit.json",
+  "checks": [
+    "synthetic ranking positive balanced pair",
+    "negative dominant-single-construct, weak-context, and singleton cases",
+    "ranking input-order reproducibility",
+    "top100 nested in top200",
+    "all top200 qualifying pairs independently verified from shard counts",
+    "partitioned CSR support bound positive/negative checks",
+    "storage component arithmetic",
+    "archive hashes preserved",
+    "ruff and syntax compilation",
+    "Retained panel CSR estimates restored from archived metadata; all-controls sum and every combined profile checked",
+    "Current raw-cell retention requested; no automatic expiry; algorithm remains deferred"
+  ],
+  "files": {
+    "plans/context-transfer-split-artifacts.md": {
+      "bytes": 12007,
+      "sha256": "320e9b7d3d8ab0d1abac054985f70831c35cf6e430118622391e2114efbc53fe"
+    },
+    "plans/context-transfer-split-power.md": {
+      "bytes": 15087,
+      "sha256": "215ea7ba171146889df57d408752ff6f68d3f0315f1c3ab83fc389adb10a4993"
+    },
+    "reports/context-transfer-blog/split-artifact-preflight.md": {
+      "bytes": 14266,
+      "sha256": "5780bdf870b447e8b75f483edced4625bdfff5f201fc018d0efa5047906dbfb3"
+    },
+    "reports/context-transfer-blog/split-artifact-preflight.json": {
+      "bytes": 3224723,
+      "sha256": "5c70926faaf75931ada5ba202b12d46e1544eeeec58e440dc1fd5da86c8d0d78"
+    },
+    "reports/context-transfer-blog/split-artifact-xatlas-ranked-genes.csv": {
+      "bytes": 143825,
+      "sha256": "e8a85650426a39b167dcbb7627ecbcbdd4add27bca2acd68aeb734d72c572edb"
+    },
+    "reports/context-transfer-blog/split-artifact-xatlas-top100.csv": {
+      "bytes": 10405,
+      "sha256": "254d3fc7b5a9d45d5a4702e3a8fb71c80168f90a328b5db1b913364a6c88afdb"
+    },
+    "reports/context-transfer-blog/split-artifact-xatlas-top200.csv": {
+      "bytes": 20126,
+      "sha256": "f148f7f15df4e7fb93cb943cc76543a7f3ae9c17c8dd519f24127c45f8bfc39d"
+    },
+    "scripts/analysis/reassess_split_storage.py": {
+      "bytes": 34321,
+      "sha256": "156e26eff4dcdb1962e34b02e5b79ca1c2b738b2b8b90d203cda2c99a4db892c"
+    },
+    "scripts/analysis/summarize_split_preflight.py": {
+      "bytes": 15353,
+      "sha256": "d5899e00d686ed33705ab553e911582e96b7671cac6de1917c6628dff1e9bffb"
+    },
+    "plans/context-transfer-responders-deferred.md": {
+      "bytes": 3153,
+      "sha256": "1403df0c7afa2a7d713a6321192f1d5581e3e3ae077c24c1f04f55d2a8cbb197"
+    }
+  },
+  "subsequent_launch_record": "split-v1-20260924/README.md",
+  "subsequent_completion_record": "split-v1-20260924/completion/README.md"
+}

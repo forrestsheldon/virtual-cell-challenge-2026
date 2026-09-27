@@ -1,0 +1,27 @@
+{
+  "analysis": "weak and strong DE NMAE for native control LR at fixed a=-10",
+  "operator": "control",
+  "ordering": "ascending total significant DE gene count, then target name",
+  "bins": {
+    "weak": "reference-significant and |LFC| < 0.5",
+    "strong": "reference-significant and |LFC| >= 0.5",
+    "minimum_genes_for_curve": 10
+  },
+  "inputs": {
+    "data/derived/linear_response/ladder/empirical.npz": "bb036ed981482918478584ab30fec7b79e2b8bfc0f0d850bf6b9ae003c73b631",
+    "data/derived/linear_response/eval_cache/de_wilcoxon_table-12f179b9e966af64.parquet": "fc8d683a3de692d767b0ee67ddf4fec845786e59bbf4a6357c442e2eaee379e6",
+    "data/external/vcc2025_h1/adata_Training.h5ad": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b"
+  },
+  "outputs": {
+    "reports/linear-response-ladder/fixed-a-minus10-de-nmae/per_target.csv": "806d08dc6ed39b2ed702db4993a6a5b1ca7173f1d2a72e464cef49e079e73c3f",
+    "reports/linear-response-ladder/fixed-a-minus10-de-nmae/summary.csv": "20d65645f793fc4f091fa61ab5910a4975cbb771b226112ea37f32f5cd36990b",
+    "reports/linear-response-ladder/fixed-a-minus10-de-nmae/weak_strong_nmae_by_de_count.png": "7b28ad83d6a81b5a224e5a40c82a511c773c3ab97aa9545de80ae01b7d47d09d"
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5"
+  }
+}

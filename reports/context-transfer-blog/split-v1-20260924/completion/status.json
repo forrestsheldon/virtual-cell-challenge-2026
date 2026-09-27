@@ -1,0 +1,48 @@
+{
+  "release": "split-v1-20260924",
+  "project": "bold-bastion-509200-f9",
+  "started_utc": "2026-09-24T09:36:17.797585+00:00",
+  "state": "completed_staging_validated",
+  "accepted_contexts": [
+    "HepG2",
+    "Jurkat",
+    "K562_essential",
+    "RPE1",
+    "HCT116",
+    "HEK293T"
+  ],
+  "artifacts": {
+    "HepG2": {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HepG2/transport-audit.json",
+      "sha256": "6e0dab3e18aee606dddd93144cdc07487d6a1748f4259c43af6b7561eca19e74",
+      "bytes": 2681
+    },
+    "Jurkat": {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/Jurkat/transport-audit.json",
+      "sha256": "5ce77a6640d3d9fc217d0671963bbfba1ac78c76eb80996a12ff5369a429ab29",
+      "bytes": 2692
+    },
+    "K562_essential": {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/K562_essential/transport-audit.json",
+      "sha256": "e8d79747af951fc06657c120975bf94cfe2262afb4df10fbe316baddaee96bba",
+      "bytes": 2785
+    },
+    "RPE1": {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/RPE1/transport-audit.json",
+      "sha256": "022abafdbf99f7868f9280b65e1a455f43a659b7932e64735cec9099dd440b9d",
+      "bytes": 2673
+    },
+    "HCT116": {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HCT116/transport-audit.json",
+      "sha256": "98115c61b158061488a82779b87cc5e236b174f71598b5c0e32e85b83d21f0d8",
+      "bytes": 32278
+    },
+    "HEK293T": {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HEK293T/transport-audit.json",
+      "sha256": "69193afb4502798dbf4cc74e7712d2d3989f1b11a7f2c88dea7e9999b7d240b7",
+      "bytes": 63803
+    }
+  },
+  "current_context": "HEK293T",
+  "updated_utc": "2026-09-24T14:44:07.074558+00:00"
+}

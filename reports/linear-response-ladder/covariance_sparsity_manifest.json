@@ -1,0 +1,21 @@
+{
+  "kind": "pre-prior empirical off-target covariance diagnostic",
+  "entries": 1358157,
+  "target_entries_excluded": true,
+  "analytic_null": "independent simple regressions: |z| exceeds tau with probability 2*Normal.sf(tau)",
+  "input": {
+    "data/derived/linear_response/ladder/empirical.npz": "bb036ed981482918478584ab30fec7b79e2b8bfc0f0d850bf6b9ae003c73b631"
+  },
+  "outputs": {
+    "reports/linear-response-ladder/covariance_coefficient_quantiles.csv": "f6a0ac51ca28c0cba5df1a2bb376966d9cad92218bd1161590a4455a21f8d2da",
+    "reports/linear-response-ladder/covariance_sparsity_thresholds.csv": "ac7c74d196457cdf17197841ee2e2c1468099a6e2e36a2f01e31e1777e50a92a",
+    "reports/linear-response-ladder/covariance_target_summary.csv": "ff53bc47e8dd83c11bfd37261c1e419107e47c77f006cbb747663f3775b1898b",
+    "reports/linear-response-ladder/covariance_coefficient_histograms.csv": "fe31b7c053e94df88f85e06404d6a388017a7ff1dd055bbd28d65a12c993b8be"
+  },
+  "software": {
+    "python": "3.12.13",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0"
+  }
+}

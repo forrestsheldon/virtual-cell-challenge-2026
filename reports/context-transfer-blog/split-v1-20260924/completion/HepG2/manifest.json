@@ -1,0 +1,54 @@
+{
+  "context": "HepG2",
+  "config_sha256": "dba62d325198670fb85ed8ac83fb712644b7c9dc999ea501b8f82c0d21560cd6",
+  "sources": [
+    {
+      "name": "NadigOConner2024_hepg2.h5ad",
+      "url": "https://zenodo.org/api/records/13350497/files/NadigOConner2024_hepg2.h5ad/content",
+      "bytes": 850590740,
+      "sha256": "1af2f7b3e692ad3d077e6027d68a1f800619e29aa3f7a0efa70146fb7223a4bf",
+      "md5": "af2be47f7477cf32fa6e4bec1c6a4868",
+      "input_cells": 145473,
+      "selected_cells": 145471,
+      "responder_cells": 20918,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 2
+    }
+  ],
+  "files": {
+    "batch_role_split_controls.h5ad": {
+      "bytes": 15098670,
+      "sha256": "933bcb0175f511994455ace90696061651d95be98f263e7cd728c5ef32427447",
+      "logical_sha256": "61cd452c0d72c4f5fbf4c73637b594f7ca576f308deb667a177d30a5e420126b"
+    },
+    "batch_split_exposures.parquet": {
+      "bytes": 935998,
+      "sha256": "7610eff240a39a5dd0d7d51a53257005a9cee10fb643fedadbff6b3493db1546",
+      "logical_sha256": null
+    },
+    "cell_assignments.parquet": {
+      "bytes": 5824160,
+      "sha256": "7b6b21de2aaf1a885393b7b64a3eceb72becba37f70a50c3bc5137efb9f0d95e",
+      "logical_sha256": null
+    },
+    "construct_split_pseudobulk.h5ad": {
+      "bytes": 260208214,
+      "sha256": "3e44422a5032fce2b7cbc20894286acf3d7a83a8d0e80c698b5eeb0a046108ce",
+      "logical_sha256": "87fc78c1bf6b0b1700d5b77c83bc41d23571075dc5e3273282cd96cdfbc47891"
+    },
+    "matched_control_support.parquet": {
+      "bytes": 1969975,
+      "sha256": "ca406ffea96b6d7fb91fda69378c98268f71a23db4d47acc4f428149fc5b1331",
+      "logical_sha256": null
+    },
+    "responder_cells/NadigOConner2024_hepg2.h5ad": {
+      "bytes": 216384369,
+      "sha256": "1e40a7ac476f59f775d8be683e52642c1879762d7dc753e2ceb4b85a348a451f",
+      "logical_sha256": "e34028332361ed092525a02822a6829b605f9e64ddf225c3c48da7599f55212b"
+    }
+  },
+  "selected_cells": 145471,
+  "retained_cells": 20918,
+  "missing_baseline_strata": 86,
+  "status": "built; independent audit required"
+}

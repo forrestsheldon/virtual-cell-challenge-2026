@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-09-04T11:55:51.615164+00:00",
+  "object": "per-perturbation shift vectors (celleval2_shifts.npy), cosine similarity",
+  "data_driven": {
+    "method": "complete linkage on 1-cosine",
+    "min_cosine": 0.3,
+    "families_ge2": 20,
+    "singletons": 91
+  },
+  "corum_transfer": {
+    "n_targets_with_partner": 38,
+    "median_cos_to_partner_mean": 0.1366074820870501,
+    "median_null": 0.06329139079243362
+  }
+}

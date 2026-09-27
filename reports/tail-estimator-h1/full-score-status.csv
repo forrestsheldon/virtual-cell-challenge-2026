@@ -1,0 +1,14 @@
+stage,status,time_utc
+generate_transductive,started,2026-09-17T09:52:12Z
+generate_transductive,completed,2026-09-17T09:52:55Z
+validate_transductive,started,2026-09-17T09:52:55Z
+validate_transductive,completed,2026-09-17T09:53:04Z
+score_transductive,started,2026-09-17T09:53:04Z
+score_transductive,completed,2026-09-17T10:12:58Z
+generate_control_only,started,2026-09-17T10:12:58Z
+generate_control_only,completed,2026-09-17T10:13:33Z
+validate_control_only,started,2026-09-17T10:13:33Z
+validate_control_only,completed,2026-09-17T10:13:41Z
+score_control_only,started,2026-09-17T10:13:41Z
+score_control_only,completed,2026-09-17T10:34:08Z
+complete,completed,2026-09-17T10:34:08Z

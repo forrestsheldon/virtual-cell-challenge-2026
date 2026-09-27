@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "context": "K562_essential",
+  "files": [
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/K562_essential/acceptance.json",
+      "sha256": "4a7010c647a0a6ab1237a8a31f85c69827fee7e3d45f169cf3dfeace95f85c8c",
+      "bytes": 461
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/K562_essential/batch_role_split_controls.h5ad",
+      "sha256": "a4248408fe68d77ced9ea1934e4d72d70dffeea26d54d3ad062ef6facfb085a7",
+      "bytes": 14263449
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/K562_essential/batch_split_exposures.parquet",
+      "sha256": "9f5f381a64a0cd67b1b0e4a480798a439a2e6e197853d3ce9ece2fe611c64c96",
+      "bytes": 1107072
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/K562_essential/cell_assignments.parquet",
+      "sha256": "56e9488cd15ee8d16d44a08daa005c48046f4fd864296b00218b2e6783bebc38",
+      "bytes": 11348760
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/K562_essential/construct_split_pseudobulk.h5ad",
+      "sha256": "358113a527a9c7b3ec2e5501e28815e375cbb77b1f37df57a99a1902397ba681",
+      "bytes": 223918041
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/K562_essential/manifest.json",
+      "sha256": "c6da34470ef68d35c606973df509c635df9bc89df78ca983e5f5981ad4f96483",
+      "bytes": 2122
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/K562_essential/matched_control_support.parquet",
+      "sha256": "d54f7b1fed3a182af06b2c6cede8fbd9c76423b613cc659420bf5e023f4736bb",
+      "bytes": 2353356
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/K562_essential/responder_cells/ReplogleWeissman2022_K562_essential.h5ad",
+      "sha256": "d05f240710877f276d8287800b22137df521c245c7f81797ca598e6bd72f4a2b",
+      "bytes": 352414922
+    }
+  ],
+  "independent_acceptance": {
+    "status": "passed",
+    "context": "K562_essential",
+    "manifest_sha256": "c6da34470ef68d35c606973df509c635df9bc89df78ca983e5f5981ad4f96483",
+    "selected_cells": 309610,
+    "retained_cells": 39291,
+    "reference_constructs_exact": 2268,
+    "independent_full_source_reaggregation": true,
+    "responder_source_rows_exact": true,
+    "file_sha256s_verified": true,
+    "control_role_margins_exact": true,
+    "missing_baseline_strata": 0,
+    "promotion": "not performed"
+  }
+}

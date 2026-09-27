@@ -39,8 +39,8 @@ vcc_cli:
   url: https://vcc-cli-wiki.virtualcellchallenge.org/
   source_type: official_documentation
   official: true
-  last_verified: 2026-08-29
-  version_or_commit: vcc-cli 0.1.0
+  last_verified: 2026-09-04
+  version_or_commit: vcc-cli 0.2.0
   used_for: install, auth, download, prep, submit
   notes: Documentation moved from the former portal /cli-guide route; CLI wheel includes the official agent skill.
 cell_eval2:
@@ -48,10 +48,10 @@ cell_eval2:
   url: https://github.com/ArcInstitute/cell-eval2
   source_type: official_source_code
   official: true
-  last_verified: 2026-08-21
+  last_verified: 2026-09-04
   version_or_commit: 0.16.0; 5e64833518a6603a0301cbe28185d49c30f4a986
   used_for: current evaluator implementation and VCC preset
-  notes: Commit dated 2026-08-20.
+  notes: Commit dated 2026-08-20; PyPI version and main HEAD unchanged when rechecked 2026-09-04.
 vcc_metric_pdf:
   title: VCC 2026 metric specification
   url: https://github.com/ArcInstitute/cell-eval2/blob/main/docs/vcc2026_metrics/vcc2026-metrics.pdf

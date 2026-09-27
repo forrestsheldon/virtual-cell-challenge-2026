@@ -1,0 +1,6 @@
+metric,value
+split_half_cosine,0.44376358483377143
+split_half_spearman,0.25872583995757364
+disagreement_energy_fraction,0.5563720530645186
+pds_cosine_raw_200v200,0.9773206349206349
+pds_cosine_spearman_brown_400,0.9885302541839527

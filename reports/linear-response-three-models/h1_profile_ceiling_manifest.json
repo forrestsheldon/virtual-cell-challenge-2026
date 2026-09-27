@@ -1,0 +1,31 @@
+{
+  "kind": "H1 expected-profile reliability ceiling",
+  "h1": {
+    "path": "data/external/vcc2025_h1/adata_Training.h5ad",
+    "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b"
+  },
+  "reference_cells": {
+    "path": "reports/vcc2026-h1/reference_cells.csv",
+    "sha256": "717715d594bfd5b1345538dcb72ffe196f66e5101cc385e2f4369221a77bd1f3"
+  },
+  "splits": "five deterministic disjoint 200-vs-200 target splits with independently split controls",
+  "seeds": [2968811710, 3677149159, 745650761, 2884920346, 2642120001],
+  "pds_implementation": "cell_eval2 ceiling and discrimination kernels",
+  "outputs": {
+    "ceiling_per_target": {
+      "path": "reports/linear-response-three-models/h1_profile_ceiling_per_target.csv",
+      "sha256": "0a04017081a26dad8188a668cb8ad2ff99f269a8f4ee60c86a083e8cba857cde"
+    },
+    "ceiling_summary": {
+      "path": "reports/linear-response-three-models/h1_profile_ceiling_summary.csv",
+      "sha256": "c3c9022f2a1bbb534b33bac703bae59795a00a5904c21c4e98e26262752b454e"
+    }
+  },
+  "software": {
+    "python": "3.12.13",
+    "cell-eval2": "0.16.0",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "polars": "1.44.1"
+  }
+}

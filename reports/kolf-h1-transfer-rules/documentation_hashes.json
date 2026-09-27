@@ -1,0 +1,7 @@
+{
+  "reports/kolf-h1-transfer-rules/README.md": "db1978b7870ebfaca4aae91fca5e14c9d8c3aa99cfe087c7f5e5043da66d8512",
+  "reports/kolf-h1-transfer-rules/validation.json": "290dbabb54019e2b4481139a3fb9d571ccd9421e94f7433fb8e9c00f926c0cae",
+  "plans/average-vs-matched-context-regression.md": "9f72902753b38d916e1ecefaf3f1263595c5ab52526d7ddd3e655727f5d37366",
+  "tests/test_kolf_h1_transfer_rules.py": "a40482adb3e8a034eaafed5e36ec307650e1be51a3e7d38c34c4f83a0b5fcd69",
+  "reports/kolf-h1-transfer-rules/mse-audit/README.md": "5a966cf782d8e49749e5f0d7dbb30eccfada7861dd2d3082110909e9d4787866"
+}

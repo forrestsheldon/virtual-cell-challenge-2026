@@ -1,0 +1,13 @@
+{
+  "core_control_populations": 514,
+  "inference_warning": "cell-split stability measures source sampling reliability, not biological replication or DE significance",
+  "max_abs_control_count_difference_after_recombining_halves": 0,
+  "max_abs_target_count_difference_after_recombining_halves": 0,
+  "repeats": 3,
+  "selected_control_cells": 75328,
+  "selected_target_cells": 23322,
+  "shrinkage": "Dirichlet posterior proportions centered on the pooled source control profile; prior_umis is the prior concentration in equivalent UMIs",
+  "split_unit": "cells, stratified independently within each author target-transcript dual-guide population",
+  "stability": "retain a target-gene effect when both cell halves have the same sign as the full effect in at least the stated number of three independently stratified splits",
+  "target_populations": 123
+}

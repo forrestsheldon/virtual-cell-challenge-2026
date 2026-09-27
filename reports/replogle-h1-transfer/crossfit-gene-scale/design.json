@@ -1,0 +1,71 @@
+{
+  "coefficient_stability": "500 perturbation bootstraps within each outer training fold",
+  "context_difference_null": "500 permutations within mean-expression deciles, with inner tuning repeated",
+  "context_ridge_multipliers": [
+    0.0,
+    1e-08,
+    4.641588833612782e-08,
+    2.1544346900318822e-07,
+    1e-06,
+    4.641588833612773e-06,
+    2.1544346900318823e-05,
+    0.0001,
+    0.00046415888336127724,
+    0.002154434690031882,
+    0.01,
+    0.046415888336127725,
+    0.21544346900318823,
+    1.0,
+    4.641588833612772,
+    21.54434690031878,
+    100.0,
+    null
+  ],
+  "count_shrunk_source_effect": "post-hoc sensitivity using a 100,000-equivalent-UMI prior",
+  "eligibility": "all arms are H1-informed diagnostics and ineligible for final zero-shot selection",
+  "gene_prior_multipliers": [
+    0.0,
+    0.0001,
+    0.00031622776601683794,
+    0.001,
+    0.0031622776601683794,
+    0.01,
+    0.03162277660168379,
+    0.1,
+    0.31622776601683794,
+    1.0,
+    3.1622776601683795,
+    10.0,
+    31.622776601683793,
+    100.0,
+    316.22776601683796,
+    1000.0,
+    3162.2776601683795,
+    10000.0,
+    null
+  ],
+  "gene_scale_stability": {
+    "count_shrunk_100000": {
+      "all_gene_scale_spearman": 0.2640911505373433,
+      "high_energy_deviation_same_direction_fraction": 0.6703586497890295,
+      "high_energy_deviation_spearman": 0.17044986320873365,
+      "high_energy_genes": 3792,
+      "stable_same_side_of_global_genes": 347
+    },
+    "raw": {
+      "all_gene_scale_spearman": null,
+      "high_energy_deviation_same_direction_fraction": 0.0,
+      "high_energy_deviation_spearman": null,
+      "high_energy_genes": 3792,
+      "stable_same_side_of_global_genes": 0
+    }
+  },
+  "inner_tuning_metric": "mean squared H1 residual error on stable strong-DE genes from training targets only",
+  "outer_target_fold_seed": 20260916,
+  "raw_source_effect": "primary planned analysis",
+  "response_gene_features": [
+    "intercept",
+    "standardized mean K562/H1 control log2(CPM+1)",
+    "standardized H1-minus-K562 control log2(CPM+1)"
+  ]
+}

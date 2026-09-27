@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-09-03T01:46:53.871426+00:00",
+  "question": "do co-complex perturbations give more similar responses than random pairs?",
+  "shifts": "Systema s_X from celleval2_h1_systema.py (log-normalized centroid differences)",
+  "annotation": {
+    "source": "CORUM human complexes",
+    "file": "data/external/annotations/humanComplexes.txt",
+    "url": "https://mips.helmholtz-munich.de/corum/",
+    "complexes_with_2plus_targets": 74,
+    "co_complex_pairs": 45
+  },
+  "mean_cosine_cocomplex": 0.233546528370913,
+  "mean_cosine_other": 0.03448882915663137,
+  "difference": 0.19905769921428162,
+  "permutations": 20000,
+  "null_mean": 0.00030358306435462315,
+  "null_sd": 0.017268275209366638,
+  "p_one_sided": 4.999750012499375e-05
+}

@@ -1,0 +1,23 @@
+{
+  "neighbors": [
+    10,
+    20,
+    50
+  ],
+  "pca_dimensions": [
+    10,
+    15,
+    30
+  ],
+  "pseudo_guides": [
+    "non-targeting_00018|non-targeting_00127",
+    "non-targeting_00026|non-targeting_02263",
+    "non-targeting_00047|non-targeting_00882",
+    "non-targeting_00062|non-targeting_02518",
+    "non-targeting_00121|non-targeting_00339"
+  ],
+  "invariant_clean_guides": 26,
+  "control_cells_per_guide": 5000,
+  "test_method": "wilcoxon",
+  "seed": 0
+}

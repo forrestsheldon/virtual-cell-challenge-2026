@@ -1,0 +1,91 @@
+{
+  "model": "rank-50 Poisson-lognormal with observed-total offsets and Laplace-MAP inference",
+  "status": "expected_profiles_generated",
+  "truth_cells_read": false,
+  "rank": 50,
+  "heldout_guides": [
+    "non-targeting_00065|non-targeting_02434",
+    "non-targeting_00095|non-targeting_03143"
+  ],
+  "best_start": 0,
+  "initial_heldout_laplace_nll": 561545.60725,
+  "selected_heldout_laplace_nll": 561539.16875,
+  "start_selection_metric": "six-step training-approximation held-out Laplace NLL",
+  "training": {
+    "starts": 3,
+    "epochs_per_start": 1,
+    "batch_size": 32,
+    "training_newton_steps": 6,
+    "inference_newton_steps": 30,
+    "maximum_newton_step": 2.0,
+    "learning_rate": 2e-06,
+    "gradient_clip_norm": 100.0,
+    "loading_penalty": 0.0001
+  },
+  "population_normalization": "subtract logsumexp(m + diag(LL.T)/2) after every update",
+  "shared_axis_filter": false,
+  "validation_gate": {
+    "population_normalized": true,
+    "prior_total_rate_q01_above_0.9": true,
+    "prior_total_rate_q99_below_1.1": true,
+    "posterior_total_rate_q01_above_0.9": true,
+    "posterior_total_rate_q99_below_1.1": true,
+    "mean_correlation_above_0.95": true,
+    "variance_correlation_above_0.5": true,
+    "mode_gradient_q99_below_1e-3": true,
+    "heldout_likelihood_improves": true,
+    "zero_fraction_abs_error_below_0.05": true
+  },
+  "fit_artifact": {
+    "path": "data/derived/linear_response/model3_fit.npz",
+    "sha256": "72bb04b2971364246bf7874d9ec0ab27e8d317db832e816c1611173d19410adf"
+  },
+  "inputs": {
+    "h1": {
+      "path": "data/external/vcc2025_h1/adata_Training.h5ad",
+      "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b"
+    },
+    "calibration": {
+      "path": "reports/linear-response-three-models/model1_knockdown_calibration.csv",
+      "sha256": "3d5111e8ef1983b63d734ebb8e411bd43a09d6f2a7f8f0b0684317df0e72d7fd"
+    }
+  },
+  "cell_target_sum": 10000.0,
+  "bulk_target_sum": 50000.0,
+  "artifact": {
+    "path": "data/derived/linear_response/model3_expected_profiles.npz",
+    "sha256": "c75442339971159c3cba008e2015f283bcee89c4aae82e1fccadcca6fccec43c"
+  },
+  "outputs": {
+    "tiny_validation": {
+      "path": "reports/linear-response-three-models/model3_tiny_laplace_validation.csv",
+      "sha256": "27eade003ab1c7b1b4b33e475d14708b8a6983ac4e16743e205badb6b4df29d5"
+    },
+    "fit_starts": {
+      "path": "reports/linear-response-three-models/model3_fit_starts.csv",
+      "sha256": "68550f75cc089d2ec1e66f16fac34b3f11ea433b8c9383f4d94bae1f0fb606c8"
+    },
+    "posterior_predictive": {
+      "path": "reports/linear-response-three-models/model3_posterior_predictive.csv",
+      "sha256": "87a459256ce5b5e8abb6078f05b9a2e9d28962fd33301890e30508b9d8824b9a"
+    },
+    "validation_gate": {
+      "path": "reports/linear-response-three-models/model3_validation_gate.csv",
+      "sha256": "97a426e8a7aefec57e2663a7f6b5366f2d05cb15190f3ac6b983360a41d11bac"
+    },
+    "closure": {
+      "path": "reports/linear-response-three-models/model3_on_target_closure.csv",
+      "sha256": "6ec44978f1dba0d0711c2c1eff500facd01b1c494c8b102581cfbd9becd7365b"
+    }
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "jax": "0.10.2",
+    "numpy": "2.5.2",
+    "optax": "0.2.8",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0"
+  }
+}

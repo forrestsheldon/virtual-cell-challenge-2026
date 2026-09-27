@@ -1,0 +1,30 @@
+{
+  "continuous_weight_definition": "w = full_effect^2 / (full_effect^2 + mean(split_half_0 - split_half_1)^2 / 4)",
+  "fraction_weight_below": {
+    "0.1": 0.22070650023794644,
+    "0.25": 0.36586758710846345,
+    "0.5": 0.5678502829555814,
+    "0.75": 0.7771387944429473,
+    "0.9": 0.9158541130331577
+  },
+  "median_norm_ratio_to_moderate_shrink": {
+    "continuous_at_dense_norm": 0.9999999999999998,
+    "continuous_natural": 0.7521039026381203,
+    "dense_at_continuous_norm": 0.752103902638119,
+    "dense_at_hard_2of3_norm": 0.941734904270675,
+    "hard_2of3_at_dense_norm": 0.9999999999999999,
+    "hard_2of3_natural": 0.9417349042706731,
+    "moderate_shrink": 1.0
+  },
+  "noise_interpretation": "For equal halves, squared half-difference divided by four estimates full-pseudobulk sampling variance. Repeated splits reuse cells and are a reliability diagnostic, not biological replication.",
+  "norm_matching": "performed independently for each of the 115 source targets before the 11 missing-target mean fallback",
+  "reliability_weight_quantiles": {
+    "max": 0.9999702699365729,
+    "median": 0.41454393625153263,
+    "min": 3.6091819056195093e-12,
+    "q10": 0.021243306669315894,
+    "q25": 0.12644455129182572,
+    "q75": 0.7191674988462932,
+    "q90": 0.8833283619526898
+  }
+}

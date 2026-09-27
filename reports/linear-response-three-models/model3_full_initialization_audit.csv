@@ -1,0 +1,2 @@
+genes,train_cells,factorial_variance_positive_fraction,factorial_variance_median,pca_factor_variance_median,full_initial_factor_variance_median,full_initial_residual_variance_median
+18080,24261,0.8725663716814159,0.09344748558537541,0.00063488167,0.0006023075871071101,0.08851782084352113

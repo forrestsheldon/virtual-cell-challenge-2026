@@ -1,0 +1,96 @@
+{
+  "anchor_metric_names": [
+    "pds_cosine",
+    "expr_mse_unbiased",
+    "expr_mse_unbiased_capped",
+    "expr_distance_unbiased",
+    "expr_real_mass_ratio",
+    "expr_mse_unbiased_capped_norm",
+    "de_wilcoxon_lfc_nmae",
+    "de_wilcoxon_direction_fidelity_yield_raw",
+    "de_wilcoxon_direction_reach_raw",
+    "de_wilcoxon_sig_jaccard"
+  ],
+  "anchor_semantic_identity": "b56c17716e64681328c7578de580a4a191b8f3a2330a6c1636df70f137bdb013",
+  "cell_eval2_version": "0.16.0",
+  "comparator": "bulk_lognorm",
+  "config_digest": "61d594efe45103c6a1b3b1b187dc95232b2c570ad064558eb6a7cdade96bc329",
+  "created_utc": "2026-09-04T01:11:49+00:00",
+  "de_pred_fingerprint": null,
+  "de_real_fingerprint": null,
+  "environment": {
+    "anndata": {
+      "provenance": "local",
+      "version": "0.13.2"
+    },
+    "numpy": {
+      "provenance": "local",
+      "version": "2.5.2"
+    },
+    "pdex": {
+      "provenance": "release",
+      "version": "0.3.0"
+    },
+    "polars": {
+      "provenance": "release",
+      "version": "1.44.1"
+    },
+    "scanpy": {
+      "provenance": "local",
+      "version": "1.12.3"
+    },
+    "scipy": {
+      "provenance": "local",
+      "version": "1.18.0"
+    }
+  },
+  "input_type_pred_effective": "counts",
+  "input_type_real_effective": "counts",
+  "metric_normalization": [
+    [
+      "pds_cosine",
+      "bulk_lognorm"
+    ],
+    [
+      "expr_mse_unbiased",
+      "bulk_lognorm"
+    ],
+    [
+      "expr_mse_unbiased_capped",
+      "bulk_lognorm"
+    ],
+    [
+      "expr_distance_unbiased",
+      "bulk_lognorm"
+    ],
+    [
+      "expr_real_mass_ratio",
+      "bulk_lognorm"
+    ],
+    [
+      "expr_mse_unbiased_capped_norm",
+      "bulk_lognorm"
+    ],
+    [
+      "de_wilcoxon_lfc_nmae",
+      null
+    ],
+    [
+      "de_wilcoxon_direction_fidelity_yield_raw",
+      null
+    ],
+    [
+      "de_wilcoxon_direction_reach_raw",
+      null
+    ],
+    [
+      "de_wilcoxon_sig_jaccard",
+      null
+    ]
+  ],
+  "resolved_de_backend": "pdex",
+  "resolved_device": "cpu",
+  "source": "vcc2026-h1-126x400-pdex",
+  "source_fingerprint": "a3231ff0957cc91ba29e3371c83488fda8fa738a3ec8d101aa666a6ca20f00c6",
+  "source_fingerprint_strict": true
+}

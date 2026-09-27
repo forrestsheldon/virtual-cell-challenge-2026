@@ -1,0 +1,277 @@
+{
+  "breadth_relative_to_unscaled_count_shrunk_residual": {
+    "h1_average_plus_shrunk_expression_context": {
+      "mean_pds_change": -0.18711111111111112,
+      "mean_strong_de_nmae_change": 0.042937672614980174,
+      "median_pds_change": -0.12400000000000005,
+      "median_strong_de_nmae_change": 0.034330320020907135,
+      "pds_improved_targets": 16,
+      "pds_targets": 126,
+      "strong_de_eligible_targets": 78,
+      "strong_de_nmae_improved_targets": 9
+    },
+    "h1_average_plus_shrunk_gene_scales": {
+      "mean_pds_change": -0.18304761904761901,
+      "mean_strong_de_nmae_change": 0.03856225186072699,
+      "median_pds_change": -0.10799999999999998,
+      "median_strong_de_nmae_change": 0.028139241341166077,
+      "pds_improved_targets": 18,
+      "pds_targets": 126,
+      "strong_de_eligible_targets": 78,
+      "strong_de_nmae_improved_targets": 9
+    }
+  },
+  "context_difference_permutation": [
+    {
+      "mean_expression_only_strong_residual_mse": 0.6620489132914287,
+      "null_improvement_mean": -0.0004956086094537,
+      "null_improvement_q95": 0.0003437062737502,
+      "observed_difference_feature_improvement": 0.004190723398299,
+      "observed_full_context_strong_residual_mse": 0.6578581898931296,
+      "one_sided_permutation_p": 0.0019960079840319,
+      "permutations": 500,
+      "source_effect": "raw"
+    },
+    {
+      "mean_expression_only_strong_residual_mse": 0.6431478399521697,
+      "null_improvement_mean": 0.0001682221825959,
+      "null_improvement_q95": 0.000600254945205,
+      "observed_difference_feature_improvement": 0.0021773202504198,
+      "observed_full_context_strong_residual_mse": 0.6409705197017499,
+      "one_sided_permutation_p": 0.0019960079840319,
+      "permutations": 500,
+      "source_effect": "count_shrunk_100000"
+    }
+  ],
+  "decision_rule": "A gene-level rule must improve held-out strong-DE fidelity/NMAE and PDS, remain stable across target folds, and survive the expression-matched difference permutation. MSE alone is not sufficient.",
+  "eligibility": "All candidate arms use H1 perturbation truth and are diagnostic only.",
+  "gene_scale_stability": {
+    "count_shrunk_100000": {
+      "all_gene_scale_spearman": 0.2640911505373433,
+      "high_energy_deviation_same_direction_fraction": 0.6703586497890295,
+      "high_energy_deviation_spearman": 0.17044986320873365,
+      "high_energy_genes": 3792,
+      "stable_same_side_of_global_genes": 347
+    },
+    "raw": {
+      "all_gene_scale_spearman": null,
+      "high_energy_deviation_same_direction_fraction": 0.0,
+      "high_energy_deviation_spearman": null,
+      "high_energy_genes": 3792,
+      "stable_same_side_of_global_genes": 0
+    }
+  },
+  "shared_gene_normalization_context_permutation": [
+    {
+      "mean_expression_only_strong_residual_mse": 0.6622543539437601,
+      "null_improvement_mean": -0.0004613022623735,
+      "null_improvement_q95": 0.0003273407989225,
+      "observed_difference_feature_improvement": 0.0041261840381481,
+      "observed_full_context_strong_residual_mse": 0.658128169905612,
+      "one_sided_permutation_p": 0.0019960079840319,
+      "permutations": 500,
+      "source_effect": "raw_shared_normalization"
+    },
+    {
+      "mean_expression_only_strong_residual_mse": 0.6430318324948494,
+      "null_improvement_mean": 0.00017227826829,
+      "null_improvement_q95": 0.0006272184126716,
+      "observed_difference_feature_improvement": 0.0018202211085333,
+      "observed_full_context_strong_residual_mse": 0.6412116113863161,
+      "one_sided_permutation_p": 0.0019960079840319,
+      "permutations": 500,
+      "source_effect": "count_shrunk_100000_shared_normalization"
+    }
+  ],
+  "shared_gene_normalization_summary": [
+    {
+      "eligible_targets": 56,
+      "mean_strong_residual_mse": 4.040007049717709,
+      "mean_strong_residual_nmae": 0.9939372522552546,
+      "mean_strong_residual_sign_agreement": 0.6581299110454915,
+      "model": "unscaled",
+      "source_effect": "raw_shared_normalization"
+    },
+    {
+      "eligible_targets": 56,
+      "mean_strong_residual_mse": 0.8959396318037138,
+      "mean_strong_residual_nmae": 0.998312223640221,
+      "mean_strong_residual_sign_agreement": 0.6581299110454915,
+      "model": "one_scale",
+      "source_effect": "raw_shared_normalization"
+    },
+    {
+      "eligible_targets": 56,
+      "mean_strong_residual_mse": 0.8746981968691755,
+      "mean_strong_residual_nmae": 0.9884736038315076,
+      "mean_strong_residual_sign_agreement": 0.6287109527181086,
+      "model": "gene_scales",
+      "source_effect": "raw_shared_normalization"
+    },
+    {
+      "eligible_targets": 56,
+      "mean_strong_residual_mse": 0.8667658593313233,
+      "mean_strong_residual_nmae": 0.9901712058178564,
+      "mean_strong_residual_sign_agreement": 0.6498455513522542,
+      "model": "expression_context",
+      "source_effect": "raw_shared_normalization"
+    },
+    {
+      "eligible_targets": 56,
+      "mean_strong_residual_mse": 0.610673167199263,
+      "mean_strong_residual_nmae": 0.8446030971071118,
+      "mean_strong_residual_sign_agreement": 0.6678160637805963,
+      "model": "unscaled",
+      "source_effect": "count_shrunk_100000_shared_normalization"
+    },
+    {
+      "eligible_targets": 56,
+      "mean_strong_residual_mse": 0.8632320942413438,
+      "mean_strong_residual_nmae": 0.9855873210014332,
+      "mean_strong_residual_sign_agreement": 0.6678160637805963,
+      "model": "one_scale",
+      "source_effect": "count_shrunk_100000_shared_normalization"
+    },
+    {
+      "eligible_targets": 56,
+      "mean_strong_residual_mse": 0.8185999351221314,
+      "mean_strong_residual_nmae": 0.9590273587805216,
+      "mean_strong_residual_sign_agreement": 0.6128728743971831,
+      "model": "gene_scales",
+      "source_effect": "count_shrunk_100000_shared_normalization"
+    },
+    {
+      "eligible_targets": 56,
+      "mean_strong_residual_mse": 0.8403357096475024,
+      "mean_strong_residual_nmae": 0.9751120978084232,
+      "mean_strong_residual_sign_agreement": 0.6643391854317231,
+      "model": "expression_context",
+      "source_effect": "count_shrunk_100000_shared_normalization"
+    }
+  ],
+  "top_bootstrap_stable_gene_scale_deviations": {
+    "count_shrunk_100000": [
+      {
+        "average_deviation": 0.9838224521270498,
+        "gene": "CTCFL",
+        "h1_minus_k562_control_log2_cpm1p": -4.892961202923842,
+        "mean_control_log2_cpm1p": 4.003477898189113
+      },
+      {
+        "average_deviation": 0.9113777622087278,
+        "gene": "HMGN1",
+        "h1_minus_k562_control_log2_cpm1p": -0.8802780512037494,
+        "mean_control_log2_cpm1p": 9.828759880528448
+      },
+      {
+        "average_deviation": 0.6662336765939953,
+        "gene": "GPSM3",
+        "h1_minus_k562_control_log2_cpm1p": -3.210194591719571,
+        "mean_control_log2_cpm1p": 5.376829788431391
+      },
+      {
+        "average_deviation": 0.46300568676024223,
+        "gene": "HMGCS1",
+        "h1_minus_k562_control_log2_cpm1p": 3.021257880395569,
+        "mean_control_log2_cpm1p": 8.278583230140306
+      },
+      {
+        "average_deviation": 0.4050533520253611,
+        "gene": "S100A11",
+        "h1_minus_k562_control_log2_cpm1p": -1.8518078511619864,
+        "mean_control_log2_cpm1p": 7.600325497887637
+      },
+      {
+        "average_deviation": 0.37637856476552745,
+        "gene": "GNB1L",
+        "h1_minus_k562_control_log2_cpm1p": -1.680259168441606,
+        "mean_control_log2_cpm1p": 5.026453020708967
+      },
+      {
+        "average_deviation": 0.3723182847015448,
+        "gene": "PSAT1",
+        "h1_minus_k562_control_log2_cpm1p": 3.647508709372385,
+        "mean_control_log2_cpm1p": 8.220457869896856
+      },
+      {
+        "average_deviation": 0.3543284786449821,
+        "gene": "MVD",
+        "h1_minus_k562_control_log2_cpm1p": 1.5962707110466976,
+        "mean_control_log2_cpm1p": 6.434849773288018
+      },
+      {
+        "average_deviation": -0.23117703300050296,
+        "gene": "RIPOR3",
+        "h1_minus_k562_control_log2_cpm1p": -1.6141951320172878,
+        "mean_control_log2_cpm1p": 3.737118971832829
+      },
+      {
+        "average_deviation": -0.22940066639376422,
+        "gene": "E2F8",
+        "h1_minus_k562_control_log2_cpm1p": -0.4175729387743119,
+        "mean_control_log2_cpm1p": 4.161571541379613
+      },
+      {
+        "average_deviation": 0.22386644327405714,
+        "gene": "PROS1",
+        "h1_minus_k562_control_log2_cpm1p": -3.9052376296988456,
+        "mean_control_log2_cpm1p": 3.3753237450101468
+      },
+      {
+        "average_deviation": -0.216975060476386,
+        "gene": "CRYBG3",
+        "h1_minus_k562_control_log2_cpm1p": -2.7211151660656245,
+        "mean_control_log2_cpm1p": 3.964158370897336
+      },
+      {
+        "average_deviation": -0.2116410926869482,
+        "gene": "ADAMTSL4",
+        "h1_minus_k562_control_log2_cpm1p": -2.8119617949362765,
+        "mean_control_log2_cpm1p": 4.510298344430919
+      },
+      {
+        "average_deviation": -0.1967199710079467,
+        "gene": "RWDD3",
+        "h1_minus_k562_control_log2_cpm1p": 0.0306593821920575,
+        "mean_control_log2_cpm1p": 5.487709433760717
+      },
+      {
+        "average_deviation": -0.1934963476213425,
+        "gene": "OSBPL6",
+        "h1_minus_k562_control_log2_cpm1p": -1.349692486251041,
+        "mean_control_log2_cpm1p": 4.616564864645163
+      },
+      {
+        "average_deviation": -0.1843165933177186,
+        "gene": "COMMD8",
+        "h1_minus_k562_control_log2_cpm1p": -1.5632469671642275,
+        "mean_control_log2_cpm1p": 4.505075737684259
+      },
+      {
+        "average_deviation": -0.1804025691274325,
+        "gene": "TEAD4",
+        "h1_minus_k562_control_log2_cpm1p": 3.8068143964338894,
+        "mean_control_log2_cpm1p": 6.236206531543081
+      },
+      {
+        "average_deviation": -0.1751500782316955,
+        "gene": "SLC22A23",
+        "h1_minus_k562_control_log2_cpm1p": 2.9900015483225957,
+        "mean_control_log2_cpm1p": 5.903840879065175
+      },
+      {
+        "average_deviation": -0.1739602135463354,
+        "gene": "FAM3A",
+        "h1_minus_k562_control_log2_cpm1p": 0.093031977678919,
+        "mean_control_log2_cpm1p": 4.675075657062182
+      },
+      {
+        "average_deviation": -0.17320707545417904,
+        "gene": "NAV1",
+        "h1_minus_k562_control_log2_cpm1p": 0.0717615650482415,
+        "mean_control_log2_cpm1p": 5.88283077639548
+      }
+    ],
+    "raw": []
+  }
+}

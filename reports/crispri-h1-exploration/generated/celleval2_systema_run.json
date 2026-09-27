@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-09-03T01:26:45.682089+00:00",
+  "reference": "Vinas Torne et al., Nature Biotechnology 2025, doi 10.1038/s41587-025-02777-8",
+  "definition": "systematic variation = mean over perturbations of cos(O(X) - O_control, mu_pert - O_control)",
+  "space": "per-cell CPM then log1p; centroids are means over cells",
+  "gene_set": "reference mean CPM > 5.0",
+  "n_genes": 10780,
+  "n_perturbations": 150,
+  "systema_reported": {
+    "all_datasets_mean": 0.41,
+    "all_datasets_sd": 0.18,
+    "replogle_k562": 0.32,
+    "adamson": 0.76,
+    "norman": 0.5
+  },
+  "result": {
+    "cell_weighted": {
+      "mean": 0.18727627069484745,
+      "sd": 0.14467232430725577,
+      "median": 0.1853871883969166,
+      "q25": 0.06298503167688793,
+      "q75": 0.29899779390390335
+    },
+    "unweighted": {
+      "mean": 0.19267501940816847,
+      "sd": 0.16395111275730678,
+      "median": 0.20185914235735564,
+      "q25": 0.049666858209772735,
+      "q75": 0.3142179290925827
+    },
+    "rereferenced": {
+      "mean": 0.00017693026113022926,
+      "sd": 0.009215086952330939
+    }
+  }
+}

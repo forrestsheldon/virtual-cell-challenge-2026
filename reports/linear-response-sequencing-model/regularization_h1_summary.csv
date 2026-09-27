@@ -1,0 +1,4 @@
+model,label,mean_signed_recovery,wrong_target_mean,wrong_target_p,mean_exact_crossfit_nmae
+control_factorial_pln,Raw PLN,0.0423832169028863,0.0404800175132151,0.2632736726327367,1.0063338130561066
+control_factorial_pln_mean_shrunk,Mean shrinkage,0.0379478223831788,0.0344950510827943,0.1398860113988601,1.0034100822537473
+control_factorial_pln_adaptive_eb,Adaptive EB,0.0386379071607594,0.0356408824927755,0.1588841115888411,1.005153094387209

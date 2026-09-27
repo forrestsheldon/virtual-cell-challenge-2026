@@ -1,0 +1,54 @@
+{
+  "context": "RPE1",
+  "config_sha256": "dba62d325198670fb85ed8ac83fb712644b7c9dc999ea501b8f82c0d21560cd6",
+  "sources": [
+    {
+      "name": "ReplogleWeissman2022_rpe1.h5ad",
+      "url": "https://zenodo.org/api/records/13350497/files/ReplogleWeissman2022_rpe1.h5ad/content",
+      "bytes": 1236886900,
+      "sha256": "12d6a0cf9378c4f09411e27f0ce07b59f1d97731bd576d6fadf112f6f088d1a4",
+      "md5": "cc7f1ec50aeb3a3e1b4a6cfa713d80fa",
+      "input_cells": 247914,
+      "selected_cells": 209264,
+      "responder_cells": 35061,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 38650
+    }
+  ],
+  "files": {
+    "batch_role_split_controls.h5ad": {
+      "bytes": 16192116,
+      "sha256": "6192bbd4449d8a22a90630c48049d072d381d98947db2349d0be7568482e9b71",
+      "logical_sha256": "b95bf1e77a70e41215420e3f9b2165c4a5b8e86579dd162795713a6a98f22203"
+    },
+    "batch_split_exposures.parquet": {
+      "bytes": 973356,
+      "sha256": "25c3387d8703707a6b7f26a1e73be117a7cf0a88098d3b9844f6c1cdd4f48c99",
+      "logical_sha256": null
+    },
+    "cell_assignments.parquet": {
+      "bytes": 8007613,
+      "sha256": "5a79a90cac5c289d9ed0683504f4602dc95bf21256c34a06a897e2180690d50d",
+      "logical_sha256": null
+    },
+    "construct_split_pseudobulk.h5ad": {
+      "bytes": 210700481,
+      "sha256": "cb1ceff2c1b532c9d53fe5fa71631e1074742abe4d17723a99836fd89d155027",
+      "logical_sha256": "6a1f1d526880818efa039d3a1c091f47c9bff3f20f97d8566089d1a79527f84c"
+    },
+    "matched_control_support.parquet": {
+      "bytes": 2117698,
+      "sha256": "f6453112164e38ce78da9a78236ccb0c1e66580216acc91360fdd4438f6e705a",
+      "logical_sha256": null
+    },
+    "responder_cells/ReplogleWeissman2022_rpe1.h5ad": {
+      "bytes": 305121704,
+      "sha256": "33a1eb160bc1fd2bf98d56233439712633e4bfa0765beb0c7a90b87986e8cde1",
+      "logical_sha256": "830d4a367cebeb10080b45ef46a01e83c1641c86fd16cc7ea7fbab8dc2460bc9"
+    }
+  },
+  "selected_cells": 209264,
+  "retained_cells": 35061,
+  "missing_baseline_strata": 0,
+  "status": "built; independent audit required"
+}

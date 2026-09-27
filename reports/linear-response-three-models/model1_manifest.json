@@ -1,0 +1,98 @@
+{
+  "model": "normalized empirical-covariance linear response",
+  "truth_cells_read": false,
+  "cell_target_sum": 10000.0,
+  "bulk_target_sum": 50000.0,
+  "control_cells": 32616,
+  "control_guides": 26,
+  "benchmark_targets": 126,
+  "calibration": "leave-one-target-out median negative log-fraction knockdown; exact expected-decoder output matching",
+  "seeds": {
+    "source_rows": [
+      0,
+      1,
+      0,
+      "source_order",
+      0
+    ],
+    "model_decode": [
+      0,
+      8,
+      0,
+      "source_order",
+      0,
+      0
+    ],
+    "null_decode": [
+      0,
+      8,
+      0,
+      "source_order",
+      0,
+      1
+    ]
+  },
+  "artifact": {
+    "path": "data/derived/linear_response/model1_expected_profiles.npz",
+    "sha256": "69d9e3bee240224704e04e99e6e86315e9a8a42af13c84d20409a7e6cf505f63"
+  },
+  "outputs": {
+    "calibration": {
+      "path": "reports/linear-response-three-models/model1_knockdown_calibration.csv",
+      "sha256": "3d5111e8ef1983b63d734ebb8e411bd43a09d6f2a7f8f0b0684317df0e72d7fd"
+    },
+    "closure": {
+      "path": "reports/linear-response-three-models/model1_on_target_closure.csv",
+      "sha256": "84670cab5622cd603f7d2fc553f82b96724f4f63428f85dbaa7a8d6c4f1f82a9"
+    },
+    "scale_audit": {
+      "path": "reports/linear-response-three-models/calibration_scale_audit.csv",
+      "sha256": "dafd1ab8827b8afff61eb5b65bb964dc662ee58f15f228e93b8fd57f85861ec1"
+    },
+    "control_fit": {
+      "path": "reports/linear-response-three-models/model1_control_fit_diagnostics.csv",
+      "sha256": "f4866e2c9c22bdd9545809228ae4a0e4a01f592cb9e5c21b303b1762011f9abe"
+    },
+    "batch": {
+      "path": "reports/linear-response-three-models/batch_sensitivity.csv",
+      "sha256": "623f2d24319dfcfdd1df01c775455d4550584fc243255522e920298fa0fbc1d7"
+    },
+    "geometry": {
+      "path": "reports/linear-response-three-models/model1_shared_axis_geometry.csv",
+      "sha256": "da143d2fb952f6a17c2a50d50ac2911c5f6c6f37a8d755e07bf346bc79694186"
+    },
+    "nearest": {
+      "path": "reports/linear-response-three-models/model1_nearest_directions.csv",
+      "sha256": "6e6a6ed747665b5c1abb2b928396c5cfc39ae3a5baee19833a9afe29427de115"
+    },
+    "noise": {
+      "path": "reports/linear-response-three-models/generator_noise_decomposition.csv",
+      "sha256": "e05181c33be23f08453c48ec4c5ebab4dd169fb834cf6f6de80144ab0dfac366"
+    },
+    "calibration_summary": {
+      "path": "reports/linear-response-three-models/calibration_summary.csv",
+      "sha256": "498549a2ea7bf39706ea71bfc9fe2e7d82d8c006bc5b33fcbcbba90b5c523a3e"
+    }
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0"
+  },
+  "inputs": {
+    "h1": {
+      "path": "data/external/vcc2025_h1/adata_Training.h5ad",
+      "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b"
+    },
+    "target_table": {
+      "path": "reports/linear-response-three-models/h1_target_counts.csv",
+      "sha256": "bb25d2f5bbdee37846b009382924337c369c4c86d1ff32a58b973b57e84075c9"
+    },
+    "strict_controls": {
+      "path": "reports/linear-response-three-models/h1_strict_controls.csv",
+      "sha256": "9daf441a9d64cb1a07acf21791534e8e184129979c7fe05b3e92edc2eb1063cb"
+    }
+  }
+}

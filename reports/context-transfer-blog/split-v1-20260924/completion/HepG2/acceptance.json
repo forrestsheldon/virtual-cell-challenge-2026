@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "context": "HepG2",
+  "manifest_sha256": "9efb9ffcae3a33117f782a3c8ce341dd4046b295e7d2d38c2dd93e4f9c669948",
+  "selected_cells": 145471,
+  "retained_cells": 20918,
+  "reference_constructs_exact": 2678,
+  "independent_full_source_reaggregation": true,
+  "responder_source_rows_exact": true,
+  "file_sha256s_verified": true,
+  "control_role_margins_exact": true,
+  "missing_baseline_strata": 86,
+  "promotion": "not performed"
+}

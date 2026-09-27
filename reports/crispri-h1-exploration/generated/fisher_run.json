@@ -1,0 +1,9 @@
+{
+  "candidate_genes": "stringent DE genes excluding all 150 CRISPR targets",
+  "direction": "cross-fitted diagonal Fisher using every eligible gene",
+  "pearson_theta": 100,
+  "ridge": 0.1,
+  "training_controls_per_fold": 2000,
+  "heldout_controls_per_fold": 500,
+  "seed": 0
+}

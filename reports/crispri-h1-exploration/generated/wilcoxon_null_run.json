@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-09-01T03:50:26.572003+00:00",
+  "input": "data/external/vcc2025_h1/adata_Training.h5ad",
+  "comparison": "each NT guide versus all other NT guides",
+  "normalization": "per-cell total-count normalization to 10000, then log1p",
+  "test": "two-sided Mann-Whitney U / Wilcoxon rank-sum",
+  "implementation": "pdex 0.3.0",
+  "multiple_testing": "Benjamini-Hochberg within each guide across 18080 genes",
+  "pseudo_guides": 31,
+  "seed": 0
+}

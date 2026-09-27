@@ -1,0 +1,41 @@
+arm,metric,aggregation,n_targets,raw_value,scored
+Generator null,pds_cosine,mean,126,0.4853333333333333,True
+Generator null,expr_mse_unbiased,mean,126,0.0022547137023222,False
+Generator null,expr_mse_unbiased_capped,mean,126,0.0022617679852636,False
+Generator null,expr_distance_unbiased,mean,126,0.0022567076502434,False
+Generator null,expr_real_mass_ratio,mean,126,1.0,False
+Generator null,expr_mse_unbiased_capped_norm,ratio_of_sums,126,1.0022423529338131,True
+Generator null,de_wilcoxon_lfc_nmae,mean,110,1.005044996558229,True
+Generator null,de_wilcoxon_direction_fidelity_yield_raw,mean,126,3.67214926595e-05,True
+Generator null,de_wilcoxon_direction_reach_raw,mean,126,0.0271469705195904,True
+Generator null,de_wilcoxon_sig_jaccard,mean,126,1.1278254848e-06,True
+Global axis,pds_cosine,mean,126,0.4510476190476189,True
+Global axis,expr_mse_unbiased,mean,126,0.0022396180659185,False
+Global axis,expr_mse_unbiased_capped,mean,126,0.0022466616254118,False
+Global axis,expr_distance_unbiased,mean,126,0.0022567076502434,False
+Global axis,expr_real_mass_ratio,mean,126,1.0,False
+Global axis,expr_mse_unbiased_capped_norm,ratio_of_sums,126,0.9955483711723012,True
+Global axis,de_wilcoxon_lfc_nmae,mean,110,0.9964354676216716,True
+Global axis,de_wilcoxon_direction_fidelity_yield_raw,mean,126,0.0955742873866247,True
+Global axis,de_wilcoxon_direction_reach_raw,mean,126,0.0362349643011464,True
+Global axis,de_wilcoxon_sig_jaccard,mean,126,0.0024785003293941,True
+Vanilla LR,pds_cosine,mean,126,0.5097777777777777,True
+Vanilla LR,expr_mse_unbiased,mean,126,0.0032318192763453,False
+Vanilla LR,expr_mse_unbiased_capped,mean,126,0.0032370435881606,False
+Vanilla LR,expr_distance_unbiased,mean,126,0.0022567076502434,False
+Vanilla LR,expr_real_mass_ratio,mean,126,1.0,False
+Vanilla LR,expr_mse_unbiased_capped_norm,ratio_of_sums,126,1.4344098083823436,True
+Vanilla LR,de_wilcoxon_lfc_nmae,mean,110,1.034848862248481,True
+Vanilla LR,de_wilcoxon_direction_fidelity_yield_raw,mean,126,0.3846694850310402,True
+Vanilla LR,de_wilcoxon_direction_reach_raw,mean,126,0.0811129970615108,True
+Vanilla LR,de_wilcoxon_sig_jaccard,mean,126,0.0585391381082614,True
+LR + global axis,pds_cosine,mean,126,0.4900952380952379,True
+LR + global axis,expr_mse_unbiased,mean,126,0.00321573479201,False
+LR + global axis,expr_mse_unbiased_capped,mean,126,0.0032220276482954,False
+LR + global axis,expr_distance_unbiased,mean,126,0.0022567076502434,False
+LR + global axis,expr_real_mass_ratio,mean,126,1.0,False
+LR + global axis,expr_mse_unbiased_capped_norm,ratio_of_sums,126,1.4277558938340495,True
+LR + global axis,de_wilcoxon_lfc_nmae,mean,110,1.0212665952951998,True
+LR + global axis,de_wilcoxon_direction_fidelity_yield_raw,mean,126,0.4024352851994983,True
+LR + global axis,de_wilcoxon_direction_reach_raw,mean,126,0.0811474449302987,True
+LR + global axis,de_wilcoxon_sig_jaccard,mean,126,0.061643899358151,True

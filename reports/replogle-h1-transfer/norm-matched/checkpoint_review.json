@@ -1,0 +1,30 @@
+{
+  "decision_rule": "Support selection must improve perturbation identification at matched norm; an MSE improvement alone is not evidence for better support.",
+  "direction": "positive is better for signed recovery and PDS; negative is better for NMAE and expression MSE",
+  "paired_arm_differences": {
+    "continuous_at_dense_norm_minus_moderate_shrink": {
+      "fast_normalized_expression_mse": 0.025184450217045296,
+      "fast_pds_from_baseline": -0.005278063851699155,
+      "mean_signed_recovery": 0.0008747093443424031,
+      "mean_strong_de_lfc_nmae": 0.0024861425913065283
+    },
+    "continuous_natural_minus_dense_at_continuous_norm": {
+      "fast_normalized_expression_mse": 0.028241261522934824,
+      "fast_pds_from_baseline": 0.00025746652935054737,
+      "mean_signed_recovery": 0.0006578848991229055,
+      "mean_strong_de_lfc_nmae": -0.0003759703081407384
+    },
+    "hard_2of3_at_dense_norm_minus_moderate_shrink": {
+      "fast_normalized_expression_mse": 0.04669937559987103,
+      "fast_pds_from_baseline": -0.012229660144180587,
+      "mean_signed_recovery": -0.00025427163226629523,
+      "mean_strong_de_lfc_nmae": 0.001864325939776812
+    },
+    "hard_2of3_natural_minus_dense_at_hard_2of3_norm": {
+      "fast_normalized_expression_mse": 0.04457889309143859,
+      "fast_pds_from_baseline": -0.009783728115344337,
+      "mean_signed_recovery": -0.0002725878960758016,
+      "mean_strong_de_lfc_nmae": 0.0015983052561957534
+    }
+  }
+}

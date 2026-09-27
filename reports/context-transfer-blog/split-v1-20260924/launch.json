@@ -1,0 +1,48 @@
+{
+  "release": "split-v1-20260924",
+  "bundle_sha256": "14b68b2ac17f9782e9f5d581cd4b70937d1dae2171cf24b713358178e6d80e36",
+  "bundle_bytes": 321681207,
+  "scripts": {
+    "scripts/cloud/build_context_splits.py": "0d6148391a91e1471dafbae8e4615bd6bef3d70f45339a191db648f93c1d4ac5",
+    "scripts/cloud/audit_context_splits.py": "3ab6241d990265d72388b0f5eb8e7c1d10c14c82bc4c1029d3e75000a262fe08",
+    "scripts/cloud/run_context_splits.py": "28be0a4c2ca29841d1a63b0525e600a1358904c1c0349fb379798775da4db553",
+    "scripts/cloud/aggregate_scperturb_context.py": "72c4f37de8be1d26bf03dbef16c1fcb85bce626b40d265fa3fa7cd153c2798e6",
+    "tests/test_context_split_release.py": "e811695524078813fb7606220217fc207ce24a0cd3909cf81fadd8c3d51ccd69"
+  },
+  "config_sha256": "dba62d325198670fb85ed8ac83fb712644b7c9dc999ea501b8f82c0d21560cd6",
+  "tests": "5 passed; synthetic source build/audit, corruption, count, assignment, covariance controls",
+  "project": "bold-bastion-509200-f9",
+  "zone": "europe-west2-b",
+  "machine": "e2-highmem-8",
+  "disks": {
+    "boot_pd_balanced_GiB": 30,
+    "scratch_pd_standard_GiB": 250
+  },
+  "compute_stop_limit_hours": 16,
+  "source_retention": "New sources on worker disk retained for review; no deletion authorized",
+  "derived_retention": "Durable staging, responder cells included; no automatic expiry",
+  "state": "running",
+  "startup_sha256": "440d8e6e1a16096863b168fdc620f369b2c0b790e9779d3d939acf3feec133d3",
+  "pricing": {
+    "source": "Google Cloud Billing Catalog API; London SKUs, accessed 2026-09-24",
+    "E2_vCPU_USD_hour": 0.0281037,
+    "E2_RAM_USD_GiB_hour": 0.00376602,
+    "balanced_disk_USD_GiB_month": 0.12,
+    "VM_USD_hour": 0.46585487999999997,
+    "disk_USD_month": 15.6,
+    "running_USD_hour_with_IP_allowance": 0.4922247430136986,
+    "IP_USD_hour_allowance": 0.005,
+    "durable_USD_GiB_month_allowance": 0.03,
+    "tax_operations_transfer": "additional",
+    "standard_disk_USD_GiB_month": 0.048
+  },
+  "bundle_cloud_SHA256_verified": true,
+  "first_creation_attempt": "Balanced scratch quota exceeded; no disks/VM remained; retried with standard scratch without quota changes.",
+  "instance": "vcc-splits-20260924",
+  "staging_prefix": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/",
+  "additional_local_check": "1203-row, multi-row-group sparse Parquet conversion exact across 512-cell blocks, including zeros",
+  "started_utc": "2026-09-24T09:36:17.797585+00:00",
+  "current_context": "HepG2",
+  "worker_tests": "5 passed; main loop entered first context",
+  "artifact_validation": "Pending real-source acquisition/build/audit; bundle SHA-256 verified local/cloud"
+}

@@ -1,0 +1,195 @@
+{
+  "created_utc": "2026-09-25T10:01:42.688524+00:00",
+  "seed": 20260925,
+  "targets": 123,
+  "genes": 17603,
+  "metric_genes": 17480,
+  "zero_kolf_control_genes_retained": 427,
+  "ratio_zero_handling": "Ratio=1 if KOLF control is zero; baseline unchanged before closure",
+  "rounding": "Exact aggregate of 400 independently stochastic-rounded cells, five seeds; Binomial(400, fractional rate) + 400*floor(rate); no full cell matrix",
+  "rounding_depth": 56528.22349119866,
+  "h1_control_cells": 38176,
+  "missing_h1_targets": [
+    "CAST",
+    "CHMP3",
+    "TAZ"
+  ],
+  "normalization": "Pooled raw count sums; duplicate symbols summed; all 17,603 shared genes including donor control zeros; CPM over this fixed support",
+  "rules": {
+    "additive": "h0 + kp - k0",
+    "ratio": "h0 * kp/k0",
+    "log1p": "(h0+1)*(kp+1)/(k0+1)-1"
+  },
+  "boundaries": "floor negative values at zero, then close to 1e6 CPM in every arm",
+  "evaluation": "log1p(CPM/20) effects; all 123 target genes excluded from every primary metric; no fitted parameters or generated cells; not full official scoring",
+  "strong_gene_definition": "Existing H1 padj<0.05, abs(log2FC)>=0.5, concordant full sign in both halves in >=4/5 splits; >=10 retained genes per target. Diagnostic effects use current profile space, not official DE LFC.",
+  "bootstrap": "2000 paired target bootstraps; fixed experiments and controls; no cell or study uncertainty",
+  "controls": "exact truth recovery and zero/common-response null checks passed; 20 deranged target shuffles; self-transfer is not a replicate ceiling",
+  "lineage": {
+    "kolf": {
+      "dataset": "Nourreddine et al. KOLF2.1J pan-genome CRISPRi",
+      "source_url": "https://ndownloader.figshare.com/files/64650261",
+      "source_file": "KOLF_Pan_Genome_QC_Filtered.h5ad",
+      "source_size": 189393177972,
+      "source_md5": "afd30fde1e6ad32969c29868394385d1",
+      "source_sha256": "3e7b0eaae92cc4aacc1d85f6a416998d44445dd296aa44dab4f39d16de0dec79",
+      "source_representation": "layers/counts CSC float32",
+      "output_representation": "raw UMI count sums",
+      "control_label": "NTC",
+      "target_panel_sha256": "ac5dc34656bdd5c34a3ae5648c1ac42937a2d82726f742d13f7e09796eb9e3fc",
+      "missing_requested_targets": [
+        "CAST",
+        "CHKB",
+        "CHMP3",
+        "DTNBP1",
+        "EPHB2",
+        "IFNGR2",
+        "IL10RB",
+        "LENG1",
+        "MTM1",
+        "PBLD",
+        "PSMB9",
+        "RSRC1",
+        "SNRK",
+        "STK3",
+        "TAZ",
+        "TBC1D19",
+        "TBCK",
+        "TESK2",
+        "TRIP4",
+        "TTBK2",
+        "ZC2HC1A"
+      ],
+      "created_utc": "2026-09-21T11:19:38.134737+00:00",
+      "software": {
+        "python": "3.11.2",
+        "numpy": "2.4.6",
+        "pandas": "2.3.3",
+        "scipy": "1.17.1",
+        "anndata": "0.12.19",
+        "h5py": "3.16.0"
+      },
+      "requested_targets": 415,
+      "observed_targets": 394,
+      "selected_cells": 241023,
+      "perturbed_cells": 94276,
+      "controls": 146747,
+      "guides": 2128,
+      "batches": 3,
+      "control_channels": 90,
+      "genes": 37567,
+      "selected_umis": 1436721439,
+      "outputs": {
+        "KOLF2.1J_target_pseudobulk.h5ad": {
+          "size": 27111476,
+          "sha256": "cdff7f92be8779f3b203a2f239dd4076ea65184af0d31f49a617d799a46c719e"
+        },
+        "KOLF2.1J_guide_pseudobulk.h5ad": {
+          "size": 106526940,
+          "sha256": "fa5214998f0c13fb699e28a61b681994b23a790aa9e8052c42851034a99d603d"
+        },
+        "KOLF2.1J_target_batch_pseudobulk.h5ad": {
+          "size": 27336057,
+          "sha256": "1f5cfd666f9b9480bc3089d4a6e3a0457e9fecda7b49047fd1d5ffe3e12aa857"
+        },
+        "KOLF2.1J_control_channel_pseudobulk.h5ad": {
+          "size": 11254847,
+          "sha256": "de98dcf5f632937c28645ca3421bb4f364c638268b21ce76a32977ad3aa41a9a"
+        }
+      }
+    },
+    "h1": {
+      "created_utc": "2026-09-18T19:34:51+00:00",
+      "inputs": {
+        "h1_reference_cells": {
+          "path": "reports/vcc2026-h1/reference_cells.csv",
+          "sha256": "717715d594bfd5b1345538dcb72ffe196f66e5101cc385e2f4369221a77bd1f3"
+        },
+        "h1_training_counts": {
+          "accessed": "2026-08-30",
+          "path": "data/external/vcc2025_h1/adata_Training.h5ad",
+          "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+          "source_url": "gs://arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/"
+        },
+        "replogle_author_raw_bulk": {
+          "accessed": "2026-09-18",
+          "path": "data/external/replogle2022/K562_gwps_raw_bulk_01.h5ad",
+          "sha256": "7cec96b3b76169abbf6b6ab9d10bf00d71d942d89e63292351f745e130b154db",
+          "source_url": "https://figshare.com/ndownloader/files/35774443"
+        }
+      },
+      "normalization": {
+        "primary": "library-size normalize each count-sum pseudobulk over its native measured gene universe to 1e6, then log2 ratio with epsilon 1e-9; align symbols afterward",
+        "sensitivity": "restrict to 7,583 shared symbols before library-size normalization",
+        "target_weighting_for_future_global_means": "equal target weight"
+      },
+      "outputs": {
+        "data/derived/replogle_h1_transfer/effects.npz": "4906b8576fca3e4dabb466c57d2a4c582d63150d64c2956add8c87be0102a207",
+        "reports/replogle-h1-transfer/checkpoint1_summary.json": "bca7dc6eda1a1f3bf085906910ca90764b6a0c76bb123ad671603c3ff777c0d2",
+        "reports/replogle-h1-transfer/guide_concordance.csv": "4a2945df784a046185a8b85691ce0cdd0c2204a5295b888da13bcc264e113d32",
+        "reports/replogle-h1-transfer/library_sizes.csv": "0de009964c16c83f7c97da77091563046d516a8dde5bef76d704ad16889c654e",
+        "reports/replogle-h1-transfer/normalization_sensitivity.csv": "e4acf511786aaa3d6025887ed20f11161a1ebe0324c7a1a9da537c81aa78ced8",
+        "reports/replogle-h1-transfer/target_overlap_and_knockdown.csv": "8a8943ba239d7519384786b4bd7cf8875465cb2abf690b222cc051f08ed70ae8"
+      },
+      "producer": {
+        "path": "scripts/evaluation/prepare_replogle_h1_transfer.py",
+        "sha256": "0389fb7edf416330ec94f51126c0770cb68ab03c9ed4b0cef6773347047a875a"
+      },
+      "replogle_population_unit": "The author pseudobulk rows are target-transcript populations. Cell-level metadata shows each population corresponds to one dual-guide construct; therefore this audit compares construct populations, not individual component guides.",
+      "software": {
+        "anndata": "0.13.2",
+        "numpy": "2.5.2",
+        "pandas": "3.0.5",
+        "python": "3.12.13"
+      },
+      "stage": "checkpoint 1 aggregation audit"
+    }
+  },
+  "inputs": {
+    "data/derived/context_atlas/final/KOLF2.1J/KOLF2.1J_target_pseudobulk.h5ad": "cdff7f92be8779f3b203a2f239dd4076ea65184af0d31f49a617d799a46c719e",
+    "data/derived/context_atlas/final/KOLF2.1J/KOLF2.1J_manifest.json": "8203a59051537a534bb62afd52db2f61817d80bf5dbb9f6ff9879addde0c1194",
+    "data/derived/context_atlas/final/KOLF2.1J/KOLF2.1J_audit.json": "52f0cf8c9352edb1e0154b1278708d722c33c7200e97dcd8a30d8b766e179683",
+    "data/derived/replogle_h1_transfer/effects.npz": "4906b8576fca3e4dabb466c57d2a4c582d63150d64c2956add8c87be0102a207",
+    "data/derived/replogle_h1_transfer/phase1_effects.npz": "7b09f91d4e8c8c911565a4d03be6bf02962f8af0c5052eb8e101027f4928427c",
+    "data/derived/vcc2026_h1/h1_controls.h5ad": "2cba34e4b28e22d03c4280c109bc222b7383a145f50a42be8e2a78e3b4452277",
+    "reports/replogle-h1-transfer/checkpoint1_manifest.json": "62b48c6265dbc6d1521723f1e3c1b9d05bc1a245194cc57a8aefbb53068f12e3",
+    "reports/linear-response-three-models/strong_de_truth_genes.csv": "229e06fac02d35217687291734dd5b925633ee7df5871052bf903f8ce3db9e66",
+    "reports/vcc2026-h1/reference_cells.csv": "717715d594bfd5b1345538dcb72ffe196f66e5101cc385e2f4369221a77bd1f3"
+  },
+  "code": {
+    "scripts/evaluation/kolf_h1_transfer_rules.py": "64cab3387bb6f7c3d084cf8522c9276ac93352df89e26e41650c3a388f619243",
+    "scripts/evaluation/context_transfer_h1.py": "aa63393c38862447a0eb63dfa50bb2837c7abb068023f37b5b8a3da82ac7f09f",
+    "scripts/evaluation/context_transfer_blog.py": "7dcbd9109d40053cb372826302eda1aab7438125f1896a7c1910d393487a1eb9"
+  },
+  "software": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0",
+    "anndata": "0.13.2",
+    "matplotlib": "3.11.1",
+    "cell-eval2": "0.16.0"
+  },
+  "python": "3.12.13",
+  "git_commit": "9f9063cdaeba8aad5f4712610d6125c9c5b2e8c8",
+  "git_status": " M .gitignore\n M AGENTS.md\n M context/vcc2026/CHANGELOG.md\n M context/vcc2026/sources.yaml\n M context/vcc2026/submission.md\n M context/vcc2026/tooling.md\n M data/README.md\n M metadata/datasets/replogle_k562_gwps_artifact_decision.md\n M pixi.lock\n M pixi.toml\n M scripts/metadata/inspect_remote_h5ad.py\n?? CLAUDE.md\n?? metadata/datasets/chromatin_accessibility_sources.json\n?? plans/\n?? reports/chromatin-accessibility-atlas/\n?? reports/cloud-setup/\n?? reports/context-atlas-cloud/\n?? reports/context-transfer-blog/\n?? reports/control-tail-estimator-h1/\n?? reports/crispri-h1-exploration/\n?? reports/kolf-h1-transfer-rules/\n?? reports/linear-response-ladder/\n?? reports/linear-response-sequencing-model/\n?? reports/linear-response-state-diversity/\n?? reports/linear-response-three-models/\n?? reports/replogle-h1-transfer/\n?? reports/tail-estimator-h1/\n?? reports/vcc2026-h1/\n?? reports/xatlas-orion-streaming-audit/\n?? scripts/analysis/\n?? scripts/cloud/\n?? scripts/data/\n?? scripts/evaluation/\n?? scripts/exploration/calibrate_h1_de_thresholds.py\n?? scripts/exploration/celleval2_h1_bin_umap.py\n?? scripts/exploration/celleval2_h1_de.py\n?? scripts/exploration/celleval2_h1_families.py\n?? scripts/exploration/celleval2_h1_fisher_score.py\n?? scripts/exploration/celleval2_h1_gsea_residual.py\n?? scripts/exploration/celleval2_h1_guide_null.py\n?? scripts/exploration/celleval2_h1_mixscape_de.py\n?? scripts/exploration/celleval2_h1_null.py\n?? scripts/exploration/celleval2_h1_responder_signature.py\n?? scripts/exploration/celleval2_h1_shared_signature.py\n?? scripts/exploration/celleval2_h1_specificity.py\n?? scripts/exploration/celleval2_h1_subsample.py\n?? scripts/exploration/celleval2_h1_systema.py\n?? scripts/exploration/check_celleval2_parity.py\n?? scripts/exploration/check_one_vs_rest.py\n?? scripts/exploration/check_tie_variance.py\n?? scripts/exploration/compare_celleval2_null.py\n?? scripts/exploration/explore_vcc2025_h1.py\n?? scripts/exploration/fisher_h1_directions.py\n?? scripts/exploration/mixscape_h1_classify.py\n?? scripts/exploration/mixscape_h1_null_controls.py\n?? scripts/exploration/mixscape_h1_null_sweep.py\n?? scripts/exploration/mixscape_h1_signatures.py\n?? scripts/exploration/plot_celleval2_bin_umap.py\n?? scripts/exploration/plot_celleval2_fisher_score.py\n?? scripts/exploration/plot_celleval2_mixscape_de.py\n?? scripts/exploration/plot_celleval2_mixscape_scores.py\n?? scripts/exploration/plot_celleval2_mixscape_umap.py\n?? scripts/exploration/plot_celleval2_response_bins.py\n?? scripts/exploration/plot_celleval2_response_bins_400.py\n?? scripts/exploration/plot_celleval2_spectrum.py\n?? scripts/exploration/plot_h1_de.py\n?? scripts/exploration/plot_h1_mixscape.py\n?? scripts/exploration/plot_h1_responder_correlates.py\n?? scripts/exploration/wilcoxon_h1_de.py\n?? scripts/exploration/wilcoxon_h1_de_null.py\n?? scripts/exploration/wilcoxon_h1_mixscape_de.py\n?? scripts/exploration/wilcoxon_h1_null_ko_de.py\n?? scripts/linear_response/\n?? tests/test_aggregate_xatlas_shards.py\n?? tests/test_cloud_pseudobulk_aggregation.py\n?? tests/test_context_split_release.py\n?? tests/test_context_transfer_blog.py\n?? tests/test_control_dose_response.py\n?? tests/test_crossfit_empirical_scale.py\n?? tests/test_crossfit_replogle_h1_gene_scale.py\n?? tests/test_crossfit_replogle_h1_scale.py\n?? tests/test_empirical_scale_scan.py\n?? tests/test_forcing_ceiling.py\n?? tests/test_generative_fit_diagnostics.py\n?? tests/test_kolf_h1_transfer_rules.py\n?? tests/test_linear_response_kernel.py\n?? tests/test_linear_response_ladder.py\n?? tests/test_linear_response_stage1.py\n?? tests/test_merge_xatlas_shards.py\n?? tests/test_model1_raw_counts.py\n?? tests/test_model3_full_poisson_lognormal.py\n?? tests/test_model3_poisson_lognormal.py\n?? tests/test_oracle_scale_comparison.py\n?? tests/test_plot_perturbation_performance.py\n?? tests/test_poisson_lognormal_moments.py\n?? tests/test_prepare_kolf_recovery.py\n?? tests/test_profile_h1.py\n?? tests/test_replogle_h1_norm_matched.py\n?? tests/test_replogle_h1_phase1.py\n?? tests/test_replogle_h1_reliability.py\n?? tests/test_replogle_h1_scaling.py\n?? tests/test_replogle_h1_transfer.py\n?? tests/test_state_balanced_covariance.py\n?? tests/test_strong_de_recovery.py\n",
+  "outputs": {
+    "reports/kolf-h1-transfer-rules/rounded_summary.csv": "1a53e984a4259438132ff72001d55ece81874ae53eb5f59c7ca0ef96de3a532f",
+    "reports/kolf-h1-transfer-rules/summary.csv": "c6859594c7f7b8337437f2a85b8d4f64880e7a8ce8699087b688de01f6d3b490",
+    "reports/kolf-h1-transfer-rules/rounded_per_target.csv": "58f95471f054cf010536ea904658db86e757cb35eb21200b9d7030204c7d2bee",
+    "reports/kolf-h1-transfer-rules/zero_control_gene_audit.csv": "16330956f656408dbc3caa5e0166f189f8ddd65247f749e73347d97d50f99081",
+    "reports/kolf-h1-transfer-rules/rounding_audit.csv": "3d13f19784b5edee611ec884c5569192f2951d76fd3aee3490da35da61579d3d",
+    "reports/kolf-h1-transfer-rules/wrong_target_assignments.csv": "d736fd6512e7236f62836050314d54155127a8fa6866e598b16191ed2f98d8f6",
+    "reports/kolf-h1-transfer-rules/donor_positive_summary.csv": "57d34608ca8b2d1cd301c52d09fd5137d4fa0daa73139058ad6a8bb6f0cadd1f",
+    "reports/kolf-h1-transfer-rules/paired_differences.csv": "c5ecaa189c8126d4b7beaeacc6bed4f4d8a3ed89c4666f115667b4208bb9b8f1",
+    "reports/kolf-h1-transfer-rules/per_target.csv": "0fd523c5a245abe9251d93b41f42f747b590a63e665ef607c919812a373d2b4f",
+    "reports/kolf-h1-transfer-rules/gene_support.csv": "17629ae1ba879aaba2d06867a2dd391952e150bdaabc3df77de9e1ff91fa8601",
+    "reports/kolf-h1-transfer-rules/boundary_audit.csv": "ed6d6ae8bbd904c14efb5daff7661e45a890eb98e4a3a485f0de1c73dffc1575",
+    "reports/kolf-h1-transfer-rules/donor_positive_per_target.csv": "ecab02a2503ae3d7aa91f0346b8c16546a258c6242789ddd9c3308cc657ed038",
+    "reports/kolf-h1-transfer-rules/targets.csv": "bde239ddac87ab058d2934cd4fbc8eb4b6ff2b25e839a934e8b9aab67edfdc96",
+    "reports/kolf-h1-transfer-rules/wrong_target_summary.csv": "480b2c67a02bd9c4b5f797b3c6e08b70c39000ca6a9faf02751a1a7126fe7b88",
+    "reports/kolf-h1-transfer-rules/comparison.png": "8fb14ad02168a06a30c4cd202f9103c69f748326eb88893601c9e1d98405f229",
+    "reports/kolf-h1-transfer-rules/boundaries.png": "45bc96d7a955f173bfd185fdcb84dbf818e558248a49374deb817a0e1756b933",
+    "data/derived/kolf_h1_transfer_rules/stochastic_pseudobulks_seed_20260925.npz": "1d2012a0e5fc0f0e26391751fa2813cea33e0764633b36ed3c27010e24878723",
+    "data/derived/kolf_h1_transfer_rules/profiles.npz": "a302096cdeaf34d97c00561fef12704d8b3866b1d7e0848d5b92788a78c0a601"
+  }
+}

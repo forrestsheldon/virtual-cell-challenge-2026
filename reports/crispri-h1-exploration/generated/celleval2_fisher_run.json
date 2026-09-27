@@ -1,0 +1,11 @@
+{
+  "markers": "top 50 genes by |log2FC| among FDR<0.05 (celleval2_de.parquet), own gene excluded",
+  "representation": "log1p(CPM), full-transcriptome library size, gated genes only as candidates",
+  "direction": "cross-fitted diagonal Fisher (per-gene mean difference / pooled variance + ridge)",
+  "ridge": "0.1 * median per-gene pooled variance among that target's markers",
+  "cross_fit": "3 folds by Flex batch group; weights trained on 2, scored on the held-out third",
+  "negative_control": {
+    "guide": "non-targeting_00006|non-targeting_00706",
+    "mean_false_positive_rate": 0.06016999960816338
+  }
+}

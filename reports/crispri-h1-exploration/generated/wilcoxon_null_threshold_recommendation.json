@@ -1,0 +1,102 @@
+{
+  "recommended_descriptive_threshold": {
+    "fdr": 0.05,
+    "absolute_log2_fold_change": 0.5,
+    "auc_delta": 0.15,
+    "basis": "zero calls among the 26 NT guides that passed the independent Mixscape null"
+  },
+  "non_inert_nt_guides": [
+    "non-targeting_00018|non-targeting_00127",
+    "non-targeting_00026|non-targeting_02263",
+    "non-targeting_00047|non-targeting_00882",
+    "non-targeting_00062|non-targeting_02518",
+    "non-targeting_00121|non-targeting_00339"
+  ],
+  "control_sets": {
+    "all_31_nt_guides": {
+      "zero_null_genes_maximum_target_retention": {
+        "control_set": "all_31_nt_guides",
+        "fdr": 0.05,
+        "absolute_log2_fold_change": 0.0,
+        "auc_delta": 0.4,
+        "null_genes": 0,
+        "null_guides": 0,
+        "null_guide_fpr": 0.0,
+        "target_genes": 792,
+        "target_guides": 140,
+        "median_target_genes": 1.0
+      },
+      "null_guide_fpr_at_most_0.05_maximum_target_retention": {
+        "control_set": "all_31_nt_guides",
+        "fdr": 0.05,
+        "absolute_log2_fold_change": 0.0,
+        "auc_delta": 0.4,
+        "null_genes": 0,
+        "null_guides": 0,
+        "null_guide_fpr": 0.0,
+        "target_genes": 792,
+        "target_guides": 140,
+        "median_target_genes": 1.0
+      }
+    },
+    "26_mixscape_null_passes": {
+      "zero_null_genes_maximum_target_retention": {
+        "control_set": "26_mixscape_null_passes",
+        "fdr": 0.05,
+        "absolute_log2_fold_change": 0.0,
+        "auc_delta": 0.16,
+        "null_genes": 0,
+        "null_guides": 0,
+        "null_guide_fpr": 0.0,
+        "target_genes": 23564,
+        "target_guides": 150,
+        "median_target_genes": 9.0
+      },
+      "null_guide_fpr_at_most_0.05_maximum_target_retention": {
+        "control_set": "26_mixscape_null_passes",
+        "fdr": 0.05,
+        "absolute_log2_fold_change": 0.5,
+        "auc_delta": 0.1,
+        "null_genes": 1,
+        "null_guides": 1,
+        "null_guide_fpr": 0.038461538461538464,
+        "target_genes": 28964,
+        "target_guides": 150,
+        "median_target_genes": 15.0
+      }
+    }
+  },
+  "grid": {
+    "fdr": [
+      0.05,
+      0.01,
+      0.001,
+      0.0001
+    ],
+    "absolute_log2_fold_change": [
+      0,
+      0.25,
+      0.5,
+      0.75,
+      1,
+      1.5,
+      2,
+      3,
+      4
+    ],
+    "auc_delta": [
+      0,
+      0.025,
+      0.05,
+      0.075,
+      0.1,
+      0.15,
+      0.16,
+      0.2,
+      0.25,
+      0.3,
+      0.35,
+      0.4
+    ]
+  }
+}

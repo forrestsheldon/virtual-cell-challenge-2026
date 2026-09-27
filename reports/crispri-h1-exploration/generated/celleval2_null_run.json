@@ -1,0 +1,23 @@
+{
+  "created_utc": "2026-09-02T15:42:20.479817+00:00",
+  "input": "data/external/vcc2025_h1/adata_Training.h5ad",
+  "comparison": "random non-targeting pseudo-groups versus all remaining non-targeting cells",
+  "universe": "cell-eval2 0.16.0 configs/vcc2026.yaml, matching celleval2_h1_de.py",
+  "gene_filter": "reference mean CPM > 5.0, recomputed per comparison",
+  "test": "two-sided Mann-Whitney U / Wilcoxon rank-sum on log1p(CPM), one-vs-rest",
+  "multiple_testing": "Benjamini-Hochberg within each comparison over surviving genes",
+  "n_controls": 38176,
+  "sizes": [
+    25,
+    50,
+    100,
+    200,
+    400,
+    800,
+    1600,
+    3200,
+    4800
+  ],
+  "replicates": 10,
+  "seeds": "numpy default_rng(replicate)"
+}

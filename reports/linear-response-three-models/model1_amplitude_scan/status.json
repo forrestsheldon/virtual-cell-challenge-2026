@@ -1,0 +1,15 @@
+{
+  "data_dir": "/Users/forrestsheldon/Library/Caches/vcc2026-h1-benchmark",
+  "de_threads": 2,
+  "gene_chunk": 512,
+  "points": 7,
+  "scorer": "/Users/forrestsheldon/Projects/vcc2026-h1-benchmark/.venv/bin/vcc-h1",
+  "software": {
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "python": "3.12.13"
+  },
+  "stage": "complete",
+  "updated_utc": "2026-09-08T16:45:35.113858+00:00"
+}

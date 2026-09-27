@@ -166,6 +166,9 @@ cython_debug/
 /data/**
 !/data/README.md
 
+# Reproducible H1 cell-level and differential-expression tables
+/reports/crispri-h1-exploration/generated/*.parquet
+
 # Local notebook autosaves
 /.jupyter/
 
@@ -175,3 +178,14 @@ cython_debug/
 # Large local submission artifacts
 /submissions/**
 !/submissions/README.md
+
+# Report arrays over 5 MB, kept local (2026-09-27)
+/reports/context-transfer-blog/metric_calibration_v2_per_comparison.csv
+/reports/context-transfer-blog/per_target.csv
+/reports/control-tail-estimator-h1/control_scan.npz
+/reports/control-tail-estimator-h1/expected_profiles.npz
+/reports/crispri-h1-exploration/generated/celleval2_shifts.npy
+/reports/linear-response-state-diversity/oracle-scale-comparison/reference_lfc_checkpoint.npz
+/reports/replogle-h1-transfer/crossfit-gene-scale/per_gene_coefficients.csv
+/reports/tail-estimator-h1/expected_profiles.npz
+/reports/tail-estimator-h1/pool_scan.npz

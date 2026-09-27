@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "created_utc": "2026-09-06T04:46:03.496819+00:00",
+  "smoke_only_not_a_fit": true,
+  "rank": 50,
+  "batch_size": 16,
+  "train_cells": 128,
+  "selection_cells": 16,
+  "training_guides": [
+    "non-targeting_00005|non-targeting_01689",
+    "non-targeting_00006|non-targeting_00706",
+    "non-targeting_00010|non-targeting_02551",
+    "non-targeting_00024|non-targeting_03061",
+    "non-targeting_00027|non-targeting_00143",
+    "non-targeting_00033|non-targeting_02025",
+    "non-targeting_00035|non-targeting_03439",
+    "non-targeting_00038|non-targeting_00083",
+    "non-targeting_00050|non-targeting_03642",
+    "non-targeting_00054|non-targeting_01095",
+    "non-targeting_00057|non-targeting_00277",
+    "non-targeting_00065|non-targeting_02434",
+    "non-targeting_00077|non-targeting_01678",
+    "non-targeting_00089|non-targeting_01490",
+    "non-targeting_00095|non-targeting_03143",
+    "non-targeting_00106|non-targeting_02193",
+    "non-targeting_00116|non-targeting_02560",
+    "non-targeting_00125|non-targeting_02335"
+  ],
+  "selection_guides": [
+    "non-targeting_00013|non-targeting_01297",
+    "non-targeting_00021|non-targeting_03430",
+    "non-targeting_00068|non-targeting_00473",
+    "non-targeting_00092|non-targeting_00192"
+  ],
+  "evaluation_guides_untouched": [
+    "non-targeting_00014|non-targeting_00031",
+    "non-targeting_00020|non-targeting_01323",
+    "non-targeting_00039|non-targeting_01771",
+    "non-targeting_00119|non-targeting_02445"
+  ],
+  "initial_train_laplace_nll": 528194.6506850135,
+  "fitted_train_laplace_nll": 528189.3702998155,
+  "initial_selection_laplace_nll": 556785.37998296,
+  "fitted_selection_laplace_nll": 556784.9815689363,
+  "fitted_mode_residual_q99": 9.166893081142822e-05,
+  "fitted_mode_residual_max": 9.858411632990283e-05,
+  "initial_factor_variance_median": 0.009694904088973999,
+  "initial_total_variance_median": 0.021075155661290687,
+  "initial_positive_total_variance_fraction": 0.5665929203539823,
+  "initial_smallest_mean_rate": 7.094977196033794e-08,
+  "fitted_residual_variance_median": 0.0022417846197752924,
+  "software": {
+    "anndata": "0.13.2",
+    "jax": "0.10.2",
+    "jaxopt": "0.8.4",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5"
+  },
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "input": {
+    "path": "data/external/vcc2025_h1/adata_Training.h5ad",
+    "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b"
+  }
+}

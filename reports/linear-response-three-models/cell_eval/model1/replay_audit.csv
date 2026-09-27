@@ -1,0 +1,2 @@
+comparison,max_abs_log_bulk_difference,interpretation
+generated_H5AD_vs_original_sampled_profile,0.0007906381602427182,"Near replay, not bit-exact: original one-off draw used float64 fitted directions; compact replay artifact stores float32 directions"

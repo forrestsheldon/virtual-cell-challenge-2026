@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "context": "HepG2",
+  "files": [
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HepG2/acceptance.json",
+      "sha256": "1b1cbd2970c0962935db059a0f17b65001ed32431b490f24e2a92b00da053a22",
+      "bytes": 453
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HepG2/batch_role_split_controls.h5ad",
+      "sha256": "933bcb0175f511994455ace90696061651d95be98f263e7cd728c5ef32427447",
+      "bytes": 15098670
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HepG2/batch_split_exposures.parquet",
+      "sha256": "7610eff240a39a5dd0d7d51a53257005a9cee10fb643fedadbff6b3493db1546",
+      "bytes": 935998
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HepG2/cell_assignments.parquet",
+      "sha256": "7b6b21de2aaf1a885393b7b64a3eceb72becba37f70a50c3bc5137efb9f0d95e",
+      "bytes": 5824160
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HepG2/construct_split_pseudobulk.h5ad",
+      "sha256": "3e44422a5032fce2b7cbc20894286acf3d7a83a8d0e80c698b5eeb0a046108ce",
+      "bytes": 260208214
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HepG2/manifest.json",
+      "sha256": "9efb9ffcae3a33117f782a3c8ce341dd4046b295e7d2d38c2dd93e4f9c669948",
+      "bytes": 2070
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HepG2/matched_control_support.parquet",
+      "sha256": "ca406ffea96b6d7fb91fda69378c98268f71a23db4d47acc4f428149fc5b1331",
+      "bytes": 1969975
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/HepG2/responder_cells/NadigOConner2024_hepg2.h5ad",
+      "sha256": "1e40a7ac476f59f775d8be683e52642c1879762d7dc753e2ceb4b85a348a451f",
+      "bytes": 216384369
+    }
+  ],
+  "independent_acceptance": {
+    "status": "passed",
+    "context": "HepG2",
+    "manifest_sha256": "9efb9ffcae3a33117f782a3c8ce341dd4046b295e7d2d38c2dd93e4f9c669948",
+    "selected_cells": 145471,
+    "retained_cells": 20918,
+    "reference_constructs_exact": 2678,
+    "independent_full_source_reaggregation": true,
+    "responder_source_rows_exact": true,
+    "file_sha256s_verified": true,
+    "control_role_margins_exact": true,
+    "missing_baseline_strata": 86,
+    "promotion": "not performed"
+  }
+}

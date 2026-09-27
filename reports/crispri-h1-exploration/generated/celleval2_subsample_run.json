@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-09-02T22:38:00.699342+00:00",
+  "input": "data/external/vcc2025_h1/adata_Training.h5ad",
+  "question": "how much of the panel stays scoreable at the 2026 evaluation's 400 cells per target",
+  "universe": "cell-eval2 0.16.0 configs/vcc2026.yaml, matching celleval2_h1_de.py",
+  "cells_per_target": 400,
+  "replicates": 5,
+  "undersized_targets_run_whole": 24,
+  "n_controls": 38176,
+  "n_genes": 10780
+}

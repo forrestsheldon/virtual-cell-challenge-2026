@@ -1,0 +1,5 @@
+statistic,value
+median_precision,0.185
+mean_precision,0.3188492063492063
+targets_above_random_precision,124.0
+targets_with_zero_threshold,95.0

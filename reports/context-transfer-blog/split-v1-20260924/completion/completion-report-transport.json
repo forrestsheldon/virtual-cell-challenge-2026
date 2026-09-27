@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "files": {
+    "README.md": {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/completion/README.md",
+      "sha256": "a1616f45dcf6082901ec7fc7d051682651a24994e6c9073c246e7444acb50388",
+      "bytes": 4566
+    },
+    "local-core-acceptance.json": {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/completion/local-core-acceptance.json",
+      "sha256": "2aab52362decee42fb17043fedeaead5f5143f15437244729e895b234026c618",
+      "bytes": 84047
+    },
+    "cost-estimate.json": {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/completion/cost-estimate.json",
+      "sha256": "09d7b423cfdbf28e9377f1f0a414b3af23164b545f285aa0bd91a406d2b135ed",
+      "bytes": 1963
+    },
+    "release-index.json": {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/completion/release-index.json",
+      "sha256": "cd7cc7e8c40874f7fff50c1684e69e0709c0149a44f5d9550f6b64c3f23eb463",
+      "bytes": 2655
+    },
+    "storage-pricing-skus.json": {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/completion/storage-pricing-skus.json",
+      "sha256": "4a7fdc952fc9a3ca1f264e5e723d9e93b8e866cd8f8ccabadeb1f2c6613105f6",
+      "bytes": 4985
+    }
+  }
+}

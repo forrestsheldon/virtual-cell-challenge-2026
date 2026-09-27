@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-09-08T10:21:12.004484+00:00",
+  "definition": "(perturbed mean per-cell log1CP10K target expression - strict-control mean per-cell log1CP10K target expression) / control covariance diagonal",
+  "not_downstream_optimized": true,
+  "n_targets": 150,
+  "mean_log1cp10k_amplitude": {
+    "minimum": -52.55245677049821,
+    "q10": -22.44163814957566,
+    "median": -9.716083974356556,
+    "q90": -6.063201295065725,
+    "maximum": -1.5502341470273306
+  },
+  "mean_log1cp10k_positive_sign_failures": 0,
+  "ridge": {
+    "definition": "delta / (C_gg + 0.1 * median_g(C_gg))",
+    "median_covariance_diagonal": 0.0565960556268692,
+    "additive_ridge": 0.00565960556268692,
+    "amplitude_distribution": {
+      "minimum": -46.78163223767321,
+      "q10": -20.471305759005215,
+      "median": -8.901164989469228,
+      "q90": -5.280814664468778,
+      "maximum": -1.423916694562331
+    },
+    "median_amplitude_ratio_to_unregularized": 0.9090907280839972,
+    "minimum_amplitude_ratio_to_unregularized": 0.4319094097388684
+  },
+  "pseudobulk_log1cp10k_sensitivity": {
+    "minimum": -51.39257539152223,
+    "q10": -22.066481384620367,
+    "median": -9.724516479539764,
+    "q90": -6.467643220015261,
+    "maximum": -1.0725452620767633
+  },
+  "pearson_between_definitions": 0.9992497837493963,
+  "spearman_between_definitions": 0.9984248188808391,
+  "spearman_absolute_amplitude_vs_covariance_diagonal": 0.28923774389972884,
+  "inputs": {
+    "h1": {
+      "path": "data/external/vcc2025_h1/adata_Training.h5ad",
+      "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b"
+    },
+    "model1": {
+      "path": "data/derived/linear_response/model1_expected_profiles.npz",
+      "sha256": "69d9e3bee240224704e04e99e6e86315e9a8a42af13c84d20409a7e6cf505f63"
+    }
+  },
+  "output": "reports/linear-response-three-models/model1_individual_amplitude_distribution.csv"
+}

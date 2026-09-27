@@ -1,0 +1,16 @@
+{
+  "created_utc": "2026-09-02T15:54:56.299992+00:00",
+  "input": "data/external/vcc2025_h1/adata_Training.h5ad",
+  "comparison": "each target_gene versus all non-targeting cells",
+  "universe": "cell-eval2 0.16.0 configs/vcc2026.yaml",
+  "normalization": "per-cell total-count normalization to 1e6 (CPM)",
+  "gene_filter": "reference mean CPM > 5.0",
+  "n_genes": 10780,
+  "n_genes_total": 18080,
+  "test": "two-sided Mann-Whitney U / Wilcoxon rank-sum on log1p(CPM)",
+  "log2_fold_change": "arithmetic CPM means, pseudocount 1e-9",
+  "implementation": "pdex 0.3.0",
+  "multiple_testing": "Benjamini-Hochberg within each perturbation over surviving genes",
+  "n_controls": 38176,
+  "n_targets": 150
+}

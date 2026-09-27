@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-09-11T15:59:43.874852+00:00",
+  "design": "equal-target-state covariance with one balanced two-fold target split",
+  "states": {
+    "perturbations": 150,
+    "scored": 126,
+    "auxiliary": 24,
+    "control": "one strict-26-guide state",
+    "weighting": "equal state weight; all cells retained within each state"
+  },
+  "fold_balance": {
+    "search_candidates": 50000,
+    "objective": 0.03700058342435834,
+    "batch_relative_imbalance_rms": 0.01328090687449311,
+    "batch_relative_imbalance_max": 0.02371967654986523
+  },
+  "components": {
+    "within": "equal-state mean of within-state sample covariance",
+    "between": "sample covariance of equally weighted state means",
+    "combined": "within + between"
+  },
+  "leakage": {
+    "all": "transductive: the scored target state is included",
+    "crossfit": "target state and its cells are excluded from its training fold"
+  },
+  "normalization": "per-cell log1p CP10K",
+  "response": "minus covariance column divided by its target diagonal",
+  "inputs": {
+    "data/external/vcc2025_h1/adata_Training.h5ad": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+    "data/derived/linear_response/ladder/empirical.npz": "bb036ed981482918478584ab30fec7b79e2b8bfc0f0d850bf6b9ae003c73b631",
+    "reports/linear-response-three-models/h1_strict_controls.csv": "9daf441a9d64cb1a07acf21791534e8e184129979c7fe05b3e92edc2eb1063cb"
+  },
+  "outputs": {
+    "data/derived/linear_response/state_diversity/state_balanced_covariance.npz": "200ea2cb7ae56587b1b5984a503873e72d670ba67c8cee5e9bcc00ebb0f11158",
+    "reports/linear-response-state-diversity/state_fold_assignments.csv": "3e8d870268e6684429ecbe78140458903b709e926df6ae22d853ae9ae57ff62b",
+    "reports/linear-response-state-diversity/covariance_direction_diagnostics.csv": "972f2a80a27b3fcab52cc7a9594a1e9f26043c909a2d4e60dc232a2ce6d1c125",
+    "reports/linear-response-state-diversity/covariance_component_summary.csv": "d7fd04462a21fefbd40f6627453786cd86115a40df55f3de4a942ce760203a43"
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5"
+  }
+}

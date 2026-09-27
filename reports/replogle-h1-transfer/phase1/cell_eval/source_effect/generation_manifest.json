@@ -1,0 +1,23 @@
+{
+  "arm": "source_effect",
+  "cells_per_target": 400,
+  "created_utc": "2026-09-18T20:31:57+00:00",
+  "generator": "multiplicative LFC closure with deterministic largest-remainder counts",
+  "inputs": {
+    "/Users/forrestsheldon/Library/Caches/vcc2026-h1-benchmark/h1_controls.h5ad": "9c3fafa73d6fe8fb9c0c31e4247ea0d774b81cb3d46dc17fea7b657769e8dc55",
+    "data/derived/replogle_h1_transfer/phase1_effects.npz": "214e5fb7db871970aaa70cca3a286a8f7cd41c94054e06c0fd4962ac5c338cc8"
+  },
+  "prediction": {
+    "bytes": 3525245696,
+    "path": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/data/derived/replogle_h1_transfer/phase1_candidate_tmp.h5ad",
+    "sha256": "51eba6985da5ba475fa4c927dbe2731b6316ed1db0d787e7bf5625d1d1e91b53"
+  },
+  "software": {
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "python": "3.12.13",
+    "scipy": "1.18.0"
+  },
+  "source_rows": "canonical all-control H1 rows, identical across arms",
+  "truth_cells_read": false
+}

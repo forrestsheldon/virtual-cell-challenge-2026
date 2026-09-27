@@ -1,0 +1,4 @@
+arm,signed_DE_direction_fidelity,strong_DE_LFC_NMAE
+Identity / expected generator null,0.0,1.0
+Cross-fitted empirical response,0.0341684321218609,1.0071549908968909
+Response minus null,0.0341684321218609,0.007154990896890867

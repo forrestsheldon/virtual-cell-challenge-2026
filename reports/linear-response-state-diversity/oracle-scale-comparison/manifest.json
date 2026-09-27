@@ -1,0 +1,28 @@
+{
+  "analysis": "global oracle native-scale comparison",
+  "selection": "one operator-specific a minimizing mean per-target NMAE over all significant DE genes",
+  "diagnostics": "weak and strong DE bins are evaluated after scale selection",
+  "all_state_operator": "equal-state within plus between covariance across strict controls and 150 perturbation states",
+  "transductive": true,
+  "decoder": "exact expected restricted log1p-CP10K decoder on fixed balanced 400-cell sources",
+  "inputs": {
+    "data/derived/linear_response/ladder/empirical.npz": "bb036ed981482918478584ab30fec7b79e2b8bfc0f0d850bf6b9ae003c73b631",
+    "data/derived/linear_response/state_diversity/state_balanced_covariance.npz": "200ea2cb7ae56587b1b5984a503873e72d670ba67c8cee5e9bcc00ebb0f11158",
+    "reports/linear-response-ladder/empirical-scale-crossfit/exact_native_grid_checkpoint.npz": "435182bc7a58ba5cd577e68385412a0d167066b10258b51084fb37ecd584da6e",
+    "data/derived/linear_response/eval_cache/de_wilcoxon_table-12f179b9e966af64.parquet": "fc8d683a3de692d767b0ee67ddf4fec845786e59bbf4a6357c442e2eaee379e6"
+  },
+  "outputs": {
+    "reports/linear-response-state-diversity/oracle-scale-comparison/summary.csv": "47108010ebf2236c889e34f16abfad523442ae2502de93667c82741c7c403653",
+    "reports/linear-response-state-diversity/oracle-scale-comparison/per_target.csv": "d2912742efd3ab7bcc6fc5ffe39b1d97e8b790f0bbded4dd53c9aa095bb940c8",
+    "reports/linear-response-state-diversity/oracle-scale-comparison/scale_curves.csv": "7b21adb5e39d11fb06c4f8ff3db486b8278ff8fefc58a9215842a8473c5fbd50",
+    "reports/linear-response-state-diversity/oracle-scale-comparison/control_oracle_scale.png": "b76e7d20a65769933d5fde8bd175a0dce4c76615795a5f390c1f13ecd2b0111f",
+    "reports/linear-response-state-diversity/oracle-scale-comparison/all_combined_oracle_scale.png": "65de002db1b442e1071e6d5525629e1618d172166c134d93ae782734b08c1e0a"
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5"
+  }
+}

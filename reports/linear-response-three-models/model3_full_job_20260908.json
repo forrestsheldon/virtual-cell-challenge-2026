@@ -1,0 +1,50 @@
+{
+  "status": "running",
+  "started_utc": "2026-09-08T03:59:13Z",
+  "detached_session": "model3_full_20260908",
+  "screen_pid": 77945,
+  "worker_pid_at_launch": 77973,
+  "command": "pixi run python -u -m scripts.linear_response.model3_full_poisson_lognormal --fit --resume --outer-iterations 10 --m-step-iterations 1000 --random-matrix-draws 99",
+  "log": "reports/linear-response-three-models/model3_full_run_20260908.log",
+  "fit": {
+    "model": "rank-50 Poisson-lognormal joint-Laplace LL^T + D EM",
+    "starts": 3,
+    "training_cells": 24256,
+    "batch_size": 64,
+    "maximum_outer_iterations_per_start": 10,
+    "maximum_m_step_iterations": 1000,
+    "mode_residual_tolerance": 0.0001,
+    "checkpoint_every_e_step_batches": 10,
+    "checkpoint_interval_estimate_minutes": 5,
+    "random_matrix_draws": 99
+  },
+  "outer_convergence_gate": {
+    "minimum_outer_iterations": 3,
+    "consecutive_stable_iterations": 2,
+    "absolute_laplace_nll_change_per_cell_max": 0.01,
+    "population_log_mean_rms_change_max": 0.001,
+    "covariance_relative_frobenius_change_max": 0.001,
+    "m_step_gradient_rms_max": 0.01,
+    "behavior_at_maximum": "stop without publishing a fitted start; retain all checkpoints"
+  },
+  "checkpoint_patterns": [
+    "data/derived/linear_response/model3_full_start_{start}_checkpoint_outer_{iteration}.npz",
+    "data/derived/linear_response/model3_full_start_{start}_outer_{iteration}_estep.npz",
+    "reports/linear-response-three-models/model3_full_fit_trace_start_{start}.csv"
+  ],
+  "throughput_audit": {
+    "batch_16_cells_per_second": 0.9286141375680926,
+    "batch_32_cells_per_second": 1.1737705240675134,
+    "batch_64_cells_per_second": 2.2994626806907204,
+    "batch_128_cells_per_second": 2.864121550910036,
+    "choice": "64 preserves the exact 24256-cell usable training set; 128 would omit an additional 64 cells"
+  },
+  "preflight": {
+    "focused_tests": "12 passed",
+    "ruff": "passed for changed Model 3 implementation and tests",
+    "input_h1_sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+    "initialization_sha256": "7ba0aa47b2cd207e6eaabc286be5737899b676cc092bafd0f905d97e7347f4e4",
+    "implementation_sha256": "88b1a2dc9d0911871be9ff4b4e98d4f2ad992a0e3d2f5c8352bde3e5f14c5a4f",
+    "test_sha256": "a4d036203530377f375a6694dc1e8070dd20f3d19149aaedcfedc782c3d90327"
+  }
+}

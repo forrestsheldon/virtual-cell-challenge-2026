@@ -1,0 +1,15 @@
+metric,value
+observed_gene_zero_fraction,0.5143624029765287
+posterior_predictive_gene_zero_fraction,0.5041553328130376
+mean_log1p_gene_pearson,0.9999702526724296
+variance_log1p_gene_spearman,0.9980689005777595
+posterior_total_rate_ratio_median,1.002853512763977
+posterior_total_rate_ratio_q01,0.9749609971046448
+posterior_total_rate_ratio_q99,1.0212878322601318
+mode_gradient_norm_median,6.780061812605709e-05
+mode_gradient_norm_q99,0.00022817443415988238
+sum_q,1.0
+q_transpose_L_norm,0.01363632082939148
+prior_total_rate_ratio_q01,0.9711812454462051
+prior_total_rate_ratio_median,0.9995483458042145
+prior_total_rate_ratio_q99,1.03534477353096

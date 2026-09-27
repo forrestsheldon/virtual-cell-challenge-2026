@@ -1,0 +1,2 @@
+outer_iteration,cells,omitted_remainder_cells,laplace_nll_mean,mode_residual_median,mode_residual_q99,mode_residual_max,m_step_before,m_step_after,m_step_iterations,m_step_gradient_error,sum_population_mean_rates,residual_variance_min,residual_variance_median,residual_variance_max
+0,128.0,0.0,528194.6506850135,1.2628243428736141e-06,8.005223667527878e-05,8.577767712480977e-05,-60434.89733389564,-60437.58808740007,10,983.8572368006542,1.0000000000000004,1.0100000164654577e-06,0.0022417846197752924,4.345235644498322

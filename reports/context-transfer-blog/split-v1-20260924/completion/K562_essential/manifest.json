@@ -1,0 +1,54 @@
+{
+  "context": "K562_essential",
+  "config_sha256": "dba62d325198670fb85ed8ac83fb712644b7c9dc999ea501b8f82c0d21560cd6",
+  "sources": [
+    {
+      "name": "ReplogleWeissman2022_K562_essential.h5ad",
+      "url": "https://zenodo.org/api/records/13350497/files/ReplogleWeissman2022_K562_essential.h5ad/content",
+      "bytes": 1546729675,
+      "sha256": "412fd0df8c4ccea9f4db91cd88033c49200838b29d40945e48574be588b48789",
+      "md5": "d8cba17576d1a8afc0f7d71b79cad0f7",
+      "input_cells": 310385,
+      "selected_cells": 309610,
+      "responder_cells": 39291,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 775
+    }
+  ],
+  "files": {
+    "batch_role_split_controls.h5ad": {
+      "bytes": 14263449,
+      "sha256": "a4248408fe68d77ced9ea1934e4d72d70dffeea26d54d3ad062ef6facfb085a7",
+      "logical_sha256": "0749aed940167ac17486c33397288ef00fec9b64d6b20bbed483788263391435"
+    },
+    "batch_split_exposures.parquet": {
+      "bytes": 1107072,
+      "sha256": "9f5f381a64a0cd67b1b0e4a480798a439a2e6e197853d3ce9ece2fe611c64c96",
+      "logical_sha256": null
+    },
+    "cell_assignments.parquet": {
+      "bytes": 11348760,
+      "sha256": "56e9488cd15ee8d16d44a08daa005c48046f4fd864296b00218b2e6783bebc38",
+      "logical_sha256": null
+    },
+    "construct_split_pseudobulk.h5ad": {
+      "bytes": 223918041,
+      "sha256": "358113a527a9c7b3ec2e5501e28815e375cbb77b1f37df57a99a1902397ba681",
+      "logical_sha256": "017554cb63ee11d03529ad9213852a7c7968230581d8a2514225db7bcf457b23"
+    },
+    "matched_control_support.parquet": {
+      "bytes": 2353356,
+      "sha256": "d54f7b1fed3a182af06b2c6cede8fbd9c76423b613cc659420bf5e023f4736bb",
+      "logical_sha256": null
+    },
+    "responder_cells/ReplogleWeissman2022_K562_essential.h5ad": {
+      "bytes": 352414922,
+      "sha256": "d05f240710877f276d8287800b22137df521c245c7f81797ca598e6bd72f4a2b",
+      "logical_sha256": "85971df39662641d9af0254323a8ba0b775c89cbb1c77fa2417e0d57d8f7011a"
+    }
+  },
+  "selected_cells": 309610,
+  "retained_cells": 39291,
+  "missing_baseline_strata": 0,
+  "status": "built; independent audit required"
+}

@@ -1,0 +1,19 @@
+{
+ "created_utc": "2026-09-25T12:09:58.803016+00:00",
+ "seed": 20260925,
+ "folds": 5,
+ "pseudocounts_cpm": [
+  "0.0",
+  "0.1",
+  "0.3",
+  "1.0",
+  "3.0",
+  "10.0",
+  "30.0",
+  "100.0",
+  "300.0",
+  "inf"
+ ],
+ "inputs": "data/derived/all_source_h1_transfer",
+ "definitions": "Pseudocount sweep, cross-fitted scale fits, and multi-source regression into H1.\n\nReuses the frozen count profiles written by all_source_h1_transfer; no downloads.\nTwo definitions of the scale `a` are kept distinct:\n\n* effect space (\"E\"): the evaluated effect q = ln(1+pred/20) - ln(1+h0/20) is\n  multiplied by a. Closed-form least squares; the clean object for the 1 - rho^2 bound.\n* fold-change space (\"F\"): the transferred log fold change is multiplied by a before\n  realizing a CPM profile, (h0 + c) * exp(a * log((kp + c)/(k0 + c))) - c, then floored\n  and renormalized. This is the deployable version that generates counts.\n\nCoefficients are fit on training targets (five fixed folds) and evaluated on held-out\ntargets only. Run: pixi run python -m scripts.evaluation.h1_transfer_regression\n"
+}

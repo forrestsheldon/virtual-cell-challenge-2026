@@ -1,0 +1,20 @@
+{
+  "eligible_zero_shot_arms": [
+    "unchanged",
+    "source_global",
+    "source_residual",
+    "source_effect"
+  ],
+  "fast_score_avg_score_emitted": false,
+  "selection_status": "checkpoint only; no full VCC scorer run",
+  "source_h1_global_alignment": {
+    "cosine": 0.053531298524520335,
+    "h1_on_source_projection": 0.6157324724382575,
+    "source_to_h1_norm_ratio": 0.08693921617052312
+  },
+  "source_residual_wrong_target_check": {
+    "eligible_shared_targets": 76,
+    "fraction_cosine_above_own_wrong_target_median": 0.6578947368421053,
+    "fraction_signed_recovery_above_own_wrong_target_median": 0.618421052631579
+  }
+}

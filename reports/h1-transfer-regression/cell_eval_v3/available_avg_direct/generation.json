@@ -1,0 +1,9 @@
+{
+ "candidate": "available_avg_direct",
+ "targets_changed": 126,
+ "median_cosine": 0.9999339810539576,
+ "median_norm_ratio": 1.0000643509048643,
+ "median_rounding_error_ratio": 0.011490919510458372,
+ "constant_error_share": 0.007813988245854475,
+ "prediction_sha256": "5fdeb594350e7f5ae5eb3a3a509a3153263d3cf23ee96925d69fc08b0c69aeea"
+}

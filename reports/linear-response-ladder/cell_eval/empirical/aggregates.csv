@@ -1,0 +1,11 @@
+metric,aggregation,n_targets,raw_value,scored
+pds_cosine,mean,126,0.51980952380952383,true
+expr_mse_unbiased,mean,126,0.00367865273545917,false
+expr_mse_unbiased_capped,mean,126,0.00392424523788547,false
+expr_distance_unbiased,mean,126,0.00225670765024340,false
+expr_real_mass_ratio,mean,126,1.00000000000000000,false
+expr_mse_unbiased_capped_norm,ratio_of_sums,126,1.73892495000946323,true
+de_wilcoxon_lfc_nmae,mean,110,1.03892279433362700,true
+de_wilcoxon_direction_fidelity_yield_raw,mean,126,0.49830832164267214,true
+de_wilcoxon_direction_reach_raw,mean,126,0.08870993402675595,true
+de_wilcoxon_sig_jaccard,mean,126,0.10320331424624256,true

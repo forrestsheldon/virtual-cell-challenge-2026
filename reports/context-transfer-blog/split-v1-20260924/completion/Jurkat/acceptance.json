@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "context": "Jurkat",
+  "manifest_sha256": "239e82bb60b22759b6358b9e009f466b9f1a4dd8df315d0629e06c580e38fce2",
+  "selected_cells": 262950,
+  "retained_cells": 43776,
+  "reference_constructs_exact": 2678,
+  "independent_full_source_reaggregation": true,
+  "responder_source_rows_exact": true,
+  "file_sha256s_verified": true,
+  "control_role_margins_exact": true,
+  "missing_baseline_strata": 0,
+  "promotion": "not performed"
+}

@@ -1,0 +1,209 @@
+{
+  "arm": "model3",
+  "cell_total_max": 3124368,
+  "cell_total_median": 99384.0,
+  "cell_total_min": 21418,
+  "created_utc": "2026-09-04T09:01:01.314253+00:00",
+  "failure": "generated cell totals fall outside the unchanged H1 validator range",
+  "inputs": {
+    "closure": {
+      "path": "reports/linear-response-three-models/model3_on_target_closure.csv",
+      "sha256": "6ec44978f1dba0d0711c2c1eff500facd01b1c494c8b102581cfbd9becd7365b"
+    },
+    "model_artifact": {
+      "path": "data/derived/linear_response/model3_expected_profiles.npz",
+      "sha256": "c75442339971159c3cba008e2015f283bcee89c4aae82e1fccadcca6fccec43c"
+    }
+  },
+  "invalid_cells": 972,
+  "over_one_million_cells": 972,
+  "status": "validation_failed_no_h5ad_written",
+  "truth_cells_read": false,
+  "violating_targets": [
+    {
+      "cell_total_max": 2847734,
+      "cell_total_median": 482668.0,
+      "cell_total_min": 39313,
+      "over_one_million_cells": 102,
+      "target_gene": "TADA1",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 1109346,
+      "cell_total_median": 216815.0,
+      "cell_total_min": 36763,
+      "over_one_million_cells": 3,
+      "target_gene": "MED13",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 1375359,
+      "cell_total_median": 257938.0,
+      "cell_total_min": 35907,
+      "over_one_million_cells": 12,
+      "target_gene": "STAT1",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 1219442,
+      "cell_total_median": 229078.5,
+      "cell_total_min": 35713,
+      "over_one_million_cells": 4,
+      "target_gene": "ATP1B1",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 2904466,
+      "cell_total_median": 507126.0,
+      "cell_total_min": 60325,
+      "over_one_million_cells": 107,
+      "target_gene": "KAT2A",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 1002747,
+      "cell_total_median": 200092.0,
+      "cell_total_min": 36451,
+      "over_one_million_cells": 1,
+      "target_gene": "NISCH",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 1069855,
+      "cell_total_median": 140930.0,
+      "cell_total_min": 41593,
+      "over_one_million_cells": 1,
+      "target_gene": "TSC22D4",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 1003511,
+      "cell_total_median": 193370.5,
+      "cell_total_min": 30686,
+      "over_one_million_cells": 1,
+      "target_gene": "KLF10",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 1117078,
+      "cell_total_median": 213320.5,
+      "cell_total_min": 36709,
+      "over_one_million_cells": 3,
+      "target_gene": "RNF2",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 2958847,
+      "cell_total_median": 509080.5,
+      "cell_total_min": 41775,
+      "over_one_million_cells": 108,
+      "target_gene": "LZTR1",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 1396163,
+      "cell_total_median": 261791.0,
+      "cell_total_min": 35977,
+      "over_one_million_cells": 10,
+      "target_gene": "NIT1",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 1796693,
+      "cell_total_median": 326389.0,
+      "cell_total_min": 39339,
+      "over_one_million_cells": 51,
+      "target_gene": "CHMP3",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 1631662,
+      "cell_total_median": 292624.0,
+      "cell_total_min": 37578,
+      "over_one_million_cells": 35,
+      "target_gene": "ZNF426",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 1474453,
+      "cell_total_median": 282248.0,
+      "cell_total_min": 46296,
+      "over_one_million_cells": 28,
+      "target_gene": "BIRC2",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 1036329,
+      "cell_total_median": 216857.5,
+      "cell_total_min": 48624,
+      "over_one_million_cells": 2,
+      "target_gene": "MAST2",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 1284753,
+      "cell_total_median": 493656.5,
+      "cell_total_min": 121402,
+      "over_one_million_cells": 13,
+      "target_gene": "MAU2",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 3124368,
+      "cell_total_median": 531880.0,
+      "cell_total_min": 43932,
+      "over_one_million_cells": 117,
+      "target_gene": "STAT6",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 3069156,
+      "cell_total_median": 521769.0,
+      "cell_total_min": 41836,
+      "over_one_million_cells": 114,
+      "target_gene": "SMAGP",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 2018465,
+      "cell_total_median": 370762.5,
+      "cell_total_min": 45111,
+      "over_one_million_cells": 64,
+      "target_gene": "TAZ",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 2396290,
+      "cell_total_median": 418308.5,
+      "cell_total_min": 38823,
+      "over_one_million_cells": 78,
+      "target_gene": "XRCC4",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 1604726,
+      "cell_total_median": 288749.5,
+      "cell_total_min": 36812,
+      "over_one_million_cells": 37,
+      "target_gene": "TXNDC9",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 1384908,
+      "cell_total_median": 258275.0,
+      "cell_total_min": 35026,
+      "over_one_million_cells": 9,
+      "target_gene": "DZIP3",
+      "zero_cells": 0
+    },
+    {
+      "cell_total_max": 2177617,
+      "cell_total_median": 383525.5,
+      "cell_total_min": 40859,
+      "over_one_million_cells": 72,
+      "target_gene": "ZNF562",
+      "zero_cells": 0
+    }
+  ],
+  "zero_cells": 0
+}

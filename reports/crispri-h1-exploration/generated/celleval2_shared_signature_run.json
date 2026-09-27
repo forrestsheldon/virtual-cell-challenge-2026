@@ -1,0 +1,9 @@
+{
+  "created_utc": "2026-09-04T09:18:25.803975+00:00",
+  "target": "per-cell global perturbation score s = a . y (Systema shared axis)",
+  "features": "log1p-CPM over gated genes, panel target genes excluded, standardized",
+  "method": "LARS-Lasso path, held-out R^2 on a 50/50 cell split",
+  "n_cells": 40000,
+  "n_features": 10633,
+  "final_panel_size": 200
+}

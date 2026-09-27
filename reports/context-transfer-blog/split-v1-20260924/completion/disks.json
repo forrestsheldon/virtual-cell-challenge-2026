@@ -1,0 +1,22 @@
+[
+  {
+    "creationTimestamp": "2026-09-24T02:33:55.283-07:00",
+    "name": "vcc-splits-20260924",
+    "sizeGb": "30",
+    "status": "READY",
+    "type": "https://www.googleapis.com/compute/v1/projects/bold-bastion-509200-f9/zones/europe-west2-b/diskTypes/pd-balanced",
+    "users": [
+      "https://www.googleapis.com/compute/v1/projects/bold-bastion-509200-f9/zones/europe-west2-b/instances/vcc-splits-20260924"
+    ]
+  },
+  {
+    "creationTimestamp": "2026-09-24T02:33:55.286-07:00",
+    "name": "vcc-splits-20260924-scratch",
+    "sizeGb": "250",
+    "status": "READY",
+    "type": "https://www.googleapis.com/compute/v1/projects/bold-bastion-509200-f9/zones/europe-west2-b/diskTypes/pd-standard",
+    "users": [
+      "https://www.googleapis.com/compute/v1/projects/bold-bastion-509200-f9/zones/europe-west2-b/instances/vcc-splits-20260924"
+    ]
+  }
+]

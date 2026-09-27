@@ -1,0 +1,46 @@
+{
+  "created_utc": "2026-09-18T19:34:51+00:00",
+  "inputs": {
+    "h1_reference_cells": {
+      "path": "reports/vcc2026-h1/reference_cells.csv",
+      "sha256": "717715d594bfd5b1345538dcb72ffe196f66e5101cc385e2f4369221a77bd1f3"
+    },
+    "h1_training_counts": {
+      "accessed": "2026-08-30",
+      "path": "data/external/vcc2025_h1/adata_Training.h5ad",
+      "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+      "source_url": "gs://arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/"
+    },
+    "replogle_author_raw_bulk": {
+      "accessed": "2026-09-18",
+      "path": "data/external/replogle2022/K562_gwps_raw_bulk_01.h5ad",
+      "sha256": "7cec96b3b76169abbf6b6ab9d10bf00d71d942d89e63292351f745e130b154db",
+      "source_url": "https://figshare.com/ndownloader/files/35774443"
+    }
+  },
+  "normalization": {
+    "primary": "library-size normalize each count-sum pseudobulk over its native measured gene universe to 1e6, then log2 ratio with epsilon 1e-9; align symbols afterward",
+    "sensitivity": "restrict to 7,583 shared symbols before library-size normalization",
+    "target_weighting_for_future_global_means": "equal target weight"
+  },
+  "outputs": {
+    "data/derived/replogle_h1_transfer/effects.npz": "4906b8576fca3e4dabb466c57d2a4c582d63150d64c2956add8c87be0102a207",
+    "reports/replogle-h1-transfer/checkpoint1_summary.json": "bca7dc6eda1a1f3bf085906910ca90764b6a0c76bb123ad671603c3ff777c0d2",
+    "reports/replogle-h1-transfer/guide_concordance.csv": "4a2945df784a046185a8b85691ce0cdd0c2204a5295b888da13bcc264e113d32",
+    "reports/replogle-h1-transfer/library_sizes.csv": "0de009964c16c83f7c97da77091563046d516a8dde5bef76d704ad16889c654e",
+    "reports/replogle-h1-transfer/normalization_sensitivity.csv": "e4acf511786aaa3d6025887ed20f11161a1ebe0324c7a1a9da537c81aa78ced8",
+    "reports/replogle-h1-transfer/target_overlap_and_knockdown.csv": "8a8943ba239d7519384786b4bd7cf8875465cb2abf690b222cc051f08ed70ae8"
+  },
+  "producer": {
+    "path": "scripts/evaluation/prepare_replogle_h1_transfer.py",
+    "sha256": "0389fb7edf416330ec94f51126c0770cb68ab03c9ed4b0cef6773347047a875a"
+  },
+  "replogle_population_unit": "The author pseudobulk rows are target-transcript populations. Cell-level metadata shows each population corresponds to one dual-guide construct; therefore this audit compares construct populations, not individual component guides.",
+  "software": {
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "python": "3.12.13"
+  },
+  "stage": "checkpoint 1 aggregation audit"
+}

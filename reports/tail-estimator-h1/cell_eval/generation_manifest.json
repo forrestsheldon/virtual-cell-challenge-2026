@@ -1,0 +1,15 @@
+{
+  "kind": "transductive bottom-tail prediction",
+  "same_cells_used_for_blinded_selection_and_reference_truth": true,
+  "labels_used_for_selection": false,
+  "labels_used_to_construct_balanced_pool": true,
+  "selected_source_rows": {
+    "path": "reports/tail-estimator-h1/selected_source_rows.npy",
+    "sha256": "bd200960d62f008084cd57cd410a6e2a64516f895b2d911cf12a96da0b73b863"
+  },
+  "prediction": {
+    "path": "data/derived/linear_response/tail_estimator_tmp.h5ad",
+    "sha256": "9e6d938117a440f9255239943ed39e578b28ad72f52d286c1c8d431143acff0f",
+    "bytes": 3324902144
+  }
+}

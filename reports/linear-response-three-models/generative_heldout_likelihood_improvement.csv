@@ -1,0 +1,4 @@
+baseline,model,mean_nll_improvement,paired_cell_standard_error,paired_cell_z,fraction_cells_improved,n_cells,caveat
+independent_mean_poisson,initial_rank50_poisson_lognormal,793.9956805799122,9.333489985681569,85.06953795396734,1.0,4000,cell-level SE is descriptive; only two control guides were held out
+independent_mean_poisson,fitted_rank50_poisson_lognormal,800.4342510598784,9.394064764151643,85.20637989578134,1.0,4000,cell-level SE is descriptive; only two control guides were held out
+initial_rank50_poisson_lognormal,fitted_rank50_poisson_lognormal,6.438570479966125,0.06957022665828509,92.54778644880781,1.0,4000,cell-level SE is descriptive; only two control guides were held out

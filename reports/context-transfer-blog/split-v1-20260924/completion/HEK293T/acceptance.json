@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "context": "HEK293T",
+  "manifest_sha256": "1d348b9e5cfad17d485710e4b6d44cc50ab1eb6695d8fb25b6c8b5c332f16b58",
+  "selected_cells": 455287,
+  "retained_cells": 225815,
+  "reference_constructs_exact": 1456,
+  "independent_full_source_reaggregation": true,
+  "responder_source_rows_exact": true,
+  "file_sha256s_verified": true,
+  "control_role_margins_exact": true,
+  "missing_baseline_strata": 0,
+  "promotion": "not performed"
+}

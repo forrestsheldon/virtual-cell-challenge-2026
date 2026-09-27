@@ -1,0 +1,36 @@
+{
+  "count_shrunk_source_effect": "post-hoc sensitivity using the previously examined 100,000-equivalent-UMI prior",
+  "eligibility": "all arms are H1-informed diagnostics because they use the leave-one-target-out H1 global response; cross-fitted scales use H1 perturbation truth from training targets only",
+  "inner_tuning": "two-fold target cross-validation inside each outer training fold",
+  "outer_fold_seed": 20260916,
+  "raw_source_effect": "primary planned analysis",
+  "ridge_alpha_grid": [
+    0.0,
+    0.0001,
+    0.00031622776601683794,
+    0.001,
+    0.0031622776601683794,
+    0.01,
+    0.03162277660168379,
+    0.1,
+    0.31622776601683794,
+    1.0,
+    3.1622776601683795,
+    10.0,
+    31.622776601683793,
+    100.0,
+    316.22776601683796,
+    1000.0,
+    3162.2776601683795,
+    10000.0
+  ],
+  "ridge_features": [
+    "k562_target_control_log2_cpm1p",
+    "h1_target_control_log2_cpm1p",
+    "h1_minus_k562_target_control_log2_cpm1p",
+    "k562_on_target_log2fc",
+    "source_cells",
+    "source_residual_norm"
+  ],
+  "strong_scale_eligibility": "at least 10 stable strong H1 genes measurable in the source"
+}

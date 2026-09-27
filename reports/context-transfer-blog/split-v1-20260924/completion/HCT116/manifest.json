@@ -1,0 +1,1781 @@
+{
+  "context": "HCT116",
+  "config_sha256": "dba62d325198670fb85ed8ac83fb712644b7c9dc999ea501b8f82c0d21560cd6",
+  "sources": [
+    {
+      "name": "HCT116_Batch1.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch1.parquet",
+      "bytes": 327620255,
+      "sha256": "a7a6918ecda30343e3f9262bcfb654bf077170d2e99c7bcd0c8b9f963764f13b",
+      "input_cells": 18549,
+      "selected_cells": 1884,
+      "responder_cells": 932,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 16665
+    },
+    {
+      "name": "HCT116_Batch10.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch10.parquet",
+      "bytes": 514603653,
+      "sha256": "c1179245d0a52e67565a7b1828a7e443c56eb164882a569de94f00e133891c58",
+      "input_cells": 32026,
+      "selected_cells": 3270,
+      "responder_cells": 1685,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 28756
+    },
+    {
+      "name": "HCT116_Batch100.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch100.parquet",
+      "bytes": 465594768,
+      "sha256": "850472e07b7298c03c407cf71bd8795fca0ba4422b52ca4cd2af4e4026334cdc",
+      "input_cells": 30454,
+      "selected_cells": 3142,
+      "responder_cells": 1543,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 27312
+    },
+    {
+      "name": "HCT116_Batch101.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch101.parquet",
+      "bytes": 501782869,
+      "sha256": "ed7e5ed1fd3787a11ab3f9703675eeee988fbbe13aa2f7368eef0a0262a0497f",
+      "input_cells": 31680,
+      "selected_cells": 3349,
+      "responder_cells": 1672,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 28331
+    },
+    {
+      "name": "HCT116_Batch102.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch102.parquet",
+      "bytes": 456106566,
+      "sha256": "2ed34653202653783556f000dc81d2eff5b1f0a3f2a15786660234cc500ac352",
+      "input_cells": 30845,
+      "selected_cells": 3045,
+      "responder_cells": 1533,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 27800
+    },
+    {
+      "name": "HCT116_Batch103.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch103.parquet",
+      "bytes": 457023750,
+      "sha256": "5c6af410396b85f81c1aeae7a5f8218365643dffc0a41c35897677429ce900d3",
+      "input_cells": 30925,
+      "selected_cells": 3204,
+      "responder_cells": 1614,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 27721
+    },
+    {
+      "name": "HCT116_Batch104.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch104.parquet",
+      "bytes": 454227564,
+      "sha256": "7854cbce8d774a60481f9171316fc3860ea0767ceda83681c0f899fd2527e6d1",
+      "input_cells": 31352,
+      "selected_cells": 3184,
+      "responder_cells": 1577,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 28168
+    },
+    {
+      "name": "HCT116_Batch105.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch105.parquet",
+      "bytes": 368983326,
+      "sha256": "b3d2c4337db32742f2e654fa7b9f4f391a2a9acb958e4ca37d50a9066cffdc26",
+      "input_cells": 25821,
+      "selected_cells": 2616,
+      "responder_cells": 1326,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 23205
+    },
+    {
+      "name": "HCT116_Batch106.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch106.parquet",
+      "bytes": 224743692,
+      "sha256": "952eb87ea39490b54adf3eabe049053f8a1d9c342f158c56675d38ec604814b5",
+      "input_cells": 20819,
+      "selected_cells": 2118,
+      "responder_cells": 1053,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 18701
+    },
+    {
+      "name": "HCT116_Batch107.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch107.parquet",
+      "bytes": 340672624,
+      "sha256": "d989e8cf2f32a863fca8723970c4655bda42e77f6311172f1900887215599eb4",
+      "input_cells": 26189,
+      "selected_cells": 2629,
+      "responder_cells": 1304,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 23560
+    },
+    {
+      "name": "HCT116_Batch108.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch108.parquet",
+      "bytes": 323441588,
+      "sha256": "dce5328dc3e026426d4dd9eb250b21ae678d1bd1882e68af881c77a81c85362a",
+      "input_cells": 31090,
+      "selected_cells": 3187,
+      "responder_cells": 1588,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 27903
+    },
+    {
+      "name": "HCT116_Batch109.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch109.parquet",
+      "bytes": 442737032,
+      "sha256": "b0b14f28936db51ef4bb9e94451eb636c6313f0be94b7a24133b4c14d85650a5",
+      "input_cells": 31320,
+      "selected_cells": 3168,
+      "responder_cells": 1563,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 28152
+    },
+    {
+      "name": "HCT116_Batch11.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch11.parquet",
+      "bytes": 377740578,
+      "sha256": "2210743c1ee3bef07974aa7e1550e40da29a4b0a392baee90cf0fb55cde6ae4c",
+      "input_cells": 30896,
+      "selected_cells": 3199,
+      "responder_cells": 1611,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 27697
+    },
+    {
+      "name": "HCT116_Batch12.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch12.parquet",
+      "bytes": 494035915,
+      "sha256": "4b8cf6901f60bd842d682df42e6490dbe7497223ca074c6fd2c01aeea372f8b3",
+      "input_cells": 32424,
+      "selected_cells": 3239,
+      "responder_cells": 1630,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 29185
+    },
+    {
+      "name": "HCT116_Batch13.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch13.parquet",
+      "bytes": 505260195,
+      "sha256": "5f04bfd4f817e82442d04f2ea4580883793a45010192c68bd6c7bfe38060b72b",
+      "input_cells": 32247,
+      "selected_cells": 3304,
+      "responder_cells": 1632,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 28943
+    },
+    {
+      "name": "HCT116_Batch14.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch14.parquet",
+      "bytes": 533245989,
+      "sha256": "fa2aba678999c782c69ab115267709b41fa540fecf7fe8690640b4a79f358e21",
+      "input_cells": 31790,
+      "selected_cells": 3277,
+      "responder_cells": 1613,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 28513
+    },
+    {
+      "name": "HCT116_Batch15.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch15.parquet",
+      "bytes": 534503978,
+      "sha256": "5c28685f758f119183ce46cbcee7801916271f2dde0a89d7c1ca87232e4f3c50",
+      "input_cells": 32483,
+      "selected_cells": 3239,
+      "responder_cells": 1631,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 29244
+    },
+    {
+      "name": "HCT116_Batch16.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch16.parquet",
+      "bytes": 561301037,
+      "sha256": "0b0e011732ea9f9a5870676b8216fcccf7638f8d6d04ef162c4c7d51ab3204f2",
+      "input_cells": 31975,
+      "selected_cells": 3250,
+      "responder_cells": 1618,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 28725
+    },
+    {
+      "name": "HCT116_Batch17.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch17.parquet",
+      "bytes": 539271755,
+      "sha256": "00812dc7799a30d82280f8278687063b33af69ebd8ca4d4fbc9b16f91d0281cb",
+      "input_cells": 32267,
+      "selected_cells": 3263,
+      "responder_cells": 1595,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 29004
+    },
+    {
+      "name": "HCT116_Batch18.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch18.parquet",
+      "bytes": 308544721,
+      "sha256": "680025d08da66f2b57048bf285d4da00553db664abe79be54e0477acf72c5ba7",
+      "input_cells": 19511,
+      "selected_cells": 1949,
+      "responder_cells": 957,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 17562
+    },
+    {
+      "name": "HCT116_Batch19.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch19.parquet",
+      "bytes": 375068900,
+      "sha256": "bca2338f3b74c75bcca965796a838b4585ee2e267879226a3b55685203ceb729",
+      "input_cells": 34723,
+      "selected_cells": 3508,
+      "responder_cells": 1697,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31215
+    },
+    {
+      "name": "HCT116_Batch2.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch2.parquet",
+      "bytes": 333969909,
+      "sha256": "811ef0d06362caa61411a42db0fe0cdc91fe5dddcb53f5f0447a175df2df25aa",
+      "input_cells": 18739,
+      "selected_cells": 1916,
+      "responder_cells": 968,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 16823
+    },
+    {
+      "name": "HCT116_Batch20.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch20.parquet",
+      "bytes": 455387746,
+      "sha256": "03715c6763793bb89a40ac35dd63d0a8a2e48c31830c142f8a0bf9b1240c33a8",
+      "input_cells": 37402,
+      "selected_cells": 3770,
+      "responder_cells": 1879,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 33632
+    },
+    {
+      "name": "HCT116_Batch21.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch21.parquet",
+      "bytes": 445301703,
+      "sha256": "94e52b051888b418e3ee2b2b08f39e453fd635bd40e72e06a63bc7447dbb1d1d",
+      "input_cells": 36890,
+      "selected_cells": 3682,
+      "responder_cells": 1779,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 33208
+    },
+    {
+      "name": "HCT116_Batch22.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch22.parquet",
+      "bytes": 414725369,
+      "sha256": "30a753ce31cb525283264c2b377c3fdf26be5d0f4e005d1c1b546ab2e04081e8",
+      "input_cells": 36749,
+      "selected_cells": 3770,
+      "responder_cells": 1866,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 32979
+    },
+    {
+      "name": "HCT116_Batch23.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch23.parquet",
+      "bytes": 411561712,
+      "sha256": "8eb2083a077018433900d6f8bf5a1c45bacb4649671c22dbb111670504be246f",
+      "input_cells": 36476,
+      "selected_cells": 3662,
+      "responder_cells": 1806,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 32814
+    },
+    {
+      "name": "HCT116_Batch24.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch24.parquet",
+      "bytes": 414331314,
+      "sha256": "be6a160e8dfdc266caacd169a6a1ba936d3c4dea1598b7cbf7c90a0ac61b34b0",
+      "input_cells": 35262,
+      "selected_cells": 3757,
+      "responder_cells": 1833,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31505
+    },
+    {
+      "name": "HCT116_Batch25.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch25.parquet",
+      "bytes": 393477494,
+      "sha256": "2375c892da19f293073c6b2ffc923e64d0543215355c507ca7223a21c833f715",
+      "input_cells": 35787,
+      "selected_cells": 3543,
+      "responder_cells": 1741,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 32244
+    },
+    {
+      "name": "HCT116_Batch26.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch26.parquet",
+      "bytes": 435883637,
+      "sha256": "d0bafe2edd7eaaa0ad4001e1f7ca2f87ff8520fd8226c29f1251d981d70b167b",
+      "input_cells": 33350,
+      "selected_cells": 3481,
+      "responder_cells": 1724,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 29869
+    },
+    {
+      "name": "HCT116_Batch27.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch27.parquet",
+      "bytes": 448033719,
+      "sha256": "7525f4724dd7f212495f2420cdc82d9b8ef4538f310992d689ac8ccd1883d77e",
+      "input_cells": 33562,
+      "selected_cells": 3464,
+      "responder_cells": 1680,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 30098
+    },
+    {
+      "name": "HCT116_Batch28.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch28.parquet",
+      "bytes": 433923072,
+      "sha256": "dd19ef6835e06710644d764a8d54df6e7215b33d830ec1354e63b84f4df52003",
+      "input_cells": 31893,
+      "selected_cells": 3262,
+      "responder_cells": 1614,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 28631
+    },
+    {
+      "name": "HCT116_Batch29.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch29.parquet",
+      "bytes": 478050297,
+      "sha256": "4b0873b6467844f5d30763ec96ae17053c9e612d059d0d94d3e783a2c7b0e0fa",
+      "input_cells": 34077,
+      "selected_cells": 3485,
+      "responder_cells": 1706,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 30592
+    },
+    {
+      "name": "HCT116_Batch3.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch3.parquet",
+      "bytes": 340165482,
+      "sha256": "a1edffd0423c73f2d28f8589b87e41b68414bb6a3c7ee87ecb48485d4bb12beb",
+      "input_cells": 19367,
+      "selected_cells": 1915,
+      "responder_cells": 970,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 17452
+    },
+    {
+      "name": "HCT116_Batch30.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch30.parquet",
+      "bytes": 474141877,
+      "sha256": "600c7198953ab31d46aec5346368dc518c53b49ac5a8f2754de993b107ed895c",
+      "input_cells": 32858,
+      "selected_cells": 3411,
+      "responder_cells": 1674,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 29447
+    },
+    {
+      "name": "HCT116_Batch31.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch31.parquet",
+      "bytes": 429074452,
+      "sha256": "4cfa5a7d5f3ce0eaa93b2e7dd56e79b5e6176a1af8377dfb1a5a827e1ddeefb2",
+      "input_cells": 28852,
+      "selected_cells": 2818,
+      "responder_cells": 1404,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 26034
+    },
+    {
+      "name": "HCT116_Batch32.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch32.parquet",
+      "bytes": 549931295,
+      "sha256": "77598e4974c263cce730a9f09d5bf115720621c996c2524d457c3f89657f96d9",
+      "input_cells": 34539,
+      "selected_cells": 3536,
+      "responder_cells": 1780,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31003
+    },
+    {
+      "name": "HCT116_Batch33.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch33.parquet",
+      "bytes": 464654297,
+      "sha256": "6d9a948559a41f8879e703c31aa5bb0bb5af9a4a666361f9fb50996d58b5509b",
+      "input_cells": 34696,
+      "selected_cells": 3531,
+      "responder_cells": 1776,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31165
+    },
+    {
+      "name": "HCT116_Batch34.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch34.parquet",
+      "bytes": 496894421,
+      "sha256": "6c850a8f272a8d55451d6fc593a6d178b6a9427d6f0192b0ef5445d7a810262e",
+      "input_cells": 34068,
+      "selected_cells": 3378,
+      "responder_cells": 1639,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 30690
+    },
+    {
+      "name": "HCT116_Batch35.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch35.parquet",
+      "bytes": 423481573,
+      "sha256": "c41244fae526a5ccb6247bc9f83ec7635b899a5775b97994dae4c982c08ae178",
+      "input_cells": 33253,
+      "selected_cells": 3354,
+      "responder_cells": 1658,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 29899
+    },
+    {
+      "name": "HCT116_Batch36.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch36.parquet",
+      "bytes": 476486998,
+      "sha256": "788689eb2c7c4245968a6ba99660aaed701ee1d5bef4114cc3264022d7914322",
+      "input_cells": 34745,
+      "selected_cells": 3513,
+      "responder_cells": 1746,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31232
+    },
+    {
+      "name": "HCT116_Batch37.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch37.parquet",
+      "bytes": 464350721,
+      "sha256": "4f43322ba9073fd8727447e330216f9d60cedf93427010f4cb02baf9726102c9",
+      "input_cells": 35019,
+      "selected_cells": 3524,
+      "responder_cells": 1762,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31495
+    },
+    {
+      "name": "HCT116_Batch38.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch38.parquet",
+      "bytes": 411129665,
+      "sha256": "3cffba55a40d1641c860e7695f96e07fbb89d6357274d3640b43dd6b8d539e1f",
+      "input_cells": 32592,
+      "selected_cells": 3287,
+      "responder_cells": 1667,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 29305
+    },
+    {
+      "name": "HCT116_Batch39.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch39.parquet",
+      "bytes": 395509532,
+      "sha256": "32856943cc1873d871a7fd2e158c2be65b2254290d14d60f29cb177a91d0055b",
+      "input_cells": 34552,
+      "selected_cells": 3582,
+      "responder_cells": 1733,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 30970
+    },
+    {
+      "name": "HCT116_Batch4.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch4.parquet",
+      "bytes": 328807320,
+      "sha256": "e46cb832a09cfb31d74f82a90e88295350a6ae2d2d17c8fdd2708924870394c7",
+      "input_cells": 18575,
+      "selected_cells": 1913,
+      "responder_cells": 932,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 16662
+    },
+    {
+      "name": "HCT116_Batch40.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch40.parquet",
+      "bytes": 466737149,
+      "sha256": "c2dad51d11e6ce829f0d6500b9cd9303d7447ae8ef92b4f5b1caddb27564a365",
+      "input_cells": 35273,
+      "selected_cells": 3499,
+      "responder_cells": 1709,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31774
+    },
+    {
+      "name": "HCT116_Batch41.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch41.parquet",
+      "bytes": 451027401,
+      "sha256": "c82dc468740afed180734be24585b28a2b81a8551b69395aaef428640f08f36d",
+      "input_cells": 36183,
+      "selected_cells": 3697,
+      "responder_cells": 1832,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 32486
+    },
+    {
+      "name": "HCT116_Batch42.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch42.parquet",
+      "bytes": 487128675,
+      "sha256": "a2a93ffc571e69ca206e05becf14a2ea36958a41238bc46da5235da833f687ea",
+      "input_cells": 35472,
+      "selected_cells": 3488,
+      "responder_cells": 1770,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31984
+    },
+    {
+      "name": "HCT116_Batch43.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch43.parquet",
+      "bytes": 491169432,
+      "sha256": "5638b8e3aaeaf76c0b5b066bff7ede01dba5384aa1a5e8125548fb44699eec56",
+      "input_cells": 35425,
+      "selected_cells": 3544,
+      "responder_cells": 1762,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31881
+    },
+    {
+      "name": "HCT116_Batch44.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch44.parquet",
+      "bytes": 510881870,
+      "sha256": "f3ea09d4e679958bca24003bdf268bbfc2044f983d293966e1dada2cbbac4db4",
+      "input_cells": 35980,
+      "selected_cells": 3697,
+      "responder_cells": 1804,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 32283
+    },
+    {
+      "name": "HCT116_Batch45.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch45.parquet",
+      "bytes": 502315815,
+      "sha256": "7f7a2d0e1eccc78558c16868577f085f7a3e6aef9713e53b0fcc0fe4eed9cd72",
+      "input_cells": 35722,
+      "selected_cells": 3539,
+      "responder_cells": 1772,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 32183
+    },
+    {
+      "name": "HCT116_Batch46.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch46.parquet",
+      "bytes": 503553362,
+      "sha256": "5164edc71c023bf03770d1fc1964faf1ad2d30a614d9b75118b02d320cbb6c2e",
+      "input_cells": 36190,
+      "selected_cells": 3635,
+      "responder_cells": 1882,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 32555
+    },
+    {
+      "name": "HCT116_Batch47.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch47.parquet",
+      "bytes": 471291245,
+      "sha256": "78bacc551f76b889c3d55b12e55887fd4a0c39fda4f587ebd354641fadd77f72",
+      "input_cells": 34202,
+      "selected_cells": 3522,
+      "responder_cells": 1708,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 30680
+    },
+    {
+      "name": "HCT116_Batch48.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch48.parquet",
+      "bytes": 350390322,
+      "sha256": "0ef68e4e6e5f9321d2d3448d3755ec81cd720ccf147de0c550aab086965445f5",
+      "input_cells": 19062,
+      "selected_cells": 2026,
+      "responder_cells": 1018,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 17036
+    },
+    {
+      "name": "HCT116_Batch49.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch49.parquet",
+      "bytes": 438891882,
+      "sha256": "fa982c122b79d4329fca03b85cd0c03798ae199942b43405cdbf2b8506554133",
+      "input_cells": 30845,
+      "selected_cells": 3137,
+      "responder_cells": 1514,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 27708
+    },
+    {
+      "name": "HCT116_Batch5.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch5.parquet",
+      "bytes": 344895177,
+      "sha256": "34f4d3fe7e0b3a856b85a8113958c6f7e7375363cfaa5eed791d553ed19afe83",
+      "input_cells": 19643,
+      "selected_cells": 2035,
+      "responder_cells": 1013,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 17608
+    },
+    {
+      "name": "HCT116_Batch50.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch50.parquet",
+      "bytes": 392451280,
+      "sha256": "0fb6f787b11e21fe263ec95efdc3f1067142f284e04d0cd64ab84edf2d147eea",
+      "input_cells": 30739,
+      "selected_cells": 3026,
+      "responder_cells": 1512,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 27713
+    },
+    {
+      "name": "HCT116_Batch51.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch51.parquet",
+      "bytes": 377871842,
+      "sha256": "fb9ad8247f424c5b115498e3d86b416c9fcb7f6eb25542f24c1852838ef4266f",
+      "input_cells": 35551,
+      "selected_cells": 3550,
+      "responder_cells": 1798,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 32001
+    },
+    {
+      "name": "HCT116_Batch52.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch52.parquet",
+      "bytes": 347296925,
+      "sha256": "fa1ced2a73d896cba829d00c0c8008c7b4bee3ddcd4504f267e9a77a00c4c9b1",
+      "input_cells": 33609,
+      "selected_cells": 3403,
+      "responder_cells": 1623,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 30206
+    },
+    {
+      "name": "HCT116_Batch53.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch53.parquet",
+      "bytes": 401168887,
+      "sha256": "4920319fcda269ba9f82ca179256c22726b336f4d519c227f2457acd7902ae67",
+      "input_cells": 34103,
+      "selected_cells": 3454,
+      "responder_cells": 1699,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 30649
+    },
+    {
+      "name": "HCT116_Batch54.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch54.parquet",
+      "bytes": 390358708,
+      "sha256": "d86b3440acff0f33759a59bcba5670d755b219277f07bc1d6a2063cf1f334055",
+      "input_cells": 25515,
+      "selected_cells": 2576,
+      "responder_cells": 1325,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 22939
+    },
+    {
+      "name": "HCT116_Batch55.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch55.parquet",
+      "bytes": 302334567,
+      "sha256": "c87861aae62a8336f8636f2717f41630e2bb84b9a7519e4eee205d1de7b5cad6",
+      "input_cells": 30873,
+      "selected_cells": 3322,
+      "responder_cells": 1599,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 27551
+    },
+    {
+      "name": "HCT116_Batch56.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch56.parquet",
+      "bytes": 366604784,
+      "sha256": "92115e922c1c7471b1c5bef648c165c048c2fa954d761b83fb646a3ecee2882c",
+      "input_cells": 31878,
+      "selected_cells": 3317,
+      "responder_cells": 1598,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 28561
+    },
+    {
+      "name": "HCT116_Batch57.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch57.parquet",
+      "bytes": 347679668,
+      "sha256": "19a0c80733955427e06c8adae34bcbc08404d0508755751f7b65aace17bbe7f0",
+      "input_cells": 31506,
+      "selected_cells": 3181,
+      "responder_cells": 1567,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 28325
+    },
+    {
+      "name": "HCT116_Batch58.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch58.parquet",
+      "bytes": 364858383,
+      "sha256": "471e70397002c7f456dae22a10177f7e1ad7b8fcb768e34ea3e7840da583b6f3",
+      "input_cells": 31421,
+      "selected_cells": 3335,
+      "responder_cells": 1569,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 28086
+    },
+    {
+      "name": "HCT116_Batch59.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch59.parquet",
+      "bytes": 362912109,
+      "sha256": "bc84b81f1a79af4d372a0db83e6c3c9d5c8ae948aff0ca7a0df91baf8a878a1e",
+      "input_cells": 30778,
+      "selected_cells": 3138,
+      "responder_cells": 1534,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 27640
+    },
+    {
+      "name": "HCT116_Batch6.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch6.parquet",
+      "bytes": 293794566,
+      "sha256": "6dec049f9f2addd5fe2826a59b5a22951effbe4ca98715b5119aa9325a89ebf7",
+      "input_cells": 19382,
+      "selected_cells": 2043,
+      "responder_cells": 977,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 17339
+    },
+    {
+      "name": "HCT116_Batch60.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch60.parquet",
+      "bytes": 456773351,
+      "sha256": "3273675b4c48e1f35ca664db1751e3f47b98947cd8a4e3c3fccaa7ccc3e7c67a",
+      "input_cells": 32191,
+      "selected_cells": 3295,
+      "responder_cells": 1600,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 28896
+    },
+    {
+      "name": "HCT116_Batch61.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch61.parquet",
+      "bytes": 336209250,
+      "sha256": "9348a4f59d31c0149d49a5b8603fe336a171e179aeb8538ac6157c87fb75b142",
+      "input_cells": 34296,
+      "selected_cells": 3551,
+      "responder_cells": 1728,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 30745
+    },
+    {
+      "name": "HCT116_Batch62.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch62.parquet",
+      "bytes": 431972981,
+      "sha256": "a6f5d7536d1af59f55ac3e6f3e5bf7d927f71cf3bb7fbe18d8463dccb8c2b447",
+      "input_cells": 34487,
+      "selected_cells": 3462,
+      "responder_cells": 1724,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31025
+    },
+    {
+      "name": "HCT116_Batch63.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch63.parquet",
+      "bytes": 516665856,
+      "sha256": "471ca8325e56e38e9d6ad6efda102e895876081a7020843c5016fb425be24363",
+      "input_cells": 35258,
+      "selected_cells": 3638,
+      "responder_cells": 1810,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31620
+    },
+    {
+      "name": "HCT116_Batch64.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch64.parquet",
+      "bytes": 492706657,
+      "sha256": "866115b31a28d8029923cabe9ac948d51beaf3372cd58dc5e5050304a575d990",
+      "input_cells": 34759,
+      "selected_cells": 3588,
+      "responder_cells": 1722,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31171
+    },
+    {
+      "name": "HCT116_Batch65.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch65.parquet",
+      "bytes": 494961044,
+      "sha256": "4094f85430b62b03fd7c694641b75b5e24e45b31e9e5adea4c5de2bcc9c4defd",
+      "input_cells": 34961,
+      "selected_cells": 3578,
+      "responder_cells": 1774,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31383
+    },
+    {
+      "name": "HCT116_Batch66.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch66.parquet",
+      "bytes": 313113761,
+      "sha256": "420e14d2f8b14408724ed06f555fa6f3a60c1de7f3a2c31b4a9cd5d644c66843",
+      "input_cells": 17967,
+      "selected_cells": 1811,
+      "responder_cells": 890,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 16156
+    },
+    {
+      "name": "HCT116_Batch67.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch67.parquet",
+      "bytes": 374875932,
+      "sha256": "06d4e8185bf238d11ec96e52918afc2ed03d265c79d0a6b56354e472902af5da",
+      "input_cells": 32333,
+      "selected_cells": 3234,
+      "responder_cells": 1609,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 29099
+    },
+    {
+      "name": "HCT116_Batch68.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch68.parquet",
+      "bytes": 366522196,
+      "sha256": "69a9a0a3f2dc6feba5b92efae1bc159c753e18ea31db19fe097b4de19141a903",
+      "input_cells": 31740,
+      "selected_cells": 3313,
+      "responder_cells": 1578,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 28427
+    },
+    {
+      "name": "HCT116_Batch69.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch69.parquet",
+      "bytes": 364138851,
+      "sha256": "3a7baca72ea9b7ec319ec6429274c20bf137b57e0d04854c869229921ae387ea",
+      "input_cells": 31534,
+      "selected_cells": 3234,
+      "responder_cells": 1532,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 28300
+    },
+    {
+      "name": "HCT116_Batch7.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch7.parquet",
+      "bytes": 279352582,
+      "sha256": "796583e02aba121f310e83c19328c77dfe9455470e4dc5409c8fce0608959eae",
+      "input_cells": 20510,
+      "selected_cells": 2074,
+      "responder_cells": 1002,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 18436
+    },
+    {
+      "name": "HCT116_Batch70.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch70.parquet",
+      "bytes": 400812453,
+      "sha256": "2e3f42c517bfa7a74ca3776cab40b3ad8a041d7cad5bba62e81305b283c1c211",
+      "input_cells": 32828,
+      "selected_cells": 3383,
+      "responder_cells": 1675,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 29445
+    },
+    {
+      "name": "HCT116_Batch71.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch71.parquet",
+      "bytes": 400376768,
+      "sha256": "e07d9182da8f02691d4b715e24a8e431391004bdcbc229fc5ca447fdfdc1a904",
+      "input_cells": 32375,
+      "selected_cells": 3204,
+      "responder_cells": 1555,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 29171
+    },
+    {
+      "name": "HCT116_Batch72.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch72.parquet",
+      "bytes": 411210392,
+      "sha256": "62d2490fc3a8ef0fe3a313797f60e8f50d3de69c4222003f34c2b13b5db1d949",
+      "input_cells": 33181,
+      "selected_cells": 3453,
+      "responder_cells": 1711,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 29728
+    },
+    {
+      "name": "HCT116_Batch73.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch73.parquet",
+      "bytes": 404445798,
+      "sha256": "95dc06981eb7a952e74cb7359a1f51cdab2af1324105b2fe14e05485376ba687",
+      "input_cells": 32745,
+      "selected_cells": 3417,
+      "responder_cells": 1710,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 29328
+    },
+    {
+      "name": "HCT116_Batch74.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch74.parquet",
+      "bytes": 320488429,
+      "sha256": "ab7f91bd6eae8e6fb327ece125ec6a9e3b998344901c9800f1250898bbdd8251",
+      "input_cells": 29833,
+      "selected_cells": 3030,
+      "responder_cells": 1459,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 26803
+    },
+    {
+      "name": "HCT116_Batch75.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch75.parquet",
+      "bytes": 357218088,
+      "sha256": "c487fce784099f45fbc7383c2eec949b78a5df065c5f74e4743c90a90d4e7205",
+      "input_cells": 31027,
+      "selected_cells": 3035,
+      "responder_cells": 1498,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 27992
+    },
+    {
+      "name": "HCT116_Batch76.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch76.parquet",
+      "bytes": 340708502,
+      "sha256": "a06e1f208666bed753014f9937ed380cc0ca47af6b9fc7b73b48a392e88a1370",
+      "input_cells": 31018,
+      "selected_cells": 3184,
+      "responder_cells": 1564,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 27834
+    },
+    {
+      "name": "HCT116_Batch77.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch77.parquet",
+      "bytes": 331032967,
+      "sha256": "e6a4ce471eeee1238ad16eee4e5d7477a7ec5812e8e36181ef77d141835b0930",
+      "input_cells": 26844,
+      "selected_cells": 2747,
+      "responder_cells": 1348,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 24097
+    },
+    {
+      "name": "HCT116_Batch78.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch78.parquet",
+      "bytes": 507032635,
+      "sha256": "488655666ab254092eebc12c3da6e2d7349f2882e8d9a55e0282a51dc858e2bf",
+      "input_cells": 36300,
+      "selected_cells": 3591,
+      "responder_cells": 1744,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 32709
+    },
+    {
+      "name": "HCT116_Batch79.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch79.parquet",
+      "bytes": 518793317,
+      "sha256": "9609ac4eede39acbdbede75f5491990324e293e949a443644d958c8f091c747e",
+      "input_cells": 35803,
+      "selected_cells": 3594,
+      "responder_cells": 1762,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 32209
+    },
+    {
+      "name": "HCT116_Batch8.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch8.parquet",
+      "bytes": 251129066,
+      "sha256": "0fc937a8481fea0f4fcd74e6e168b7183dd0ffe61db9ff6c76015c5d1a303989",
+      "input_cells": 20165,
+      "selected_cells": 2032,
+      "responder_cells": 1033,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 18133
+    },
+    {
+      "name": "HCT116_Batch80.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch80.parquet",
+      "bytes": 542426846,
+      "sha256": "df8eb3da9adb6a0d1ad6a0783690a1bec72d60065eca8b04b2eb2ac40f9338c3",
+      "input_cells": 35589,
+      "selected_cells": 3663,
+      "responder_cells": 1785,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31926
+    },
+    {
+      "name": "HCT116_Batch81.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch81.parquet",
+      "bytes": 561994868,
+      "sha256": "36234a759449e8f98a53119f60966ff8d87d86221c41552a8d888dcbd209c6c5",
+      "input_cells": 36325,
+      "selected_cells": 3641,
+      "responder_cells": 1796,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 32684
+    },
+    {
+      "name": "HCT116_Batch82.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch82.parquet",
+      "bytes": 406989265,
+      "sha256": "8c7f57785b946e3a1cfc3ae6f956b9048652e59e644c9583f3e241944ba5def6",
+      "input_cells": 35542,
+      "selected_cells": 3569,
+      "responder_cells": 1775,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31973
+    },
+    {
+      "name": "HCT116_Batch83.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch83.parquet",
+      "bytes": 517452062,
+      "sha256": "94485e8b10138c2a3c65e37f331137987be1ef03bd101bbbb6c67e01e39edfa2",
+      "input_cells": 35596,
+      "selected_cells": 3512,
+      "responder_cells": 1715,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 32084
+    },
+    {
+      "name": "HCT116_Batch84.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch84.parquet",
+      "bytes": 583092706,
+      "sha256": "fb8efa3cf0b34ebbfc73bf31ebd1fd36b9d6c3447303a8a92b470afb8e2ffe05",
+      "input_cells": 35274,
+      "selected_cells": 3622,
+      "responder_cells": 1853,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31652
+    },
+    {
+      "name": "HCT116_Batch85.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch85.parquet",
+      "bytes": 539397314,
+      "sha256": "3a06f3748e596468a638612e1201cd7c30d7890f2e4db3ed179e190e98ae9681",
+      "input_cells": 34610,
+      "selected_cells": 3482,
+      "responder_cells": 1718,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31128
+    },
+    {
+      "name": "HCT116_Batch86.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch86.parquet",
+      "bytes": 515371889,
+      "sha256": "f70aa8e21fca097f7adb58cd9e7f2ecd87825a3f1f9a6bc42f9feee37251b83e",
+      "input_cells": 35827,
+      "selected_cells": 3586,
+      "responder_cells": 1797,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 32241
+    },
+    {
+      "name": "HCT116_Batch87.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch87.parquet",
+      "bytes": 402387805,
+      "sha256": "1a1711604f6713ce4faf289d254b266a213ac66e526a991ddd78facfe2602051",
+      "input_cells": 34609,
+      "selected_cells": 3508,
+      "responder_cells": 1733,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31101
+    },
+    {
+      "name": "HCT116_Batch88.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch88.parquet",
+      "bytes": 414097484,
+      "sha256": "1cdaa312aa4a9362eca8743b53fca9f0132aee35a565cc96895227bf86cb0fe3",
+      "input_cells": 32083,
+      "selected_cells": 3214,
+      "responder_cells": 1615,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 28869
+    },
+    {
+      "name": "HCT116_Batch89.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch89.parquet",
+      "bytes": 485825476,
+      "sha256": "e0687d26b7ef8af5d57c04858588c2b66ce5f2f9acf089ab2b2b094d36e64ced",
+      "input_cells": 30630,
+      "selected_cells": 3078,
+      "responder_cells": 1499,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 27552
+    },
+    {
+      "name": "HCT116_Batch9.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch9.parquet",
+      "bytes": 530300031,
+      "sha256": "c1e041e4a7b145bd54c53731abce1e88f0b00cda90ba8514903c58d689944e2b",
+      "input_cells": 32071,
+      "selected_cells": 3252,
+      "responder_cells": 1675,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 28819
+    },
+    {
+      "name": "HCT116_Batch90.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch90.parquet",
+      "bytes": 442110829,
+      "sha256": "9ecd57e905406b6e803c02ee3f427f23b4bd5d78aaf4d4012d2b3bc9ad814b43",
+      "input_cells": 36036,
+      "selected_cells": 3675,
+      "responder_cells": 1793,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 32361
+    },
+    {
+      "name": "HCT116_Batch91.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch91.parquet",
+      "bytes": 520063185,
+      "sha256": "54176c09e31ef44ece4adc31c5192015d3599a054e21a20fd7384afe75780af2",
+      "input_cells": 35438,
+      "selected_cells": 3678,
+      "responder_cells": 1815,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31760
+    },
+    {
+      "name": "HCT116_Batch92.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch92.parquet",
+      "bytes": 509018361,
+      "sha256": "b59cc18b8d5b99f770f2c5967da8e82c0ee221a7ffffc003a168046b617e1d5a",
+      "input_cells": 35397,
+      "selected_cells": 3654,
+      "responder_cells": 1786,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 31743
+    },
+    {
+      "name": "HCT116_Batch93.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch93.parquet",
+      "bytes": 430312539,
+      "sha256": "2e687e58e9c1eb8c7cdcbeda39f4410b341caf4dadb6cf0777d97a0c71aea664",
+      "input_cells": 31029,
+      "selected_cells": 3128,
+      "responder_cells": 1585,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 27901
+    },
+    {
+      "name": "HCT116_Batch94.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch94.parquet",
+      "bytes": 368767694,
+      "sha256": "252aa74b8d380dc10cb11bfafd64ffd0a311b25e018cdbfcc60118b36a22c59f",
+      "input_cells": 27376,
+      "selected_cells": 2769,
+      "responder_cells": 1345,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 24607
+    },
+    {
+      "name": "HCT116_Batch95.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch95.parquet",
+      "bytes": 363806902,
+      "sha256": "f65f79209347544324c3257c73ba9618eb41b50597648f92490a56eb27493c23",
+      "input_cells": 25126,
+      "selected_cells": 2557,
+      "responder_cells": 1260,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 22569
+    },
+    {
+      "name": "HCT116_Batch96.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch96.parquet",
+      "bytes": 553399436,
+      "sha256": "27fced46e7229c24c100df44b80fab9acf16798ceb55a46b46990248e502056f",
+      "input_cells": 26527,
+      "selected_cells": 2682,
+      "responder_cells": 1329,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 23845
+    },
+    {
+      "name": "HCT116_Batch97.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch97.parquet",
+      "bytes": 407565665,
+      "sha256": "f1c70ec3b5021431c5d32adaac185de9f2fa6f252771ff387c289f13aa71ac35",
+      "input_cells": 25257,
+      "selected_cells": 2551,
+      "responder_cells": 1228,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 22706
+    },
+    {
+      "name": "HCT116_Batch98.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch98.parquet",
+      "bytes": 399555923,
+      "sha256": "6fcf3f12e47f1252f0d3a3088f9a334b1a0f6a32ca287f61785eb02a1bc45325",
+      "input_cells": 26888,
+      "selected_cells": 2619,
+      "responder_cells": 1313,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 24269
+    },
+    {
+      "name": "HCT116_Batch99.parquet",
+      "url": "https://huggingface.co/datasets/Xaira-Therapeutics/X-Atlas-Orion/resolve/53a5bc98d49247bcf967500292575c3d3602de31/data/HCT116_Batch99.parquet",
+      "bytes": 420609224,
+      "sha256": "2cc6794e305b308082584c85a8e227c1ebe4288139daee70a26a82ea2f80ace6",
+      "input_cells": 27743,
+      "selected_cells": 2764,
+      "responder_cells": 1427,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 24979
+    }
+  ],
+  "files": {
+    "batch_role_split_controls.h5ad": {
+      "bytes": 76040197,
+      "sha256": "9c4f92003b6d371461c7eac5de910f550f3c5b1ea8f259db3f79816b4f93e747",
+      "logical_sha256": "73a5f1a2bcf733e10f32a4afa80e5b5cd04bb39c15a7296dbd75a52aaa51b73d"
+    },
+    "batch_split_exposures.parquet": {
+      "bytes": 1586592,
+      "sha256": "ce4e960079c20137446f2aa115b6b3a674f5f48cebb5837ed374fda439463fc5",
+      "logical_sha256": null
+    },
+    "cell_assignments.parquet": {
+      "bytes": 11665854,
+      "sha256": "2c515485433492c9801566702ecf8aec9de6a1ccaeeb362964c413c70cf75312",
+      "logical_sha256": null
+    },
+    "construct_split_pseudobulk.h5ad": {
+      "bytes": 333966524,
+      "sha256": "881b38e909f7a5c93cb033fc25ecce99d92d076af52a2d18df58c89fbf8cb670",
+      "logical_sha256": "bc512227429a743b4324f3acb19a6d2632fced41d7303fb1ec4b377ee62f19a9"
+    },
+    "matched_control_support.parquet": {
+      "bytes": 2599217,
+      "sha256": "e53f1214ec9d6b4e870503ed4d2a054818f13b79b88a7cf2657a755e41d65370",
+      "logical_sha256": null
+    },
+    "responder_cells/HCT116_Batch1.h5ad": {
+      "bytes": 17685388,
+      "sha256": "e0657c44bc38c67b6cd494c3fea26e9a8474e24789b4162ddcde67a239bf1c08",
+      "logical_sha256": "5701d25b7923d3a93bd21f026cf010f0d68fc6732e42264843d59c89dcdd53eb"
+    },
+    "responder_cells/HCT116_Batch10.h5ad": {
+      "bytes": 27073337,
+      "sha256": "22077ad2731d45b71eb97a7823da38f7dcb92cde599772166105d7fed6d58972",
+      "logical_sha256": "ff563f9219fa055bd68ebd629033fea2ca7dc454012ccda0bff3d42659c1ce0b"
+    },
+    "responder_cells/HCT116_Batch100.h5ad": {
+      "bytes": 24020174,
+      "sha256": "8ac1aaea737e1af9ce38281f0aea2a230789a3c822401584a87774403b907200",
+      "logical_sha256": "e4b14a7b1869296be89c0d7cdddd18e1917d8d9dd0a6fc877f6ac375cb68d2e9"
+    },
+    "responder_cells/HCT116_Batch101.h5ad": {
+      "bytes": 26019726,
+      "sha256": "f7aca48b8dfb3d70a8459f3530a5718f2a876effc6042469ccd9676b46bab937",
+      "logical_sha256": "6b28d0b2f11834ec86b4c12472bf010e93af6eeff2d7bac85c33f4b6ffbd4094"
+    },
+    "responder_cells/HCT116_Batch102.h5ad": {
+      "bytes": 23230995,
+      "sha256": "f4bb19a48918413de18d1b8687799936e8938da3d481f30b9603984015014bfa",
+      "logical_sha256": "fe822e039f63bffa000e0b39b28878c935cec7078ccc18f0c2c95e65fa11ae02"
+    },
+    "responder_cells/HCT116_Batch103.h5ad": {
+      "bytes": 24335419,
+      "sha256": "3d4b6d0a116555d6ad218ea95fc238fcb558c47917c6368ac5091a20a3dd9ab7",
+      "logical_sha256": "6fd73d97ac3c798fecd66323eca463742909258620dbe5b37339e2003034ea89"
+    },
+    "responder_cells/HCT116_Batch104.h5ad": {
+      "bytes": 23405713,
+      "sha256": "880d024c8d97fa7fb60bab79109846de5c5313e43351c8dbe1cf4e7058205794",
+      "logical_sha256": "13a94e695262bdf91a37dbf5372fe9e88b90f64b1a59d6c29f3dadbdd1cc720c"
+    },
+    "responder_cells/HCT116_Batch105.h5ad": {
+      "bytes": 19996738,
+      "sha256": "e190f8c2755311395a4001710faa0561bd7df736d1f82e639d4935d1e859c2cb",
+      "logical_sha256": "4a1144fa5f03ca73186e97ef8ff30aab4dca0248cc291f704b349a91a737130e"
+    },
+    "responder_cells/HCT116_Batch106.h5ad": {
+      "bytes": 13302016,
+      "sha256": "1e2fad0ec746684ec788d92764d8dc2a53e6ef3d0d867575404a95331a2faf6d",
+      "logical_sha256": "48c174b918389aee1471594a489bebf81f3f5fd0a04065f9b4e04f878da6d823"
+    },
+    "responder_cells/HCT116_Batch107.h5ad": {
+      "bytes": 18574373,
+      "sha256": "71eaa2b3d894f157b7178cefc1b376e039e1edcf2480437a1886f967dc513ec3",
+      "logical_sha256": "684de47c7e4426d47d95713e57482f0d5788d12c021b17d347da956b79f1a6c5"
+    },
+    "responder_cells/HCT116_Batch108.h5ad": {
+      "bytes": 18182009,
+      "sha256": "f1da0ce3b647c8dcdd6bce54e2d6503b4848aa6f1dc47d8f4c1401eb07f07331",
+      "logical_sha256": "9bed706e7d2fdb8715288013d6026edb5f6e4602eededcded40daa930808035e"
+    },
+    "responder_cells/HCT116_Batch109.h5ad": {
+      "bytes": 22707105,
+      "sha256": "f03afeaec2b895d12a7493cf75fca1c0149d947027859b98e4247a1eb958d5a1",
+      "logical_sha256": "9f90cfb8ad7e15ef80dadbb1890facc2d07f6b6858f64e30d6eecbcbe2c43621"
+    },
+    "responder_cells/HCT116_Batch11.h5ad": {
+      "bytes": 21265109,
+      "sha256": "c6803f8071c2359e5f9a03b61be9404dd230f516b07d8fdf0453204d0e336e48",
+      "logical_sha256": "0bc7314b0ca58f2914a404644df016d2ad20b472985b2c4d6a363508126303e7"
+    },
+    "responder_cells/HCT116_Batch12.h5ad": {
+      "bytes": 25334473,
+      "sha256": "e2352f74ac4f3f6e4cc814db1eb6ac454f042c25ed768da72d45b151eb9bf5b6",
+      "logical_sha256": "9673fcad38f3bf2cd98f6132b77e59b1fdfb9b28ad4961600b1ad1d4d83694a6"
+    },
+    "responder_cells/HCT116_Batch13.h5ad": {
+      "bytes": 25412079,
+      "sha256": "5d7e5de3ae138aa944f0ebcdcb50402d83e343132e3585b3de9271d587fa2757",
+      "logical_sha256": "d0708afbaa62e705c39ca43813fb2e9d171be2d00b2d8186fcaf8892eb439279"
+    },
+    "responder_cells/HCT116_Batch14.h5ad": {
+      "bytes": 26847091,
+      "sha256": "a0af7b664e1b4a476c5a4dd0c044a5a4c60bf1d5d3f8e3efd41d70413ed6ab56",
+      "logical_sha256": "306106326fcfbf16b9551a8be953cb29d4af43fe9c142b6b8b6bbf53f8e6b1cf"
+    },
+    "responder_cells/HCT116_Batch15.h5ad": {
+      "bytes": 26404121,
+      "sha256": "659b7f87112f1ca7d5bdbd375ffed9746a9ad6f55bfabf9d0ca7daa9f417959d",
+      "logical_sha256": "e966062d8ddfa7a2bfaa47a6740603576281bb526ceb0feb6aa3090c0c736170"
+    },
+    "responder_cells/HCT116_Batch16.h5ad": {
+      "bytes": 27707316,
+      "sha256": "0c5d2770df20c9e2114aada840ffcc6e084a20bc7cfdcaf01cd8ba06981683dd",
+      "logical_sha256": "a644c2628a2c0cade04984bf6b4c9af0e68654c7a44f2f6ccd947f724643a689"
+    },
+    "responder_cells/HCT116_Batch17.h5ad": {
+      "bytes": 26419834,
+      "sha256": "368272d25bdceed8d8374fcee9ed7957368b34511df9931bf5f74982e0ae93c8",
+      "logical_sha256": "3ff8ed37388861ad1425ad13ea9610112cfb44355108a286d0a67585980f19c1"
+    },
+    "responder_cells/HCT116_Batch18.h5ad": {
+      "bytes": 16349349,
+      "sha256": "2f70ff7d8aea1245df1aecda095e9177195ce9c7843ff6c1578ff540af2b7ae6",
+      "logical_sha256": "9e1fb0413b62f8e886cb84d552d8c331ff0e6d48dc045ce6ac6bc05a2fe6f105"
+    },
+    "responder_cells/HCT116_Batch19.h5ad": {
+      "bytes": 20043425,
+      "sha256": "899185b50fcc9b88a228c718f97bf59f0c44226c317b68c5c105e03d0db0683f",
+      "logical_sha256": "c5d30d782ba7aa4779669618f0998324656d476fae76d453c96c95f0d39b941c"
+    },
+    "responder_cells/HCT116_Batch2.h5ad": {
+      "bytes": 18133100,
+      "sha256": "c35990b779c44e8a06b08356fc4aae4b617f17e11221e9ef494c42656388cab3",
+      "logical_sha256": "f2a034a055bc0c8c0d49d1e8e1582d589b45e525e8c10aec8bb684880a776413"
+    },
+    "responder_cells/HCT116_Batch20.h5ad": {
+      "bytes": 24189381,
+      "sha256": "fba650ba24d63d0257bf7de295cfd3eee7569ee20af387d0f7327c56118944fe",
+      "logical_sha256": "f907b492982822171c522c3598fce882ef971a1c56b431d249dfad7bb2b3ed0e"
+    },
+    "responder_cells/HCT116_Batch21.h5ad": {
+      "bytes": 22801680,
+      "sha256": "abebb2a5ed15c06aabd946264f5e87b8ebab1a5e15f81d111c5f8c4d37f947f1",
+      "logical_sha256": "a64bac99577c9256251d5d975a80751155f40c25f9539d9c43c4960344741856"
+    },
+    "responder_cells/HCT116_Batch22.h5ad": {
+      "bytes": 22529966,
+      "sha256": "8097ba849389d785a41fb0521f9f6ef9a2c2f62ff07d4258b9e24c646131a7f5",
+      "logical_sha256": "d789d974ec803fd654a75d825147a6cffa6e76d425897b7475fc6f5e3bfdfdbd"
+    },
+    "responder_cells/HCT116_Batch23.h5ad": {
+      "bytes": 21793067,
+      "sha256": "19aa7f3db49a5abe0325fe57f5dda29eeda1e568baf53a80f215f80ab9af7e5e",
+      "logical_sha256": "08de6cb584a8069f5b44be4676afaa9c95977d955d9578815bc05f5ba75c3416"
+    },
+    "responder_cells/HCT116_Batch24.h5ad": {
+      "bytes": 22977485,
+      "sha256": "eb5dd3026453c4ac3c65bf0f8e491a53d7ef5272988cde7ad2c0e235a3035398",
+      "logical_sha256": "acd97242d8b08921082095c133724bb7193aacd1b8b160bdf9ae1e2df04109b1"
+    },
+    "responder_cells/HCT116_Batch25.h5ad": {
+      "bytes": 20611000,
+      "sha256": "7d98c761837283ccd4e378522bc41100a22019d244523bd7aaa3bf7c98d6a643",
+      "logical_sha256": "bc646d3f82f274f40ff965d93a3239637a8f125f508f9c4df7761940df4fed4e"
+    },
+    "responder_cells/HCT116_Batch26.h5ad": {
+      "bytes": 23536657,
+      "sha256": "7aa501e92d3420e0c59d1cbb9e670893e2308f208333f6b2251ccc6b2cb546d2",
+      "logical_sha256": "701d27708314edd7c5fccf4692a00ba85287e9a333df2123fa0cfd3e621e0d7d"
+    },
+    "responder_cells/HCT116_Batch27.h5ad": {
+      "bytes": 23377165,
+      "sha256": "15f02d95e11ff3e8b1b079d2d94842dfc1cb69f382c0c2fa9310b9d44b0f6db6",
+      "logical_sha256": "49a738d1938c98ab46d911631f2e2b1223a2aa1dfd399a8e53770e19b1e7d875"
+    },
+    "responder_cells/HCT116_Batch28.h5ad": {
+      "bytes": 23033975,
+      "sha256": "0eba6888a1e2e8d53a0c7f34545cab8cd93d86436dd085a9e39f84368aca9853",
+      "logical_sha256": "890a3204cefacc4e58b60fd5286e47fad0a40a442a4c8c8333453987012c53f2"
+    },
+    "responder_cells/HCT116_Batch29.h5ad": {
+      "bytes": 24504669,
+      "sha256": "c9a430d72368a65b07816e816b8a255efe923bf308a4a974480abef00845d676",
+      "logical_sha256": "8d8314ae2de6aab9561c4bcef9dba7cfdd8acc7e08a89a3187813192a458f210"
+    },
+    "responder_cells/HCT116_Batch3.h5ad": {
+      "bytes": 18148790,
+      "sha256": "cb95d3bc1bb8537902687419e7897070350f2f50b235735d9857a2dc07c6337c",
+      "logical_sha256": "5a6cf235a681f29a6cc8cf7b945f03f909a700a6b659ff13c5a69bfa875006ad"
+    },
+    "responder_cells/HCT116_Batch30.h5ad": {
+      "bytes": 24802470,
+      "sha256": "46bf271786aad5ae31f74dc24c09ed2e719a4bcc0e6379e822521727833a6d6e",
+      "logical_sha256": "731fe54ecc01af4fce818420dbe84d8e50ef9e86fccfeb202d9a9c1a9adb3ed3"
+    },
+    "responder_cells/HCT116_Batch31.h5ad": {
+      "bytes": 21573150,
+      "sha256": "1379adaa6c3050db031cd9b95072db70f819801873e9266459ed2c489b9d4490",
+      "logical_sha256": "ba618df256a7c60beb1c05b260057dab8f2526fcb3a27a377ca26a2bf448c8f1"
+    },
+    "responder_cells/HCT116_Batch32.h5ad": {
+      "bytes": 28207593,
+      "sha256": "54b4d73bcd1a5a3bd6fbcb9506b25c4df60dd47f6813a6a78b94799f117581e5",
+      "logical_sha256": "9f85f7c2a20085c9c80e15d7ce1da41e528ae9d9aba98f13aa982ffae1a8da77"
+    },
+    "responder_cells/HCT116_Batch33.h5ad": {
+      "bytes": 24802721,
+      "sha256": "bf78ffc1e8ebd1433ca0b4e8133bcf9d37dabddfe59e179b1c7282cf281b0062",
+      "logical_sha256": "656c67aeca28c098c32617692abc2d4900e3e6fa8a6baeca3804cc1d53ae071e"
+    },
+    "responder_cells/HCT116_Batch34.h5ad": {
+      "bytes": 24597224,
+      "sha256": "bb4bd5707842b021bdba3b022c40870b535dbb39a2f51e8844b0842128920010",
+      "logical_sha256": "e7bef90ce841ac12a09b0e7de000e7099023bfc182c8fbf7d88f788fc86c800e"
+    },
+    "responder_cells/HCT116_Batch35.h5ad": {
+      "bytes": 22606646,
+      "sha256": "3cee7115d9340f09e36983a5c4eec83e3c84532142e7aba80d78ddaa056aebf2",
+      "logical_sha256": "4b31cba8a118b4f86e8c8ec5241b24236ace757323d11529514aa9a6cbb77a6b"
+    },
+    "responder_cells/HCT116_Batch36.h5ad": {
+      "bytes": 24714589,
+      "sha256": "f87d8279417cb567ab88f64e902cea8979e9220dc3c30eec0a8abcd8e6eb0693",
+      "logical_sha256": "f19f777d3e1cb0e7253861636a9b245cc0ba82c8e0cf99ff7d988df515ea1050"
+    },
+    "responder_cells/HCT116_Batch37.h5ad": {
+      "bytes": 24300989,
+      "sha256": "fa92bd36da10c394504e4e82cbd723d3849c85ec8779a34a23fe813d12972c69",
+      "logical_sha256": "2810ef3d4025cda7600feba40ad3af9427752d3682408c89e4d53724c82da77c"
+    },
+    "responder_cells/HCT116_Batch38.h5ad": {
+      "bytes": 22427022,
+      "sha256": "d20adebeec2638a364c5ef94b6189896b94943eaffc238a056bde3acc9bc0b7d",
+      "logical_sha256": "d8661fcc962deed5ee0a5ce60d3e32c810effd68293a30faf0f3ce0248201512"
+    },
+    "responder_cells/HCT116_Batch39.h5ad": {
+      "bytes": 21477691,
+      "sha256": "a740bb472c83c2d0316feae65713dfccdbeba4dbbd1b20b2d0c5dbd19f0245a3",
+      "logical_sha256": "d7d7dbc2169ddc7417a1925835d4ca72585ee0dca905a88b6ac7c161894f6092"
+    },
+    "responder_cells/HCT116_Batch4.h5ad": {
+      "bytes": 17454398,
+      "sha256": "41918d56321608101c4c5ac69a369068d911c58b7cd79865d1ccb37879527a58",
+      "logical_sha256": "22d802eed05afb5d00cd085fe487b9f75240622e96934278d12ca7bb8299cf3e"
+    },
+    "responder_cells/HCT116_Batch40.h5ad": {
+      "bytes": 23823499,
+      "sha256": "1ebd7eedc4ae89673ec17c3a05a08c18ba8fd3ce9d8a5b5120ec037236bc82fc",
+      "logical_sha256": "a248d7aa92211c341e8616173730c4627e0b46fa4af77d8c57a711ea2bfa64f2"
+    },
+    "responder_cells/HCT116_Batch41.h5ad": {
+      "bytes": 23937637,
+      "sha256": "fe6b15b7ef6bc67a3dd61a9f5ea6246099944f9a8d30085cdc49e6f5005781e9",
+      "logical_sha256": "ebd25cbf3b1da5df231b1caf945656242991b99072ddb8eb929b0c9b17679d48"
+    },
+    "responder_cells/HCT116_Batch42.h5ad": {
+      "bytes": 25114799,
+      "sha256": "042dc277f95becc3a48ae4bcfca8df2cd7a589b4de15a6f2eebd44ba04eed860",
+      "logical_sha256": "5d44beded7f2a5bb577fe02ab94e19733f643149d8e1b029d7a51bc74eb8b261"
+    },
+    "responder_cells/HCT116_Batch43.h5ad": {
+      "bytes": 25145314,
+      "sha256": "55c8646ea310bf5b6b8d1b96e3fa4e25f2106be2f23d0e85df9dd5800ad0bfe0",
+      "logical_sha256": "b11f85d063282080318391eef17e8395f308b90774955a6847420f5ddd4ce855"
+    },
+    "responder_cells/HCT116_Batch44.h5ad": {
+      "bytes": 25748659,
+      "sha256": "fa8b8c0248aeb3b91ad7a77e33c1ff8f2d57f1c30b7bda7054c080b97ca2aed2",
+      "logical_sha256": "7b9d92a945fe73b2945fea4b16e13a50cc74af9a59afa22537471242606d047a"
+    },
+    "responder_cells/HCT116_Batch45.h5ad": {
+      "bytes": 25506518,
+      "sha256": "76bf6e17196ae70b339f0b05f14681414911e3096c44f0ae150cd94883d6b93a",
+      "logical_sha256": "f1521941989de79ab151681b3e08652cfa7c3264b95fe7cf94148f35674098da"
+    },
+    "responder_cells/HCT116_Batch46.h5ad": {
+      "bytes": 26827325,
+      "sha256": "9d190bfc67016326863607252d7758bb30bda1993b7c0089be0b12371754d324",
+      "logical_sha256": "71c1e07c38e3393f3f851daa3bfbcc4a6205572e886153e32d55402ad2267090"
+    },
+    "responder_cells/HCT116_Batch47.h5ad": {
+      "bytes": 24443249,
+      "sha256": "c5cd117926c300b4a067aced6160454eac9082624005257e657fe5f68a9c0a96",
+      "logical_sha256": "f92c0108b5d6ab3dc58e82823908a1e75a01962ee100619e2098e0f8bf24d013"
+    },
+    "responder_cells/HCT116_Batch48.h5ad": {
+      "bytes": 19572660,
+      "sha256": "1a4ed85be2a448c6a56f1ac2cc0f11ab7d2c6da94ebb151aa6acf952960f57d6",
+      "logical_sha256": "6d38453d44b19b8a78d573e24a3810894590c8b292317426e9c93027ccc89db1"
+    },
+    "responder_cells/HCT116_Batch49.h5ad": {
+      "bytes": 22448693,
+      "sha256": "bafb63a52d15f3430d49c1db753caa22419b2bcaa995484c2ecc3287f4dd2106",
+      "logical_sha256": "8fb2ea398123fb76b251016161568a2591de33e85dedda886657043c84e0e5bc"
+    },
+    "responder_cells/HCT116_Batch5.h5ad": {
+      "bytes": 18554491,
+      "sha256": "e7c15f4754adbd47f602f304e91ac448ee22cb1e7c9e9567707356abfa2701d0",
+      "logical_sha256": "47ee9c88d3d9b361100660b127eec3aabd3f468d192456b910492d83e820c42f"
+    },
+    "responder_cells/HCT116_Batch50.h5ad": {
+      "bytes": 20820615,
+      "sha256": "e4a55cc6655753379e60cc68e5b57c3a7029dfffc3084abb353f713467142164",
+      "logical_sha256": "cd6ac0c22fa969467d78c532db3f37cbfb498b290c936bc9701cff15781e46d1"
+    },
+    "responder_cells/HCT116_Batch51.h5ad": {
+      "bytes": 20723216,
+      "sha256": "4e8e2e488a3506a596a036b65b2df96c7fb40b1d4ada4928712768210dae6604",
+      "logical_sha256": "4ba15c89474d29252b62ecbf0d5c742066fdf246d6256a5088053c7994d2490f"
+    },
+    "responder_cells/HCT116_Batch52.h5ad": {
+      "bytes": 18394460,
+      "sha256": "c3c484cd72e14c983bdad36f42895c82b9834bfba63054b66d4055da4de112ef",
+      "logical_sha256": "d509c600cd9a577f18b4ebd31ec279a77abfbfb3f6809c7efb87b6bd1498d2e5"
+    },
+    "responder_cells/HCT116_Batch53.h5ad": {
+      "bytes": 21389553,
+      "sha256": "9299b5f70740b2b6e256d5b22716f532cecead99590454c010037e2e20aa3171",
+      "logical_sha256": "684b52edfa6805f7cb765dcf9a186b4193ed1c0bc17fc2c111ef2f0f8855cba0"
+    },
+    "responder_cells/HCT116_Batch54.h5ad": {
+      "bytes": 21340322,
+      "sha256": "74aef59714b810edfae7902c30ee645b17dc9e1919458274d44b3a7d58dfd4df",
+      "logical_sha256": "a4dfb2572f78fc43f09105265109be245e7973dcde8cab7e430805d0cb5e194f"
+    },
+    "responder_cells/HCT116_Batch55.h5ad": {
+      "bytes": 17669228,
+      "sha256": "d3d9fb8909877269a40097fa554c31c010aa8665d0193c3c11970cd0efc6a02a",
+      "logical_sha256": "7e98e67e41eed18dcb636a35bd292945ee563ca0c9783e13176c5985c3b28499"
+    },
+    "responder_cells/HCT116_Batch56.h5ad": {
+      "bytes": 20056906,
+      "sha256": "61e5283330cc4a683a6737bfef95a09e3c89ef7d3a6f90d050403c66e44bf0c7",
+      "logical_sha256": "85bf3d8ab4a845f529eb133b0a5ca57ce380dd96bbf5d2534c09d78525eaec00"
+    },
+    "responder_cells/HCT116_Batch57.h5ad": {
+      "bytes": 18978607,
+      "sha256": "2baf5c56e6f9f0a5e1408342be3190573ea2f251e73bb359a0b20c4ac1f70398",
+      "logical_sha256": "ee3033cd2e53b20ccf7525327ea19b9c1df10f6c4c83a0ca5340ab43070bd3a0"
+    },
+    "responder_cells/HCT116_Batch58.h5ad": {
+      "bytes": 19711260,
+      "sha256": "31ece17ea4478ba6626171fc145d0ca841ae39e0a18d5584338df03e7ec4ebd1",
+      "logical_sha256": "19e6ae8aef8b679ec8470eb980fc69aaedefc40085da5f535d9c430477b8fb8b"
+    },
+    "responder_cells/HCT116_Batch59.h5ad": {
+      "bytes": 19685634,
+      "sha256": "1ff5fd454055f9d545f70ebc83f6d2cec1ecb38e777b61ea291d1aa4f3bf7e44",
+      "logical_sha256": "955954feb941eb5320d233d350dacae0a3def7cef0a085bc1aded64c0008c7cf"
+    },
+    "responder_cells/HCT116_Batch6.h5ad": {
+      "bytes": 16388941,
+      "sha256": "047052709ab28ee2b66613e0ee71cefc6cc5f7806486d58ba11bf7365ab215c6",
+      "logical_sha256": "2e3e2f50fc8351e2abc4265621c28f8bcd4b0668030adae496d282f786537cda"
+    },
+    "responder_cells/HCT116_Batch60.h5ad": {
+      "bytes": 23498198,
+      "sha256": "79ea61c260273330e762f8e8ba3be9387ce06da719d591d3c0cb2f58f671beaf",
+      "logical_sha256": "ac8a8150f2cd2c965f72dc4c7efea5b55ab22159bfa0684edad506d67ebe5762"
+    },
+    "responder_cells/HCT116_Batch61.h5ad": {
+      "bytes": 18766418,
+      "sha256": "0acc74cc15968238bd9acf729b2476044afefafd24dfee83a24467179f6d685a",
+      "logical_sha256": "e10700c8267d5f5bef840ae69396a6f73b5896e2ed01bffa6a13916c7b403fd1"
+    },
+    "responder_cells/HCT116_Batch62.h5ad": {
+      "bytes": 22787857,
+      "sha256": "e0701fd8a33c814e315e68c02b419e7da7df304d24e92519fe35543de950f55a",
+      "logical_sha256": "2e3a090c483761d44021943b4d79cce14b6a72461bec3566fd4787c35c22d8b7"
+    },
+    "responder_cells/HCT116_Batch63.h5ad": {
+      "bytes": 26753688,
+      "sha256": "fae5ed1936709015411e53da2abd93b169e7684494110e59fd780233b32be688",
+      "logical_sha256": "fa924cf050b2076fbe458ea238a0c4fc9534866228f8e39027ebab7ccc35e702"
+    },
+    "responder_cells/HCT116_Batch64.h5ad": {
+      "bytes": 24882091,
+      "sha256": "b0175c74189c0821c84d0e628db169212fa6325fdcb99de89d7f9403ab343e0c",
+      "logical_sha256": "a7100561dd36c237bae3feaa7807f26070debe7193fe515e6835aac36179b39e"
+    },
+    "responder_cells/HCT116_Batch65.h5ad": {
+      "bytes": 25603260,
+      "sha256": "510e4bbab2067fa20c6a19c119fe762ef114be5f99947f2b787b9c80cd61f44c",
+      "logical_sha256": "35d6f6fce07e076305beaecc14b3925cb7ef7ef5a5b6e4e538ed8f7d6af1326e"
+    },
+    "responder_cells/HCT116_Batch66.h5ad": {
+      "bytes": 16522040,
+      "sha256": "c1fc8e1d7f2ab5167ac3b842ba60142a9e0f77f3eadbadb3fdfc3bd7e7e993dc",
+      "logical_sha256": "9c4d8380e279981b63af86ed857ac5e08bfa7d8ab1ef53480f14045a356ee57f"
+    },
+    "responder_cells/HCT116_Batch67.h5ad": {
+      "bytes": 20247467,
+      "sha256": "e7d316625274b3b7b9602f3aca5e4d949d5e3b19dafc0ee63663a94b8b16b79c",
+      "logical_sha256": "953cdd1c5103caa04b43147364ef0d617bdf67927858cbde9a6f35cc3867c27a"
+    },
+    "responder_cells/HCT116_Batch68.h5ad": {
+      "bytes": 19731770,
+      "sha256": "1dd26253ebf9c6754c6afcd8efea77bd3524db6b368c6963ff65f0f3400977d5",
+      "logical_sha256": "d7260b439fc1c5c4c951b5af90872936aac7e685e3fdf237980d8c88a3361f3e"
+    },
+    "responder_cells/HCT116_Batch69.h5ad": {
+      "bytes": 19523903,
+      "sha256": "d8427f493fe90cb9394d06961127a0fccee8cc080dcd56e4e2677a27f9e98571",
+      "logical_sha256": "2327f85b597c7249805d984b2b0fb37fbaba6c39ab168a44be3757eba75808c4"
+    },
+    "responder_cells/HCT116_Batch7.h5ad": {
+      "bytes": 15437134,
+      "sha256": "9b1ee7223ed3af691a50771f28ff3582bdce5a4b627c1f7b05e2b5e681865e75",
+      "logical_sha256": "0f44b6373f6c607aec2ed944a7055b30a528382cbbf9b0acfb82d692c7a15b3c"
+    },
+    "responder_cells/HCT116_Batch70.h5ad": {
+      "bytes": 21858647,
+      "sha256": "bd4f784d5504f6e7720102c672b821282f14553358ba15b628b9a9d133103565",
+      "logical_sha256": "30124fc774c5f700e7d113ecac309ef01e6dd75b9adb682cee248649824ac273"
+    },
+    "responder_cells/HCT116_Batch71.h5ad": {
+      "bytes": 20515009,
+      "sha256": "6f3e62db7a1a1224728b4bef1d5949ce2f882df55e4b1e669143d8ca9fe06723",
+      "logical_sha256": "3487cd98329316fb49ec6702fa9eab621b35127b09846a3eac29d38cf0b3f916"
+    },
+    "responder_cells/HCT116_Batch72.h5ad": {
+      "bytes": 22512314,
+      "sha256": "a7d2c6cf71d3297293923c2d6a9227d2b6189cd0c72de3c259749d3c734425d4",
+      "logical_sha256": "d5df5b308b6cb324922a7299a6e2e06330f00b70dc46c59b0334ff3f80b88064"
+    },
+    "responder_cells/HCT116_Batch73.h5ad": {
+      "bytes": 22335858,
+      "sha256": "74f4d5dd1d8a93fbb80ed68020170e834e5efa95146f2eac787f656916a84b10",
+      "logical_sha256": "c345ca6fbcc186afe2f35a97da68d380abd83acbedd0889463ff8a0037e4c215"
+    },
+    "responder_cells/HCT116_Batch74.h5ad": {
+      "bytes": 17768758,
+      "sha256": "d9aa8ba8e93b4c9dd7904b564ff6a1c6eb478f57b58e0aa835d02ffd6bbd759d",
+      "logical_sha256": "2c6bb1d52f8517c33af72a629677f91fd42ed89aa178955e15113794cfa08036"
+    },
+    "responder_cells/HCT116_Batch75.h5ad": {
+      "bytes": 18738096,
+      "sha256": "7a7e25c777d5ebd095abe07d465c5415b2aa0e2a0ba25f8ded6cd84cf273ed1d",
+      "logical_sha256": "f1885bbea9e9987074ca9f7624c70a689c9e4c97beca579a601bd4a1824b0d06"
+    },
+    "responder_cells/HCT116_Batch76.h5ad": {
+      "bytes": 19103046,
+      "sha256": "ffcfc7cbb1b3e8b076d3273ffd01802762b6fd2452ad238dec9f23bcab79063e",
+      "logical_sha256": "0d6867613a21da490ccb9ce21096ebd53f84be75bfc1d8f6a04e03c495c41abc"
+    },
+    "responder_cells/HCT116_Batch77.h5ad": {
+      "bytes": 18359963,
+      "sha256": "02aeb1621c5757a2d12317f2786a086d0e7dbc1052ff1aa2e24393f3a4824bfa",
+      "logical_sha256": "bd0c0fa2ed3c6c93e0f526f33eca171fa14534ba6aa44a6bfdec2a809bac3f3c"
+    },
+    "responder_cells/HCT116_Batch78.h5ad": {
+      "bytes": 24787068,
+      "sha256": "5ff24831ab273efc47681516dfcd12386ef9a83cd087b30ba9f7a0142509035c",
+      "logical_sha256": "70616353b2e36592239903511e4e8e489d3f891d428ff1892bd2db43e3b93b88"
+    },
+    "responder_cells/HCT116_Batch79.h5ad": {
+      "bytes": 25742013,
+      "sha256": "345791da0fa86657f085230d086bd831117790ce0be14a88bcb8a9a88b385631",
+      "logical_sha256": "6a1ae71586d0acf5c8d248a4ae64a467d2b887a1853efe0a20d339688c19a53d"
+    },
+    "responder_cells/HCT116_Batch8.h5ad": {
+      "bytes": 14800639,
+      "sha256": "aaaf83e92ab9bfcf866097365886ce67458a0cc28490ed34c670f5c804671e1c",
+      "logical_sha256": "f56ef11bae94a277397eaa99ae5e923112bd4051ff748d840b63baac99518ecf"
+    },
+    "responder_cells/HCT116_Batch80.h5ad": {
+      "bytes": 27188046,
+      "sha256": "1f5c00bc530722a61d6ca4b856ed6621117766944e3be1add786edc9131af3c6",
+      "logical_sha256": "a4b90ed175f7b7bb297b532caaeb86674394e9ae3c04067be24d0e185666c633"
+    },
+    "responder_cells/HCT116_Batch81.h5ad": {
+      "bytes": 27413467,
+      "sha256": "b0e703a852a859854eb0a0e034a22bac89be88d83a81e7498fd2aba6528146fe",
+      "logical_sha256": "d25a0ed8e0c134708a35e72c038fe9572e21a8d3712c9eaa457aaafb885703f2"
+    },
+    "responder_cells/HCT116_Batch82.h5ad": {
+      "bytes": 21779522,
+      "sha256": "498f1cb9f19631ef4ac2a3340508bfe273e348f6100d3fcde4593589108f994a",
+      "logical_sha256": "d50982c96aea1f7905cdddcd97cfec279df6611a73502559a3f918eee620ac1c"
+    },
+    "responder_cells/HCT116_Batch83.h5ad": {
+      "bytes": 25507455,
+      "sha256": "f96f4d72bf03070ff249841f8a193425e51e44d3846a3e7fbc348e003c5e83a2",
+      "logical_sha256": "3dc298e5cc0e6302825eb1df1423711c4fddf9a7689903f4700b4fb5eb7960bc"
+    },
+    "responder_cells/HCT116_Batch84.h5ad": {
+      "bytes": 29683360,
+      "sha256": "2403df498b6bf1f93a9535aa4cd1e0a3b4144f91264da3102e7198de0c6cb509",
+      "logical_sha256": "23f11626be42d758f4788be3fdf826e790ae06d18860422ef3098626f7c6d620"
+    },
+    "responder_cells/HCT116_Batch85.h5ad": {
+      "bytes": 26498918,
+      "sha256": "2cd2993379b4849fcbb8acfac6181375f0cc9e27761968cf6b1cfd2331a3a024",
+      "logical_sha256": "50226c219fb39e4ea7250167e0516c1351ed786d7d6c5a4660669febbe231a00"
+    },
+    "responder_cells/HCT116_Batch86.h5ad": {
+      "bytes": 25947190,
+      "sha256": "f52eb551468e861b9af879513b3a6939cd26748285ac0ac4d6fc3609c997d32b",
+      "logical_sha256": "aad5ca6d4bfb9adef4fd51479d44b0b9a42ba85a9d3cd269aaaeee8168ac2198"
+    },
+    "responder_cells/HCT116_Batch87.h5ad": {
+      "bytes": 21670452,
+      "sha256": "153cc505f087a03406e7c84cc1037d7cae107ace6a3c5f15607b6cdb8cf3cec0",
+      "logical_sha256": "3a11dc51e398ae584c80a88667f6ba3b417faac3c7e90ed88b369eba9092c1ed"
+    },
+    "responder_cells/HCT116_Batch88.h5ad": {
+      "bytes": 22138885,
+      "sha256": "59a6d9850b16e4bb3547d85064a01e03b2beb495aa8bada06ddbcca89c60132c",
+      "logical_sha256": "dc10acd1dc3249197c9817199ac364a7453dca43db49d28aa850e068d9ed8b0f"
+    },
+    "responder_cells/HCT116_Batch89.h5ad": {
+      "bytes": 24220084,
+      "sha256": "83d0f891d37bdc7d2ab60963f263decfb42a69d1e0391a2c3240be044a9f24e5",
+      "logical_sha256": "d1bd2648de4f6207e3f95f2861ce5283d8114266622c1cc08c67ed2c336b3301"
+    },
+    "responder_cells/HCT116_Batch9.h5ad": {
+      "bytes": 27208635,
+      "sha256": "f9d45fd57b00fe8afdc90277fb69c88c9d77f760bce4a7b1a436d4243d91d73f",
+      "logical_sha256": "3b9c1a493c2ec5c1427aac4f379e826b64875e56700793fffd36da5d25c8dd43"
+    },
+    "responder_cells/HCT116_Batch90.h5ad": {
+      "bytes": 23185695,
+      "sha256": "5dbabbd454f150a1514c3a9203dd27924728b7ea550ec53b5b1831f717577d31",
+      "logical_sha256": "a4a4cb4779c71f3b214a7338d65307c2066dbe6c49cd453286017de56cf7f195"
+    },
+    "responder_cells/HCT116_Batch91.h5ad": {
+      "bytes": 26894440,
+      "sha256": "7bbce7782305db9a26553802dc22234e136280e50bc713789a3e1710bd9a21b3",
+      "logical_sha256": "652418f9fc60324f6803df40ff7b45daa1bbaa9e5d1f2eb273ded80b8f8796b8"
+    },
+    "responder_cells/HCT116_Batch92.h5ad": {
+      "bytes": 26200821,
+      "sha256": "ee9370430ebf338604ea83279883ac81f6b98f09613dcce2ecf9394acc949597",
+      "logical_sha256": "e0b630e948dbb0615a31fc24f1b7c7545afbc3913d83cd753cca57a1f7bdc78f"
+    },
+    "responder_cells/HCT116_Batch93.h5ad": {
+      "bytes": 22924923,
+      "sha256": "d71090c9e239ac1e60ca9a2eae75e60f0a50e781276a004049f70838921320a0",
+      "logical_sha256": "b6af83f4ea3f61abbf7853e126f9511e47583b9e2a9070ed935d885ee5218ea3"
+    },
+    "responder_cells/HCT116_Batch94.h5ad": {
+      "bytes": 19344623,
+      "sha256": "20c108373af443a3bf2b789e85e56a98e0e4d03d5adac9c9d7bffc26f4018b63",
+      "logical_sha256": "85f7093ce6321afa09fc272dd721c271a36612af807fec6ca4c3dba13e67fcdb"
+    },
+    "responder_cells/HCT116_Batch95.h5ad": {
+      "bytes": 19273460,
+      "sha256": "7008b5180535161fdfc3014b19da48bddb6325601a036418031e451ea2071f79",
+      "logical_sha256": "adf8044552acc3b162061cc1ac4fb5fad3871566036629c491a54bd01530eb5a"
+    },
+    "responder_cells/HCT116_Batch96.h5ad": {
+      "bytes": 26564064,
+      "sha256": "70f77725ddc28f775352ee817a5b905331b61334ed6c87605458e29f01d4dbd5",
+      "logical_sha256": "501625150fe46759969a4adeab722eda6f930bb2db8fa5ed950b0c90ec7dd691"
+    },
+    "responder_cells/HCT116_Batch97.h5ad": {
+      "bytes": 20319305,
+      "sha256": "7d8e5dd54400bc8708ca90d18668f6e90030125cdafa9781cffcd9f60938248c",
+      "logical_sha256": "bf85afedf1c7bf47abe48b1e01084a5a692322946e0865d0e08b628b76060da3"
+    },
+    "responder_cells/HCT116_Batch98.h5ad": {
+      "bytes": 20674455,
+      "sha256": "6c8efdd6af18b9ad39a37451a417224feef85f8b0714c6aa6b817e2befad42ec",
+      "logical_sha256": "e7a5a1eb6435219a6b4798a1a5fc922b07ff411d3de08b02bcd19f0fe1c3db7e"
+    },
+    "responder_cells/HCT116_Batch99.h5ad": {
+      "bytes": 22429826,
+      "sha256": "2a0e1d51a36209f557bcc7c3ccd23074bfbddbc9dedb63568732b3c1c44aad07",
+      "logical_sha256": "143b5230c4fcbccecf1bff50a328c15e9a420d012265dd1e79b07b22156668c2"
+    }
+  },
+  "selected_cells": 346394,
+  "retained_cells": 171166,
+  "missing_baseline_strata": 0,
+  "status": "built; independent audit required"
+}

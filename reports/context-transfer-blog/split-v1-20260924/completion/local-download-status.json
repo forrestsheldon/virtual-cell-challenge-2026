@@ -1,0 +1,13 @@
+{
+  "state": "complete_verified",
+  "scope": "compact core; responders retained in cloud",
+  "completed_contexts": [
+    "HepG2",
+    "Jurkat",
+    "K562_essential",
+    "RPE1",
+    "HCT116",
+    "HEK293T"
+  ],
+  "current_context": "HEK293T"
+}

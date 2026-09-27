@@ -1,0 +1,59 @@
+{
+  "kind": "cross-fitted sparse-forcing diagnostic ceiling; not a prediction model",
+  "gene_split": {
+    "method": "SHA-256 of seed and gene symbol, low bit",
+    "seed": 73,
+    "fold_counts": [
+      5379,
+      5401
+    ]
+  },
+  "fit": {
+    "truth_coordinate": "official-panel log2 CPM fold change",
+    "target_force_constraint": "non-positive",
+    "support_sizes": [
+      1,
+      2,
+      5,
+      10
+    ],
+    "rank": 50,
+    "own_target_excluded_from_fit_and_score": true
+  },
+  "scores": [
+    "held-out-fold signed top-K stable strong-DE recovery",
+    "held-out LFC cosine",
+    "held-out LFC Spearman",
+    "held-out LFC NMAE",
+    "held-out explained energy"
+  ],
+  "random_operator_null": "10,000 held-out row-label permutations preserving prediction ranks, signs, and operator row norms",
+  "null_replicates": 10000,
+  "inputs": {
+    "data/derived/linear_response/model1_expected_profiles.npz": "69d9e3bee240224704e04e99e6e86315e9a8a42af13c84d20409a7e6cf505f63",
+    "data/derived/linear_response/model2_expected_profiles.npz": "36966bd4f2c9101fa6a1beb26e0f4f0aa796c96b2baad00f0eade40c85b2aeb1",
+    "data/derived/linear_response/eval_cache/de_wilcoxon_table-12f179b9e966af64.parquet": "fc8d683a3de692d767b0ee67ddf4fec845786e59bbf4a6357c442e2eaee379e6",
+    "reports/linear-response-three-models/strong_de_truth_genes.csv": "229e06fac02d35217687291734dd5b925633ee7df5871052bf903f8ce3db9e66"
+  },
+  "outputs": {
+    "summary": {
+      "path": "reports/linear-response-three-models/forcing_ceiling_summary.csv",
+      "sha256": "f7329405130ba171243a756feba7939e9d41e7df8672fcaf42f1b395b59371e2"
+    },
+    "per_target": {
+      "path": "reports/linear-response-three-models/forcing_ceiling_per_target.csv",
+      "sha256": "3aaf02ee84934b49f4835b9496165c49a4ff9a7f42b2c5886991838a30a249d0"
+    },
+    "support": {
+      "path": "reports/linear-response-three-models/forcing_ceiling_support.csv",
+      "sha256": "334f402627f63a05aadb9c6a0dde4c044bb814857c58b067d504d222e989b6b3"
+    }
+  },
+  "software": {
+    "python": "3.12.13",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "polars": "1.44.1",
+    "scipy": "1.18.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "analysis": "bottom target-expression tails selected from H1 controls only",
+  "control_cells": 38176,
+  "requested_tail_fraction": 0.005,
+  "minimum_tail_cells": 400,
+  "selected_cells_per_target": 400,
+  "effective_tail_fraction": 0.010477787091366304,
+  "selection": "observed target count fraction with seeded random tie-breaking",
+  "inputs": {
+    "data/external/vcc2025_h1/adata_Training.h5ad": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+    "reports/vcc2026-h1/reference_cells.csv": "717715d594bfd5b1345538dcb72ffe196f66e5101cc385e2f4369221a77bd1f3",
+    "data/derived/linear_response/eval_cache/de_wilcoxon_table-12f179b9e966af64.parquet": "fc8d683a3de692d767b0ee67ddf4fec845786e59bbf4a6357c442e2eaee379e6"
+  },
+  "seed": 20260917
+}

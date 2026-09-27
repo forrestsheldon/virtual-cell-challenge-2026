@@ -1,0 +1,44 @@
+{
+  "analysis": "exact expected-profile line search for empirical LR scale",
+  "truth_use": "retrospective H1 diagnostic; not a zero-shot predictor",
+  "decoder": "exact expected restricted log1p-CP10K decoder on fixed balanced 400-cell sources",
+  "selection": {
+    "global": "single grid point minimizing mean target NMAE",
+    "leave_one_target_out": "grid point minimizing mean NMAE on all other eligible targets",
+    "oracle": "separate best grid point for each target"
+  },
+  "strong_de": "CPM > 5, padj < 0.05, |LFC| >= 0.5, stable sign in >=4/5 splits, target gene excluded, >=10 genes",
+  "grids": {
+    "target_normalized_gamma": {
+      "points": 65,
+      "minimum": 0.0,
+      "maximum": 12.0
+    },
+    "native_cipher_a": {
+      "points": 73,
+      "minimum": 0.0,
+      "maximum": 500.0
+    }
+  },
+  "inputs": {
+    "data/derived/linear_response/ladder/empirical.npz": "bb036ed981482918478584ab30fec7b79e2b8bfc0f0d850bf6b9ae003c73b631",
+    "data/derived/linear_response/eval_cache/de_wilcoxon_table-12f179b9e966af64.parquet": "fc8d683a3de692d767b0ee67ddf4fec845786e59bbf4a6357c442e2eaee379e6",
+    "reports/linear-response-three-models/strong_de_truth_genes.csv": "229e06fac02d35217687291734dd5b925633ee7df5871052bf903f8ce3db9e66",
+    "data/external/vcc2025_h1/adata_Training.h5ad": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b"
+  },
+  "outputs": {
+    "reports/linear-response-ladder/empirical-scale-scan/scale_scan.csv": "0af53eb43baf42e94f2da33b3b137c56d56ecd3e14a90ccea595893c76058149",
+    "reports/linear-response-ladder/empirical-scale-scan/scale_selection_per_target.csv": "2c5c84d05fe6b79f9927576518c69ef8711ef747355f3c6c4805830d68bcc476",
+    "reports/linear-response-ladder/empirical-scale-scan/scale_summary.csv": "a49bf561231c00f0f38f726453cfc1625b4a282f79ce6638132b49066f171a12",
+    "reports/linear-response-ladder/empirical-scale-scan/oracle_convention_comparison.csv": "a1efb28261e7f5dbfe6e8dcf7559c5ce187672bc66baf2bd0920f8c7e5f77ca0",
+    "reports/linear-response-ladder/empirical-scale-scan/empirical_scale_scan.png": "2e8307b9ffe62509c267eadddcc28bc1062be40c8e7396b396f13d257e63c5e2",
+    "reports/linear-response-ladder/empirical-scale-scan/exact_grid_checkpoint.npz": "e439961f893d849233920e0c4e0d775d96d7b3bb8cb20c367bac8448e38acccb"
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5"
+  }
+}

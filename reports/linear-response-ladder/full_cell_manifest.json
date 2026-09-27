@@ -1,0 +1,26 @@
+{
+  "kind": "current H1 cell-level empirical ladder comparison",
+  "arms": [
+    "Unchanged controls",
+    "Matched-source generator null",
+    "Calibrated empirical response"
+  ],
+  "model_minus_null": "difference of reference-scaled metric scores; no ratio debiasing",
+  "inputs": {
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-three-models/cell_eval/standalone_control_baseline/scores.csv": "bf20744395b99324315abdf70310301b4af8e816794b601d35e53a2d032edbaf",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-three-models/cell_eval/standalone_control_baseline/aggregates.csv": "dd3c9155a3eef5a4a6f758aaa29bff8da00c68266c6e0d19ade1696b15eaff20",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-three-models/cell_eval/standalone_control_baseline/manifest.json": "7146f6bbe43d9fd393f6a52df59a8f7c3e87103764dbb951fb2df2e3e50c7507",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-ladder/cell_eval/null/scores.csv": "ec60e6db41f5b5c733f5c39ba0cdcaff2ee7fdf9aefac4c035e4161a0dcdc8a8",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-ladder/cell_eval/null/aggregates.csv": "33484e4022e4cc9adc51a5d1d65ce8f96fa0b2c3e127376bd9ce80ad8acf74e2",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-ladder/cell_eval/null/manifest.json": "b347827e3b5839bd7e2e6d4fbb027cd8cf1e5e2bd5f4c7a6bb8681fb8b72f1fb",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-ladder/cell_eval/empirical/scores.csv": "a76496a79195534357eb45432af98538bf972a102cead5e2978344d7678c84c6",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-ladder/cell_eval/empirical/aggregates.csv": "89dbeac9741adf099bef9d4cb270bc1775eec614b9d691af973b5102d7b3cfda",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-ladder/cell_eval/empirical/manifest.json": "1b31675b21c9e0c2222be30e695daa203333678ef19a55b02abf845e15520af2"
+  },
+  "outputs": {
+    "reports/linear-response-ladder/full_cell_scores.csv": "5882112808612c932f9da7ec028d73763911f7a7d394cf9d1193e85319d9a333",
+    "reports/linear-response-ladder/full_cell_aggregates.csv": "e637af5a6fc178925dbc9c220c210e77d0d8b7f34c0af6c46f2aaa84a06df568",
+    "reports/linear-response-ladder/figures/full_cell_score_comparison.png": "fbf5d528c911f08f6996684e04a05c32b7c655525c537e472291d24e1f5b8a62",
+    "reports/linear-response-ladder/figures/full_cell_per_target.png": "e000e6ec4b0e80a8e49f7387d7251009ec09a887b44541ec3577a0fcdd2591eb"
+  }
+}

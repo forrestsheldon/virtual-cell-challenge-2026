@@ -1,0 +1,48 @@
+{
+  "kind": "expected-profile diagnostics; not an official score",
+  "truth_cells_read": true,
+  "model_artifact": {
+    "path": "reports/control-tail-estimator-h1/expected_profiles.npz",
+    "sha256": "3e661f3d863f60a150ee004f89ea904900ff6e067159a8c9a4c39ccb93000e60"
+  },
+  "h1": {
+    "path": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/data/external/vcc2025_h1/adata_Training.h5ad",
+    "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b"
+  },
+  "reference_cells": {
+    "path": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/vcc2026-h1/reference_cells.csv",
+    "sha256": "717715d594bfd5b1345538dcb72ffe196f66e5101cc385e2f4369221a77bd1f3"
+  },
+  "pds_implementation": "cell_eval2.metrics.discrimination.discrimination_score",
+  "ceiling": "five deterministic disjoint 200-vs-200 target splits",
+  "ceiling_seeds": [
+    2968811710,
+    3677149159,
+    745650761,
+    2884920346,
+    2642120001
+  ],
+  "outputs": {
+    "per_target": {
+      "path": "reports/control-tail-estimator-h1/profile/per_target.csv",
+      "sha256": "c3421ed744b413381992923dc03afc0b0dae50f24084f8b28bd2c29369f004ab"
+    },
+    "summary": {
+      "path": "reports/control-tail-estimator-h1/profile/summary.csv",
+      "sha256": "e98c0afeb1a18060c8916dc0c2aa32f3662b217b3f24b800b7a05384d61cfd06"
+    },
+    "truth_geometry": {
+      "path": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-three-models/h1_truth_geometry.csv",
+      "sha256": "32b1af5740d1e3d08350a8c48c07cccc899103b75feca3994222a2d34f5f3606"
+    }
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "cell-eval2": "0.16.0",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "polars": "1.44.1",
+    "scipy": "1.18.0"
+  }
+}

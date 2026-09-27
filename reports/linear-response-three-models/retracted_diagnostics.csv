@@ -1,0 +1,5 @@
+diagnostic,status,result,control,provenance,source
+batch_centering,retired,"median full-vs-batch-centered direction cosine 0.999335","10th percentile 0.996991",recomputed_in_current_implementation,reports/linear-response-three-models/batch_sensitivity.csv
+top_mode_projection,refuted,"apparent PDS 0.577 vs 0.493 does not reproduce across independent fits","split-half projected-direction cosine 0.019; dropping mid-spectrum modes changes nothing",reviewer_result_not_independently_rederived,plans/cipher-fixes-and-eval-split.md
+correlation_columns,retired,"PDS 0.4913; no improvement over chance","same expected-profile panel exclusions",reviewer_result_not_independently_rederived,plans/cipher-fixes-and-eval-split.md
+diagonal_shrinkage,retired,"leaves the target-normalized downstream direction unchanged","algebraic rescaling only",algebraic_result,plans/cipher-fixes-and-eval-split.md

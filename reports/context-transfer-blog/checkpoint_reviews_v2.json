@@ -1,0 +1,31 @@
+{
+  "availability_rows": 21,
+  "direct_transfer_checkpoint": {
+    "decision": "Separate construct identity from gene-level transfer. Treat exact-construct retrieval as construct reproducibility; make gene-level claims only on edges with calibrated same-promoter cross-construct evidence.",
+    "status": "partially_identified"
+  },
+  "exact_construct_transfer": {
+    "interpretation": "construct reproducibility, including possible guide-specific effects",
+    "log2_cpm1p_retrieval_lower_ci_above_chance": {
+      "HCT116->HEK293T": true,
+      "HepG2->Jurkat": true,
+      "K562_essential->RPE1": true
+    }
+  },
+  "revision": "promoter-aware calibration v2",
+  "same_construct_split_ceiling": {
+    "reason": "no guide-by-batch or guide-by-cell split in compact artifacts",
+    "status": "unavailable"
+  },
+  "same_promoter_cross_construct_transfer": {
+    "interpretation": "best available gene-level calibration independent of exact construct identity",
+    "log2_cpm1p_retrieval_lower_ci_above_chance": {
+      "HepG2->Jurkat": false
+    },
+    "unavailable_edges": [
+      "K562_essential->RPE1",
+      "HCT116->HEK293T"
+    ]
+  },
+  "supersedes_interpretation": "The original mixed-promoter leave-one-guide-out result cannot be used as a replicate-positive calibration."
+}

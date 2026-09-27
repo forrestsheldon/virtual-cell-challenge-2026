@@ -1,0 +1,29 @@
+{
+  "scope": "Incomplete local responder download temporary files only; cloud artifacts untouched",
+  "removed": [
+    {
+      "path": "data/derived/context_transfer_splits/split-v1-20260924/K562_essential/responder_cells/ReplogleWeissman2022_K562_essential.h5ad_.gstmp",
+      "logical_bytes": 341028541
+    },
+    {
+      "path": "data/derived/context_transfer_splits/split-v1-20260924/HCT116/responder_cells/HCT116_Batch1.h5ad_.gstmp",
+      "logical_bytes": 9366982
+    },
+    {
+      "path": "data/derived/context_transfer_splits/split-v1-20260924/HCT116/responder_cells/HCT116_Batch41.h5ad_.gstmp",
+      "logical_bytes": 0
+    },
+    {
+      "path": "data/derived/context_transfer_splits/split-v1-20260924/HepG2/responder_cells/NadigOConner2024_hepg2.h5ad_.gstmp",
+      "logical_bytes": 215979597
+    },
+    {
+      "path": "data/derived/context_transfer_splits/split-v1-20260924/RPE1/responder_cells/ReplogleWeissman2022_rpe1.h5ad_.gstmp",
+      "logical_bytes": 305121704
+    },
+    {
+      "path": "data/derived/context_transfer_splits/split-v1-20260924/Jurkat/responder_cells/NadigOConner2024_jurkat.h5ad_.gstmp",
+      "logical_bytes": 367611053
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "recipe": "explore_vcc2025_h1.py, unchanged parameters, restricted gene universe and cell set",
+  "gene_universe": "reference CPM > 5 gate, 10780 genes (celleval2_shift_genes.csv)",
+  "hvg_sample_cap": 30000,
+  "n_hvg_selected": {
+    "negligible": 2000,
+    "subtle": 2000,
+    "strong": 2000
+  },
+  "n_pca": 50,
+  "n_neighbors": 15,
+  "n_pcs_for_neighbors": 30,
+  "seed": 0
+}

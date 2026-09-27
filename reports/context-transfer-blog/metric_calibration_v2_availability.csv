@@ -1,0 +1,22 @@
+calibration,source_context,target_context,status,targets,reason
+within_context_same_promoter_different_construct,K562_essential,K562_essential,unavailable,0,multi-construct targets do not contain labeled same-promoter designs
+within_context_same_construct_split,K562_essential,K562_essential,unavailable,0,audited compact artifacts pool all cells for each construct and contain no guide-by-batch split
+within_context_same_promoter_different_construct,RPE1,RPE1,available,18,distinct constructs share a promoter-design class
+within_context_same_construct_split,RPE1,RPE1,unavailable,0,audited compact artifacts pool all cells for each construct and contain no guide-by-batch split
+within_context_same_promoter_different_construct,HepG2,HepG2,available,18,distinct constructs share a promoter-design class
+within_context_same_construct_split,HepG2,HepG2,unavailable,0,audited compact artifacts pool all cells for each construct and contain no guide-by-batch split
+within_context_same_promoter_different_construct,Jurkat,Jurkat,available,18,distinct constructs share a promoter-design class
+within_context_same_construct_split,Jurkat,Jurkat,unavailable,0,audited compact artifacts pool all cells for each construct and contain no guide-by-batch split
+within_context_same_promoter_different_construct,HCT116,HCT116,unavailable,0,multi-construct targets do not contain labeled same-promoter designs
+within_context_same_construct_split,HCT116,HCT116,unavailable,0,audited compact artifacts pool all cells for each construct and contain no guide-by-batch split
+within_context_same_promoter_different_construct,HEK293T,HEK293T,unavailable,0,multi-construct targets do not contain labeled same-promoter designs
+within_context_same_construct_split,HEK293T,HEK293T,unavailable,0,audited compact artifacts pool all cells for each construct and contain no guide-by-batch split
+cross_context_exact_construct,K562_essential,RPE1,available,2055,audited guide constructs overlap
+cross_context_same_promoter_different_construct,K562_essential,RPE1,unavailable,0,no qualifying shared construct pairs
+cross_context_cross_promoter_different_construct,K562_essential,RPE1,available,111,audited guide constructs overlap
+cross_context_exact_construct,HepG2,Jurkat,available,2392,audited guide constructs overlap
+cross_context_same_promoter_different_construct,HepG2,Jurkat,available,18,audited guide constructs overlap
+cross_context_cross_promoter_different_construct,HepG2,Jurkat,available,114,audited guide constructs overlap
+cross_context_exact_construct,HCT116,HEK293T,available,414,audited guide constructs overlap
+cross_context_same_promoter_different_construct,HCT116,HEK293T,unavailable,0,no qualifying shared construct pairs
+cross_context_cross_promoter_different_construct,HCT116,HEK293T,available,16,audited guide constructs overlap

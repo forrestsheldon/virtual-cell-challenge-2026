@@ -1,0 +1,144 @@
+{
+  "controls": {
+    "all_non_targeting_rows": 585,
+    "core_cells_used": 75328,
+    "core_rows_used": 514,
+    "noncore_rows_excluded": 71,
+    "noncore_rows_without_filtered_counts": 71
+  },
+  "guide_pair_population_concordance": {
+    "cosine": {
+      "max": 0.031572894995087225,
+      "median": -0.003526019758512535,
+      "min": -0.034377372299528766,
+      "q25": -0.014175550430065038,
+      "q75": 0.015434010044106036
+    },
+    "multi_population_targets": 8,
+    "on_target_measurable_pairs": 7,
+    "on_target_same_sign_pairs": 6,
+    "pairs": 8,
+    "unit": "author target-transcript pseudobulk; each is one dual-guide construct, not an individual guide"
+  },
+  "libraries": {
+    "core_control": {
+      "per_cell": {
+        "max": 13649.291666666666,
+        "median": 11719.415802384798,
+        "min": 9756.615384615385,
+        "q25": 11451.945852440222,
+        "q75": 11990.142966042966
+      },
+      "total": {
+        "max": 6814904.0,
+        "median": 1577833.5,
+        "min": 126836.0,
+        "q25": 1079187.5,
+        "q75": 2168204.75
+      }
+    },
+    "matched_target_guide": {
+      "per_cell": {
+        "max": 13185.978540772532,
+        "median": 11689.478260869566,
+        "min": 5166.075268817204,
+        "q25": 11241.904820548909,
+        "q75": 12029.84122219735
+      },
+      "total": {
+        "max": 6225975.0,
+        "median": 1888615.0,
+        "min": 90059.0,
+        "q25": 1414852.0,
+        "q75": 3060889.0
+      }
+    }
+  },
+  "matching": {
+    "duplicate_symbols_summed": [
+      "HSPA14",
+      "TBCE"
+    ],
+    "h1_genes": 18080,
+    "h1_targets": 126,
+    "missing_targets": [
+      "SRC",
+      "ATP1B1",
+      "KDR",
+      "WFS1",
+      "CAMSAP2",
+      "TGFBR2",
+      "ANTXR1",
+      "LAD1",
+      "RAB3B",
+      "SV2A",
+      "DZIP3"
+    ],
+    "replogle_symbol_rows": 8248,
+    "replogle_unique_symbols": 8246,
+    "shared_genes": 7583,
+    "shared_target_cells": 23322,
+    "shared_target_populations": 123,
+    "shared_targets": 115
+  },
+  "normalization_sensitivity": {
+    "H1": {
+      "cosine": {
+        "max": 0.999998904476052,
+        "median": 0.9999983156837475,
+        "min": 0.999917578914975,
+        "q25": 0.9999970060169969,
+        "q75": 0.9999985752399194
+      },
+      "median_abs_lfc_change": {
+        "max": 0.022809491987355844,
+        "median": 0.00125171311084731,
+        "min": 4.9436635364616746e-05,
+        "q25": 0.0006661880785594075,
+        "q75": 0.0022745747983466133
+      }
+    },
+    "K562": {
+      "cosine": {
+        "max": 0.9999999045593615,
+        "median": 0.999187657633789,
+        "min": 0.9575087673252449,
+        "q25": 0.9975152169709274,
+        "q75": 0.9999180279432774
+      },
+      "median_abs_lfc_change": {
+        "max": 0.0986400629469338,
+        "median": 0.008464434565435427,
+        "min": 7.277424061867896e-05,
+        "q25": 0.003430903134785642,
+        "q75": 0.018076925977082204
+      }
+    }
+  },
+  "on_target_knockdown": {
+    "available_targets": 105,
+    "max": 0.18824292557146366,
+    "median": -2.8468981597657597,
+    "min": -34.76939917099554,
+    "q25": -3.5322759275739704,
+    "q75": -2.1393097020096046,
+    "unavailable_target_symbols": [
+      "NCK2",
+      "PBX1",
+      "FOXH1",
+      "KLF10",
+      "CLDN7",
+      "PLCB3",
+      "DLG5",
+      "SOX2",
+      "IKBKG",
+      "SIX4"
+    ]
+  },
+  "reconstruction": {
+    "finite_populations": 11187,
+    "max_distance_from_integer": 0.01702880859375,
+    "represented_cells": 1989578,
+    "total_reconstructed_umi": 23233637266
+  }
+}

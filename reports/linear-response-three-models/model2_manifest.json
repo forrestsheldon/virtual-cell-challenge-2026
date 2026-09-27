@@ -1,0 +1,68 @@
+{
+  "model": "rank-50 truncated control-PCA covariance response",
+  "truth_cells_read": false,
+  "rank": 50,
+  "candidate_ranks": [
+    3,
+    20,
+    50,
+    100
+  ],
+  "cell_target_sum": 10000.0,
+  "bulk_target_sum": 50000.0,
+  "randomized_svd": {
+    "random_state": 0,
+    "n_oversamples": 20,
+    "n_iter": 4
+  },
+  "calibration": "Model 1 leave-one-target-out knockdown; exact expected-decoder output matching",
+  "source_rows": "identical to Model 1",
+  "artifact": {
+    "path": "data/derived/linear_response/model2_expected_profiles.npz",
+    "sha256": "36966bd4f2c9101fa6a1beb26e0f4f0aa796c96b2baad00f0eade40c85b2aeb1"
+  },
+  "outputs": {
+    "spectral": {
+      "path": "reports/linear-response-three-models/model2_spectral_truncation.csv",
+      "sha256": "3baaab7312e7eb55a4ee0c9d84aaa8d08a13c0999c04606bfec6aa140f51c979"
+    },
+    "per_target": {
+      "path": "reports/linear-response-three-models/model2_spectral_per_target.csv",
+      "sha256": "6122fffa7f96d1b35838f923e7040a88d97a1307dbd9285bbdbd67504933379f"
+    },
+    "closure": {
+      "path": "reports/linear-response-three-models/model2_on_target_closure.csv",
+      "sha256": "85e45ab3604a879b4d084d3ad6bd17ef4fc7ec7447eb278eb239859ef3ba312e"
+    },
+    "positive_control": {
+      "path": "reports/linear-response-three-models/model2_covariance_positive_control.csv",
+      "sha256": "a9f474272357d035a840e967b32a1b1a99199662f487759f92e5b570935dc7d4"
+    }
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.0"
+  },
+  "cached_positive_control": {
+    "path": "data/derived/linear_response/cipher_h1_direction_cache.npz",
+    "sha256": "52d3cf00ef96f43ad3cdb1b2aef6bb1f04c3cd3bac4c99f45790c7d08baaaf7e"
+  },
+  "inputs": {
+    "h1": {
+      "path": "data/external/vcc2025_h1/adata_Training.h5ad",
+      "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b"
+    },
+    "model1_artifact": {
+      "path": "data/derived/linear_response/model1_expected_profiles.npz",
+      "sha256": "69d9e3bee240224704e04e99e6e86315e9a8a42af13c84d20409a7e6cf505f63"
+    },
+    "calibration": {
+      "path": "reports/linear-response-three-models/model1_knockdown_calibration.csv",
+      "sha256": "3d5111e8ef1983b63d734ebb8e411bd43a09d6f2a7f8f0b0684317df0e72d7fd"
+    }
+  }
+}

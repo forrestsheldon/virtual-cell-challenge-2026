@@ -1,0 +1,45 @@
+{
+  "kind": "truth-side evaluation of restricted linear-response ladder",
+  "truth_definition": "stable p<0.05, abs LFC>=0.5, target excluded",
+  "magnitude": "model-specific median leave-one-target-out downstream L1 scale; local exact donor grid when decoder nonlinearity exceeds 0.02 NMAE",
+  "null_replicates": 10000,
+  "seeds": {
+    "wrong_target": "SeedSequence([0,81,model_index])",
+    "gene_label_permutation": "SeedSequence([0,82,model_index])",
+    "target_bootstrap": "SeedSequence([0,83,model_index])"
+  },
+  "exact_refinement_factors": [
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.5,
+    2.0,
+    3.0
+  ],
+  "passes_full_cell_scoring_gate": false,
+  "inputs": {
+    "data/external/vcc2025_h1/adata_Training.h5ad": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+    "data/derived/linear_response/eval_cache/de_wilcoxon_table-12f179b9e966af64.parquet": "fc8d683a3de692d767b0ee67ddf4fec845786e59bbf4a6357c442e2eaee379e6",
+    "reports/linear-response-three-models/strong_de_truth_genes.csv": "229e06fac02d35217687291734dd5b925633ee7df5871052bf903f8ce3db9e66",
+    "reports/linear-response-three-models/h1_target_counts.csv": "bb25d2f5bbdee37846b009382924337c369c4c86d1ff32a58b973b57e84075c9",
+    "data/derived/linear_response/ladder/empirical.npz": "bb036ed981482918478584ab30fec7b79e2b8bfc0f0d850bf6b9ae003c73b631",
+    "data/derived/linear_response/ladder/sparse.npz": "d0da878a62547a43b39682f524f46b79419252fb8a0c1ce6725dfc9d4f69534d",
+    "data/derived/linear_response/ladder/factor.npz": "6b9daebd37bcc5496762df36c18ebc8e484f7c0c218b82fce2b99f4809b302d1"
+  },
+  "outputs": {
+    "reports/linear-response-ladder/downstream_amplitude_distribution.csv": "a3013dc2a4bcaefdaa1ccee7e3eeb0cc374962502d5dcb1f87ac04fa8594162c",
+    "reports/linear-response-ladder/direction_fidelity_per_target.csv": "5e47d8ba71437e5008e346297bf91c47f6d610775e2995b400751bd030a9b770",
+    "reports/linear-response-ladder/direction_fidelity_summary.csv": "c484cda90512bcf5465ceec5c3d0b2cc545f359881589184f0956e007562ac74",
+    "reports/linear-response-ladder/global_axis_comparison.csv": "25af3797f643daa2ad18ce54d2c0fdf508f6ed832722b9047269c77a3291e9a3",
+    "reports/linear-response-ladder/exact_scale_refinement.csv": "00c7442ad4177c3e752bfd621b4d7715ce46c36defba8f39648c24a7fa674299"
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "polars": "1.44.1",
+    "scipy": "1.18.0"
+  }
+}

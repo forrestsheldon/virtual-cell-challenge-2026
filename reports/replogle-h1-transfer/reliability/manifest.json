@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-09-18T22:40:59+00:00",
+  "inputs": {
+    "data/derived/replogle_h1_transfer/effects.npz": "4906b8576fca3e4dabb466c57d2a4c582d63150d64c2956add8c87be0102a207",
+    "data/external/replogle2022/K562_gwps_raw_bulk_01.h5ad": "7cec96b3b76169abbf6b6ab9d10bf00d71d942d89e63292351f745e130b154db",
+    "data/external/replogle2022/ReplogleWeissman2022_K562_gwps.h5ad": "d3269d9c863d96555eba768b42ab330cc1b57493cd33b4ac8fe7fbab8278f104"
+  },
+  "outputs": {
+    "data/derived/replogle_h1_transfer/reliability_effects.npz": "ef639afdfdc469389f85ea71006880c7440127163320dd2ef76688f184bac5d2",
+    "data/derived/replogle_h1_transfer/source_cell_splits.npz": "cd4bbb1b73958820c0d87660e7a6b1ccefbe529f7994336af42622a907c95288",
+    "reports/replogle-h1-transfer/reliability/audit.json": "3a97712c930fe25e2c2a32da2721614b14bb07ccaa66d27b8cfeb9666391ae1e",
+    "reports/replogle-h1-transfer/reliability/expected_per_target.csv": "8afa3f6658b4d0fdfcb7e3dbdb46e4ce78fee54a10e9a6e6f07ec17f6663f4ef",
+    "reports/replogle-h1-transfer/reliability/expected_summary.csv": "e3117305c4f8224f769ecbfed01eadc791e0194e1f78289316508742aa294c7d",
+    "reports/replogle-h1-transfer/reliability/support_summary.csv": "4a1500e65a2c471c927bb0ce37a0678a9d960c8e091ed03fae76de0ac9d6db73"
+  },
+  "stage": "source-only shrinkage and cell-split sparsification"
+}

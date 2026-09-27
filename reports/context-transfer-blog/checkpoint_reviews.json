@@ -1,0 +1,51 @@
+{
+  "checkpoint_1_aggregation_and_calibration": {
+    "calibrated_metrics_by_context": {
+      "HCT116": [],
+      "HEK293T": [],
+      "HepG2": [],
+      "Jurkat": [],
+      "K562_essential": [],
+      "RPE1": []
+    },
+    "compact_audits": "passed",
+    "self_transfer_controls": {
+      "cosine": 1.0,
+      "nae": 0.0,
+      "projection": 1.0
+    },
+    "unchanged_control_nae": 1.0
+  },
+  "checkpoint_2_direct_transfer": {
+    "criterion": "retrieval is control-calibrated in both contexts and its 95% perturbation-bootstrap lower bound exceeds chance 0.5",
+    "next_step_justified": false,
+    "passed_by_edge": {
+      "HCT116->HEK293T": false,
+      "HepG2->Jurkat": false,
+      "K562_essential->RPE1": false
+    }
+  },
+  "checkpoint_3_global_slope": {
+    "amplitude_mismatch_by_edge": {
+      "HCT116->HEK293T": true,
+      "HepG2->Jurkat": true,
+      "K562_essential->RPE1": true
+    },
+    "criterion": "direct-transfer gate passes and the projection-coefficient interval excludes 1",
+    "next_step_justified_by_edge": {
+      "HCT116->HEK293T": false,
+      "HepG2->Jurkat": false,
+      "K562_essential->RPE1": false
+    }
+  },
+  "checkpoint_4_context_expression": {
+    "coefficient_same_nonzero_sign_across_primary_edges": true,
+    "decision": "stop model ladder; do not add complexity",
+    "heldout_benefit_by_edge": {
+      "HCT116->HEK293T": false,
+      "HepG2->Jurkat": false,
+      "K562_essential->RPE1": true
+    },
+    "replication_gate_passed": false
+  }
+}

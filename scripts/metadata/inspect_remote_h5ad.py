@@ -135,7 +135,7 @@ def main() -> None:
         else:
             result = {
                 "url": args.url,
-                "shape": list(handle["X"].attrs.get("shape", [])),
+                "shape": [int(value) for value in handle["X"].attrs.get("shape", [])],
                 "root_keys": sorted(handle.keys()),
                 "obs_keys": sorted(handle["obs"].keys()),
                 "var_keys": sorted(handle["var"].keys()),

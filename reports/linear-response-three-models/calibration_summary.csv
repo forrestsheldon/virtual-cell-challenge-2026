@@ -1,0 +1,10 @@
+statistic,value
+eligible_knockdown_donors,150
+ineligible_or_sign_failure_donors,0
+observed_knockdown_depth_median,-2.8283672114190788
+observed_knockdown_depth_mad,0.20758860801874568
+observed_mad_over_abs_median,0.07339521091202018
+leave_one_out_depth_median,-2.8283672114190788
+leave_one_out_depth_mad,0.008071940901722696
+median_abs_loo_change_restricting_to_400plus,0.03473848747970942
+maximum_abs_loo_change_restricting_to_400plus,0.047012923285373986

@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-09-15T10:22:37.848950+00:00",
+  "kind": "truth-side expected-profile diagnostic",
+  "comparison": "normalized covariance versus factorial-moment and iterative Poisson-lognormal covariance",
+  "magnitude": "model-specific leave-one-target-out median downstream L1 scale",
+  "decoder": {
+    "normalized": "exact log1p-CP10K decoder",
+    "poisson_lognormal": "multiplicative latent log-rate shift followed by per-cell rate normalization"
+  },
+  "inputs": {
+    "/Users/forrestsheldon/Library/Caches/vcc2026-h1-benchmark/h1_controls.h5ad": "9c3fafa73d6fe8fb9c0c31e4247ea0d774b81cb3d46dc17fea7b657769e8dc55",
+    "reports/linear-response-three-models/h1_strict_controls.csv": "9daf441a9d64cb1a07acf21791534e8e184129979c7fe05b3e92edc2eb1063cb",
+    "data/derived/linear_response/ladder/empirical.npz": "bb036ed981482918478584ab30fec7b79e2b8bfc0f0d850bf6b9ae003c73b631",
+    "data/derived/linear_response/state_diversity/state_balanced_covariance.npz": "200ea2cb7ae56587b1b5984a503873e72d670ba67c8cee5e9bcc00ebb0f11158",
+    "data/derived/linear_response/sequencing_model/factorial_moment_response.npz": "2eab953fc95c3de48c6ca71619657f0b2bc812efd930c6cdb66c2df1547349f9",
+    "data/derived/linear_response/sequencing_model/regularized_factorial_response.npz": "f4882191061feb56cbc6d9060baff42802519516cf086832f8c489748159ff7b",
+    "data/derived/linear_response/model3_fit.npz": "72bb04b2971364246bf7874d9ec0ab27e8d317db832e816c1611173d19410adf"
+  },
+  "outputs": {
+    "reports/linear-response-sequencing-model/downstream_scale.csv": "329b612d56eae372021cc396189e15d42fe86c5e477c1a01c8afef50f89364c5",
+    "reports/linear-response-sequencing-model/expected_profile_per_target.csv": "3e447e1731fdad2f99a9ef08be98830db4e90e90f57d16c5e6c7f8f7b2bce525",
+    "reports/linear-response-sequencing-model/expected_profile_summary.csv": "e1e532f502525af02e3d4cba0da4e32ea71dc207acd779bf4000c2a7d4f4e711",
+    "reports/linear-response-sequencing-model/response_geometry_per_target.csv": "22e4187c8882f08ee03ee05aa7ff4fc5db2c30f4b714d177f5877789027991a0",
+    "reports/linear-response-sequencing-model/response_geometry_summary.csv": "2ebf20ece1434ba10f143e7bc816f708284cb408b6cab7be8fa8aa3dd0453eec",
+    "data/derived/linear_response/sequencing_model/expected_profile_diagnostics.npz": "e34074efefcab9b4c913a94a3b60c16a3b6d83ecc27672eb76ff408946d2b1ef"
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5"
+  }
+}

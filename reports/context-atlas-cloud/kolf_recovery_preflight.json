@@ -1,0 +1,40 @@
+{
+  "h1_available": 123,
+  "h1_requested": 126,
+  "missing_h1": [
+    "CAST",
+    "CHMP3",
+    "TAZ"
+  ],
+  "missing_union": [
+    "CAST",
+    "CHKB",
+    "CHMP3",
+    "DTNBP1",
+    "EPHB2",
+    "IFNGR2",
+    "IL10RB",
+    "LENG1",
+    "MTM1",
+    "PBLD",
+    "PSMB9",
+    "RSRC1",
+    "SNRK",
+    "STK3",
+    "TAZ",
+    "TBC1D19",
+    "TBCK",
+    "TESK2",
+    "TRIP4",
+    "TTBK2",
+    "ZC2HC1A"
+  ],
+  "panel_overlap": 11,
+  "panel_path": "reports/context-atlas-cloud/kolf_h1_vcc_union.csv",
+  "panel_sha256": "c517b691a1db83cbb8199c3408dcab88492fd84dcd9292190acf02d2b5094779",
+  "source_counts_path": "metadata/datasets/source_targets/nourreddine2024_kolf_counts.csv",
+  "union_available": 394,
+  "union_requested": 415,
+  "vcc_available": 282,
+  "vcc_requested": 300
+}

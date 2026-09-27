@@ -1,0 +1,10 @@
+source,available_H1_targets,available_H1_genes,study_description,representation
+K562_GWPS,115,7583,Replogle 2022 GWPS author pseudobulk,raw UMI sums reconstructed from author means
+K562_essential,25,7837,Replogle and Weissman 2022 K562 essential CRISPRi,raw UMI count sums
+RPE1,36,8167,Replogle and Weissman 2022 RPE1 essential CRISPRi,raw UMI count sums
+HepG2,36,8908,Nadig and O'Connor 2024 HepG2 CRISPRi,raw UMI count sums
+Jurkat,36,8180,Nadig and O'Connor 2024 Jurkat CRISPRi,raw UMI count sums
+HCT116,125,17701,Xaira-Therapeutics/X-Atlas-Orion,raw UMI sums reconstructed from author means
+HEK293T,125,17701,Xaira-Therapeutics/X-Atlas-Orion,raw UMI sums reconstructed from author means
+CD4T,119,17678,Zhu/Marson primary CD4+ T-cell genome-scale CRISPRi,raw UMI count sums
+KOLF2.1J,123,17603,Nourreddine et al. KOLF2.1J pan-genome CRISPRi,raw UMI count sums

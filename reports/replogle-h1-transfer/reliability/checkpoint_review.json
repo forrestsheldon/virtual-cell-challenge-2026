@@ -1,0 +1,36 @@
+{
+  "comparisons": {
+    "dense_unshrunken": {
+      "mean_strong_de_nmae_excluding_sox2": 0.9480875332659042,
+      "targets_with_mse_below_dense": 0,
+      "targets_with_mse_below_unchanged": 3
+    },
+    "shrink_10000": {
+      "mean_strong_de_nmae_excluding_sox2": 0.9481731403109074,
+      "targets_with_mse_below_dense": 126,
+      "targets_with_mse_below_unchanged": 3
+    },
+    "shrink_100000": {
+      "mean_strong_de_nmae_excluding_sox2": 0.9482121053613718,
+      "targets_with_mse_below_dense": 126,
+      "targets_with_mse_below_unchanged": 3
+    },
+    "shrink_1000000": {
+      "mean_strong_de_nmae_excluding_sox2": 0.95877690567263,
+      "targets_with_mse_below_dense": 125,
+      "targets_with_mse_below_unchanged": 8
+    },
+    "shrink_100000_stable_2of3": {
+      "mean_strong_de_nmae_excluding_sox2": 0.9508531177905802,
+      "targets_with_mse_below_dense": 124,
+      "targets_with_mse_below_unchanged": 3
+    },
+    "shrink_100000_stable_3of3": {
+      "mean_strong_de_nmae_excluding_sox2": 0.9555530867571067,
+      "targets_with_mse_below_dense": 124,
+      "targets_with_mse_below_unchanged": 5
+    }
+  },
+  "interpretation": "Shrinkage provides a broad amplitude/MSE tradeoff. Cell-split sparsification removes many effects but does not improve strong-DE fidelity or NMAE at fixed shrinkage. The aggregate NMAE benefit of shrinkage is dominated by SOX2, the seven-cell source pseudobulk.",
+  "next_identifiability_check": "Compare sparse and dense effects at matched per-target norms or along matched amplitude sweeps; the present masks also shrink vector norms, so their MSE gain alone does not identify a sparsity benefit."
+}

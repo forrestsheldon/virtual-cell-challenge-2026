@@ -1,0 +1,11 @@
+check,passed
+population_normalized,True
+prior_total_rate_q01_above_0.9,True
+prior_total_rate_q99_below_1.1,True
+posterior_total_rate_q01_above_0.9,True
+posterior_total_rate_q99_below_1.1,True
+mean_correlation_above_0.95,True
+variance_correlation_above_0.5,True
+mode_gradient_q99_below_1e-3,True
+heldout_likelihood_improves,True
+zero_fraction_abs_error_below_0.05,True

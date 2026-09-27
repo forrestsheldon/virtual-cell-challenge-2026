@@ -1,0 +1,8 @@
+{
+  "normalization": "K562 and H1 counts were each library-normalized within the 7,583-gene shared universe before residual construction",
+  "scope": "effect-space sensitivity only; no additional cell candidates or fast scores were generated",
+  "source_effects": [
+    "raw shared-gene-normalized",
+    "100,000-equivalent-UMI count shrinkage with shared-gene totals"
+  ]
+}

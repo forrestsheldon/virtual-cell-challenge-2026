@@ -1,0 +1,27 @@
+{
+  "created_utc": "2026-09-11T16:03:44.557681+00:00",
+  "design": "paired canonical-control expected-profile comparison",
+  "amplitude": {
+    "gamma": 0.969068733217668,
+    "source": "median control-only empirical downstream cross-fitted scale",
+    "shared_across_models": true
+  },
+  "decoder": "exact fractional multiplicative LFC closure",
+  "inputs": {
+    "data/derived/linear_response/state_diversity/state_balanced_covariance.npz": "200ea2cb7ae56587b1b5984a503873e72d670ba67c8cee5e9bcc00ebb0f11158",
+    "reports/linear-response-ladder/downstream_amplitude_distribution.csv": "a3013dc2a4bcaefdaa1ccee7e3eeb0cc374962502d5dcb1f87ac04fa8594162c",
+    "/Users/forrestsheldon/Library/Caches/vcc2026-h1-benchmark/h1_controls.h5ad": "9c3fafa73d6fe8fb9c0c31e4247ea0d774b81cb3d46dc17fea7b657769e8dc55"
+  },
+  "outputs": {
+    "data/derived/linear_response/state_diversity/effects.npz": "0f848fa812ab8def6a0470662e5dd71c3f8ffef4f5a57547b32bed000f17538f",
+    "reports/linear-response-state-diversity/expected_profile_per_target.csv": "d8736e59f6f93a0de120c833eb5afb9cfd1ad4a1d349a6ddf01962f9e2d01b32",
+    "reports/linear-response-state-diversity/expected_profile_summary.csv": "5e633ad0c2a952007d478f796d4c7d339e2126f57537db42218c4389eff361f4"
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0"
+  }
+}

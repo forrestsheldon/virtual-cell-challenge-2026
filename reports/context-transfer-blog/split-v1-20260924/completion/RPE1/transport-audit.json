@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "context": "RPE1",
+  "files": [
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/RPE1/acceptance.json",
+      "sha256": "57318ae4c15505269b16d89f5e02044f62060c89e8ccf0c85f35089335ff5686",
+      "bytes": 451
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/RPE1/batch_role_split_controls.h5ad",
+      "sha256": "6192bbd4449d8a22a90630c48049d072d381d98947db2349d0be7568482e9b71",
+      "bytes": 16192116
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/RPE1/batch_split_exposures.parquet",
+      "sha256": "25c3387d8703707a6b7f26a1e73be117a7cf0a88098d3b9844f6c1cdd4f48c99",
+      "bytes": 973356
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/RPE1/cell_assignments.parquet",
+      "sha256": "5a79a90cac5c289d9ed0683504f4602dc95bf21256c34a06a897e2180690d50d",
+      "bytes": 8007613
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/RPE1/construct_split_pseudobulk.h5ad",
+      "sha256": "cb1ceff2c1b532c9d53fe5fa71631e1074742abe4d17723a99836fd89d155027",
+      "bytes": 210700481
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/RPE1/manifest.json",
+      "sha256": "3525553e386f9c9c6e82a2c7200aab93f69cce046f46523db1a2bc14e22efce4",
+      "bytes": 2082
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/RPE1/matched_control_support.parquet",
+      "sha256": "f6453112164e38ce78da9a78236ccb0c1e66580216acc91360fdd4438f6e705a",
+      "bytes": 2117698
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/RPE1/responder_cells/ReplogleWeissman2022_rpe1.h5ad",
+      "sha256": "33a1eb160bc1fd2bf98d56233439712633e4bfa0765beb0c7a90b87986e8cde1",
+      "bytes": 305121704
+    }
+  ],
+  "independent_acceptance": {
+    "status": "passed",
+    "context": "RPE1",
+    "manifest_sha256": "3525553e386f9c9c6e82a2c7200aab93f69cce046f46523db1a2bc14e22efce4",
+    "selected_cells": 209264,
+    "retained_cells": 35061,
+    "reference_constructs_exact": 2284,
+    "independent_full_source_reaggregation": true,
+    "responder_source_rows_exact": true,
+    "file_sha256s_verified": true,
+    "control_role_margins_exact": true,
+    "missing_baseline_strata": 0,
+    "promotion": "not performed"
+  }
+}

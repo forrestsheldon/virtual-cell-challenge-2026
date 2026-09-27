@@ -1,0 +1,35 @@
+{
+  "dataset": "Xaira-Therapeutics/X-Atlas-Orion",
+  "revision": "53a5bc98d49247bcf967500292575c3d3602de31",
+  "context": "HEK293T",
+  "representation": "raw UMI count sums",
+  "control_label": "Non-Targeting",
+  "target_panel_sha256": "ac5dc34656bdd5c34a3ae5648c1ac42937a2d82726f742d13f7e09796eb9e3fc",
+  "source_shards": 223,
+  "selected_cells": 307163,
+  "selected_umis": 7278520474,
+  "missing_requested_targets": [
+    "TAZ"
+  ],
+  "created_utc": "2026-09-20T01:48:38.221259+00:00",
+  "requested_targets": 415,
+  "observed_targets": 414,
+  "controls": 218838,
+  "perturbed_cells": 88325,
+  "guides": 1456,
+  "genes": 38606,
+  "outputs": {
+    "HEK293T_target_pseudobulk.h5ad": {
+      "size": 30698153,
+      "sha256": "fd1f43b53748884211b67d086709778044ac39bcab36129f46d22808eba03a89"
+    },
+    "HEK293T_guide_pseudobulk.h5ad": {
+      "size": 100946170,
+      "sha256": "7cbfd0db83c01f46a229b949dfc9640b00ad9c3db16fe6b7cae4f42d1c1264c2"
+    },
+    "HEK293T_batch_control_pseudobulk.h5ad": {
+      "size": 22836026,
+      "sha256": "359775ff6d0bdf38d3313b4d760402938746207d37a38f8e53234c2e0b46b4af"
+    }
+  }
+}

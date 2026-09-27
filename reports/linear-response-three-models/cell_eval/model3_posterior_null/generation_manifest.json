@@ -1,0 +1,42 @@
+{
+  "arm": "model3_posterior_null",
+  "cell_total_max": 140490,
+  "cell_total_median": 55394.0,
+  "cell_total_min": 20616,
+  "cells_per_target": 400,
+  "created_utc": "2026-09-05T23:37:17.813964+00:00",
+  "generator": "Poisson draws from converged source posterior rates",
+  "genes": 18080,
+  "inputs": {
+    "h1": {
+      "hash_inherited_from_validated_model_manifest": true,
+      "path": "data/external/vcc2025_h1/adata_Training.h5ad",
+      "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b"
+    },
+    "model3_fit": {
+      "path": "data/derived/linear_response/model3_fit.npz",
+      "sha256": "72bb04b2971364246bf7874d9ec0ab27e8d317db832e816c1611173d19410adf"
+    },
+    "model_artifact": {
+      "path": "data/derived/linear_response/model3_expected_profiles.npz",
+      "sha256": "c75442339971159c3cba008e2015f283bcee89c4aae82e1fccadcca6fccec43c"
+    }
+  },
+  "prediction": {
+    "bytes": 3618503424,
+    "path": "data/derived/linear_response/cell_h1/model3_posterior_null.h5ad",
+    "sha256": "ab347d878432e4e8f83877d271e0ce7de101ac1493c67a459aaacdb95b3c7908"
+  },
+  "seed_coordinates": "[0, 8, 2, source_order, 0, 1]",
+  "software": {
+    "anndata": "0.13.2",
+    "jax": "0.10.2",
+    "numpy": "2.5.2",
+    "python": "3.12.13",
+    "scipy": "1.18.0"
+  },
+  "source_rows": "saved fixed balanced control draw",
+  "stored_nonzeros": 451838233,
+  "targets": 126,
+  "truth_cells_read": false
+}

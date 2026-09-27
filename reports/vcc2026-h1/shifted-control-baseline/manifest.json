@@ -1,0 +1,72 @@
+{
+  "benchmark_manifest_sha256": "b3416f32ab176572e5a79dc4a3a7cd49efd08da1c48877e0cdd9350135becdf6",
+  "configuration_sha256": "e0893621789230be31d942139353568bf454bd5f168b68b5ee5ca411779d4591",
+  "controls": {
+    "path": "data/derived/vcc2026_h1/h1_controls.h5ad",
+    "sha256": "2cba34e4b28e22d03c4280c109bc222b7383a145f50a42be8e2a78e3b4452277"
+  },
+  "driver": {
+    "de_threads": 4,
+    "gene_chunk": 512,
+    "name": "bounded-memory CPU/pdex"
+  },
+  "metrics": [
+    "pds_cosine",
+    "expr_mse_unbiased",
+    "expr_mse_unbiased_capped",
+    "expr_distance_unbiased",
+    "expr_real_mass_ratio",
+    "expr_mse_unbiased_capped_norm",
+    "de_wilcoxon_lfc_nmae",
+    "de_wilcoxon_direction_fidelity_yield_raw",
+    "de_wilcoxon_direction_reach_raw",
+    "de_wilcoxon_sig_jaccard"
+  ],
+  "outputs": {
+    "aggregates": {
+      "path": "aggregates.csv",
+      "sha256": "ace2f1d8295fd6cf54337fd183fc2b1ac6fe150810a8fcf8be22f9c1454c80ef"
+    },
+    "per_target": {
+      "path": "per_target.csv",
+      "sha256": "a4b315cf9f2b6c4509a9922d7cb3768b4229fa2463c3b7849920cc805174ce2f"
+    },
+    "scores": {
+      "path": "scores.csv",
+      "sha256": "2f16097bbd242f97c258c1e0191cb9520b645fba858a89389d6daad9f74ae7ba"
+    }
+  },
+  "packages": {
+    "cell-eval2": {
+      "installed_files_sha256": "137a8653ca05474bef22017a9b999f090e61a26514f21ce1fa0518201e608e96",
+      "n_hashed_files": 61,
+      "record_sha256": "3c79215f837220e561ee3ede32fb484e0b5c6e90edf88429e2d94d132743bc39",
+      "source_commit": "5e64833518a6603a0301cbe28185d49c30f4a986",
+      "version": "0.16.0",
+      "wheel_sha256": "c78428ba705a94536e4a55464a34d1905aa5730d4f7e52ea8dbef4e7171d4fbe"
+    },
+    "pdex": {
+      "installed_files_sha256": "4322f761d39d98cd1de10321e832f3e9f01d611ca339cb4f495f541f62b906f4",
+      "n_hashed_files": 10,
+      "record_sha256": "64df092cc18c843a74ffaa86282ec1dc876661ab15fd06a0e13d29a00c5ff0c3",
+      "version": "0.3.0",
+      "wheel_sha256": "fa7d805925c5ae16e3b060390bc47c47b7f79cd162cbd6a86544963ab6a44739"
+    }
+  },
+  "prediction": {
+    "path": "shifted_control_prediction.h5ad",
+    "sha256": "b046ecd4bbab24e2f93fb29d86e59fd6d30746008ed16ef9beb3362735e12ee7"
+  },
+  "scale_bundle": {
+    "manifest_sha256": "74f7c449dd8cc56002b07b517de4fb696ccac10d3e20ba35f95faf0b3df70ee1",
+    "path": "reports/vcc2026-h1/scale"
+  },
+  "scored_metrics": [
+    "pds_cosine",
+    "expr_mse_unbiased_capped_norm",
+    "de_wilcoxon_lfc_nmae",
+    "de_wilcoxon_direction_fidelity_yield_raw",
+    "de_wilcoxon_direction_reach_raw",
+    "de_wilcoxon_sig_jaccard"
+  ]
+}

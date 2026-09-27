@@ -1,0 +1,24 @@
+{
+  "seed": 20260925,
+  "replicates": 10,
+  "null": "Independent perturbation pseudobulks sampled multinomially at observed KOLF shared-gene UMI totals, with probabilities fixed to pooled KOLF control composition. No true donor response. Controls treated as known.",
+  "limits": "Technical count-sampling diagnostic, not biological cell-split reliability. Ignores cell heterogeneity, control uncertainty, and changes in sampling variance under actual perturbations. Do not subtract it as an unbiased biological variance estimate.",
+  "inputs": {
+    "data/derived/kolf_h1_transfer_rules/profiles.npz": "a302096cdeaf34d97c00561fef12704d8b3866b1d7e0848d5b92788a78c0a601",
+    "data/derived/context_atlas/final/KOLF2.1J/KOLF2.1J_target_pseudobulk.h5ad": "cdff7f92be8779f3b203a2f239dd4076ea65184af0d31f49a617d799a46c719e",
+    "data/derived/context_atlas/final/KOLF2.1J/KOLF2.1J_manifest.json": "8203a59051537a534bb62afd52db2f61817d80bf5dbb9f6ff9879addde0c1194",
+    "data/derived/replogle_h1_transfer/effects.npz": "4906b8576fca3e4dabb466c57d2a4c582d63150d64c2956add8c87be0102a207",
+    "data/derived/replogle_h1_transfer/phase1_effects.npz": "7b09f91d4e8c8c911565a4d03be6bf02962f8af0c5052eb8e101027f4928427c"
+  },
+  "producer": {
+    "scripts/evaluation/audit_kolf_h1_transfer_mse.py": "d056765401be498146e3444e9a74972870b97865885f3579c62f49a304a42e13"
+  },
+  "outputs": {
+    "reports/kolf-h1-transfer-rules/mse-audit/source_depth.csv": "0e838dfd4dbdab9fd3493e12b6dfa4345a651886da1587d871ddab6f328d0bcb",
+    "reports/kolf-h1-transfer-rules/mse-audit/per_target.csv": "f62603a2d58bb4fb716c068bb0793080d7ddc5363e0b392765143cd874156258",
+    "reports/kolf-h1-transfer-rules/mse-audit/count_sampling_null.csv": "8702a0109b1c72de2e6855290f8d9aea0ca6fc58e61a3fbb432d2c897239a24f",
+    "reports/kolf-h1-transfer-rules/mse-audit/expression_bins.csv": "54134145095e4e2f1c0440bfc232e1c8c26f56f1c36fed88ad67055e786ab111",
+    "reports/kolf-h1-transfer-rules/mse-audit/count_sampling_null_summary.csv": "f5559a6bdb9c0c57ec00545ec3d725cced2a41eb37af5c3bfc941f7a9a00af5e",
+    "reports/kolf-h1-transfer-rules/mse-audit/decomposition.csv": "33c20e2fad738eee397b06489d63dbece4ed223578024670bbf2ae7d6e237288"
+  }
+}

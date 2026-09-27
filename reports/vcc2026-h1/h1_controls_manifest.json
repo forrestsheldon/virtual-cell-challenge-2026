@@ -1,0 +1,31 @@
+{
+  "artifact": {
+    "bytes": 537266274,
+    "compression": "lzf",
+    "csr_data_chunk": 65536,
+    "dtype": "uint32",
+    "matrix": "CSR raw counts",
+    "nnz": 334048220,
+    "obs_columns": [
+      "target_gene",
+      "guide_id",
+      "batch"
+    ],
+    "path": "data/derived/vcc2026_h1/h1_controls.h5ad",
+    "sha256": "2cba34e4b28e22d03c4280c109bc222b7383a145f50a42be8e2a78e3b4452277",
+    "shape": [
+      38176,
+      18080
+    ],
+    "var_columns": [
+      "gene_id"
+    ]
+  },
+  "created_utc": "2026-09-04T16:03:18+00:00",
+  "selection": "target_gene == 'non-targeting', retaining source-row order",
+  "source": {
+    "bytes": 15482497461,
+    "path": "data/external/vcc2025_h1/adata_Training.h5ad",
+    "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b"
+  }
+}

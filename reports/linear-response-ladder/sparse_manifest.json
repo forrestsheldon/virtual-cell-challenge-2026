@@ -1,0 +1,27 @@
+{
+  "model": "SE-scaled Laplace MAP response",
+  "truth_cells_read": false,
+  "tau_grid": [
+    0.0,
+    0.5,
+    1.0,
+    1.5,
+    2.0,
+    3.0,
+    4.0
+  ],
+  "selected_tau": 0.5,
+  "selection": "symmetric held-out-control residual variance ratio",
+  "inputs": {
+    "data/derived/linear_response/ladder/empirical.npz": "bb036ed981482918478584ab30fec7b79e2b8bfc0f0d850bf6b9ae003c73b631"
+  },
+  "outputs": {
+    "data/derived/linear_response/ladder/sparse.npz": "d0da878a62547a43b39682f524f46b79419252fb8a0c1ce6725dfc9d4f69534d",
+    "reports/linear-response-ladder/sparse_control_selection.csv": "92c4f8da6975502c1aa5cf86df5bea42467ba3e74c0371453403ad195fe0f1cf"
+  },
+  "software": {
+    "python": "3.12.13",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5"
+  }
+}

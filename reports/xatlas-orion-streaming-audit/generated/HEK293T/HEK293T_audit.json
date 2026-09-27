@@ -1,0 +1,14 @@
+{
+  "context": "HEK293T",
+  "status": "passed",
+  "hashes_verified": 3,
+  "target_rows": 415,
+  "guide_rows": 1456,
+  "batch_control_rows": 223,
+  "genes": 38606,
+  "selected_cells": 307163,
+  "selected_umis": 7278520474,
+  "target_equals_pooled_guides": true,
+  "control_equals_pooled_batches": true,
+  "integer_nonnegative_counts": true
+}

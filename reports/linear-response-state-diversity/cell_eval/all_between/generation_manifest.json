@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-09-11T16:47:39.890910+00:00",
+  "arm": "all_between",
+  "generator": "multiplicative LFC closure with unbiased dependent rounding",
+  "source_rows": "canonical all-control H1 rows, shared across every arm",
+  "rounding_stream": "SeedSequence([0,114,target_index]), shared across arms",
+  "cells_per_target": 400,
+  "inputs": {
+    "data/derived/linear_response/state_diversity/effects.npz": "0f848fa812ab8def6a0470662e5dd71c3f8ffef4f5a57547b32bed000f17538f",
+    "/Users/forrestsheldon/Library/Caches/vcc2026-h1-benchmark/h1_controls.h5ad": "9c3fafa73d6fe8fb9c0c31e4247ea0d774b81cb3d46dc17fea7b657769e8dc55"
+  },
+  "prediction": {
+    "path": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/data/derived/linear_response/state_diversity/prediction_tmp.h5ad",
+    "sha256": "9600a58e25d0ac169456f95273411c7cc753f905054132d04b71462fc5405097",
+    "bytes": 3355048704
+  },
+  "rounding_audit": {
+    "path": "reports/linear-response-state-diversity/cell_eval/all_between/rounding_audit.csv",
+    "sha256": "23b15467eb352e8278e97411b6673377d000a7a66153a5b732d2898682abd3de",
+    "mean_abs_lfc_error": 0.20360540056677895,
+    "median_pooled_count_relative_l1": 0.002560786590667025
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0"
+  }
+}

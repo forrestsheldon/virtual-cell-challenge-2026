@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-09-15T10:20:38.693079+00:00",
+  "kind": "control-only regularization of factorial PLN covariance columns",
+  "splits": "five deterministic guide-by-batch balanced cell halves",
+  "uncertainty": "repeated-half difference estimate of log-covariance sampling variance",
+  "adaptive_prior": "zero-centered normal scale mixture fitted by marginal maximum likelihood",
+  "selected_mean_lambda_cpm": 5.0,
+  "truth_cells_read": false,
+  "runtime_seconds": 48.94630229193717,
+  "inputs": {
+    "data/external/vcc2025_h1/adata_Training.h5ad": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+    "data/derived/linear_response/ladder/empirical.npz": "bb036ed981482918478584ab30fec7b79e2b8bfc0f0d850bf6b9ae003c73b631",
+    "data/derived/linear_response/sequencing_model/factorial_moment_response.npz": "2eab953fc95c3de48c6ca71619657f0b2bc812efd930c6cdb66c2df1547349f9",
+    "reports/linear-response-three-models/h1_strict_controls.csv": "9daf441a9d64cb1a07acf21791534e8e184129979c7fe05b3e92edc2eb1063cb"
+  },
+  "outputs": {
+    "data/derived/linear_response/sequencing_model/regularized_factorial_response.npz": "f4882191061feb56cbc6d9060baff42802519516cf086832f8c489748159ff7b",
+    "data/derived/linear_response/sequencing_model/regularization_control_splits.npz": "c4dba58d2e6bb9950e8444062f69a772a28dba51130b264f3e15828fba7204ab",
+    "reports/linear-response-sequencing-model/regularization_summary.csv": "c1a244f378aad20d8154c5985d8f72c0f780434346baa0bd0b49a96c138740d5",
+    "reports/linear-response-sequencing-model/regularization_by_cpm.csv": "0a2623d38661fdf71b94075616d8f8f9b42569a9c7bb54e2585beffee03241fb",
+    "reports/linear-response-sequencing-model/regularization_mixture.csv": "bf744caaa80a8cb8f2e4557d58df1b3ebedb9c413b7f8a1162fe7763a4fa1a4b",
+    "reports/linear-response-sequencing-model/regularization_split_reconstruction.csv": "9fa2b49832a971da177b549f411c2a577a0b236bceccb9b4f41747d5da5d70d1"
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0"
+  }
+}

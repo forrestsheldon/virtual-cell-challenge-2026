@@ -1,0 +1,20 @@
+{
+  "analysis": "transductive bottom-0.5%-target-expression tail estimator",
+  "pool": {
+    "cells": 80000,
+    "cells_per_hidden_perturbation": 400,
+    "control_cells": 29600,
+    "target_prior": 0.005,
+    "labels_used_by_estimator": false,
+    "labels_used_to_construct_balanced_pool_and_evaluate": true,
+    "same_cells_used_for_transductive_estimation_and_H1_reference": true
+  },
+  "selection": "exactly 400 cells with lowest observed target count fraction; seeded random tie-breaking",
+  "null": "pseudobulk profile of the entire 80,000-cell blinded pool",
+  "inputs": {
+    "data/external/vcc2025_h1/adata_Training.h5ad": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+    "reports/vcc2026-h1/reference_cells.csv": "717715d594bfd5b1345538dcb72ffe196f66e5101cc385e2f4369221a77bd1f3",
+    "data/derived/linear_response/eval_cache/de_wilcoxon_table-12f179b9e966af64.parquet": "fc8d683a3de692d767b0ee67ddf4fec845786e59bbf4a6357c442e2eaee379e6"
+  },
+  "seed": 20260917
+}

@@ -1,0 +1,7 @@
+de_bin,arm,eligible_targets,mean_nmae,median_nmae,mean_direction_agreement,targets_improved_over_control
+all,control,110,1.0,1.0,0.0,0
+all,tail,110,1.0176990782171282,1.004400253493371,0.5101630573546397,45
+weak,control,101,1.0,1.0,0.0,0
+weak,tail,101,1.0236680006800196,1.0105092311861519,0.51004416802506,41
+strong,control,78,1.0,1.0,0.0,0
+strong,tail,78,1.0055942041578791,0.9986364610346758,0.5121833616735871,43

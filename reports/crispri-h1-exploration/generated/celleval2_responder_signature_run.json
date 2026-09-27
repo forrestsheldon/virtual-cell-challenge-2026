@@ -1,0 +1,8 @@
+{
+  "created_utc": "2026-09-04T09:22:19.195275+00:00",
+  "target": "per-cell Fisher responder score, pooled over all perturbed cells, own-perturbation axis",
+  "features": "log1p-CPM over gated genes minus panel targets, standardized",
+  "method": "LARS-Lasso path, held-out R^2 on a 50/50 cell split",
+  "n_cells": 40000,
+  "n_features": 10633
+}

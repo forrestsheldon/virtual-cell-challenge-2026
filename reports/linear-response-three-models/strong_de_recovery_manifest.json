@@ -1,0 +1,53 @@
+{
+  "kind": "scale-free recovery of stable strong truth-DE genes",
+  "truth_definition": {
+    "control_cpm": ">5, inherited from frozen DE table",
+    "p_adj": "<0.05",
+    "abs_log2_fold_change": ">=0.5",
+    "target_gene_excluded": true,
+    "stability": "both 200-cell half signs match full sign in >=4/5 deterministic splits",
+    "minimum_genes_per_target": 10
+  },
+  "score": "correct-sign truth genes among top K absolute predictions, K=stable strong truth count",
+  "aggregation": "equal-weight mean over eligible perturbations",
+  "full_lfc_positive_control": {
+    "maximum_absolute_difference_from_frozen_cache": 3.3893894635372845e-14,
+    "tolerance": 1e-10
+  },
+  "null_replicates": 10000,
+  "seeds": {
+    "truth_splits": "SeedSequence(0).generate_state(5)",
+    "wrong_target": "SeedSequence([0,41,model_index])",
+    "random_gene": "SeedSequence([0,42,model_index])",
+    "bootstrap": "SeedSequence([0,43,model_index])"
+  },
+  "inputs": {
+    "data/external/vcc2025_h1/adata_Training.h5ad": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+    "reports/vcc2026-h1/reference_cells.csv": "717715d594bfd5b1345538dcb72ffe196f66e5101cc385e2f4369221a77bd1f3",
+    "data/derived/linear_response/eval_cache/de_wilcoxon_table-12f179b9e966af64.parquet": "fc8d683a3de692d767b0ee67ddf4fec845786e59bbf4a6357c442e2eaee379e6",
+    "data/derived/linear_response/model1_expected_profiles.npz": "69d9e3bee240224704e04e99e6e86315e9a8a42af13c84d20409a7e6cf505f63",
+    "data/derived/linear_response/model2_expected_profiles.npz": "36966bd4f2c9101fa6a1beb26e0f4f0aa796c96b2baad00f0eade40c85b2aeb1"
+  },
+  "outputs": {
+    "truth": {
+      "path": "reports/linear-response-three-models/strong_de_truth_genes.csv",
+      "sha256": "229e06fac02d35217687291734dd5b925633ee7df5871052bf903f8ce3db9e66"
+    },
+    "per_target": {
+      "path": "reports/linear-response-three-models/strong_de_recovery_per_target.csv",
+      "sha256": "c527a00bf040f3281a8d627d2385e897bfdb4e7a8ff0c54f19374472acae491d"
+    },
+    "summary": {
+      "path": "reports/linear-response-three-models/strong_de_recovery_summary.csv",
+      "sha256": "5ca13f256f4f52a8181cca3aa1e7b57848e5efa7249c0883cd68ca664cdf0109"
+    }
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "polars": "1.44.1",
+    "scipy": "1.18.0"
+  }
+}

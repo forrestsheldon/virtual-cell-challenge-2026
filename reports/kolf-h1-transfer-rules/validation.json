@@ -1,0 +1,7 @@
+{
+  "all_manifest_hashes_match": true,
+  "independent_log1p_inverse_matches": true,
+  "all_four_actual_profile_retrievals_match_cell_eval2_0_16_0": true,
+  "flooring_and_closure_reconstruct": true,
+  "stochastic_pseudobulks_integer_and_within_exact_support": true
+}

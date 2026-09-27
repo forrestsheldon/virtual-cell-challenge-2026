@@ -1,0 +1,50 @@
+[
+  {
+    "context": "K562_essential",
+    "selected_cells": 309610,
+    "responder_cells_in_cloud": 39291,
+    "core_GiB": 0.23561833519488573,
+    "responder_GiB": 0.32821197248995304,
+    "missing_baseline_strata": 0
+  },
+  {
+    "context": "RPE1",
+    "selected_cells": 209264,
+    "responder_cells_in_cloud": 35061,
+    "core_GiB": 0.22164899576455355,
+    "responder_GiB": 0.28416673094034195,
+    "missing_baseline_strata": 0
+  },
+  {
+    "context": "HepG2",
+    "selected_cells": 145471,
+    "responder_cells_in_cloud": 20918,
+    "core_GiB": 0.2645324356853962,
+    "responder_GiB": 0.20152364764362574,
+    "missing_baseline_strata": 86
+  },
+  {
+    "context": "Jurkat",
+    "selected_cells": 262950,
+    "responder_cells_in_cloud": 43776,
+    "core_GiB": 0.2662958661094308,
+    "responder_GiB": 0.3570759706199169,
+    "missing_baseline_strata": 0
+  },
+  {
+    "context": "HCT116",
+    "selected_cells": 346394,
+    "responder_cells_in_cloud": 171166,
+    "core_GiB": 0.39668840542435646,
+    "responder_GiB": 2.272931548766792,
+    "missing_baseline_strata": 0
+  },
+  {
+    "context": "HEK293T",
+    "selected_cells": 455287,
+    "responder_cells_in_cloud": 225815,
+    "core_GiB": 0.5560626974329352,
+    "responder_GiB": 3.8411986008286476,
+    "missing_baseline_strata": 0
+  }
+]

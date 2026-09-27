@@ -1,0 +1,38 @@
+{
+  "created_utc": "2026-09-10T15:57:05.306014+00:00",
+  "design": "paired canonical-control H1 response comparison",
+  "source_rows": {
+    "pool": "all 38,176 H1 controls",
+    "cells_per_target": 400,
+    "seed_namespace": "h1-control-baseline-v1",
+    "shared_across_arms": true
+  },
+  "effects": {
+    "global": "equal-target mean truth LFC over the other 125 perturbations",
+    "lr": "exact expected empirical LR LFC on the canonical source rows",
+    "lr_global": "global + LR in LFC space",
+    "off_panel_global_lfc": 0.0
+  },
+  "decoder": "multiplicative LFC closure with deterministic largest-remainder counts",
+  "inputs": {
+    "data/derived/linear_response/ladder/empirical.npz": "bb036ed981482918478584ab30fec7b79e2b8bfc0f0d850bf6b9ae003c73b631",
+    "reports/linear-response-ladder/downstream_amplitude_distribution.csv": "a3013dc2a4bcaefdaa1ccee7e3eeb0cc374962502d5dcb1f87ac04fa8594162c",
+    "reports/linear-response-three-models/strong_de_truth_genes.csv": "229e06fac02d35217687291734dd5b925633ee7df5871052bf903f8ce3db9e66",
+    "/Users/forrestsheldon/Library/Caches/vcc2026-h1-benchmark/benchmark/reference_cache/de_wilcoxon_table-12f179b9e966af64.parquet": "fc8d683a3de692d767b0ee67ddf4fec845786e59bbf4a6357c442e2eaee379e6",
+    "/Users/forrestsheldon/Library/Caches/vcc2026-h1-benchmark/benchmark/benchmark_manifest.json": "09169f3f9e7b03f7884de0d59e26aae959b768e4050b4b5853afe18f2fc4dddd",
+    "/Users/forrestsheldon/Library/Caches/vcc2026-h1-benchmark/h1_controls.h5ad": "9c3fafa73d6fe8fb9c0c31e4247ea0d774b81cb3d46dc17fea7b657769e8dc55"
+  },
+  "outputs": {
+    "data/derived/linear_response/ladder/paired_h1_effects.npz": "d44ff86dcb49d975bdd7155952afe88959e85dd3e4bfae00cfc59b4c2d5dee11",
+    "reports/linear-response-ladder/paired_h1_expected_per_target.csv": "00378206043e688aac7f7b3ba5607a09acb1992d9f99de09812deeedb8d9ea81",
+    "reports/linear-response-ladder/paired_h1_expected_summary.csv": "399c54f5e2ad446e29a2652bb5c56740b540f0c8aca8bcb22c024a297ae37253"
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "polars": "1.44.1",
+    "scipy": "1.18.0"
+  }
+}

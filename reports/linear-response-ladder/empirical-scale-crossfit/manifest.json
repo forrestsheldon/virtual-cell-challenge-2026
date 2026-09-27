@@ -1,0 +1,44 @@
+{
+  "analysis": "two-fold target-cross-fitted native empirical-LR scale",
+  "calibration": "mean per-target NMAE over all reference-significant DE genes",
+  "heldout_diagnostics": "all, |LFC| < 0.5 weak, and |LFC| >= 0.5 strong reference-significant genes",
+  "gene_panel": "10,780 control CPM > 5 genes; perturbed target excluded",
+  "eligibility": "at least 10 genes in the reported DE bin",
+  "target_split": {
+    "seed": 20260916,
+    "independent_of_expression_and_truth": true,
+    "fold_sizes": [
+      63,
+      63
+    ]
+  },
+  "grid": {
+    "points": 83,
+    "minimum_magnitude": 0.0,
+    "maximum_magnitude": 500.0
+  },
+  "decoder": "exact expected restricted log1p-CP10K decoder on fixed balanced 400-cell sources",
+  "inputs": {
+    "data/derived/linear_response/ladder/empirical.npz": "bb036ed981482918478584ab30fec7b79e2b8bfc0f0d850bf6b9ae003c73b631",
+    "data/derived/linear_response/eval_cache/de_wilcoxon_table-12f179b9e966af64.parquet": "fc8d683a3de692d767b0ee67ddf4fec845786e59bbf4a6357c442e2eaee379e6",
+    "data/external/vcc2025_h1/adata_Training.h5ad": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b"
+  },
+  "outputs": {
+    "reports/linear-response-ladder/empirical-scale-crossfit/fold_curves.csv": "60cb22d8063b2c3e203822617952c4aae74672ba9e59d8624315441455d0456b",
+    "reports/linear-response-ladder/empirical-scale-crossfit/fold_selection.csv": "ca5ee1196674b8d7fe5aea9d5610ef0b0bb676e7e2734105a5e0032a6108cdd2",
+    "reports/linear-response-ladder/empirical-scale-crossfit/per_target.csv": "d191e4976d77e747bec212b4388428a79c49e65d926f3b8feeb360bdc6393d84",
+    "reports/linear-response-ladder/empirical-scale-crossfit/summary.csv": "113e4ecc439504ddaccc053c2dc4e46fb2c217f1cdd36310a46f4696cb098bdb",
+    "reports/linear-response-ladder/empirical-scale-crossfit/fold_bin_summary.csv": "bf7ad3671f85d2a38ec6ad3152308627747bdd26b8ed90d1dd9eae7d46669c06",
+    "reports/linear-response-ladder/empirical-scale-crossfit/all_target_refit.csv": "d6d439aa6571c066bb77a0fd3f500d4e0df08966a1f2b4df523015ca882725ef",
+    "reports/linear-response-ladder/empirical-scale-crossfit/crossfit_full_de_scale.png": "65a8ab66cbd1f2b0bbe4e4a1d7613ebbd397acdcc6a4ce870b2989ae8bae03e2",
+    "reports/linear-response-ladder/empirical-scale-crossfit/exact_native_grid_checkpoint.npz": "435182bc7a58ba5cd577e68385412a0d167066b10258b51084fb37ecd584da6e"
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "polars": "1.44.1"
+  }
+}

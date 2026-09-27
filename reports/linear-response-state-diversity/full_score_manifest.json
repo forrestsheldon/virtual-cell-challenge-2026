@@ -1,0 +1,45 @@
+{
+  "models": [
+    "Generator null",
+    "Control-only LR",
+    "All states: within",
+    "All states: between",
+    "All states: combined",
+    "Cross-fit: within",
+    "Cross-fit: between",
+    "Cross-fit: combined"
+  ],
+  "score": "unweighted mean of six scaled H1 metric scores",
+  "inputs": {
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-three-models/cell_eval/standalone_control_baseline/scores.csv": "bf20744395b99324315abdf70310301b4af8e816794b601d35e53a2d032edbaf",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-three-models/cell_eval/standalone_control_baseline/aggregates.csv": "dd3c9155a3eef5a4a6f758aaa29bff8da00c68266c6e0d19ade1696b15eaff20",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/control/scores.csv": "349a24be854dfd28f66359b45aef1d808282f674564821d1ac647834463a3b2e",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/control/aggregates.csv": "eb8963b2cd033999471ed20246f5b6c963ba5b9c14d8205229a9652c196573e6",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/all_within/scores.csv": "fcce6a55680aef43ff68579882c1dcb86ad12042077ac3ca931f2978b7f03830",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/all_within/aggregates.csv": "0cb4eb3dbd0318923c038c4f82c90acca017528e513cb88e3fe24df22ec1b5dc",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/all_between/scores.csv": "a48d55470c87e17a012e97690696bc2545f88b006f1f862694b325d706f4321b",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/all_between/aggregates.csv": "b5b64a35fb1e9a5832193a37a2de62f66c40bf7847ff9e54057b43461b65ad64",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/all_combined/scores.csv": "578b6d7046f34f94a7ec3c3e2034029658c71d2df09a995ab0c25b8ecced2523",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/all_combined/aggregates.csv": "fea38399d654fa9185e872fdf15c02e16675789e214ddb8f6666e0cbd76d73a1",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/crossfit_within/scores.csv": "19b61f463215382a010017a7ef9463dd979d055fb0436e14b2f7d0ea463f81c8",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/crossfit_within/aggregates.csv": "7ce6dcc2288921b552be71b0742147e0f4b79005e4f2e44a9baa9fe88b8821cb",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/crossfit_between/scores.csv": "19fdf09a958a911fe4dd73480ce7b0c6f640aebbf5568ee3cf4605614a07d4f4",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/crossfit_between/aggregates.csv": "8167287b8b6d4092ce48d297c23e900a783c7bdc9204197d4b11d643c53fe383",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/crossfit_combined/scores.csv": "5266f23510da7a624f3a4353ec916607ba9554d63cc711827fe31e46e4050e51",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/crossfit_combined/aggregates.csv": "72708cdd00a4edf1296abbab79966b1cff986e0dd3203a907454c8041412e1b1",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/control/rounding_audit.csv": "a6c6e2dbbe4877f3b88458f78a1a4effa19e3ec9054e80cf9b08ff893193cb41",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/all_within/rounding_audit.csv": "9b4e2860087001c6dbf74b54e120b9bd5ff06d45a2982ebbf8eb41ccc7d58aa1",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/all_between/rounding_audit.csv": "23b15467eb352e8278e97411b6673377d000a7a66153a5b732d2898682abd3de",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/all_combined/rounding_audit.csv": "c1726c5e529c62874a64a6522db748e6f291937df012676022fac87da17c39fd",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/crossfit_within/rounding_audit.csv": "7586330cfbf157091b3d4c451d5ecad653fc445b8be6b7776c491498c0aa0760",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/crossfit_between/rounding_audit.csv": "3ba2bf9d28fe17cf4abdd149447516c3a779b7dca8427ccb1ecb7377eb7280fe",
+    "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/linear-response-state-diversity/cell_eval/crossfit_combined/rounding_audit.csv": "ac74333b192f0451f4085d598376f9e6a0d40326dfdf76d8237fd6ec73bb1bcd"
+  },
+  "outputs": {
+    "reports/linear-response-state-diversity/full_scores.csv": "aa7c4c5f35883508a34580e7000f22fdca181d69a5679346114aa3977d39b085",
+    "reports/linear-response-state-diversity/full_score_deltas.csv": "2be012d0ab4ff056b93b518325d773a50147048bd2932babcb8771bb2ccfb3eb",
+    "reports/linear-response-state-diversity/full_aggregates.csv": "101d8f70663dde54b5c8dd2a3e7774bd0b6ff6659b000306cd37ad6490c8abd8",
+    "reports/linear-response-state-diversity/rounding_audit_summary.csv": "5f0d1a8a1e1542fea3238f0a00c521f25f9760e3fe9f0b85841442b6e5178e2d",
+    "reports/linear-response-state-diversity/full_scores.png": "d33b0d61180a68111baf707f65022e001b15f4601a7699c45f0af32fca941606"
+  }
+}

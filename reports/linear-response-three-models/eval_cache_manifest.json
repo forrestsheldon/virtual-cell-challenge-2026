@@ -1,0 +1,21 @@
+{
+  "benchmark_manifest_sha256": "b3416f32ab176572e5a79dc4a3a7cd49efd08da1c48877e0cdd9350135becdf6",
+  "created_utc": "2026-09-04T08:00:10.486638+00:00",
+  "destination": "data/derived/linear_response/eval_cache",
+  "files": {
+    "de_wilcoxon_rank-9b3a563ce76778e0.parquet": "70b4f2c6fd392766893c41ae5bf3a598fde96ffa7a2abdce24575107f06bcf9a",
+    "de_wilcoxon_table-12f179b9e966af64.parquet": "fc8d683a3de692d767b0ee67ddf4fec845786e59bbf4a6357c442e2eaee379e6",
+    "manifest.json": "6e0ef6d50d11a141f3dbbaa7a52fd96fed83f198f862b4d06ed1c57648eba548",
+    "pseudobulk_moments_bulk_lognorm-1727b80e036f9c63.moments.npz": "5b1870c24aedac7714ddb39472867ab9f23279df010ebea47e20a5763f6011f6",
+    "replicate_anchor-d14392d83f8e3c33.json": "4288a0b2caf5be517cc14783be0df9af187a39ee073d7132ba6427f007e034dc"
+  },
+  "purpose": "isolated immutable snapshot for sequential linear-response H1 scoring",
+  "scale_manifest_sha256": "74f7c449dd8cc56002b07b517de4fb696ccac10d3e20ba35f95faf0b3df70ee1",
+  "source": "data/derived/vcc2026_h1/reference_cache",
+  "verification": {
+    "cache_manifest_complete": true,
+    "canonical_benchmark_files_match": true,
+    "copy_hashes_match": true,
+    "source_lock_holder_checked_externally": true
+  }
+}

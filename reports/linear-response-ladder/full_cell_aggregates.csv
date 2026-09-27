@@ -1,0 +1,31 @@
+arm,metric,aggregation,n_targets,raw_value,scored
+Unchanged controls,pds_cosine,mean,126,0.4853333333333333,True
+Unchanged controls,expr_mse_unbiased,mean,126,0.0022547137023222,False
+Unchanged controls,expr_mse_unbiased_capped,mean,126,0.0022617679852636,False
+Unchanged controls,expr_distance_unbiased,mean,126,0.0022567076502434,False
+Unchanged controls,expr_real_mass_ratio,mean,126,1.0,False
+Unchanged controls,expr_mse_unbiased_capped_norm,ratio_of_sums,126,1.0022423529338131,True
+Unchanged controls,de_wilcoxon_lfc_nmae,mean,110,1.005044996558229,True
+Unchanged controls,de_wilcoxon_direction_fidelity_yield_raw,mean,126,3.67214926595e-05,True
+Unchanged controls,de_wilcoxon_direction_reach_raw,mean,126,0.0271469705195904,True
+Unchanged controls,de_wilcoxon_sig_jaccard,mean,126,1.1278254848e-06,True
+Matched-source generator null,pds_cosine,mean,126,0.4935238095238095,True
+Matched-source generator null,expr_mse_unbiased,mean,126,0.002261771247963,False
+Matched-source generator null,expr_mse_unbiased_capped,mean,126,0.0025101064933698,False
+Matched-source generator null,expr_distance_unbiased,mean,126,0.0022567076502434,False
+Matched-source generator null,expr_real_mass_ratio,mean,126,1.0,False
+Matched-source generator null,expr_mse_unbiased_capped_norm,ratio_of_sums,126,1.1122869606522348,True
+Matched-source generator null,de_wilcoxon_lfc_nmae,mean,110,1.0030568970753309,True
+Matched-source generator null,de_wilcoxon_direction_fidelity_yield_raw,mean,126,0.4905459834788613,True
+Matched-source generator null,de_wilcoxon_direction_reach_raw,mean,126,0.0860526571891647,True
+Matched-source generator null,de_wilcoxon_sig_jaccard,mean,126,0.0855740174816425,True
+Calibrated empirical response,pds_cosine,mean,126,0.5198095238095238,True
+Calibrated empirical response,expr_mse_unbiased,mean,126,0.0036786527354591,False
+Calibrated empirical response,expr_mse_unbiased_capped,mean,126,0.0039242452378854,False
+Calibrated empirical response,expr_distance_unbiased,mean,126,0.0022567076502434,False
+Calibrated empirical response,expr_real_mass_ratio,mean,126,1.0,False
+Calibrated empirical response,expr_mse_unbiased_capped_norm,ratio_of_sums,126,1.7389249500094632,True
+Calibrated empirical response,de_wilcoxon_lfc_nmae,mean,110,1.038922794333627,True
+Calibrated empirical response,de_wilcoxon_direction_fidelity_yield_raw,mean,126,0.4983083216426721,True
+Calibrated empirical response,de_wilcoxon_direction_reach_raw,mean,126,0.0887099340267559,True
+Calibrated empirical response,de_wilcoxon_sig_jaccard,mean,126,0.1032033142462425,True

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "context": "HCT116",
+  "manifest_sha256": "9585b440294c0224d335ffd952202074353f48ff8602b09e5d7438279f9cb683",
+  "selected_cells": 346394,
+  "retained_cells": 171166,
+  "reference_constructs_exact": 1455,
+  "independent_full_source_reaggregation": true,
+  "responder_source_rows_exact": true,
+  "file_sha256s_verified": true,
+  "control_role_margins_exact": true,
+  "missing_baseline_strata": 0,
+  "promotion": "not performed"
+}

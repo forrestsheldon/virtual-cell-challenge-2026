@@ -1,0 +1,45 @@
+{
+  "date": "2026-09-24",
+  "status": "phase_A_checks_passed; phase_B_not_authorized",
+  "project": "bold-bastion-509200-f9",
+  "resources_created": [],
+  "cloud_objects_written": [],
+  "local_artifact_hashes_verified": 14,
+  "xatlas_manifest_counts": {
+    "HCT116": 109,
+    "HEK293T": 223
+  },
+  "negative_checks": [
+    "one-cell count mismatch rejected",
+    "n=3 cannot make four nonempty round-robin splits",
+    "HTTP 200 response refused before reading body",
+    "range budget enforced before network"
+  ],
+  "source_range_bytes_including_trials": 179502975,
+  "checks": [
+    "source metadata count reconstruction",
+    "source identity MD5/LFS metadata",
+    "quantitative report arithmetic",
+    "control identity role disjointness",
+    "ruff on both new scripts",
+    "Python syntax compilation"
+  ],
+  "files": {
+    "reports/context-transfer-blog/split-artifact-preflight.md": {
+      "bytes": 24652,
+      "sha256": "cfc7d3889eee8e224626392383d3806988e9af61f392526c9d16d44302272a67"
+    },
+    "reports/context-transfer-blog/split-artifact-preflight.json": {
+      "bytes": 3197258,
+      "sha256": "5eb8ce7975ebcb3699ef59154400f45e64b77ac73c73690a96c4250f71e002a0"
+    },
+    "scripts/analysis/preflight_split_metadata.py": {
+      "bytes": 6901,
+      "sha256": "7f6d6b8669e2d42c8d4a00eb4ad5f8f66393c5cce431081e353c1bfc85d18b78"
+    },
+    "scripts/analysis/summarize_split_preflight.py": {
+      "bytes": 24726,
+      "sha256": "e7ae623c5d3eb38e704a49b3cd8a312525e32665058b9d85e55538f83dfa3310"
+    }
+  }
+}

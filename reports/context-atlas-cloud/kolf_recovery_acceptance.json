@@ -1,0 +1,21 @@
+{
+  "canonical_target_rows": 395,
+  "control_channel_pseudobulk_sha256": "de98dcf5f632937c28645ca3421bb4f364c638268b21ce76a32977ad3aa41a9a",
+  "effects_sha256": "42621c7dd24ee44c290f90aefcf600e99ce3fdbf7aad4387c6cfa6b8e407ad74",
+  "guide_pseudobulk_sha256": "fa5214998f0c13fb699e28a61b681994b23a790aa9e8052c42851034a99d603d",
+  "h1_targets": 123,
+  "h1_view_rows": 124,
+  "h1_view_sha256": "2d4f785e86f83ba0b21b594fd1b8a613f1db2d706749dcc7f675cd36b994c383",
+  "manifest_sha256": "8203a59051537a534bb62afd52db2f61817d80bf5dbb9f6ff9879addde0c1194",
+  "old_rows_exactly_reproduced": {
+    "_control_channel_pseudobulk.h5ad": 90,
+    "_guide_pseudobulk.h5ad": 1793,
+    "_target_batch_pseudobulk.h5ad": 285,
+    "_target_pseudobulk.h5ad": 283
+  },
+  "shared_response_genes": 17603,
+  "source_cell_counts_match": true,
+  "status": "passed",
+  "target_batch_pseudobulk_sha256": "1f5cfd666f9b9480bc3089d4a6e3a0457e9fecda7b49047fd1d5ffe3e12aa857",
+  "target_pseudobulk_sha256": "cdff7f92be8779f3b203a2f239dd4076ea65184af0d31f49a617d799a46c719e"
+}

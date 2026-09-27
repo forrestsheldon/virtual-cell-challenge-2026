@@ -1,0 +1,66 @@
+{
+  "benchmark_manifest_sha256": "09169f3f9e7b03f7884de0d59e26aae959b768e4050b4b5853afe18f2fc4dddd",
+  "configuration_sha256": "e0893621789230be31d942139353568bf454bd5f168b68b5ee5ca411779d4591",
+  "controls": {
+    "path": "/Users/forrestsheldon/Library/Caches/vcc2026-h1-benchmark/h1_controls.h5ad",
+    "sha256": "9c3fafa73d6fe8fb9c0c31e4247ea0d774b81cb3d46dc17fea7b657769e8dc55"
+  },
+  "driver": {
+    "de": false,
+    "name": "bounded-memory H1 fast scorer",
+    "scale_adapter": "unused DE columns copied from the frozen baseline only to satisfy the complete bundle schema; all DE rows and avg_score discarded"
+  },
+  "metrics": [
+    "pds_cosine",
+    "expr_mse_unbiased",
+    "expr_mse_unbiased_capped",
+    "expr_distance_unbiased",
+    "expr_real_mass_ratio",
+    "expr_mse_unbiased_capped_norm"
+  ],
+  "mode": "fast",
+  "outputs": {
+    "aggregates": {
+      "path": "aggregates.csv",
+      "sha256": "f39c427b6be3dacb98c425f21af21961275ba8ba80d5f649474481e047d1cb44"
+    },
+    "per_target": {
+      "path": "per_target.csv",
+      "sha256": "5a18b5e0402b59bd4b840edca6147f7550790e0ff4b23381bd6d06d1cd178618"
+    },
+    "scores": {
+      "path": "scores.csv",
+      "sha256": "68fffaf37cb224011b55c4b85a73df4f33d8265132290a0adff42301b1d54145"
+    }
+  },
+  "packages": {
+    "cell-eval2": {
+      "installed_files_sha256": "9a868c77a6bc85a7e41903774648c580ffd2ea96c341c47df5eab51110e4e5a0",
+      "n_hashed_files": 61,
+      "record_sha256": "2b4fb23d7b9c7b5a5173ed36a01ebaadd7daf9843743a70d7a41fa4600fc72f4",
+      "source_commit": "5e64833518a6603a0301cbe28185d49c30f4a986",
+      "version": "0.16.0",
+      "wheel_sha256": "c78428ba705a94536e4a55464a34d1905aa5730d4f7e52ea8dbef4e7171d4fbe"
+    },
+    "pdex": {
+      "installed_files_sha256": "e79d91960b3c707447c3c7e55cd77bd693162677ab1353816cdaa15f48d5d87c",
+      "n_hashed_files": 10,
+      "record_sha256": "f30c5c69f95bf1acaedf73b69759ff6169ab1ea3ecb5345199614cd98b3f47a1",
+      "version": "0.3.0",
+      "wheel_sha256": "fa7d805925c5ae16e3b060390bc47c47b7f79cd162cbd6a86544963ab6a44739"
+    }
+  },
+  "partial_avg_score_emitted": false,
+  "prediction": {
+    "path": "study_avg_scaled.h5ad",
+    "sha256": "2d1e346e8d3f05effffd6727f4cb9e78fe8654b0a8aa2a020c9362edb6810d3c"
+  },
+  "scale_bundle": {
+    "manifest_sha256": "74f7c449dd8cc56002b07b517de4fb696ccac10d3e20ba35f95faf0b3df70ee1",
+    "path": "/Users/forrestsheldon/Library/Caches/vcc2026-h1-benchmark/benchmark/scale"
+  },
+  "scored_metrics": [
+    "expr_mse_unbiased_capped_norm",
+    "pds_cosine"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "model": "restricted empirical covariance response",
+  "truth_cells_read": false,
+  "controls": {
+    "strict": 32616,
+    "all": 38176
+  },
+  "genes": {
+    "output": 10780,
+    "fit": 10783
+  },
+  "targets": 126,
+  "normalization": "per-cell log1p CP10K; raw-count sensitivity unnormalized",
+  "response": "minus covariance column divided by target variance",
+  "panel_provenance_note": "This artifact was first materialized from the unique sorted feature list in the frozen DE table. The final model script instead reads the control-only CPM panel. The two ordered 10,780-gene lists were independently checked as identical with zero symmetric difference; see panel_source_equivalence.csv.",
+  "verified_equivalent_control_only_panel": {
+    "path": "reports/crispri-h1-exploration/generated/celleval2_shift_genes.csv",
+    "sha256": "b0f0d2d6874b423ddd3d3e62b29b10672d4b5bb8af745fd492bbcb8cc292de17"
+  },
+  "inputs": {
+    "data/external/vcc2025_h1/adata_Training.h5ad": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+    "data/derived/linear_response/eval_cache/de_wilcoxon_table-12f179b9e966af64.parquet": "fc8d683a3de692d767b0ee67ddf4fec845786e59bbf4a6357c442e2eaee379e6",
+    "data/derived/linear_response/model1_expected_profiles.npz": "69d9e3bee240224704e04e99e6e86315e9a8a42af13c84d20409a7e6cf505f63",
+    "reports/linear-response-three-models/h1_strict_controls.csv": "9daf441a9d64cb1a07acf21791534e8e184129979c7fe05b3e92edc2eb1063cb"
+  },
+  "outputs": {
+    "data/derived/linear_response/ladder/empirical.npz": "bb036ed981482918478584ab30fec7b79e2b8bfc0f0d850bf6b9ae003c73b631",
+    "reports/linear-response-ladder/empirical_fit_diagnostics.csv": "76272e33b887041538febd70cf030279c286c75c231aa2de286056f2f0445f8f"
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "polars": "1.44.1",
+    "scipy": "1.18.0"
+  }
+}

@@ -1,0 +1,7 @@
+metric,aggregation,n_targets,raw_value,scored
+pds_cosine,mean,126,0.49898412698412686,true
+expr_mse_unbiased,mean,126,0.00191474405856025,false
+expr_mse_unbiased_capped,mean,126,0.00225661435622942,false
+expr_distance_unbiased,mean,126,0.00225670765024340,false
+expr_real_mass_ratio,mean,126,1.00000000000000000,false
+expr_mse_unbiased_capped_norm,ratio_of_sums,126,0.99995865923795435,true

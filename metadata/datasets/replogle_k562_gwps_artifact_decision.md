@@ -1,8 +1,18 @@
 # Replogle K562 GWPS artifact decision
 
-Last verified: **2026-08-21**. Neither artifact was downloaded. Exact sizes came
-from repository APIs; structure and selected values were inspected through
-HTTP byte ranges without saving either H5AD.
+Last verified: **2026-08-21**. At that audit, neither compared single-cell
+artifact was downloaded. Exact sizes came from repository APIs; structure and
+selected values were inspected through HTTP byte ranges without saving either
+H5AD.
+
+Local download status, **2026-09-18**: the recommended scPerturb single-cell
+artifact is present at
+`data/external/replogle2022/ReplogleWeissman2022_K562_gwps.h5ad`. The author raw
+pseudobulk `K562_gwps_raw_bulk_01.h5ad` was also downloaded from Figshare file
+35774443 to the same directory. Its verified size is **374,587,922 bytes**, its
+verified MD5 is `4570b53c9d62ff6df281e622f0350060`, and its matrix shape is
+**11,258 pseudobulk populations x 8,248 genes**. The normalized pseudobulk was
+not downloaded.
 
 ## Compared artifacts
 

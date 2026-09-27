@@ -1,0 +1,31 @@
+{
+  "construct_handling": "pool target-transcript dual-guide populations by summing reconstructed counts",
+  "created_utc": "2026-09-18T20:40:06+00:00",
+  "h1_global_eligibility": "diagnostic transductive ceiling only",
+  "inputs": {
+    "/Users/forrestsheldon/Library/Caches/vcc2026-h1-benchmark/h1_controls.h5ad": "9c3fafa73d6fe8fb9c0c31e4247ea0d774b81cb3d46dc17fea7b657769e8dc55",
+    "data/derived/linear_response/eval_cache/de_wilcoxon_table-12f179b9e966af64.parquet": "fc8d683a3de692d767b0ee67ddf4fec845786e59bbf4a6357c442e2eaee379e6",
+    "data/derived/replogle_h1_transfer/effects.npz": "4906b8576fca3e4dabb466c57d2a4c582d63150d64c2956add8c87be0102a207",
+    "reports/linear-response-three-models/strong_de_truth_genes.csv": "229e06fac02d35217687291734dd5b925633ee7df5871052bf903f8ce3db9e66"
+  },
+  "missing_target_fallback": "zero source residual; source-global arms retain the equal-target source-global effect",
+  "outputs": {
+    "data/derived/replogle_h1_transfer/phase1_effects.npz": "7b09f91d4e8c8c911565a4d03be6bf02962f8af0c5052eb8e101027f4928427c",
+    "reports/replogle-h1-transfer/phase1/expected_per_target.csv": "503fa5c16edabeb23fbad2381036951b376c029ff2a21525b8cc1f4643fb6a37",
+    "reports/replogle-h1-transfer/phase1/expected_summary.csv": "a9ec07b50aa0258aa95a3b751f854129164090c6484ca6bb29b6506ea37739cf",
+    "reports/replogle-h1-transfer/phase1/wrong_target_reference.csv": "065ab371bd7ddcfdc1d1f0c21857b3098a45b338ab0b83d9030863f72f70e9b9"
+  },
+  "producer": {
+    "path": "scripts/evaluation/prepare_replogle_h1_phase1.py",
+    "sha256": "6f304364b2732c0bfa773aa4c497c0fd504e740106327534c583fc93280f84ea"
+  },
+  "software": {
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "polars": "1.44.1",
+    "python": "3.12.13",
+    "scipy": "1.18.0"
+  },
+  "stage": "Phase 1 expected-effect evaluation"
+}

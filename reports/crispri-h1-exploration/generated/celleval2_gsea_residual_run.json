@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-09-04T14:49:13.969018+00:00",
+  "ranking": "Systema shift; residual = shift - (shift.a_hat) a_hat (shared axis removed)",
+  "libraries": {
+    "per_perturbation": "GO_Biological_Process_2023",
+    "shared_axis": [
+      "GO_Biological_Process_2023",
+      "Reactome_Pathways_2024"
+    ]
+  },
+  "fdr_threshold": 0.1,
+  "n_perturbations": 150,
+  "n_specific_hits": 1830
+}

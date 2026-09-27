@@ -1,0 +1,42 @@
+{
+  "arm": "model2",
+  "cell_total_max": 338047,
+  "cell_total_median": 54577.0,
+  "cell_total_min": 19982,
+  "cells_per_target": 400,
+  "created_utc": "2026-09-04T08:30:43.417697+00:00",
+  "generator": "multinomial decoder preserving each source-cell total",
+  "genes": 18080,
+  "inputs": {
+    "closure": {
+      "path": "reports/linear-response-three-models/model2_on_target_closure.csv",
+      "sha256": "85e45ab3604a879b4d084d3ad6bd17ef4fc7ec7447eb278eb239859ef3ba312e"
+    },
+    "h1": {
+      "hash_inherited_from_validated_model_manifest": true,
+      "path": "data/external/vcc2025_h1/adata_Training.h5ad",
+      "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b"
+    },
+    "model_artifact": {
+      "path": "data/derived/linear_response/model2_expected_profiles.npz",
+      "sha256": "36966bd4f2c9101fa6a1beb26e0f4f0aa796c96b2baad00f0eade40c85b2aeb1"
+    }
+  },
+  "prediction": {
+    "bytes": 2998729472,
+    "path": "data/derived/linear_response/cell_h1/model2.h5ad",
+    "sha256": "7863b32ae7b01628820d3193cd98bd9a5631955ac7dac13b549a208755d0987e"
+  },
+  "seed_coordinates": "[0, 8, 1, source_order, 0, 0]",
+  "software": {
+    "anndata": "0.13.2",
+    "jax": "0.10.2",
+    "numpy": "2.5.2",
+    "python": "3.12.13",
+    "scipy": "1.18.0"
+  },
+  "source_rows": "saved fixed balanced control draw",
+  "stored_nonzeros": 374366995,
+  "targets": 126,
+  "truth_cells_read": false
+}

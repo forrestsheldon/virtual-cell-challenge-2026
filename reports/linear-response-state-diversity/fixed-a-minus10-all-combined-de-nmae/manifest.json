@@ -1,0 +1,28 @@
+{
+  "analysis": "weak and strong DE NMAE for native all_combined LR at fixed a=-10",
+  "operator": "all_combined",
+  "ordering": "ascending total significant DE gene count, then target name",
+  "bins": {
+    "weak": "reference-significant and |LFC| < 0.5",
+    "strong": "reference-significant and |LFC| >= 0.5",
+    "minimum_genes_for_curve": 10
+  },
+  "inputs": {
+    "data/derived/linear_response/ladder/empirical.npz": "bb036ed981482918478584ab30fec7b79e2b8bfc0f0d850bf6b9ae003c73b631",
+    "data/derived/linear_response/state_diversity/state_balanced_covariance.npz": "200ea2cb7ae56587b1b5984a503873e72d670ba67c8cee5e9bcc00ebb0f11158",
+    "data/derived/linear_response/eval_cache/de_wilcoxon_table-12f179b9e966af64.parquet": "fc8d683a3de692d767b0ee67ddf4fec845786e59bbf4a6357c442e2eaee379e6",
+    "data/external/vcc2025_h1/adata_Training.h5ad": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b"
+  },
+  "outputs": {
+    "reports/linear-response-state-diversity/fixed-a-minus10-all-combined-de-nmae/per_target.csv": "e5de606368547ed333f95ffd494b3ec51f49a6e5ad33b38edf768b5e399b5101",
+    "reports/linear-response-state-diversity/fixed-a-minus10-all-combined-de-nmae/summary.csv": "0016b10bfc11797f32f801528628387b7b6da9dc6b7812a35852d83daa94262b",
+    "reports/linear-response-state-diversity/fixed-a-minus10-all-combined-de-nmae/weak_strong_nmae_by_de_count.png": "042b3c91924459389e470f19dab0c6fcb916efe48436eb84d6cb6c865711ae2d"
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5"
+  }
+}

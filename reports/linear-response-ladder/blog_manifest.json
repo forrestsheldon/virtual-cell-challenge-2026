@@ -1,0 +1,115 @@
+{
+  "kind": "linear-response ladder blog tables and figures",
+  "blog": "/Users/forrestsheldon/Projects/forrestsheldon.github.io/virtual-cell/posts/draft6-baselines I: Linear Response/ladder-results.qmd",
+  "inputs": {
+    "reports/linear-response-ladder/direction_fidelity_summary.csv": "c484cda90512bcf5465ceec5c3d0b2cc545f359881589184f0956e007562ac74",
+    "reports/linear-response-ladder/direction_fidelity_per_target.csv": "5e47d8ba71437e5008e346297bf91c47f6d610775e2995b400751bd030a9b770",
+    "reports/linear-response-ladder/downstream_amplitude_distribution.csv": "a3013dc2a4bcaefdaa1ccee7e3eeb0cc374962502d5dcb1f87ac04fa8594162c",
+    "reports/linear-response-ladder/global_axis_comparison.csv": "25af3797f643daa2ad18ce54d2c0fdf508f6ed832722b9047269c77a3291e9a3",
+    "reports/linear-response-three-models/forcing_ceiling_summary.csv": "f7329405130ba171243a756feba7939e9d41e7df8672fcaf42f1b395b59371e2",
+    "reports/linear-response-ladder/full_cell_scores.csv": "5882112808612c932f9da7ec028d73763911f7a7d394cf9d1193e85319d9a333",
+    "reports/linear-response-ladder/full_cell_manifest.json": "3320b04cc3f37aaa9ab6db19971bae8013874fa023289d6cc20f20a44294f594"
+  },
+  "figures": {
+    "naive": {
+      "path": "reports/linear-response-ladder/figures/naive_comparison.png",
+      "sha256": "97dfffc51eab5c1e82da1df1c31d80a72d405cc5321ed0ad91e63ee3ba70f189"
+    },
+    "overview": {
+      "path": "reports/linear-response-ladder/figures/per_target_overview.png",
+      "sha256": "d85afcefa79aed6930dcae32256d3a69c9f49eaeb1f14abbaf415a043f32501b"
+    },
+    "forcing": {
+      "path": "reports/linear-response-ladder/figures/forcing_ceiling.png",
+      "sha256": "6fc9e427b699e857cf2e53091381d4c9f8086391d6635ebfc26275782c34cbae"
+    },
+    "amplitude": {
+      "path": "reports/linear-response-ladder/figures/downstream_amplitude.png",
+      "sha256": "9451b25e0b2b50edc9485a6ceb0bb32b232d48a63f70b005f038fc2e2993d074"
+    },
+    "magnitude": {
+      "path": "reports/linear-response-ladder/figures/crossfit_oracle_magnitude.png",
+      "sha256": "50401d33d832386e9cdead29c5d89cc3149aed64e7ede90e7f0f4940d76e7d76"
+    },
+    "variants": {
+      "path": "reports/linear-response-ladder/figures/variant_direction_fidelity.png",
+      "sha256": "9416c447501a4ea2bc9b51e15843ef900992747d9edd746a44f95d28e0a6223c"
+    },
+    "selection": {
+      "path": "reports/linear-response-ladder/figures/control_only_selection.png",
+      "sha256": "63d8ac081982994af7c7a0a66cb49ff2fa12db1500dacd8d408c0e4199e4b553"
+    },
+    "global": {
+      "path": "reports/linear-response-ladder/figures/global_axis.png",
+      "sha256": "5310e4ed4b4e6a050460e02505b30c12a327997313698b7c88d8020ff01c8549"
+    },
+    "targets": {
+      "path": "reports/linear-response-ladder/figures/per_target_fidelity.png",
+      "sha256": "00b0efd6a6c4a939f658dcdfe7ec40d8d6f9a6bff40441cdcf820bf3bc5be4fa"
+    },
+    "full_cell_score_comparison": {
+      "path": "reports/linear-response-ladder/figures/full_cell_score_comparison.png",
+      "sha256": "fbf5d528c911f08f6996684e04a05c32b7c655525c537e472291d24e1f5b8a62"
+    },
+    "full_cell_per_target": {
+      "path": "reports/linear-response-ladder/figures/full_cell_per_target.png",
+      "sha256": "e000e6ec4b0e80a8e49f7387d7251009ec09a887b44541ec3577a0fcdd2591eb"
+    }
+  },
+  "tables": {
+    "naive_expected_comparison": {
+      "path": "reports/linear-response-ladder/naive_expected_comparison.csv",
+      "sha256": "3ce02b4372b770f649f2eeea041646348f5995778d53c628ee184af2c3e59299"
+    },
+    "existing_cell_score_audit": {
+      "path": "reports/linear-response-ladder/existing_cell_score_audit.csv",
+      "sha256": "d991ba2e3ecfcdb9693a3033063abee425639b43712a98e8fd41e23cc2750606"
+    },
+    "forcing_ceiling_blog": {
+      "path": "reports/linear-response-ladder/forcing_ceiling_blog.csv",
+      "sha256": "9a8751789cf1c1424e0bfab42aa6378bb9b14d18b6555a0f29e45965b49762f7"
+    },
+    "amplitude_summary": {
+      "path": "reports/linear-response-ladder/amplitude_summary.csv",
+      "sha256": "e761a617c24cae401bb6e3395b4de0491118e20a62bb2efc0bb4ae962ea3e574"
+    },
+    "magnitude_transfer": {
+      "path": "reports/linear-response-ladder/magnitude_transfer.csv",
+      "sha256": "28ddca979680de04e85d50ff5f3d70443e131bd6909782d170c46b791543ac78"
+    },
+    "metric_definition": {
+      "path": "reports/linear-response-ladder/metric_definition.csv",
+      "sha256": "4bef5c33656f6b7d5b054341b23cce28b40e2aed6bbce749092de8703eafaacc"
+    },
+    "direction_fidelity_calibration": {
+      "path": "reports/linear-response-ladder/direction_fidelity_calibration.csv",
+      "sha256": "c7b6691ff82d75822867132928e3275ab8aa8ccd359652c554a6ed43d48a690b"
+    },
+    "random_operator_controls": {
+      "path": "reports/linear-response-ladder/random_operator_controls.csv",
+      "sha256": "97a6d2948b23d74301bce58427290788a56145bc05b122e36937f60a3e3aa863"
+    },
+    "variant_summary": {
+      "path": "reports/linear-response-ladder/variant_summary.csv",
+      "sha256": "70bb5e2a8f33fe0f55885381b1833b8a2548bf23366319964b5d32be86d6102a"
+    },
+    "per_target_overview": {
+      "path": "reports/linear-response-ladder/per_target_overview.csv",
+      "sha256": "904942716012f49eb6c04ecce206eab58be52186e30e2734eacfd68a9f8f4708"
+    },
+    "successes_failures": {
+      "path": "reports/linear-response-ladder/successes_failures.csv",
+      "sha256": "8584cae58cd676cf964e449137df0a3b759d453111129f64d7444fd2dc330d26"
+    }
+  },
+  "panel_provenance_audit": {
+    "path": "reports/linear-response-ladder/panel_source_equivalence.csv",
+    "sha256": "e29413c4e58cb2e9fbedcc6665b3ed59aec4c27fbc4907cc7696dddffee6640e"
+  },
+  "software": {
+    "python": "3.12.13",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5"
+  }
+}

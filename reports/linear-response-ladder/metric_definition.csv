@@ -1,0 +1,6 @@
+component,definition
+Gene universe,control CPM > 5
+Truth set,padj < 0.05; |LFC| >= 0.5; stable sign >= 4/5
+Per-target K,number of stable strong-DE genes
+Primary statistic,correct-sign truth genes among top-K predictions / K
+Target gene,excluded

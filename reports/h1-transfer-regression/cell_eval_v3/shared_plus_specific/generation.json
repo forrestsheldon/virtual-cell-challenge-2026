@@ -1,0 +1,9 @@
+{
+ "candidate": "shared_plus_specific",
+ "targets_changed": 126,
+ "median_cosine": 0.9996389375674535,
+ "median_norm_ratio": 1.0002992079520459,
+ "median_rounding_error_ratio": 0.026882573349533354,
+ "constant_error_share": 0.007897791368266073,
+ "prediction_sha256": "4a9f5698cb9ceccb048034dbbdb835355df925bc38ef3440d777fdbf82df43ec"
+}

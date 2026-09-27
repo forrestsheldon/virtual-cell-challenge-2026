@@ -1,0 +1,11 @@
+{
+  "created_utc": "2026-09-02T15:44:14.888615+00:00",
+  "input": "data/external/vcc2025_h1/adata_Training.h5ad",
+  "comparison": "each non-targeting guide pair versus all other non-targeting cells",
+  "universe": "cell-eval2 0.16.0 configs/vcc2026.yaml, matching celleval2_h1_de.py",
+  "gene_filter": "reference mean CPM > 5.0, recomputed per comparison",
+  "test": "two-sided Mann-Whitney U / Wilcoxon rank-sum on log1p(CPM), one-vs-rest",
+  "multiple_testing": "Benjamini-Hochberg within each guide over surviving genes",
+  "n_controls": 38176,
+  "n_guides": 31
+}

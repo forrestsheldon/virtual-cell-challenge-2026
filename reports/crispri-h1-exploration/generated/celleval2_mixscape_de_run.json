@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-09-03T00:09:24.740153+00:00",
+  "input": "data/external/vcc2025_h1/adata_Training.h5ad",
+  "calls": "reports/crispri-h1-exploration/generated/mixscape_cells.parquet",
+  "comparison": "all labelled cells versus Mixscape KO-like cells versus a size-matched random subsample, all against all 31 NT guide pairs",
+  "matched_arm": "same cell count as the KO arm, drawn at random from the same target, seed crc32(target)",
+  "pre_arm": "read back from celleval2_de.parquet; identical reference and universe",
+  "mixscape_labels": "carried over unchanged from the pertpy run (old normalization)",
+  "universe": "cell-eval2 0.16.0 configs/vcc2026.yaml, matching celleval2_h1_de.py",
+  "criterion": "p_adj < 0.05, no effect-size threshold",
+  "n_controls": 38176,
+  "n_genes": 10780,
+  "n_targets": 150,
+  "n_targets_with_ko_cells": 140
+}

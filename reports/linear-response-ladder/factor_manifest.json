@@ -1,0 +1,35 @@
+{
+  "model": "restricted randomized-SVD factor covariance plus diagonal residual",
+  "truth_cells_read": false,
+  "candidate_ranks": [
+    10,
+    25,
+    50
+  ],
+  "selected_rank": 50,
+  "selection": "symmetric held-out control covariance-column error",
+  "randomized_svd": {
+    "n_iter": 3,
+    "n_oversamples": 10,
+    "seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "inputs": {
+    "data/derived/linear_response/ladder/empirical.npz": "bb036ed981482918478584ab30fec7b79e2b8bfc0f0d850bf6b9ae003c73b631",
+    "reports/linear-response-three-models/h1_strict_controls.csv": "9daf441a9d64cb1a07acf21791534e8e184129979c7fe05b3e92edc2eb1063cb"
+  },
+  "outputs": {
+    "data/derived/linear_response/ladder/factor.npz": "6b9daebd37bcc5496762df36c18ebc8e484f7c0c218b82fce2b99f4809b302d1",
+    "reports/linear-response-ladder/factor_selection.csv": "b43c9ab3b5da072beba52c8a2be9bdf0e04fd05ecc08220aa4a809c508477ef8"
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0"
+  }
+}

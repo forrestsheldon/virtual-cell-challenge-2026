@@ -1,0 +1,4 @@
+model,heldout_nll_per_cell_without_count_constant,comparison
+independent_mean_poisson,562339.6030804971,exact conditional Poisson with train-only pooled mean
+initial_rank50_poisson_lognormal,561545.6007004605,30-step Laplace marginal approximation
+fitted_rank50_poisson_lognormal,561539.1620882825,30-step Laplace marginal approximation

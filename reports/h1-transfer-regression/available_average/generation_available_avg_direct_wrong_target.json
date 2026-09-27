@@ -1,0 +1,18 @@
+{
+ "candidate": "available_avg_direct_wrong_target",
+ "targets_changed": 126,
+ "median_cosine": 0.9999313884794573,
+ "median_norm_ratio": 1.0000619574351894,
+ "median_rounding_error_ratio": 0.011715162008581916,
+ "constant_error_share": 0.007809247140722275,
+ "prediction_sha256": "2e54f0de2b8541e4ab7bc15eeeccac479e5d8a890f8b85e53a750f126e3d99d4",
+ "pseudocount": 10.0,
+ "anchors": [
+  "K562_GWPS",
+  "CD4T",
+  "HCT116",
+  "HEK293T",
+  "KOLF2.1J"
+ ],
+ "fold_a": null
+}

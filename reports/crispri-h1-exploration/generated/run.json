@@ -1,0 +1,39 @@
+{
+  "input": "data/external/vcc2025_h1/adata_Training.h5ad",
+  "input_bytes": 15482497461,
+  "input_sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+  "shape": [
+    221273,
+    18080
+  ],
+  "source_representation": "sparse raw UMI counts",
+  "normalization": "normalize_total(target_sum=10000) using full-gene library sizes",
+  "transform": "log1p",
+  "hvg": {
+    "flavor": "seurat",
+    "n_top_genes": 2000,
+    "sample_cells": 30000,
+    "sample_seed": 0
+  },
+  "scaling": "per-gene zero mean/unit variance; values clipped at 10",
+  "pca": {
+    "n_comps": 50,
+    "solver": "covariance_eigh"
+  },
+  "neighbors": {
+    "n_neighbors": 15,
+    "n_pcs": 30
+  },
+  "umap": {
+    "random_state": 0
+  },
+  "elapsed_seconds": 179.21503504100838,
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "versions": {
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scanpy": "1.12.3",
+    "scikit-learn": "1.9.0"
+  }
+}

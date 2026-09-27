@@ -1,0 +1,27 @@
+{
+  "analysis": "weak and strong DE NMAE under per-target oracle and fixed native scaling",
+  "scale_selection": {
+    "oracle": "one native a per target minimizing NMAE over all significant DE genes, including zero; the same a is used for weak and strong subsets",
+    "fixed": -9.72
+  },
+  "ordering": "ascending total significant DE gene count, then target name",
+  "bins": {
+    "weak": "reference-significant and |LFC| < 0.5",
+    "strong": "reference-significant and |LFC| >= 0.5",
+    "minimum_genes_for_curve": 10
+  },
+  "input": {
+    "reports/linear-response-ladder/empirical-scale-crossfit/exact_native_grid_checkpoint.npz": "435182bc7a58ba5cd577e68385412a0d167066b10258b51084fb37ecd584da6e"
+  },
+  "outputs": {
+    "reports/linear-response-ladder/oracle-de-nmae/per_target.csv": "ae5809398bcb7a34eea3facd52000aa91317292b1f8bdf2642fa63aa89fbae9d",
+    "reports/linear-response-ladder/oracle-de-nmae/summary.csv": "9b2fe14bb49357e53519760bd37b2b51890550b05fb2ccccdd293a94be8e487c",
+    "reports/linear-response-ladder/oracle-de-nmae/weak_strong_nmae_by_de_count.png": "7eaa9dce9a958c4cf3466a53b26814d39a57d7ff3306dd1fe4783d30342ada8f"
+  },
+  "software": {
+    "python": "3.12.13",
+    "matplotlib": "3.11.1",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5"
+  }
+}

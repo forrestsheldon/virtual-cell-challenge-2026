@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-09-14T13:20:29.761059+00:00",
+  "model": "factorial-moment Poisson-lognormal target-column estimator",
+  "formula": "Sigma_gt = log(E[Y_g(Y_t-delta_gt)/s^2] / (E[Y_g/s] E[Y_t/s]))",
+  "cell_size_factor": "observed full-panel UMI total",
+  "genes": 10783,
+  "targets": 126,
+  "states": {
+    "control": "strict 26-guide control pool",
+    "all_combined": "equal mean of 151 state-specific first and factorial-second moments"
+  },
+  "fit": "two deterministic within-batch cell halves; no latent E-step and no iterative optimizer",
+  "mixture_caveat": "the balanced all-state result is a moment-matched lognormal representation of a mixture, not a claim that the mixture is lognormal",
+  "inputs": {
+    "data/external/vcc2025_h1/adata_Training.h5ad": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+    "data/derived/linear_response/ladder/empirical.npz": "bb036ed981482918478584ab30fec7b79e2b8bfc0f0d850bf6b9ae003c73b631",
+    "data/derived/linear_response/state_diversity/state_balanced_covariance.npz": "200ea2cb7ae56587b1b5984a503873e72d670ba67c8cee5e9bcc00ebb0f11158",
+    "reports/linear-response-three-models/h1_strict_controls.csv": "9daf441a9d64cb1a07acf21791534e8e184129979c7fe05b3e92edc2eb1063cb"
+  },
+  "outputs": {
+    "data/derived/linear_response/sequencing_model/factorial_moment_response.npz": "2eab953fc95c3de48c6ca71619657f0b2bc812efd930c6cdb66c2df1547349f9",
+    "reports/linear-response-sequencing-model/state_factorial_moment_diagnostics.csv": "d1dfa6e6e5e408f63b2ed67342904822c2c6c648c70dbf3cfdf8328a5b757c1d",
+    "reports/linear-response-sequencing-model/direction_diagnostics.csv": "c071fc43b881a4fe1ddb4aca7caaa92ad2b790228bd4893ea603b8d256a4214e",
+    "reports/linear-response-sequencing-model/fit_summary.csv": "377ac5a9677799178ff6ca0b5e2870bb851b0b86f46acb0e9381fca6095ec72d"
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pseudo_guides": 26,
+  "signature_shards": 48,
+  "control_cells_per_guide": 5000,
+  "neighbors": 20,
+  "pca_dimensions": 15,
+  "neighbor_reference": "other non-targeting guides in the same batch",
+  "excluded_guides": [
+    "non-targeting_00018|non-targeting_00127",
+    "non-targeting_00026|non-targeting_02263",
+    "non-targeting_00047|non-targeting_00882",
+    "non-targeting_00062|non-targeting_02518",
+    "non-targeting_00121|non-targeting_00339"
+  ],
+  "neighbor_search": "exact Euclidean distance in PC1-PC15",
+  "test_method": "wilcoxon",
+  "classification_split": null,
+  "seed": 0
+}

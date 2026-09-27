@@ -1,0 +1,11 @@
+{
+  "pseudo_guides": 31,
+  "signature_shards": 48,
+  "control_cells_per_guide": 5000,
+  "neighbors": 20,
+  "neighbor_reference": "other non-targeting guides in the same batch",
+  "neighbor_search": "exact Euclidean distance in PC1-PC15",
+  "test_method": "wilcoxon",
+  "classification_split": null,
+  "seed": 0
+}

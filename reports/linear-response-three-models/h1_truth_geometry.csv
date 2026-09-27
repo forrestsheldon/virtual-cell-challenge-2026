@@ -1,0 +1,7 @@
+statistic,value
+pairwise_cosine_q10,-0.057429357741621036
+pairwise_cosine_median,0.01302097466893131
+pairwise_cosine_q90,0.11787630729707167
+nearest_cosine_median,0.24997137004801645
+top3_axis_energy_fraction,0.17000148388879854
+effective_rank,89.02942868077541

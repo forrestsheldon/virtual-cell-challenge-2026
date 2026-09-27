@@ -1,0 +1,60 @@
+{
+  "status": "passed",
+  "context": "Jurkat",
+  "files": [
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/Jurkat/acceptance.json",
+      "sha256": "90509b15a734852be4905b2aa241ed02de4b4d329232435a12d84001f958c3fc",
+      "bytes": 453
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/Jurkat/batch_role_split_controls.h5ad",
+      "sha256": "669c3c4d736974e3c8253fcd3f0793a65155ebec50fff6dcff71daa1f6d17f93",
+      "bytes": 16266029
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/Jurkat/batch_split_exposures.parquet",
+      "sha256": "b718c7283daaff9b9433bbc21e8af9839d58bb96993a0d61c28020592b45c35a",
+      "bytes": 1168233
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/Jurkat/cell_assignments.parquet",
+      "sha256": "1c25ef3d533fca2f73095fc42366164bbdafef7759e6c907ead7e89845dc5e61",
+      "bytes": 9650329
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/Jurkat/construct_split_pseudobulk.h5ad",
+      "sha256": "85d5510a186e5731609e62be037204af31a6cdbf372001ee763d6b2b25f59c6a",
+      "bytes": 256278962
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/Jurkat/manifest.json",
+      "sha256": "239e82bb60b22759b6358b9e009f466b9f1a4dd8df315d0629e06c580e38fce2",
+      "bytes": 2075
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/Jurkat/matched_control_support.parquet",
+      "sha256": "acb1a8ac31491a049c55308ab368be1fde48079ef5b535d3018bd22836bb92de",
+      "bytes": 2566928
+    },
+    {
+      "uri": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/Jurkat/responder_cells/NadigOConner2024_jurkat.h5ad",
+      "sha256": "7d31726aadd0c936f537900e5b7cf52cb1d29306b45ac802a9340a4708f65fbd",
+      "bytes": 383407404
+    }
+  ],
+  "independent_acceptance": {
+    "status": "passed",
+    "context": "Jurkat",
+    "manifest_sha256": "239e82bb60b22759b6358b9e009f466b9f1a4dd8df315d0629e06c580e38fce2",
+    "selected_cells": 262950,
+    "retained_cells": 43776,
+    "reference_constructs_exact": 2678,
+    "independent_full_source_reaggregation": true,
+    "responder_source_rows_exact": true,
+    "file_sha256s_verified": true,
+    "control_role_margins_exact": true,
+    "missing_baseline_strata": 0,
+    "promotion": "not performed"
+  }
+}

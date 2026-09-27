@@ -1,0 +1,54 @@
+{
+  "context": "Jurkat",
+  "config_sha256": "dba62d325198670fb85ed8ac83fb712644b7c9dc999ea501b8f82c0d21560cd6",
+  "sources": [
+    {
+      "name": "NadigOConner2024_jurkat.h5ad",
+      "url": "https://zenodo.org/api/records/13350497/files/NadigOConner2024_jurkat.h5ad/content",
+      "bytes": 1293665804,
+      "sha256": "ade3d83150fd6944212363cd11da77c0d2143fa6df1febb3f15a66d4dab0677f",
+      "md5": "d8b05d00bfbd686d37ffdd4293bc6c8c",
+      "input_cells": 262956,
+      "selected_cells": 262950,
+      "responder_cells": 43776,
+      "excluded_failed_guide_filter": 0,
+      "excluded_outside_panel": 6
+    }
+  ],
+  "files": {
+    "batch_role_split_controls.h5ad": {
+      "bytes": 16266029,
+      "sha256": "669c3c4d736974e3c8253fcd3f0793a65155ebec50fff6dcff71daa1f6d17f93",
+      "logical_sha256": "17b94710ad3d534649b17aee3906703cb73c84c9561f78c9ec7efcead376c98d"
+    },
+    "batch_split_exposures.parquet": {
+      "bytes": 1168233,
+      "sha256": "b718c7283daaff9b9433bbc21e8af9839d58bb96993a0d61c28020592b45c35a",
+      "logical_sha256": null
+    },
+    "cell_assignments.parquet": {
+      "bytes": 9650329,
+      "sha256": "1c25ef3d533fca2f73095fc42366164bbdafef7759e6c907ead7e89845dc5e61",
+      "logical_sha256": null
+    },
+    "construct_split_pseudobulk.h5ad": {
+      "bytes": 256278962,
+      "sha256": "85d5510a186e5731609e62be037204af31a6cdbf372001ee763d6b2b25f59c6a",
+      "logical_sha256": "946f371e3ff218e466b1aaca474bd629b83ef1d6effa27f309a3d9bdf0b52086"
+    },
+    "matched_control_support.parquet": {
+      "bytes": 2566928,
+      "sha256": "acb1a8ac31491a049c55308ab368be1fde48079ef5b535d3018bd22836bb92de",
+      "logical_sha256": null
+    },
+    "responder_cells/NadigOConner2024_jurkat.h5ad": {
+      "bytes": 383407404,
+      "sha256": "7d31726aadd0c936f537900e5b7cf52cb1d29306b45ac802a9340a4708f65fbd",
+      "logical_sha256": "aa0450747b6d29b2bd8c4d2178499bfb33d524be55fa3740d067436e8d8e61c2"
+    }
+  },
+  "selected_cells": 262950,
+  "retained_cells": 43776,
+  "missing_baseline_strata": 0,
+  "status": "built; independent audit required"
+}

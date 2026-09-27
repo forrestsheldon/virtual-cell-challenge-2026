@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "context": "RPE1",
+  "manifest_sha256": "3525553e386f9c9c6e82a2c7200aab93f69cce046f46523db1a2bc14e22efce4",
+  "selected_cells": 209264,
+  "retained_cells": 35061,
+  "reference_constructs_exact": 2284,
+  "independent_full_source_reaggregation": true,
+  "responder_source_rows_exact": true,
+  "file_sha256s_verified": true,
+  "control_role_margins_exact": true,
+  "missing_baseline_strata": 0,
+  "promotion": "not performed"
+}

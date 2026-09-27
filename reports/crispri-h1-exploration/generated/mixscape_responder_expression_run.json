@@ -1,0 +1,70 @@
+{
+  "created_utc": "2026-09-01T21:22:14.958893+00:00",
+  "de_input": "reports/crispri-h1-exploration/generated/wilcoxon_pre_mixscape_de.parquet",
+  "mixscape_input": "reports/crispri-h1-exploration/generated/wilcoxon_mixscape_de_summary.csv",
+  "control_population": "32,616 cells from 26 strict NT guide pairs",
+  "control_expression": "target-gene pseudobulk mean after per-cell normalization to 10,000 and log1p, reconstructed on the count scale",
+  "control_detection": "fraction of strict NT cells with nonzero target counts",
+  "results": [
+    {
+      "subset": "all targets",
+      "measure": "control_mean",
+      "transform": "log10_plus_0.001",
+      "n_targets": 150,
+      "spearman_rho": 0.22945642965541424,
+      "spearman_p": 0.0047349475887670574,
+      "pearson_r": 0.0781976350757613,
+      "pearson_p": 0.3415195075396431
+    },
+    {
+      "subset": "all targets",
+      "measure": "control_pct",
+      "transform": "identity",
+      "n_targets": 150,
+      "spearman_rho": 0.2237376754849215,
+      "spearman_p": 0.005918322023662537,
+      "pearson_r": 0.007761015372588599,
+      "pearson_p": 0.9249035013856131
+    },
+    {
+      "subset": "excluding zero-responder targets",
+      "measure": "control_mean",
+      "transform": "log10_plus_0.001",
+      "n_targets": 140,
+      "spearman_rho": 0.23987360802444568,
+      "spearman_p": 0.004309435458216905,
+      "pearson_r": 0.19694314112692396,
+      "pearson_p": 0.01968696907133485
+    },
+    {
+      "subset": "excluding zero-responder targets",
+      "measure": "control_pct",
+      "transform": "identity",
+      "n_targets": 140,
+      "spearman_rho": 0.23322756394492475,
+      "spearman_p": 0.005550862868057066,
+      "pearson_r": 0.0914223636808854,
+      "pearson_p": 0.2826983899773137
+    },
+    {
+      "subset": "excluding TMSB4X",
+      "measure": "control_mean",
+      "transform": "log10_plus_0.001",
+      "n_targets": 149,
+      "spearman_rho": 0.2528873686859502,
+      "spearman_p": 0.0018606068604449955,
+      "pearson_r": 0.15294491907092683,
+      "pearson_p": 0.06257783569476733
+    },
+    {
+      "subset": "excluding TMSB4X",
+      "measure": "control_pct",
+      "transform": "identity",
+      "n_targets": 149,
+      "spearman_rho": 0.24614804136044355,
+      "spearman_p": 0.002478001588871992,
+      "pearson_r": 0.019195097021626587,
+      "pearson_p": 0.816262962414528
+    }
+  ]
+}

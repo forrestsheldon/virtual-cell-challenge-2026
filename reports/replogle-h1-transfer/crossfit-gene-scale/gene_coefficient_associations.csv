@@ -1,0 +1,5 @@
+source_effect,feature,spearman,p_value_descriptive_only
+raw,mean_control_log2_cpm1p,0.21647415475027737,4.141182578694917e-81
+raw,h1_minus_k562_control_log2_cpm1p,-0.15410096084068492,1.6142162586680402e-41
+count_shrunk_100000,mean_control_log2_cpm1p,0.2949808743129926,4.27977254403267e-152
+count_shrunk_100000,h1_minus_k562_control_log2_cpm1p,-0.16936975631150308,6.574493271369387e-50

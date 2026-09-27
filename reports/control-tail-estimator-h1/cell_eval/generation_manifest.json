@@ -1,0 +1,15 @@
+{
+  "kind": "control-only bottom-tail prediction",
+  "same_cells_used_for_blinded_selection_and_reference_truth": false,
+  "labels_used_for_selection": false,
+  "labels_used_to_construct_balanced_pool": false,
+  "selected_source_rows": {
+    "path": "reports/control-tail-estimator-h1/selected_source_rows.npy",
+    "sha256": "4452e0e3ed0c763c088f6c9723ac66af95eabd8d08972a8b93265b125ee92f05"
+  },
+  "prediction": {
+    "path": "data/derived/linear_response/tail_estimator_tmp.h5ad",
+    "sha256": "4eeb949fd27494a5e1769a5379be70b34a607e9d8d5b495c3295159b1d53aecd",
+    "bytes": 3265788672
+  }
+}

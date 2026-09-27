@@ -1,0 +1,88 @@
+[
+  {
+    "control_reconstruction_checked": false,
+    "directory": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/data/derived/context_atlas/final/K562_essential",
+    "files_verified": 2,
+    "genes": 8563,
+    "guide_rows": 2273,
+    "omitted_stratified_files": [
+      "K562_essential_target_batch_pseudobulk.h5ad"
+    ],
+    "selected_cells": 310385,
+    "selected_umis": 4312300731,
+    "status": "passed",
+    "target_equals_pooled_guides": true,
+    "target_rows": 2058
+  },
+  {
+    "control_reconstruction_checked": false,
+    "directory": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/data/derived/context_atlas/final/RPE1",
+    "files_verified": 2,
+    "genes": 8749,
+    "guide_rows": 2662,
+    "omitted_stratified_files": [
+      "RPE1_target_batch_pseudobulk.h5ad"
+    ],
+    "selected_cells": 247914,
+    "selected_umis": 3326979875,
+    "status": "passed",
+    "target_equals_pooled_guides": true,
+    "target_rows": 2394
+  },
+  {
+    "control_reconstruction_checked": false,
+    "directory": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/data/derived/context_atlas/final/HepG2",
+    "files_verified": 2,
+    "genes": 9624,
+    "guide_rows": 2679,
+    "omitted_stratified_files": [
+      "HepG2_target_batch_pseudobulk.h5ad"
+    ],
+    "selected_cells": 145473,
+    "selected_umis": 2707708733,
+    "status": "passed",
+    "target_equals_pooled_guides": true,
+    "target_rows": 2394
+  },
+  {
+    "control_reconstruction_checked": false,
+    "directory": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/data/derived/context_atlas/final/Jurkat",
+    "files_verified": 2,
+    "genes": 8882,
+    "guide_rows": 2679,
+    "omitted_stratified_files": [
+      "Jurkat_target_batch_pseudobulk.h5ad"
+    ],
+    "selected_cells": 262956,
+    "selected_umis": 3101472986,
+    "status": "passed",
+    "target_equals_pooled_guides": true,
+    "target_rows": 2394
+  },
+  {
+    "control_reconstruction_checked": true,
+    "directory": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/data/derived/xatlas_orion/final/HCT116",
+    "files_verified": 3,
+    "genes": 38606,
+    "guide_rows": 1455,
+    "omitted_stratified_files": [],
+    "selected_cells": 231677,
+    "selected_umis": 4487063129,
+    "status": "passed",
+    "target_equals_pooled_guides": true,
+    "target_rows": 415
+  },
+  {
+    "control_reconstruction_checked": true,
+    "directory": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/data/derived/xatlas_orion/final/HEK293T",
+    "files_verified": 3,
+    "genes": 38606,
+    "guide_rows": 1456,
+    "omitted_stratified_files": [],
+    "selected_cells": 307163,
+    "selected_umis": 7278520474,
+    "status": "passed",
+    "target_equals_pooled_guides": true,
+    "target_rows": 415
+  }
+]

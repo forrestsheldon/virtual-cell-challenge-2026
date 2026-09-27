@@ -1,0 +1,9 @@
+{
+ "candidate": "unchanged",
+ "targets_changed": 126,
+ "median_cosine": 0.9995965644377938,
+ "median_norm_ratio": 1.000413550893939,
+ "median_rounding_error_ratio": 0.028408238586901315,
+ "constant_error_share": 0.007987918352520954,
+ "prediction_sha256": "cfc2d4c6525b52f8e661622e0be0701f39d52dff3781ae9a86977a60d70408bb"
+}

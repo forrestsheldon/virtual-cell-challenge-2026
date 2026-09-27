@@ -1,0 +1,629 @@
+{
+  "created_utc": "2026-09-25T10:22:42.324805+00:00",
+  "seed": 20260925,
+  "lineage": {
+    "K562_GWPS": {
+      "created_utc": "2026-09-18T19:34:51+00:00",
+      "inputs": {
+        "h1_reference_cells": {
+          "path": "reports/vcc2026-h1/reference_cells.csv",
+          "sha256": "717715d594bfd5b1345538dcb72ffe196f66e5101cc385e2f4369221a77bd1f3"
+        },
+        "h1_training_counts": {
+          "accessed": "2026-08-30",
+          "path": "data/external/vcc2025_h1/adata_Training.h5ad",
+          "sha256": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+          "source_url": "gs://arc-institute-virtual-cell-atlas/virtual-cell-challenge/2025/"
+        },
+        "replogle_author_raw_bulk": {
+          "accessed": "2026-09-18",
+          "path": "data/external/replogle2022/K562_gwps_raw_bulk_01.h5ad",
+          "sha256": "7cec96b3b76169abbf6b6ab9d10bf00d71d942d89e63292351f745e130b154db",
+          "source_url": "https://figshare.com/ndownloader/files/35774443"
+        }
+      },
+      "normalization": {
+        "primary": "library-size normalize each count-sum pseudobulk over its native measured gene universe to 1e6, then log2 ratio with epsilon 1e-9; align symbols afterward",
+        "sensitivity": "restrict to 7,583 shared symbols before library-size normalization",
+        "target_weighting_for_future_global_means": "equal target weight"
+      },
+      "outputs": {
+        "data/derived/replogle_h1_transfer/effects.npz": "4906b8576fca3e4dabb466c57d2a4c582d63150d64c2956add8c87be0102a207",
+        "reports/replogle-h1-transfer/checkpoint1_summary.json": "bca7dc6eda1a1f3bf085906910ca90764b6a0c76bb123ad671603c3ff777c0d2",
+        "reports/replogle-h1-transfer/guide_concordance.csv": "4a2945df784a046185a8b85691ce0cdd0c2204a5295b888da13bcc264e113d32",
+        "reports/replogle-h1-transfer/library_sizes.csv": "0de009964c16c83f7c97da77091563046d516a8dde5bef76d704ad16889c654e",
+        "reports/replogle-h1-transfer/normalization_sensitivity.csv": "e4acf511786aaa3d6025887ed20f11161a1ebe0324c7a1a9da537c81aa78ced8",
+        "reports/replogle-h1-transfer/target_overlap_and_knockdown.csv": "8a8943ba239d7519384786b4bd7cf8875465cb2abf690b222cc051f08ed70ae8"
+      },
+      "producer": {
+        "path": "scripts/evaluation/prepare_replogle_h1_transfer.py",
+        "sha256": "0389fb7edf416330ec94f51126c0770cb68ab03c9ed4b0cef6773347047a875a"
+      },
+      "replogle_population_unit": "The author pseudobulk rows are target-transcript populations. Cell-level metadata shows each population corresponds to one dual-guide construct; therefore this audit compares construct populations, not individual component guides.",
+      "software": {
+        "anndata": "0.13.2",
+        "numpy": "2.5.2",
+        "pandas": "3.0.5",
+        "python": "3.12.13"
+      },
+      "stage": "checkpoint 1 aggregation audit"
+    },
+    "K562_essential": {
+      "dataset": "Replogle and Weissman 2022 K562 essential CRISPRi",
+      "context": "K562_essential",
+      "source_url": "https://zenodo.org/records/13350497/files/ReplogleWeissman2022_K562_essential.h5ad",
+      "source_file": "ReplogleWeissman2022_K562_essential.h5ad",
+      "source_size": 1546729675,
+      "source_md5": "d8cba17576d1a8afc0f7d71b79cad0f7",
+      "source_sha256": "412fd0df8c4ccea9f4db91cd88033c49200838b29d40945e48574be588b48789",
+      "source_representation": "dense float32 X",
+      "output_representation": "raw UMI count sums",
+      "control_label": "non-targeting",
+      "created_utc": "2026-09-20T10:14:54.255241+00:00",
+      "software": {
+        "python": "3.11.2",
+        "numpy": "2.4.6",
+        "pandas": "2.3.3",
+        "scipy": "1.17.1",
+        "anndata": "0.12.19",
+        "h5py": "3.16.0"
+      },
+      "observed_targets": 2057,
+      "selected_cells": 310385,
+      "perturbed_cells": 299694,
+      "controls": 10691,
+      "guides": 2273,
+      "batches": 48,
+      "genes": 8563,
+      "selected_umis": 4312300731,
+      "outputs": {
+        "K562_essential_target_pseudobulk.h5ad": {
+          "size": 56522285,
+          "sha256": "61987c1c659ad09dd69d925f8bbba8b95aef4346172aa85ef96666e515a5e043"
+        },
+        "K562_essential_guide_pseudobulk.h5ad": {
+          "size": 62339527,
+          "sha256": "dddbf66b54e7dc119e8061812fe4e7faaf1d9765798347eeec76ba9c70c7d461"
+        },
+        "K562_essential_target_batch_pseudobulk.h5ad": {
+          "size": 1001388434,
+          "sha256": "a19a4a5e5c56fa936019f75c57d3a3614e3a93ff65de29d33c7310ec22223ce1"
+        }
+      }
+    },
+    "RPE1": {
+      "dataset": "Replogle and Weissman 2022 RPE1 essential CRISPRi",
+      "context": "RPE1",
+      "source_url": "https://zenodo.org/records/13350497/files/ReplogleWeissman2022_rpe1.h5ad",
+      "source_file": "ReplogleWeissman2022_rpe1.h5ad",
+      "source_size": 1236886900,
+      "source_md5": "cc7f1ec50aeb3a3e1b4a6cfa713d80fa",
+      "source_sha256": "12d6a0cf9378c4f09411e27f0ce07b59f1d97731bd576d6fadf112f6f088d1a4",
+      "source_representation": "dense float32 X",
+      "output_representation": "raw UMI count sums",
+      "control_label": "non-targeting",
+      "created_utc": "2026-09-20T07:14:40.493887+00:00",
+      "software": {
+        "python": "3.11.2",
+        "numpy": "2.4.6",
+        "pandas": "2.3.3",
+        "scipy": "1.17.1",
+        "anndata": "0.12.19",
+        "h5py": "3.16.0"
+      },
+      "observed_targets": 2393,
+      "selected_cells": 247914,
+      "perturbed_cells": 236429,
+      "controls": 11485,
+      "guides": 2662,
+      "batches": 56,
+      "genes": 8749,
+      "selected_umis": 3326979875,
+      "outputs": {
+        "RPE1_target_pseudobulk.h5ad": {
+          "size": 63653622,
+          "sha256": "29c66b4f1dc1f3a78bcea6d73a21a081b41c00392dae94d0b187f97fcbdc148c"
+        },
+        "RPE1_guide_pseudobulk.h5ad": {
+          "size": 70915070,
+          "sha256": "e30ade02cf23fcad71d0f06bb9992ad3bf458e0a19aa817c41082178c9a1a438"
+        },
+        "RPE1_target_batch_pseudobulk.h5ad": {
+          "size": 974326008,
+          "sha256": "c7ca3d7ca0e1c10ff57a30fc6f457e83cacd4042466f96377f35ab467253e8d5"
+        }
+      }
+    },
+    "HepG2": {
+      "dataset": "Nadig and O'Connor 2024 HepG2 CRISPRi",
+      "context": "HepG2",
+      "source_url": "https://zenodo.org/records/13350497/files/NadigOConner2024_hepg2.h5ad",
+      "source_file": "NadigOConner2024_hepg2.h5ad",
+      "source_size": 850590740,
+      "source_md5": "af2be47f7477cf32fa6e4bec1c6a4868",
+      "source_sha256": "1af2f7b3e692ad3d077e6027d68a1f800619e29aa3f7a0efa70146fb7223a4bf",
+      "source_representation": "dense float32 X",
+      "output_representation": "raw UMI count sums",
+      "control_label": "non-targeting",
+      "created_utc": "2026-09-20T07:05:28.399214+00:00",
+      "software": {
+        "python": "3.11.2",
+        "numpy": "2.4.6",
+        "pandas": "2.3.3",
+        "scipy": "1.17.1",
+        "anndata": "0.12.19",
+        "h5py": "3.16.0"
+      },
+      "observed_targets": 2393,
+      "selected_cells": 145473,
+      "perturbed_cells": 140497,
+      "controls": 4976,
+      "guides": 2679,
+      "batches": 56,
+      "genes": 9624,
+      "selected_umis": 2707708733,
+      "outputs": {
+        "HepG2_target_pseudobulk.h5ad": {
+          "size": 68988783,
+          "sha256": "c85ab9a0c3d2a4cb6ee22417c7aa2a5d7c94caee0c7d1a41aadbc4b1a03b869e"
+        },
+        "HepG2_guide_pseudobulk.h5ad": {
+          "size": 77090040,
+          "sha256": "d54d38cd5cd171f0139fe3cd8df29f1c494acfa1ce2a1a709484e45ddfa46a15"
+        },
+        "HepG2_target_batch_pseudobulk.h5ad": {
+          "size": 859134870,
+          "sha256": "d8641aecfb21033a7ece42d65f387b8dfd6b456fa7f9867bd9ea8c0fa020f86f"
+        }
+      }
+    },
+    "Jurkat": {
+      "dataset": "Nadig and O'Connor 2024 Jurkat CRISPRi",
+      "context": "Jurkat",
+      "source_url": "https://zenodo.org/records/13350497/files/NadigOConner2024_jurkat.h5ad",
+      "source_file": "NadigOConner2024_jurkat.h5ad",
+      "source_size": 1293665804,
+      "source_md5": "d8b05d00bfbd686d37ffdd4293bc6c8c",
+      "source_sha256": "ade3d83150fd6944212363cd11da77c0d2143fa6df1febb3f15a66d4dab0677f",
+      "source_representation": "dense float32 X",
+      "output_representation": "raw UMI count sums",
+      "control_label": "non-targeting",
+      "created_utc": "2026-09-20T07:07:13.935612+00:00",
+      "software": {
+        "python": "3.11.2",
+        "numpy": "2.4.6",
+        "pandas": "2.3.3",
+        "scipy": "1.17.1",
+        "anndata": "0.12.19",
+        "h5py": "3.16.0"
+      },
+      "observed_targets": 2393,
+      "selected_cells": 262956,
+      "perturbed_cells": 250943,
+      "controls": 12013,
+      "guides": 2679,
+      "batches": 55,
+      "genes": 8882,
+      "selected_umis": 3101472986,
+      "outputs": {
+        "Jurkat_target_pseudobulk.h5ad": {
+          "size": 65189306,
+          "sha256": "55630d218988ccb9a0ff95aecbe40c1f8b242cbe8220f9af6bf545196ca83ff5"
+        },
+        "Jurkat_guide_pseudobulk.h5ad": {
+          "size": 72941190,
+          "sha256": "e6b7219041202404b06ba8d856e2b13edcf3bf3690676cb42cbcdbdd6f5413f5"
+        },
+        "Jurkat_target_batch_pseudobulk.h5ad": {
+          "size": 1038316170,
+          "sha256": "937977194277de20d00b32632c4b320fa412524279abedcdfb4930b496f9bead"
+        }
+      }
+    },
+    "HCT116": {
+      "dataset": "Xaira-Therapeutics/X-Atlas-Orion",
+      "revision": "53a5bc98d49247bcf967500292575c3d3602de31",
+      "context": "HCT116",
+      "representation": "raw UMI count sums",
+      "control_label": "Non-Targeting",
+      "target_panel_sha256": "ac5dc34656bdd5c34a3ae5648c1ac42937a2d82726f742d13f7e09796eb9e3fc",
+      "source_shards": 109,
+      "selected_cells": 231677,
+      "selected_umis": 4487063129,
+      "missing_requested_targets": [
+        "TAZ"
+      ],
+      "created_utc": "2026-09-20T01:47:01.395328+00:00",
+      "requested_targets": 415,
+      "observed_targets": 414,
+      "controls": 165777,
+      "perturbed_cells": 65900,
+      "guides": 1455,
+      "genes": 38606,
+      "outputs": {
+        "HCT116_target_pseudobulk.h5ad": {
+          "size": 25600981,
+          "sha256": "119b92e527c40243081df5570e2af86c54e47fa33907abe74bd40015a9e2e3ae"
+        },
+        "HCT116_guide_pseudobulk.h5ad": {
+          "size": 83000511,
+          "sha256": "2a9ab582f65937769f40a7c679e066f0045ff4a498b1994577e1b03076889b6f"
+        },
+        "HCT116_batch_control_pseudobulk.h5ad": {
+          "size": 11992378,
+          "sha256": "5a0a05039510e06932f9521fc14607c0d0a1a0f6da46a87c0a1423f6eab3dede"
+        }
+      }
+    },
+    "HEK293T": {
+      "dataset": "Xaira-Therapeutics/X-Atlas-Orion",
+      "revision": "53a5bc98d49247bcf967500292575c3d3602de31",
+      "context": "HEK293T",
+      "representation": "raw UMI count sums",
+      "control_label": "Non-Targeting",
+      "target_panel_sha256": "ac5dc34656bdd5c34a3ae5648c1ac42937a2d82726f742d13f7e09796eb9e3fc",
+      "source_shards": 223,
+      "selected_cells": 307163,
+      "selected_umis": 7278520474,
+      "missing_requested_targets": [
+        "TAZ"
+      ],
+      "created_utc": "2026-09-20T01:48:38.221259+00:00",
+      "requested_targets": 415,
+      "observed_targets": 414,
+      "controls": 218838,
+      "perturbed_cells": 88325,
+      "guides": 1456,
+      "genes": 38606,
+      "outputs": {
+        "HEK293T_target_pseudobulk.h5ad": {
+          "size": 30698153,
+          "sha256": "fd1f43b53748884211b67d086709778044ac39bcab36129f46d22808eba03a89"
+        },
+        "HEK293T_guide_pseudobulk.h5ad": {
+          "size": 100946170,
+          "sha256": "7cbfd0db83c01f46a229b949dfc9640b00ad9c3db16fe6b7cae4f42d1c1264c2"
+        },
+        "HEK293T_batch_control_pseudobulk.h5ad": {
+          "size": 22836026,
+          "sha256": "359775ff6d0bdf38d3313b4d760402938746207d37a38f8e53234c2e0b46b4af"
+        }
+      }
+    },
+    "CD4T": {
+      "dataset": "Zhu/Marson primary CD4+ T-cell genome-scale CRISPRi",
+      "source_url": "https://genome-scale-tcell-perturb-seq.s3.amazonaws.com/marson2025_data/GWCD4i.pseudobulk_merged.h5ad",
+      "source_file": "GWCD4i.pseudobulk_merged.h5ad",
+      "source_size": 44566657140,
+      "source_sha256": "fd2b8c21d357f8699ec34e2d5ebc1639612c27a0147a9ca94d4983822d93247e",
+      "source_etag": "010c14e0af0dccbc2524529d28ca517e-5313",
+      "source_version_id": "BWCjgMRhH80BOFIid2.0kbCr2o8wNVmn",
+      "source_representation": "author guide x donor x condition pseudobulk CSR",
+      "output_representation": "raw UMI count sums",
+      "row_filtering": "requested targets plus all NTC; author keep flags retained as summaries but not applied",
+      "control_label": "NTC",
+      "target_panel_sha256": "ac5dc34656bdd5c34a3ae5648c1ac42937a2d82726f742d13f7e09796eb9e3fc",
+      "missing_requested_targets": [
+        "ANTXR1",
+        "CLDN6",
+        "EEF1A2",
+        "EPHB2",
+        "FZD2",
+        "KDR",
+        "LAD1",
+        "MAP1B",
+        "TAZ",
+        "WFS1"
+      ],
+      "created_utc": "2026-09-20T02:20:19.319376+00:00",
+      "software": {
+        "python": "3.11.2",
+        "numpy": "2.4.6",
+        "pandas": "2.3.3",
+        "scipy": "1.17.1",
+        "anndata": "0.12.19",
+        "h5py": "3.16.0"
+      },
+      "requested_targets": 415,
+      "observed_targets": 405,
+      "selected_source_pseudobulks": 19827,
+      "selected_cells": 1616407,
+      "perturbed_cells": 676872,
+      "controls": 939535,
+      "guides": 1788,
+      "donors": 4,
+      "conditions": 3,
+      "genes": 18129,
+      "selected_umis": 18704077950,
+      "outputs": {
+        "CD4T_target_pseudobulk.h5ad": {
+          "size": 20922404,
+          "sha256": "faaea0a67c2bbf48eb297e6c6c46cfc426280b2718cd75e87be4295e97e3464a"
+        },
+        "CD4T_guide_pseudobulk.h5ad": {
+          "size": 81179113,
+          "sha256": "b60bdad8c06ddfb557f0af2e17e50c1e3e01b6e9d1f48696360765d61f459ad0"
+        },
+        "CD4T_target_donor_condition_pseudobulk.h5ad": {
+          "size": 161958045,
+          "sha256": "b608f3837c07bb1989762854541687d7906e4fcbbfe0518abe33b6f44594009f"
+        }
+      }
+    },
+    "KOLF2.1J": {
+      "dataset": "Nourreddine et al. KOLF2.1J pan-genome CRISPRi",
+      "source_url": "https://ndownloader.figshare.com/files/64650261",
+      "source_file": "KOLF_Pan_Genome_QC_Filtered.h5ad",
+      "source_size": 189393177972,
+      "source_md5": "afd30fde1e6ad32969c29868394385d1",
+      "source_sha256": "3e7b0eaae92cc4aacc1d85f6a416998d44445dd296aa44dab4f39d16de0dec79",
+      "source_representation": "layers/counts CSC float32",
+      "output_representation": "raw UMI count sums",
+      "control_label": "NTC",
+      "target_panel_sha256": "ac5dc34656bdd5c34a3ae5648c1ac42937a2d82726f742d13f7e09796eb9e3fc",
+      "missing_requested_targets": [
+        "CAST",
+        "CHKB",
+        "CHMP3",
+        "DTNBP1",
+        "EPHB2",
+        "IFNGR2",
+        "IL10RB",
+        "LENG1",
+        "MTM1",
+        "PBLD",
+        "PSMB9",
+        "RSRC1",
+        "SNRK",
+        "STK3",
+        "TAZ",
+        "TBC1D19",
+        "TBCK",
+        "TESK2",
+        "TRIP4",
+        "TTBK2",
+        "ZC2HC1A"
+      ],
+      "created_utc": "2026-09-21T11:19:38.134737+00:00",
+      "software": {
+        "python": "3.11.2",
+        "numpy": "2.4.6",
+        "pandas": "2.3.3",
+        "scipy": "1.17.1",
+        "anndata": "0.12.19",
+        "h5py": "3.16.0"
+      },
+      "requested_targets": 415,
+      "observed_targets": 394,
+      "selected_cells": 241023,
+      "perturbed_cells": 94276,
+      "controls": 146747,
+      "guides": 2128,
+      "batches": 3,
+      "control_channels": 90,
+      "genes": 37567,
+      "selected_umis": 1436721439,
+      "outputs": {
+        "KOLF2.1J_target_pseudobulk.h5ad": {
+          "size": 27111476,
+          "sha256": "cdff7f92be8779f3b203a2f239dd4076ea65184af0d31f49a617d799a46c719e"
+        },
+        "KOLF2.1J_guide_pseudobulk.h5ad": {
+          "size": 106526940,
+          "sha256": "fa5214998f0c13fb699e28a61b681994b23a790aa9e8052c42851034a99d603d"
+        },
+        "KOLF2.1J_target_batch_pseudobulk.h5ad": {
+          "size": 27336057,
+          "sha256": "1f5cfd666f9b9480bc3089d4a6e3a0457e9fecda7b49047fd1d5ffe3e12aa857"
+        },
+        "KOLF2.1J_control_channel_pseudobulk.h5ad": {
+          "size": 11254847,
+          "sha256": "de98dcf5f632937c28645ca3421bb4f364c638268b21ce76a32977ad3aa41a9a"
+        }
+      }
+    }
+  },
+  "design": "Same fixed additive, ratio (undefined=1), and log1p CPM transfer; floor rates then close to CPM. Shared genes define denominators within each panel. No H1 fitting. All panel-target genes excluded from every metric.",
+  "panels": "Nine local source screens on all-common targets/genes; five genome-scale anchors on all-common targets/genes; full per-source overlaps supplementary, not ranked against one another.",
+  "limitations": "K562 GWPS and essential are different screens of one study/context; CD4T pools donors and conditions. Jiang and McFaline have metadata but no local expression artifacts; not downloaded. H1 is destination only. Archives, views and split copies are not extra datasets.",
+  "uncertainty": "2000 paired target bootstraps, unadjusted pairwise intervals conditional on observed datasets. 20 wrong-target derangements. 10 multinomial count-null replicates, controls fixed; not a biological reliability correction. Five stochastic rounding seeds using exact 400-cell pooled distribution.",
+  "inputs": {
+    "data/derived/replogle_h1_transfer/effects.npz": "4906b8576fca3e4dabb466c57d2a4c582d63150d64c2956add8c87be0102a207",
+    "data/derived/replogle_h1_transfer/phase1_effects.npz": "7b09f91d4e8c8c911565a4d03be6bf02962f8af0c5052eb8e101027f4928427c",
+    "data/external/replogle2022/K562_gwps_raw_bulk_01.h5ad": "7cec96b3b76169abbf6b6ab9d10bf00d71d942d89e63292351f745e130b154db",
+    "reports/replogle-h1-transfer/checkpoint1_manifest.json": "62b48c6265dbc6d1521723f1e3c1b9d05bc1a245194cc57a8aefbb53068f12e3",
+    "reports/replogle-h1-transfer/target_overlap_and_knockdown.csv": "8a8943ba239d7519384786b4bd7cf8875465cb2abf690b222cc051f08ed70ae8",
+    "data/derived/context_atlas/final/K562_essential/K562_essential_target_pseudobulk.h5ad": "61987c1c659ad09dd69d925f8bbba8b95aef4346172aa85ef96666e515a5e043",
+    "data/derived/context_atlas/final/K562_essential/K562_essential_manifest.json": "add93398ee76e71fc2c47de9bcb77ebf6279dd68dbc6404d40fa051103e90f8b",
+    "data/derived/context_atlas/final/K562_essential/K562_essential_audit.json": "399c036fed90926f03bd9307f0cde5576e3f0fa1ebf95ff6dc4d83755a7332dd",
+    "data/derived/context_atlas/final/RPE1/RPE1_target_pseudobulk.h5ad": "29c66b4f1dc1f3a78bcea6d73a21a081b41c00392dae94d0b187f97fcbdc148c",
+    "data/derived/context_atlas/final/RPE1/RPE1_manifest.json": "df903c5e629f4679644473bfec45c4525a7aaddbe954bdac3997271c153745f4",
+    "data/derived/context_atlas/final/RPE1/RPE1_audit.json": "747deda6ad15a6f3aec6fb37eac48058fd07b0fe0b72e062c637e7ed880a4b8d",
+    "data/derived/context_atlas/final/HepG2/HepG2_target_pseudobulk.h5ad": "c85ab9a0c3d2a4cb6ee22417c7aa2a5d7c94caee0c7d1a41aadbc4b1a03b869e",
+    "data/derived/context_atlas/final/HepG2/HepG2_manifest.json": "01f54505b7c5aef1d9a2bb7bd9e96ec66a1804f4e553351abe79b0e0e0f1f33f",
+    "data/derived/context_atlas/final/HepG2/HepG2_audit.json": "680c9edbd16fdb85743b3f3115dc8cf05e2f9ac265f42577d98268621d6be133",
+    "data/derived/context_atlas/final/Jurkat/Jurkat_target_pseudobulk.h5ad": "55630d218988ccb9a0ff95aecbe40c1f8b242cbe8220f9af6bf545196ca83ff5",
+    "data/derived/context_atlas/final/Jurkat/Jurkat_manifest.json": "759125be163317e99c6e1842e01a6c5dd0bd93aa63f09b74e2702d95fc623adf",
+    "data/derived/context_atlas/final/Jurkat/Jurkat_audit.json": "33fe0ce9ccc72248aa9b5a1f9db96b47b40c0f2498c9ef886f9e9bc6c09edc0f",
+    "data/derived/xatlas_orion/final/HCT116/HCT116_target_pseudobulk.h5ad": "119b92e527c40243081df5570e2af86c54e47fa33907abe74bd40015a9e2e3ae",
+    "data/derived/xatlas_orion/final/HCT116/HCT116_manifest.json": "9563d5647dbeeccce537e2f43033fa0b9d150b452cd4732ae3956afdbd4fbd32",
+    "data/derived/xatlas_orion/final/HCT116/HCT116_audit.json": "ac6a42063a8a7614d02a7a5ab6cd64316e645009ba65e61df1aa51765dcac267",
+    "data/derived/xatlas_orion/final/HEK293T/HEK293T_target_pseudobulk.h5ad": "fd1f43b53748884211b67d086709778044ac39bcab36129f46d22808eba03a89",
+    "data/derived/xatlas_orion/final/HEK293T/HEK293T_manifest.json": "1217e265aa3cbbb53f73ef0a43aa2ecc3aa0df0381fd590e7c28d3e917303149",
+    "data/derived/xatlas_orion/final/HEK293T/HEK293T_audit.json": "ae493cdae6cd5d52c2d063689d71c948a63a2ab8d052fdc65829f746331b8fb1",
+    "data/derived/context_atlas/final/CD4T/CD4T_target_pseudobulk.h5ad": "faaea0a67c2bbf48eb297e6c6c46cfc426280b2718cd75e87be4295e97e3464a",
+    "data/derived/context_atlas/final/CD4T/CD4T_manifest.json": "277d6207ab3c0da74bb3c8994758e2c05c26f4d5bcbcd8706f44aba1071d3972",
+    "data/derived/context_atlas/final/CD4T/CD4T_audit.json": "f4df4d1a89957c37834927932c0becfe6aa801aaa45065bf3688895320b1d9f3",
+    "data/derived/context_atlas/final/KOLF2.1J/KOLF2.1J_target_pseudobulk.h5ad": "cdff7f92be8779f3b203a2f239dd4076ea65184af0d31f49a617d799a46c719e",
+    "data/derived/context_atlas/final/KOLF2.1J/KOLF2.1J_manifest.json": "8203a59051537a534bb62afd52db2f61817d80bf5dbb9f6ff9879addde0c1194",
+    "data/derived/context_atlas/final/KOLF2.1J/KOLF2.1J_audit.json": "52f0cf8c9352edb1e0154b1278708d722c33c7200e97dcd8a30d8b766e179683",
+    "data/derived/vcc2026_h1/h1_controls.h5ad": "2cba34e4b28e22d03c4280c109bc222b7383a145f50a42be8e2a78e3b4452277",
+    "reports/linear-response-three-models/strong_de_truth_genes.csv": "229e06fac02d35217687291734dd5b925633ee7df5871052bf903f8ce3db9e66"
+  },
+  "code": {
+    "scripts/evaluation/all_source_h1_transfer.py": "b7849da7122cd8d758c2ffb73bcd2b3ab55f84c0251bdde2101af89507f12608",
+    "scripts/evaluation/kolf_h1_transfer_rules.py": "64cab3387bb6f7c3d084cf8522c9276ac93352df89e26e41650c3a388f619243",
+    "scripts/evaluation/context_transfer_blog.py": "7dcbd9109d40053cb372826302eda1aab7438125f1896a7c1910d393487a1eb9"
+  },
+  "outputs": {
+    "reports/all-source-h1-transfer/summary.csv": "293d96d175f62e23b3c69440e4b02cef4b76e0649176b7e5e0d4800f35e6176c",
+    "reports/all-source-h1-transfer/inventory.csv": "91fa611d9ea4c68d348cbf75f180345711d83c524fe9a5902fe233dc09c81cb2",
+    "reports/all-source-h1-transfer/available_HCT116/summary.csv": "2b184a62d5f7e08e0e0f8a655f43c6eb3bd46f793d07ca2afc5678df381e55ef",
+    "reports/all-source-h1-transfer/available_HCT116/wrong_target.csv": "1462aac384a2b87026b67835db52df9c806867a25be8fc8d83f8957faae58497",
+    "reports/all-source-h1-transfer/available_HCT116/paired_source_differences.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "reports/all-source-h1-transfer/available_HCT116/common_response.csv": "c54c14b03209d1d61e7f1d1b307ea68310fbc700b5c559c934ad5da902614d4e",
+    "reports/all-source-h1-transfer/available_HCT116/per_target.csv": "00b6e1383acf615f89ce09579158501959d45be392382a25a2168f9a81c186d3",
+    "reports/all-source-h1-transfer/available_HCT116/count_sampling_null.csv": "39210f15222b696bfa0cb63763ec321d75271a9b7a7672cb8b6d63b98c3e92ee",
+    "reports/all-source-h1-transfer/available_HCT116/decomposition.csv": "495b135ab32d8db62870ce7037920f14d78e83a1c52b05c0f63a5467e939e198",
+    "reports/all-source-h1-transfer/available_HCT116/genes.csv": "bc9e5d36bc409c9834b0972b0d0ab8a8e3412f17c3658d2e7ae49d852e8d7cb2",
+    "reports/all-source-h1-transfer/available_HCT116/boundary_audit.csv": "62de062778c6533fe9224e824eabe7e004dc46b852df07de9d996f12e5be9496",
+    "reports/all-source-h1-transfer/available_HCT116/rounding.csv": "a9b0997da59fcbe178522cd793a207b7dce1e2c3f08fa2de4b5b73ec8eead402",
+    "reports/all-source-h1-transfer/available_HCT116/depth.csv": "f21965d33361b5f8925b5ec4d281a9a504ffe53354330475220165e512c59617",
+    "reports/all-source-h1-transfer/available_HCT116/targets.csv": "122800963c108554579ac2adea04e64c3b69c704113fbc7681c651b2df8470e6",
+    "reports/all-source-h1-transfer/five_anchors/summary.csv": "f39cdf7f1d790fdc3e5e9814cf22dcc055ed1eca5561cbfedb5d8333ee71d0b4",
+    "reports/all-source-h1-transfer/five_anchors/wrong_target.csv": "5a4816d7c60032abefbf1c879e3f4b707e3a1494baef9cb4216638eba07d25f5",
+    "reports/all-source-h1-transfer/five_anchors/paired_source_differences.csv": "facdabf740dce1b1c0eedb37fd1b27bbc8b828f12dcbf11e0eb7cabedf0a9e73",
+    "reports/all-source-h1-transfer/five_anchors/common_response.csv": "79923ae9e5d5ca94245ad54b14db9dd4c3062781388dff4f6c5ad7e519a4fed8",
+    "reports/all-source-h1-transfer/five_anchors/per_target.csv": "13a49aae3ecf56f9483f7a4a3dd64b5a2f6f4971660bc242f0877046840d7a8e",
+    "reports/all-source-h1-transfer/five_anchors/count_sampling_null.csv": "02e366a873a8f9ec6d19a116f2215dfe0560f4bc90c2ec733b43fd0970bec30c",
+    "reports/all-source-h1-transfer/five_anchors/decomposition.csv": "5e9028edd53eae8aede7ba7b9bbacb46a441fbf05156224b8990073e7fc497e4",
+    "reports/all-source-h1-transfer/five_anchors/genes.csv": "311e5616c856c31c2d499f142367e77a1c6bef61dad684e74dd894866dfbfdf6",
+    "reports/all-source-h1-transfer/five_anchors/boundary_audit.csv": "254ac77715667c66937fef1d7e5e9c3b5ede09cee921c471acf122ff28e4d52e",
+    "reports/all-source-h1-transfer/five_anchors/rounding.csv": "3e9b68d53c54a37b42012c16ca7631e95b2ba8361097feb8a3904cb51567a828",
+    "reports/all-source-h1-transfer/five_anchors/depth.csv": "d2821d8984245b04a94f02209c7f50d564df09bb146061b21884926b88518f55",
+    "reports/all-source-h1-transfer/five_anchors/targets.csv": "d0097cf0f31443ac14876a8ed4a8b6a4747137ccee2728772a653123517955a0",
+    "reports/all-source-h1-transfer/available_HEK293T/summary.csv": "f4b0ff52607f5baff7d06f637a2d57020781b0a20b5b0350e7cec0ed58c269f8",
+    "reports/all-source-h1-transfer/available_HEK293T/wrong_target.csv": "fc361be9e7b4027dc0cab6bfee8b4f0284f5161144c762192c36050f5cfa7ddc",
+    "reports/all-source-h1-transfer/available_HEK293T/paired_source_differences.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "reports/all-source-h1-transfer/available_HEK293T/common_response.csv": "910cd5556338598d6d428d7b1ae9c64233fb3a73696f0644c1baaf0a2027a4bd",
+    "reports/all-source-h1-transfer/available_HEK293T/per_target.csv": "d45c01be2383d5e7d5bfb2bcc56ace751a1509699001613f0423eb886a4aa98b",
+    "reports/all-source-h1-transfer/available_HEK293T/count_sampling_null.csv": "12e8ec13868055300d0e360633147f962684ed0cc472f2b1a4027133dec798b6",
+    "reports/all-source-h1-transfer/available_HEK293T/decomposition.csv": "31c82a259fe615d618396e5cdfd704633fdc0f91c58fad96ec13bb003ed3142d",
+    "reports/all-source-h1-transfer/available_HEK293T/genes.csv": "bc9e5d36bc409c9834b0972b0d0ab8a8e3412f17c3658d2e7ae49d852e8d7cb2",
+    "reports/all-source-h1-transfer/available_HEK293T/boundary_audit.csv": "2dc0412e37856fe573a84b1b5d365d307bcaaab7dee8fef0a2ff9df2166023bc",
+    "reports/all-source-h1-transfer/available_HEK293T/rounding.csv": "4b98d4318ae928775f21e7208f172e0d264d7977da8083b02b6957297e4a3a51",
+    "reports/all-source-h1-transfer/available_HEK293T/depth.csv": "8e041d74bd7afe719ceef922c9f2bfefb1d6890aae2ab573f57b29cdb55cb4d7",
+    "reports/all-source-h1-transfer/available_HEK293T/targets.csv": "122800963c108554579ac2adea04e64c3b69c704113fbc7681c651b2df8470e6",
+    "reports/all-source-h1-transfer/all_nine/summary.csv": "76051bd8a6f5c9420af1903a7d90d7a2bfc0b6eecc9128e94a931366c12e8d5f",
+    "reports/all-source-h1-transfer/all_nine/wrong_target.csv": "96e87fbb8dd0c31db5c5ce6db7ea722c61f8f365b2fc5ca7de97e5514f5fa18b",
+    "reports/all-source-h1-transfer/all_nine/paired_source_differences.csv": "80ec538c2fda43177257d77227e1265a5ccc005269d92d912197f23166d18e79",
+    "reports/all-source-h1-transfer/all_nine/common_response.csv": "a198e28e2a412f2ceecf214d6d3b3f3841eb4a425d1a6d55dd74811d422ee042",
+    "reports/all-source-h1-transfer/all_nine/per_target.csv": "56fb8212d4f98932a6161fc776e327824c2a5610277b1ab82aa84c64f0dc18b4",
+    "reports/all-source-h1-transfer/all_nine/count_sampling_null.csv": "cacacb0649f226a669ac32473079c2f2a08354286cc93d942f08c39e05364b3a",
+    "reports/all-source-h1-transfer/all_nine/decomposition.csv": "b870eeb97879c63b81a821d3ce482ad3b4ed86a8ec827e9efa036861b5a769a6",
+    "reports/all-source-h1-transfer/all_nine/genes.csv": "936c2bbbecfadeb3f9029eeb22c4aaf4b3fcb6457ba34d008c38453fcd360145",
+    "reports/all-source-h1-transfer/all_nine/boundary_audit.csv": "d90ad8b77194b78687aa54e6dd5f02805c3286f96ea000f9b308438e1245e00a",
+    "reports/all-source-h1-transfer/all_nine/rounding.csv": "ee4a5b4eba0eacf3398d8b5fcb830028566050cf7508bb4f9c0f199399f9dde9",
+    "reports/all-source-h1-transfer/all_nine/depth.csv": "80c2f99b214fc5287bf5c374b4c1a5ecc23272b0e9435bc5443ed59079f175ff",
+    "reports/all-source-h1-transfer/all_nine/targets.csv": "ec9d9e920c6ee5082360d48d3ec83d472941963e2b1201e8d9e0ea3668d2ada0",
+    "reports/all-source-h1-transfer/available_KOLF2.1J/summary.csv": "a775524543877a4ef5cfc207daf7356d11ee2e4f713fcdd4c8dbd0ea42a3e933",
+    "reports/all-source-h1-transfer/available_KOLF2.1J/wrong_target.csv": "3df4e284ab7a82f3eecc7c94a2b5ae9f3d3c76cc250868361505b8fa8c01e528",
+    "reports/all-source-h1-transfer/available_KOLF2.1J/paired_source_differences.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "reports/all-source-h1-transfer/available_KOLF2.1J/common_response.csv": "e9a8756bf1c995ba5b52f27d58f6b5026234ce969faa3cef6946f5dfec4d4dae",
+    "reports/all-source-h1-transfer/available_KOLF2.1J/per_target.csv": "590301d8b0ed46e8b3d6404e39958d5161ac0627286950fe906855f734ad6292",
+    "reports/all-source-h1-transfer/available_KOLF2.1J/count_sampling_null.csv": "f1a66abd4d06be8f17de22da62198c64671fc5202cd846daeb64d99e66d62829",
+    "reports/all-source-h1-transfer/available_KOLF2.1J/decomposition.csv": "307b0dfbb815a8ebaccde84571cc69839eada3110123e29a5f357d5f1cc6089a",
+    "reports/all-source-h1-transfer/available_KOLF2.1J/genes.csv": "15d05f5d56712bc48722b0c16bad1195a596e9171c50759ad8a613376caad7c6",
+    "reports/all-source-h1-transfer/available_KOLF2.1J/boundary_audit.csv": "1f2e86a74f1ef06f51e402849c728d6b96aa32ca13b3bfcd6b743456ed5783cb",
+    "reports/all-source-h1-transfer/available_KOLF2.1J/rounding.csv": "352166c07bab9afc58bcaa7e7be8e798a0f8127de9055ccffd8613636385d882",
+    "reports/all-source-h1-transfer/available_KOLF2.1J/depth.csv": "c66ac4e0bb5c2175a1f8535a880f60bab2121851a16fe265d12faa4714e59871",
+    "reports/all-source-h1-transfer/available_KOLF2.1J/targets.csv": "74986017271c0def372ee597786e54dded891a3c334809761311df86389904cc",
+    "reports/all-source-h1-transfer/available_K562_GWPS/summary.csv": "4710b756836abd701a0e80363e8b42b7f734db46058fb4c89b65a91d1e32d73f",
+    "reports/all-source-h1-transfer/available_K562_GWPS/wrong_target.csv": "54615d0ad4d31673197611761f6ef75cd4c4777afc34e7afc4b2fc666ee4e39b",
+    "reports/all-source-h1-transfer/available_K562_GWPS/paired_source_differences.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "reports/all-source-h1-transfer/available_K562_GWPS/common_response.csv": "3f9e71348c7d8cd346912328144d76a689eb4ec78288a27bbb667546375bbeb1",
+    "reports/all-source-h1-transfer/available_K562_GWPS/per_target.csv": "0eaca1e76ef11fd446cafa5db517e9e6c9f8e382ec37e8212c711a9c85619bdf",
+    "reports/all-source-h1-transfer/available_K562_GWPS/count_sampling_null.csv": "952ff9e267cfc1178967dfaccdaa60df58378a5c57ba03332b3a9dbb84818c7f",
+    "reports/all-source-h1-transfer/available_K562_GWPS/decomposition.csv": "37700baf2de75e8cf22d209e1aaf5567ce26a66906f83402f82a435a3e97aa5f",
+    "reports/all-source-h1-transfer/available_K562_GWPS/genes.csv": "e4e1a9e112859bf24b26acfa3ad689f1773de4bcfa2c1f43e18e5dcb87ebab14",
+    "reports/all-source-h1-transfer/available_K562_GWPS/boundary_audit.csv": "88d1799d78b0ca79614d1bb65044cf53e140e5f4d7ca16353cd55164cba4be6c",
+    "reports/all-source-h1-transfer/available_K562_GWPS/rounding.csv": "caddac341c5f1ebc98b0e37887033420413df4df703312e3007f713482730f3f",
+    "reports/all-source-h1-transfer/available_K562_GWPS/depth.csv": "b27ed672f1ec53b8c10ebd5ae82827ad649100cf39dcff015c74b4862fa7f8d5",
+    "reports/all-source-h1-transfer/available_K562_GWPS/targets.csv": "cae9eae8f015a858ab354027314622eff2d78a566298bcdc21ae61761d89ab09",
+    "reports/all-source-h1-transfer/available_CD4T/summary.csv": "640602f09ebb993d2dec70abb7852355f370ed1bd0c288cd6e9df08099a9a056",
+    "reports/all-source-h1-transfer/available_CD4T/wrong_target.csv": "89b23b1835a5ba08a807cebdd47a0c3449d59430a71959e4d2fcb69005a7ab7f",
+    "reports/all-source-h1-transfer/available_CD4T/paired_source_differences.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "reports/all-source-h1-transfer/available_CD4T/common_response.csv": "bc410bd3d41805e63c03a69e7dfd42ab3dca4bbfb1b6d84c59dea2024fb96b72",
+    "reports/all-source-h1-transfer/available_CD4T/per_target.csv": "8886a12d98ea5f33a69db75bcffeb1a0c72c3b3f790ac0137e9c46feb57cd371",
+    "reports/all-source-h1-transfer/available_CD4T/count_sampling_null.csv": "bdf02d2fbc35c74ce3285343200db173361ec6b522a944d66d073eab93057052",
+    "reports/all-source-h1-transfer/available_CD4T/decomposition.csv": "492bba4506ed3b4164958124019508dbacbccb5955da1fd77544bc7b79a170e3",
+    "reports/all-source-h1-transfer/available_CD4T/genes.csv": "5d8b53dd4264794fab09b4aafcb15d3881c90a3224b63993378e8a70ec386c4b",
+    "reports/all-source-h1-transfer/available_CD4T/boundary_audit.csv": "14693fe146bff2a967d6ba3c8793f2f0939a76e4c5bf18fb85ab8e34744ea6e2",
+    "reports/all-source-h1-transfer/available_CD4T/rounding.csv": "809a7dd06b0e687358d428f8b5a993447d14f8ef921120d78b0d632c97d2904f",
+    "reports/all-source-h1-transfer/available_CD4T/depth.csv": "9463c3c01c4c8a4cb4f23a80ecd11da6794333ccfd56126d75ea0fac807f0559",
+    "reports/all-source-h1-transfer/available_CD4T/targets.csv": "482529ccfc51a152b52a25897e718d81dbd837f62ca5c455b66da5f2125e5c96",
+    "reports/all-source-h1-transfer/available_RPE1/summary.csv": "da892fcb5f438495c27d74031081f17df913afc88a953918e13dea81881fa0ec",
+    "reports/all-source-h1-transfer/available_RPE1/wrong_target.csv": "091304b8ba74b6692fe6ada58cf66d2a7363e9ab6cff1fca6d1d750cea9eb071",
+    "reports/all-source-h1-transfer/available_RPE1/paired_source_differences.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "reports/all-source-h1-transfer/available_RPE1/common_response.csv": "bf1792856b8ce63f292c09ef1b414aacd129236e312507c121ae271b7031ef77",
+    "reports/all-source-h1-transfer/available_RPE1/per_target.csv": "485f618ee90f881af07443242f8bf241dbe1028c114f5032ee17b5bb0f9c95e8",
+    "reports/all-source-h1-transfer/available_RPE1/count_sampling_null.csv": "99ad32eb6b6db1940b469675cd06872965b00acb12e709cc7ce0e08000da498d",
+    "reports/all-source-h1-transfer/available_RPE1/decomposition.csv": "2fe47c6e051fa2070f4de5b5cd36034f35e8d3e05b4292cac5eb950946aedbb6",
+    "reports/all-source-h1-transfer/available_RPE1/genes.csv": "9f53325c5d3857d82a223fb21dd5fd5d9ea6c2783d697a7e84735c323a8d9c87",
+    "reports/all-source-h1-transfer/available_RPE1/boundary_audit.csv": "47b383db572cf3895a90725078827103b1b7390d63970751c8335922ce0b42be",
+    "reports/all-source-h1-transfer/available_RPE1/rounding.csv": "d7325d25a4c28b172807382b326995dc8db932cce5153c6ee4c9308a74618306",
+    "reports/all-source-h1-transfer/available_RPE1/depth.csv": "54b4905f42670e8dffab1b47dfaa920bd4e33da1f5132940b758e2021050ec83",
+    "reports/all-source-h1-transfer/available_RPE1/targets.csv": "9cfaefd1e71fc8a1e65b2e5eab8377e3517811af2c7e89ad8bc8dfb973fefef0",
+    "reports/all-source-h1-transfer/available_K562_essential/summary.csv": "dc984087f8fca398498a47e4c016b3a4a9a54ff1aa6749fb4f5b143f0142c3f1",
+    "reports/all-source-h1-transfer/available_K562_essential/wrong_target.csv": "a0d630d0c5b31d97f5b93849ca313fcd125bb4f08a1987a9a382e933a439ae9a",
+    "reports/all-source-h1-transfer/available_K562_essential/paired_source_differences.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "reports/all-source-h1-transfer/available_K562_essential/common_response.csv": "2ecb1d8723b241a47bb6e825462329255a6589cf6806f57752bb2b08d479b784",
+    "reports/all-source-h1-transfer/available_K562_essential/per_target.csv": "4a912f7f11acf0c715ad83e4ab2024bfb55db7f8a26d5a10ffe869a5e17b0d44",
+    "reports/all-source-h1-transfer/available_K562_essential/count_sampling_null.csv": "79dd9a153c2cfbe5ebaf7d51fdc0042852534517776080b636fdde557dfce3c9",
+    "reports/all-source-h1-transfer/available_K562_essential/decomposition.csv": "20cacc5f548dfaaeed5bf8ae5e665edd85ff22d600cbdafb766fe705db9fd4b9",
+    "reports/all-source-h1-transfer/available_K562_essential/genes.csv": "c7aea6f434f5bae9363ad3d6d879629958107e6dcfdf74077ecfbdaf8c5362d7",
+    "reports/all-source-h1-transfer/available_K562_essential/boundary_audit.csv": "c5a544d08450aee33351944aeda60ba1d37b7b2399fb59d70e9e7377d71b660e",
+    "reports/all-source-h1-transfer/available_K562_essential/rounding.csv": "94d097c8d7a5144663696f0adeeaf68ea6740190eb9c1eaf63c0d03f9c9a3fea",
+    "reports/all-source-h1-transfer/available_K562_essential/depth.csv": "5f879ee153174f9f54e462e5438db4c54e44e0d80effb34856484a5e39d8c7a3",
+    "reports/all-source-h1-transfer/available_K562_essential/targets.csv": "b88e4305597a91697c2eca2e77f9ce2035689a209a10e1e1f8bedb0d7f37dceb",
+    "reports/all-source-h1-transfer/available_Jurkat/summary.csv": "360d88e5da8fe4202862bd5f73c9c10f5933166a7a91c09ae3fd975aa32c986c",
+    "reports/all-source-h1-transfer/available_Jurkat/wrong_target.csv": "33c04720c3be7df8141d30de3977432fd01ac077e6a688647a930db5192ac8da",
+    "reports/all-source-h1-transfer/available_Jurkat/paired_source_differences.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "reports/all-source-h1-transfer/available_Jurkat/common_response.csv": "8cbded5c20bf69a39635413e4d8acd5f821bd78b9d9e91aa0775f6c7ec789c52",
+    "reports/all-source-h1-transfer/available_Jurkat/per_target.csv": "1a2c8272f40f065d70ad0067fca5ee9aa17e4fec39200f7be843991a2c62ed80",
+    "reports/all-source-h1-transfer/available_Jurkat/count_sampling_null.csv": "ede6b6910493ec5db0bc8365b18ca35fc3b9e3277ccab16613f5b9c65fc9f8d5",
+    "reports/all-source-h1-transfer/available_Jurkat/decomposition.csv": "ee86ea9ce7d55f75f9ad7ae3c090e822e5dacfc781d644af7fad68687021a549",
+    "reports/all-source-h1-transfer/available_Jurkat/genes.csv": "3e338fda06070e17d84afaa09c191718f70bfdd05df1310ae886a337555e2c7c",
+    "reports/all-source-h1-transfer/available_Jurkat/boundary_audit.csv": "91d55d7078cfaa907059d58b1b28e5b1545a6b2b74de34d4cc85e0cfe8a32161",
+    "reports/all-source-h1-transfer/available_Jurkat/rounding.csv": "69d27186fa0ca15bab2081eb5ea909332593a21b55718682cd695ff5c135225b",
+    "reports/all-source-h1-transfer/available_Jurkat/depth.csv": "6174331588072eee2ba73946ad702e1a89a4608bc1a0ccb1512797e4ab4777b1",
+    "reports/all-source-h1-transfer/available_Jurkat/targets.csv": "9cfaefd1e71fc8a1e65b2e5eab8377e3517811af2c7e89ad8bc8dfb973fefef0",
+    "reports/all-source-h1-transfer/available_HepG2/summary.csv": "fbf9c9859cddcea2ae8ab798f2b8fed4224dea379c95b25212dc6283aa54d57f",
+    "reports/all-source-h1-transfer/available_HepG2/wrong_target.csv": "d3d9e170f5b4c845bf8976298009afef743b28692c6d18c2ed9ad529179c545c",
+    "reports/all-source-h1-transfer/available_HepG2/paired_source_differences.csv": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "reports/all-source-h1-transfer/available_HepG2/common_response.csv": "91a7cb9364e38c618b2a46b1aa98741f3b20a19dfb8cb190a8fc3d81efae1ff0",
+    "reports/all-source-h1-transfer/available_HepG2/per_target.csv": "c7303cd8f6687056ea7250e6768478adda877bb15171b2f9a91d0d1a43d7670e",
+    "reports/all-source-h1-transfer/available_HepG2/count_sampling_null.csv": "7a034e9fbf42bced8617b2943d00331be9debcaa48c9ffccaee061ecaacceb69",
+    "reports/all-source-h1-transfer/available_HepG2/decomposition.csv": "041c3d4f50999a1160d5e9a1378598579b3a9980a4bae9976a32d2908efd1486",
+    "reports/all-source-h1-transfer/available_HepG2/genes.csv": "ba82e42c91a01b11aa754604706ec57717a8cd94eacc6c48a3268767947035b8",
+    "reports/all-source-h1-transfer/available_HepG2/boundary_audit.csv": "1cf50d8e2db6558b22febc5e0a52ddaec221de82a7466b228f3a7f9ffc09cac9",
+    "reports/all-source-h1-transfer/available_HepG2/rounding.csv": "5cc3f081a210085e613d8c906062be8d0fbc239efeea1619011760f6e79d31c6",
+    "reports/all-source-h1-transfer/available_HepG2/depth.csv": "0bb799562f45dec85d1ecf12cc2e59f92e6c8349de5517c06f4da43d59fc2c1a",
+    "reports/all-source-h1-transfer/available_HepG2/targets.csv": "9cfaefd1e71fc8a1e65b2e5eab8377e3517811af2c7e89ad8bc8dfb973fefef0",
+    "reports/all-source-h1-transfer/five_anchors.png": "66ea1e3d056f599e579940ea91475bd378171356c4f652653185acfd2bf5d2b5",
+    "reports/all-source-h1-transfer/all_nine.png": "ae61850f66dca6c16d71a51ecd25bb163b05f29fdf370357b0b31b96527cb0f8",
+    "data/derived/all_source_h1_transfer/available_HCT116/HCT116.npz": "18518751b190a3a18674c9d1b4c2d32073d2c95a431f40b77d44862b2265e7dc",
+    "data/derived/all_source_h1_transfer/five_anchors/KOLF2.1J.npz": "39fd1e335704293815bf2877d14fbc299f262db76c1aa7f588e9a8deac781d8c",
+    "data/derived/all_source_h1_transfer/five_anchors/K562_GWPS.npz": "9a6652bedad1529542d31b86f538101414acab5e7228eb57fc5d826783b40fca",
+    "data/derived/all_source_h1_transfer/five_anchors/HCT116.npz": "c48d7fb33808db4fc0b4020b3bf0f7a5b0e0f90d69dddf1413c975480540dd13",
+    "data/derived/all_source_h1_transfer/five_anchors/HEK293T.npz": "38b012a892fd6231867824db9ab8ddbc2fefcfd2dfaf65b95bb6856bcd966569",
+    "data/derived/all_source_h1_transfer/five_anchors/CD4T.npz": "020d5a1bc907b80cbfb51a619a08641d884070fc6d0e14c8f8176395171b2ee7",
+    "data/derived/all_source_h1_transfer/available_HEK293T/HEK293T.npz": "b6ffe9a5f45869320908b2e28e12c4c0d08a130ad80b81f58a69bb99b48ae817",
+    "data/derived/all_source_h1_transfer/all_nine/Jurkat.npz": "ca050249ba4dc0bba8424f7c27ec80d530ee4cb607c6574f89848d4cf8eb981a",
+    "data/derived/all_source_h1_transfer/all_nine/KOLF2.1J.npz": "748ebcf9bd3f1d675885ff173e6743811970fca9d9202eabdfb8a86cc7440a95",
+    "data/derived/all_source_h1_transfer/all_nine/K562_GWPS.npz": "f1b6647413caf5e4ae55d297423e176c393dc1b236d67841601da0d57c053230",
+    "data/derived/all_source_h1_transfer/all_nine/HepG2.npz": "8faaf3ed3ddac3a991e587d616bb545f70aea811879b88842a9e73c78d2072eb",
+    "data/derived/all_source_h1_transfer/all_nine/K562_essential.npz": "eb435dcb2bc44b0ca75a1932b3a7304737393c92c85a21242fd1903656b8337f",
+    "data/derived/all_source_h1_transfer/all_nine/HCT116.npz": "79e85093716f80ad5e0a13f35b14f73551a6305f9d5bcb3459c6195a62025eee",
+    "data/derived/all_source_h1_transfer/all_nine/HEK293T.npz": "fa9b878a8d3ae3bf17793c9938df1ae60eefd96bee1fafa4870244f87d6a2cc3",
+    "data/derived/all_source_h1_transfer/all_nine/CD4T.npz": "c4fa1659667df439f9cf158f66d1b7a0008972c200c423b4b164058b81ddadfb",
+    "data/derived/all_source_h1_transfer/all_nine/RPE1.npz": "35d7427af80488ed6c6efbcd2c655a8f51adcfb2e7dbb6d7a953dbd074ad36bd",
+    "data/derived/all_source_h1_transfer/available_KOLF2.1J/KOLF2.1J.npz": "ac8daa392442b3e6318d4d552c46ef43667fa6a559a94e7f00e2613fa4335f44",
+    "data/derived/all_source_h1_transfer/available_K562_GWPS/K562_GWPS.npz": "c733d8fbd80c2fd592f9e491952b61d11d38a4b0b47357e44aa4b9f9efb054d4",
+    "data/derived/all_source_h1_transfer/available_CD4T/CD4T.npz": "e89cabad2de42e31fd2544d7419cecfe0bbc0db73b65e6d8bdf49a12c57f4ddd",
+    "data/derived/all_source_h1_transfer/available_RPE1/RPE1.npz": "1840b8ea0054b587e77c0ddc331213459be3b22bb69c5e0722c42de9717a07f9",
+    "data/derived/all_source_h1_transfer/available_K562_essential/K562_essential.npz": "97b5b966669992a3837c20c70aa92a144022d07e63dd47540b083958e5fa2358",
+    "data/derived/all_source_h1_transfer/available_Jurkat/Jurkat.npz": "6418a95434a3f52b579a9957b21f398ec24b87f696fa0d7b4c7719f2b952ff78",
+    "data/derived/all_source_h1_transfer/available_HepG2/HepG2.npz": "71e9cbd88df4b03f4af2f0e36540a71e285838e40ee67cc80d31209606a46645"
+  }
+}

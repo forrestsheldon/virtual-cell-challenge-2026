@@ -1,0 +1,47 @@
+{
+  "release": "split-v1-20260924",
+  "status": "compact locally verified; complete derived release cloud verified",
+  "local_scope": "compact only",
+  "responder_location": "cloud only, no automatic expiry",
+  "cloud_prefix": "gs://bold-bastion-509200-f9-vcc2026/derived/context_transfer_splits/staging/split-v1-20260924/",
+  "acceptance_report": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/reports/context-transfer-blog/split-v1-20260924/completion/local-core-acceptance.json",
+  "acceptance_sha256": "2aab52362decee42fb17043fedeaead5f5143f15437244729e895b234026c618",
+  "contexts": {
+    "HepG2": {
+      "local_directory": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/data/derived/context_transfer_splits/split-v1-20260924/HepG2",
+      "transport_audit_sha256": "6e0dab3e18aee606dddd93144cdc07487d6a1748f4259c43af6b7561eca19e74",
+      "selected_cells": 145471,
+      "missing_baseline_strata": 86
+    },
+    "Jurkat": {
+      "local_directory": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/data/derived/context_transfer_splits/split-v1-20260924/Jurkat",
+      "transport_audit_sha256": "5ce77a6640d3d9fc217d0671963bbfba1ac78c76eb80996a12ff5369a429ab29",
+      "selected_cells": 262950,
+      "missing_baseline_strata": 0
+    },
+    "K562_essential": {
+      "local_directory": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/data/derived/context_transfer_splits/split-v1-20260924/K562_essential",
+      "transport_audit_sha256": "e8d79747af951fc06657c120975bf94cfe2262afb4df10fbe316baddaee96bba",
+      "selected_cells": 309610,
+      "missing_baseline_strata": 0
+    },
+    "RPE1": {
+      "local_directory": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/data/derived/context_transfer_splits/split-v1-20260924/RPE1",
+      "transport_audit_sha256": "022abafdbf99f7868f9280b65e1a455f43a659b7932e64735cec9099dd440b9d",
+      "selected_cells": 209264,
+      "missing_baseline_strata": 0
+    },
+    "HCT116": {
+      "local_directory": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/data/derived/context_transfer_splits/split-v1-20260924/HCT116",
+      "transport_audit_sha256": "98115c61b158061488a82779b87cc5e236b174f71598b5c0e32e85b83d21f0d8",
+      "selected_cells": 346394,
+      "missing_baseline_strata": 0
+    },
+    "HEK293T": {
+      "local_directory": "/Users/forrestsheldon/Projects/virtual-cell-challenge-2026/data/derived/context_transfer_splits/split-v1-20260924/HEK293T",
+      "transport_audit_sha256": "69193afb4502798dbf4cc74e7712d2d3989f1b11a7f2c88dea7e9999b7d240b7",
+      "selected_cells": 455287,
+      "missing_baseline_strata": 0
+    }
+  }
+}

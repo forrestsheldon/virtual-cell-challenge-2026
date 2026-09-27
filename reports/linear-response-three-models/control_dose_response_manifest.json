@@ -1,0 +1,48 @@
+{
+  "kind": "control-only natural-expression dose-response diagnostic",
+  "control_cells": 32616,
+  "control_split": "deterministic guide-by-batch halves",
+  "nuisance_models": [
+    "batch + guide",
+    "batch + guide + top 3 control PCs"
+  ],
+  "dose": {
+    "coordinate": "target log1CP10k residual",
+    "contrast": "residual median to residual q10",
+    "curves": [
+      "linear",
+      "quadratic"
+    ]
+  },
+  "truth_access": "evaluation only; no perturbed cells enter curve fitting",
+  "score": "signed top-K stable strong-DE recovery",
+  "inputs": {
+    "data/external/vcc2025_h1/adata_Training.h5ad": "a09977104fefb622368ca74b50c9d3c1e891733e6c83db07acfca49b0219c02b",
+    "data/derived/linear_response/model1_expected_profiles.npz": "69d9e3bee240224704e04e99e6e86315e9a8a42af13c84d20409a7e6cf505f63",
+    "data/derived/linear_response/model2_expected_profiles.npz": "36966bd4f2c9101fa6a1beb26e0f4f0aa796c96b2baad00f0eade40c85b2aeb1",
+    "reports/linear-response-three-models/h1_strict_controls.csv": "9daf441a9d64cb1a07acf21791534e8e184129979c7fe05b3e92edc2eb1063cb",
+    "data/derived/linear_response/eval_cache/de_wilcoxon_table-12f179b9e966af64.parquet": "fc8d683a3de692d767b0ee67ddf4fec845786e59bbf4a6357c442e2eaee379e6",
+    "reports/linear-response-three-models/strong_de_truth_genes.csv": "229e06fac02d35217687291734dd5b925633ee7df5871052bf903f8ce3db9e66"
+  },
+  "outputs": {
+    "summary": {
+      "path": "reports/linear-response-three-models/control_dose_response_summary.csv",
+      "sha256": "387f8a5563a4b8a434dc63c4563011f92a82dc52eefd4dce85ea3b88b8400999"
+    },
+    "per_target": {
+      "path": "reports/linear-response-three-models/control_dose_response_per_target.csv",
+      "sha256": "939b26049d26ba14b2eeb602c225f5698330f7b6ef6905e2dd3d8af6f61ca419"
+    },
+    "fit": {
+      "path": "reports/linear-response-three-models/control_dose_response_fit.csv",
+      "sha256": "34b89436059f6fa2d7f1bf41e854a8f2b642cfba6670b5e3b8c05d530404a9ff"
+    }
+  },
+  "software": {
+    "python": "3.12.13",
+    "anndata": "0.13.2",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0"
+  }
+}

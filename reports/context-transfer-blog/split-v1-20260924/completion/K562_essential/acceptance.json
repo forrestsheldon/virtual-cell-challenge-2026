@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "context": "K562_essential",
+  "manifest_sha256": "c6da34470ef68d35c606973df509c635df9bc89df78ca983e5f5981ad4f96483",
+  "selected_cells": 309610,
+  "retained_cells": 39291,
+  "reference_constructs_exact": 2268,
+  "independent_full_source_reaggregation": true,
+  "responder_source_rows_exact": true,
+  "file_sha256s_verified": true,
+  "control_role_margins_exact": true,
+  "missing_baseline_strata": 0,
+  "promotion": "not performed"
+}
