@@ -12,16 +12,10 @@
     "de_wilcoxon_sig_jaccard"
   ],
   "anchor_semantic_identity": "b56c17716e64681328c7578de580a4a191b8f3a2330a6c1636df70f137bdb013",
-  "baseline_construction": {
-    "emission": "identical fractional cells (tiled), 400 per target",
-    "guides": 31,
-    "profile": "equal-weight mean of per-guide control mean counts",
-    "scorer": "vcc_h1_eval bounded-memory scorer (compute_results)"
-  },
   "cell_eval2_version": "0.16.0",
   "comparator": "bulk_lognorm",
   "config_digest": "61d594efe45103c6a1b3b1b187dc95232b2c570ad064558eb6a7cdade96bc329",
-  "created_utc": "2026-09-29T14:24:46+00:00",
+  "created_utc": "2026-09-04T01:11:49+00:00",
   "de_pred_fingerprint": null,
   "de_real_fingerprint": null,
   "environment": {
