@@ -91,6 +91,25 @@ def _rest(panel, libs, tag, names, d, energy, sweep):
             null[s].append(energy(draws[s]))
         null["avg"].append(energy(sum(draws.values()) / len(names)))
 
+    # Sampling noise around each target's measured perturbed pseudobulk (parametric bootstrap):
+    # resample at the observed depth with the measured composition, transfer, and take the
+    # energy of the deviation from the actual prediction.
+    def effect(change):
+        return panel.effect(reg.realize(change, panel.h0, C))
+
+    actual = {s: effect(d[s]) for s in names}
+    actual["avg"] = effect(sum(d.values()) / len(names))
+    boot = {s: [] for s in [*names, "avg"]}
+    for _ in range(REPEATS):
+        draws = {}
+        for s in names:
+            sp, s0 = panel.sources[s]["source_perturbed"], panel.sources[s]["source_control"]
+            counts = np.vstack([rng.multinomial(int(n), row / row.sum()) for n, row in zip(libs[s], sp, strict=True)])
+            draws[s] = reg.direction(cpm(counts), s0, C)
+        for s in names:
+            boot[s].append(np.square(effect(draws[s]) - actual[s]).sum() / panel.energy)
+        boot["avg"].append(np.square(effect(sum(draws.values()) / len(names)) - actual["avg"]).sum() / panel.energy)
+
     # Predictors: single screens, equal-screen, per-source inverse-noise, per-gene inverse-variance.
     predictors = {s: d[s] for s in names}
     predictors["avg"] = sum(d.values()) / len(names)
@@ -117,6 +136,14 @@ def _rest(panel, libs, tag, names, d, energy, sweep):
         row["prediction_energy"] = np.square(q).sum() / panel.energy
         if name in null:
             row["null_energy"] = float(np.mean(null[name]))
+            row["perturbed_null_energy"] = float(np.mean(boot[name]))
+        if name in names:  # closed form (delta method) for the same sampling noise
+            y0, x0 = panel.sources[name]["source_control"][panel.keep], panel.h0[panel.keep]
+            per_gene = ((x0 + C) / (x0 + 20)) ** 2 * y0 / (y0 + C) ** 2
+            row["closed_form_null_energy"] = float((1e6 / libs[name]).sum() * per_gene.sum() / panel.energy)
+            yp = panel.sources[name]["source_perturbed"][:, panel.keep]
+            per_entry = ((x0 + C) / (x0 + 20))[None, :] ** 2 * yp / (yp + C) ** 2
+            row["closed_form_perturbed_null_energy"] = float(((1e6 / libs[name])[:, None] * per_entry).sum() / panel.energy)
             row["noise_fraction"] = row["null_energy"] / row["prediction_energy"]
         if name in w_src:
             row["inverse_noise_weight"] = w_src[name]
@@ -127,7 +154,8 @@ def _rest(panel, libs, tag, names, d, energy, sweep):
     table = pd.DataFrame(rows)
     cols = ["model", "retrieval", "cosine", "cosine_q025", "cosine_q975", "signed_top100", "profile_mse_ratio", "mse_q025",
             "mse_q975", "prediction_energy", "null_energy", "noise_fraction", "inverse_noise_weight",
-            "wrong_target_retrieval", "wrong_target_cosine"]
+            "closed_form_null_energy", "perturbed_null_energy",
+            "closed_form_perturbed_null_energy", "wrong_target_retrieval", "wrong_target_cosine"]
     table[cols].to_csv(REPORT / f"noise_and_averaging_{tag}.csv", index=False)
     print(table[cols].round(4).to_string(index=False), flush=True)
 

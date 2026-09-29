@@ -163,8 +163,6 @@ def main():
             fig.savefig(path, dpi=200 if ext == "png" else None)
             shutil.copy(path, POST / path.name)
         plt.close(fig)
-    for name in ("cosine_vs_noise_c20.png", "cosine_vs_noise_c20.svg"):
-        shutil.copy(REPORT / name, POST / name)
     print(f"figures written to {REPORT} and {POST}")
 
 
