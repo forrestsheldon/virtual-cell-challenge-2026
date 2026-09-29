@@ -14,6 +14,12 @@ control-resampling baseline (scripts/baselines/resample_controls.py, seed 0). Th
 factor is re-aimed at those cells' own pseudobulk and integerized gene-wise
 (scripts/evaluation/h1_generation.decode_lfc_genewise), so each pseudobulk hits the intended
 profile to within one count per gene. Native control depth; no depth inflation.
+
+With --scatter (match-first scatter, validated on H1 in cell_eval_v3/*_scatter_mf): for
+sparse genes (context pooled mean below 2 counts per cell) predicted to rise, only the
+sample matching is multiplicative, and the rise N (q_g - p_g) over the pooled share p_g is
+scattered over the 400 cells multinomially with probability N_c / N. Multiplicative scaling
+cannot turn a zero into a count; scattering can.
 Run: pixi run python -m scripts.baselines.transfer_average OUT.h5ad --scale A
 """
 
@@ -58,6 +64,7 @@ C = 20.0
 SEED = 0  # control-cell selection, identical to control-resampling-seed0
 MAX_ENTRIES = 4_750_000_000
 MIN_COSINE = 0.95
+SPARSE = 2.0  # counts per cell: sparse genes get scattered increases under --scatter
 GLOBAL_DELTA = ROOT / "data/derived/vcc2026_h1/global_shift_delta.npz"
 H1_PHASE1 = ROOT / "data/derived/replogle_h1_transfer/phase1_effects.npz"
 H1_EFFECTS = ROOT / "data/derived/replogle_h1_transfer/effects.npz"
@@ -156,6 +163,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("output", type=Path)
     parser.add_argument("--scale", type=float, required=True, help="a in x0 exp(a * dbar)")
+    parser.add_argument("--scatter", action="store_true",
+                        help="scatter sparse-gene increases over cells (match-first scatter)")
     parser.add_argument("--global-shift", action="store_true",
                         help="add H1's global perturbation response as a phi_20 change")
     args = parser.parse_args()
@@ -170,6 +179,8 @@ def main():
     if args.global_shift:
         change = change + global_change(genes)[None, :]
         label += "_plus_global"
+    if args.scatter:
+        label += "_scatter"
 
     chunks, total_nnz, cosines, max_total = [], 0, [], 0
     with tempfile.TemporaryDirectory(dir=args.output.parent) as temporary:
@@ -185,6 +196,8 @@ def main():
             with np.errstate(divide="ignore", invalid="ignore"):
                 factor = np.where(pooled > 0, np.log2(pred / pooled), 0.0)
             factor = np.where(np.isfinite(factor), factor, -60.0)
+            sparse_genes = (pooled_counts := np.asarray(data.X.sum(axis=0)).ravel()) > 0
+            sparse_genes &= pooled_counts / data.n_obs < SPARSE
             for start in range(0, len(targets), TARGETS_PER_CHUNK):
                 blocks, labels = [], []
                 for target_index in range(start, min(start + TARGETS_PER_CHUNK, len(targets))):
@@ -196,9 +209,22 @@ def main():
                         shift = np.where(sample > 0, np.log2(pooled / sample), 0.0)
                     lfc = factor[target_index] + np.where(np.isfinite(shift), shift, 0.0)
                     round_rng = np.random.default_rng(zlib.crc32(f"{label}:{context}:{target}".encode()))
+                    up = np.array([], dtype=int)
+                    if args.scatter:
+                        n = np.asarray(raw.sum(axis=1)).ravel()
+                        extra = n.sum() * (pred[target_index] - pooled) / 1e6
+                        up = np.flatnonzero(sparse_genes & (extra > 0))
+                        lfc[up] -= factor[target_index, up]
                     block = decode_lfc_genewise(raw, lfc, round_rng)
+                    ideal = expected_counts(raw, lfc).sum(axis=0)
+                    if up.size:
+                        add = np.floor(extra[up]) + (round_rng.random(up.size) < extra[up] % 1)
+                        dense = block.toarray()
+                        dense[:, up] += round_rng.multinomial(add.astype(np.int64), n / n.sum()).T
+                        block = sparse.csr_matrix(dense)
+                        ideal[up] += extra[up]
                     base = harness_log(np.asarray(raw.sum(axis=0)).ravel())
-                    ideal = harness_log(expected_counts(raw, lfc).sum(axis=0))
+                    ideal = harness_log(ideal)
                     got = harness_log(np.asarray(block.sum(axis=0)).ravel())
                     want, real = ideal - base, got - base
                     cosines.append(float(want @ real / (np.linalg.norm(want) * np.linalg.norm(real))))
@@ -230,6 +256,7 @@ def main():
         "pseudocount_cpm": C,
         "scale": args.scale,
         "global_shift": bool(args.global_shift),
+        "cell_generation": "match-first scatter" if args.scatter else "multiplicative, gene-wise rounding",
         "control_cell_seed": SEED,
         "cells": 3 * len(targets) * CELLS_PER_TARGET,
         "genes": len(genes),

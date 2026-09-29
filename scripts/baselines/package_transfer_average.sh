@@ -3,8 +3,10 @@
 # 16 GB intermediate .h5ad (reproducible from transfer_average.py; its hash is in the manifest).
 set -euo pipefail
 root="${0:A:h:h:h}"; cd "$root"
-scale=$1; shift; flags=("$@")
-out="submissions/transfer-average-c20-a$scale${flags:+-global}"
+scale=$1; shift; flags=("$@")  # --global-shift, --scatter
+suffix=""
+for f in "${flags[@]}"; do case $f in --global-shift) suffix+="-global";; --scatter) suffix+="-scatter";; esac; done
+out="submissions/transfer-average-c20-a$scale$suffix"
 mkdir -p "$out"
 [[ -s "$out/prediction.h5ad" || -s "$out/prediction.vcc" ]] || \
   pixi run python -m scripts.baselines.transfer_average "$out/prediction.h5ad" --scale "$scale" "${flags[@]}"

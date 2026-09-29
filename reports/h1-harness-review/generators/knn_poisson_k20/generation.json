@@ -1,0 +1,8 @@
+{
+ "generator": "knn_poisson",
+ "metacell_size": 20,
+ "sparse_band_genes": 2880,
+ "mean_zero_fraction_difference_vs_real": -0.005799134700176367,
+ "median_variance_ratio_vs_real": 0.928066740576332,
+ "prediction_sha256": "401be3ff45573ebf25c1e6b102756bae2b07f1037d27be56c1b81fb400798836"
+}

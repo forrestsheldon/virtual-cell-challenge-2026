@@ -1,0 +1,8 @@
+{
+ "generator": "metacell_poisson",
+ "metacell_size": 100,
+ "sparse_band_genes": 2880,
+ "mean_zero_fraction_difference_vs_real": -0.015095031415343917,
+ "median_variance_ratio_vs_real": 0.9087447276394345,
+ "prediction_sha256": "ed5b16ecbdb3204a4504eeea012ba84dab6fae7b735a0a542837b6628bfa158f"
+}

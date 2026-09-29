@@ -1,0 +1,8 @@
+{
+ "generator": "pooled_nb",
+ "metacell_size": null,
+ "sparse_band_genes": 2880,
+ "mean_zero_fraction_difference_vs_real": -0.0007081817680776013,
+ "median_variance_ratio_vs_real": 0.9979417483894741,
+ "prediction_sha256": "61c2156623671537a7dc534d88a2b5207a7978207b0d856dfd6ca4152ff3ba66"
+}
